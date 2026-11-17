@@ -114,6 +114,7 @@ async def _bid_task(
             company.company_id,
             package.package_id,
             {"bid_participation_decision", "consortium_formation", "consortium_failure_reconsideration"},
+            disabled=runtime.ablation.no_cross_stage_memory,
         ),
     )
     records = conditions(state, company.company_id, package.package_id, local_state.agent_discussion_history)

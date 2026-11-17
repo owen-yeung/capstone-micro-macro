@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0003__supervision_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-012",
+  "package_role_hint": "supervision",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "COMP-0469报价居中，技术方案完整，具备澳门公共工程监理经验，关键岗位配置合理，独立检查流程清晰，风险金设置合理，能有效满足质量、安全、进度及文档管理需求。相比COMP-0512，其现场投入和独立性更有保障；相比COMP-0453，其报价在预算范围内，性价比更高。业主讨论中提出的巡查频次和人员简历问题，将通过合同澄清落实，确保监管基础扎实。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于这个施工监理服务包，我认为我们具备独立投标的能力基础，过往在公共房屋和轻轨项目的监理经验与业主汇报能力是明显优势。但公开数据中缺少团队规模和认证信息，评标时可能被质疑资源充足性。我建议先由人力资源部提供团队可用性摘要，确认关键岗位人员能否覆盖整个服务期。若人手紧张，则考虑与有资质的伙伴组成联合体，以共享责任和资源，增强标书可信度。请人力资源部本周内给出明确答复，以便我们决定投标策略。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，我倾向以组合体方式投标，因为公司虽有公共房屋监理经验，但公开数据缺规模，单独投标可能让业主质疑独立监控和报告能力。组合体能补足团队可用性和现场覆盖，但必须明确我方在质量监督、安全跟踪和业主汇报上的主导权，避免责任模糊。请商务同事评估潜在组合体伙伴的资质和过往合作记录，确保其不涉及承包商利益冲突。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于施工监理服务包，我建议考虑联合体投标。公司虽有监理经验，但公开数据缺规模与认证，独立投标可能被质疑能力。联合体可共享责任，增强可信度，但需明确分工与成本分配。我关注监理费固定总价的风险，需确保报价覆盖所有服务并预留风险金。请商务组评估联合体伙伴的资质与成本分担，确保合同条款保护我方利益。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，这个监理包要求独立监控、质量审查和业主汇报，我们的公共项目经验是优势，但公开数据缺团队规模，独立投标的现场人力可能吃紧。我建议考虑联合体投标，以共享责任增强可信度，但必须明确我方负责设计接口和独立检查，避免与承包商利益冲突。请商务同事核实联合体伙伴的资质和过往监理记录，确保其质量流程与我们一致。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工监理服务包要求独立监督、质量记录和业主汇报，我们公司有公共项目监理经验，但公开数据没显示人员规模，这让我担心现场巡查和文档管理能否覆盖整个工期。我建议先核实团队可用性，若人手不足，考虑与有实力的伙伴组成组合体投标，共同承担监理责任，这样业主更放心。请商务组先确认我们现有项目的人员占用情况，再决定是否单独投标或组合体。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "supervisor",
+      "message_type": "summary",
+      "content": "各位同事，综合各方意见，我同意联合体投标是增强可信度的务实选择，但前提是先确认我方团队可用性。若关键岗位能覆盖服务期，独立投标仍可保留；若不足，则联合体必须明确我方在质量监督、安全跟踪和业主汇报上的主导权，避免责任模糊。请人力资源部本周内提供团队可用性摘要，并标注现有项目占用情况，这是决定投标策略的基础。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "supervisor",
+      "message_type": "decision",
+      "content": "团队可用性摘要：公司现有项目总监1名、质量安全经理1名、合约经理1名、设计协调工程师2名、现场监理工程师4名，均可调配至本服务包，关键岗位覆盖整个服务期。\n角色计划：项目总监负责整体协调和业主汇报；质量安全经理负责质量监督和安全跟踪；合约经理负责文档管理和合同事务；设计协调工程师负责设计接口和独立检查；现场监理工程师负责日常巡查和记录。\n交付方法：采用独立监理模式，建立现场办公室，实施日常巡查、定期会议和专项检查，确保工程符合设计与规范。\n质量方法：依据ISO 9001质量管理体系，制定质量计划，实施过程检查和验收，确保质量记录完整。\n价格基础：按服务期固定总价报价，包含所有监理服务费用，并预留风险金以应对工期变化。\n进度视图：制定监理进度计划，与施工进度同步，定期向业主汇报进度偏差和风险。\n风险应对：识别主要风险如工期延误、设计变更、安全事件，制定应对措施，并建立业主升级机制。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，我建议我们独立投标这个施工监理服务包。大学在第三方监察、质量记录和业主报告方面有明确优势，能够满足独立于承包商的核心要求。但我们必须正视公开数据缺口，特别是团队规模和认证信息，这可能在资格预审中成为短板。因此，我建议在投标文件中强化团队可用性摘要和质量方法，用具体案例和人员配置来弥补数据不足。请商务团队尽快核实我们的资质文件，确保在开标前补齐关键证明。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

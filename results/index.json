@@ -47,5 +47,19 @@
     "purpose": "6个窗口、18次条件运行；说明规则应变，不表述为模型学会盈利",
     "available": true,
     "title": "确定性反馈对照"
+  },
+  {
+    "id": "interim_6_2_offline",
+    "path": "results/experiments/interim_6_2_offline_20261117/README.md",
+    "purpose": "Interim §6.2离线下一步：规模匹配基线、消融开关、人类评阅包、字段/352盘点、授标映射；无新模型调用",
+    "available": true,
+    "title": "Interim §6.2离线交付"
+  },
+  {
+    "id": "size_matched_hit28",
+    "path": "results/experiments/interim_6_2_offline_20261117/size_matched_hit28/summary.json",
+    "purpose": "封闭池28例包级命中46/71=64.8%，规模匹配随机基线57.6%；须连同分角色表报告",
+    "available": true,
+    "title": "规模匹配hit@1基线"
   }
 ]

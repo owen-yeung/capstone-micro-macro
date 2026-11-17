@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0002__contractor_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-007",
+  "package_role_hint": "contractor",
+  "award_excerpt": {
+    "bidder_type": "consortium",
+    "decision_reason": "得宝联合体报价MOP 46,000,000显著低于浙江一建，且联合体三方能力互补，覆盖土建、轨道、机电和跨境协调，技术方案完整，风险应对措施具体。尽管协调费和风险预备金偏低，但通过判给前澄清可要求其补充管理细节和风险预备金依据，以降低履约风险。浙江一建报价较高，且跨境协调依赖分包商，能力需验证。综合评估，得宝联合体在价格和方案上更具优势，符合业主预算和项目需求。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个承包商包范围不小，土建、轨道、机电、接口施工都要管，工期和质量压力都大。我们公司有类似项目经验，但公开数据缺规模，单独投标可能显得能力不足。我倾向联合体投标，分担责任，提高中标率。关键是要确认团队可用性，特别是项目经理和核心技术人员能否到位。请商务同事核实一下我们的团队可用性摘要，这直接影响投标决策。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个承包商包涉及土建、轨道、机电和运输接口，质量文档和跨境协调要求高。我们公司有ISO体系和类似项目经验，但公开数据缺口可能让业主质疑我们的规模。我建议考虑联合体投标，以增强可信度并分担风险。但联合体必须明确质量责任划分，避免后期扯皮。请商务或项目总监确认一下，潜在联合体伙伴的质量管理体系和过往项目表现是否可靠，这直接影响我们的投标决策。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个承包商包范围很广，土建、轨道、机电、接口施工都要做，工期和协调压力不小。我们公司有轻轨和桥梁经验，质量体系也齐全，但公开数据里没有明确规模，单独投标可能让业主担心我们的资源。我倾向联合体投标，把责任和风险分摊，报价也能更稳。请商务合约部先确认一下潜在联合体伙伴的施工能力和报价匹配度，这直接影响我们能不能按时交付。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个承包商包涉及土建、轨道、机电和运输接口，专业交叉多，设计协调和施工衔接压力不小。得宝有轻轨和综合体经验，能力上能覆盖，但公开数据缺规模信息，单独投标在评标时可能吃亏。我倾向联合体投标，共享责任、互补资源，尤其要选有城市施工物流和MEP协调经验的伙伴。请商务同事先确认联合体伙伴的团队可用性和协调机制，这直接影响我们的交付方法和风险应对。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个承包商包范围不小，土建、轨道、机电、跨境协调都压在一起。我们现场管理有底子，但单干的话，资源调配和工期风险都偏高。我建议考虑联合体投标，把轨道和机电的专业部分交给有经验的伙伴，我们主抓土建和现场调度。这样责任分担，报价也更有说服力。商务同事先确认一下联合体伙伴的施工能力和报价基础，特别是工期承诺和风险应对是否和我们匹配。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "contractor",
+      "message_type": "summary",
+      "content": "各位，目前团队意见一致，都倾向联合体投标，但关键前提是伙伴能力要可靠。我注意到这个包范围广，土建、轨道、机电、接口施工交叉多，单干资源压力大，联合体确实能分摊风险、增强评标可信度。但联合体不是简单分包，责任划分和协调机制必须提前定清楚，否则后期扯皮更麻烦。请商务经理张伟明重点核实潜在伙伴的施工能力和报价基础，特别是工期承诺和风险应对是否与我们匹配，这直接影响我们能否按时交付。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "contractor",
+      "message_type": "decision",
+      "content": "得宝国际有限公司决定以联合体形式投标承包商包。我们将与具备轨道铺设和机电安装经验的伙伴组成联合体，明确分工：我方主导土建施工、现场管理和跨境协调，伙伴负责轨道和机电专业部分。联合体将共同承担质量、安全和工期责任，并制定详细的协调机制和质量控制流程。我们将提交团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对，确保满足业主审查要求。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个承包商包涉及土建、轨道、机电和跨境施工，协调面广，工期压力大。我们做过轻轨东线和连接桥，技术上有底，但公开数据缺规模，单独投可能让业主担心资源。我倾向组合体投标，把责任和风险摊开，报价也能更稳。不过组合体要提前定好牵头和分工，别到时候扯皮。请商务先核实我们团队可用性和资源，能不能撑起这个体量，再定投标策略。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0002/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0002/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0002/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

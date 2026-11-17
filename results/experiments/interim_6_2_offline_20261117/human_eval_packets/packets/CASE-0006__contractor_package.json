@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0006__contractor_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-023",
+  "package_role_hint": "contractor",
+  "award_excerpt": {
+    "bidder_type": "consortium",
+    "decision_reason": "联合体报价MOP 40,500,000，显著低于明信建筑的MOP 61,000,000，且技术能力互补，具备地下工程和施工物流经验，分阶段施工计划清晰。虽然存在风险储备和专项方案不确定性，但通过预合同澄清可要求其补充软基处理和管线迁改的专项方案，并增加风险储备金，确保风险可控。明信建筑报价较高，成本效率较低，因此选择联合体。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个施工总承包包与我们的核心能力高度匹配，道路、桥梁、排水、交通设施都是我们的强项，过往的A3连接桥和轻轨东线项目就是证明。但业主会关注我们的规模和财务实力，公开数据里这块是空白。我建议考虑联合体投标，找一家有实力的本地伙伴，既能补足规模短板，也能分担软基处理和管线迁改的风险。请商务团队先确认潜在伙伴的资质和财务背景，再决定是否联合。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包范围不小，涉及道路、桥梁、排水和交通设施，还有软基处理和管线迁改这些关键工序。我们公司有新城A区连接桥和轻轨东线的经验，能力上是匹配的，但公开数据里缺少我们的员工规模和营收，这会让业主在评标时质疑我们的履约能力。我建议考虑联合体投标，这样可以共享资源、分担风险，也能增强标书的可信度。不过联合体意味着责任共担，报价和合同条款需要更谨慎。请商务团队先核实我们的团队可用性和现金流，确认能否支撑这个工期的资金需求。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，从技术角度看，这个施工总承包包与我们的核心能力高度匹配，道路、桥梁、软基处理和管线迁改都是我们做过且擅长的。但考虑到公开数据里缺少员工规模和营收，单独投标的资源压力不小。我建议优先考虑联合体投标，这样能分担工期和质量风险，尤其在交通疏导和地下管线这些关键工序上。请商务同事尽快确认联合体伙伴的财务和法律责任分配，这直接影响我们的投标决策。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包涉及道路、桥梁、排水和交通设施，还有软基处理和管线迁改这些关键工序，质量和安全风险都不低。我们公司有类似项目经验，但公开数据里缺少规模和营收信息，单独投标可能在评标时显得能力不足。我建议考虑联合体投标，这样能分担风险，也更能让业主放心。不过联合体必须明确质量责任划分，不能含糊。请商务同事先确认我们能否在现有团队下满足工期和质量要求，再决定是否联合。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个施工总承包包我们干过不少类似项目，像连接桥和轻轨东线，技术上没问题。但软基处理和管线迁改是硬骨头，工期紧的话现场容易乱。我们公开数据缺规模，独立投标怕评标时被质疑资源。我建议先评估团队可用性和设备调配，如果人手够，独立投标可行；不够就考虑联合体，分担风险。请商务同事确认一下我们现有项目的资源占用情况，这直接影响投标决策。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包范围明确，涉及道路、桥梁、排水和交通设施，我们公司在类似项目上有经验，比如新城A区连接桥和轻轨东线。但要注意，招标要求提交团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对，这些文档必须完整且符合格式。我建议我们单独投标，但需要商务和工程部门确认价格基础和进度安排是否可行。请商务负责人确认我们能否在截止日期前完成报价。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "contractor",
+      "message_type": "summary",
+      "content": "各位，这个施工总承包包与我们的核心能力匹配，A3连接桥和轻轨东线的经验足够支撑。但公开数据缺规模和营收，单独投标在评标时容易被质疑履约能力。我倾向联合体投标，找一家有实力的本地伙伴，既能补足规模短板，也能分担软基处理和管线迁改的风险。联合体责任共担，报价和合同条款要更谨慎。请商务团队先确认潜在伙伴的资质和财务背景，这直接决定我们能否联合投标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "contractor",
+      "message_type": "decision",
+      "content": "管理决策说明：\n\n经内部讨论，公司决定以联合体方式参与施工总承包包的投标。公司具备道路、桥梁、排水等施工的丰富经验，过往项目如新城A区连接桥和轻轨东线系统均成功交付，技术能力匹配。然而，公开数据中缺少员工规模和营收信息，单独投标可能使业主质疑公司的履约能力。联合体投标可引入有实力的本地伙伴，补足规模短板，分担软基处理和管线迁改等关键工序的风险，并增强标书可信度。\n\n公司将与联合体伙伴明确责任划分，包括施工组织、质量控制、安全管理和进度协调。报价策略将基于工程量清单，采用单价合同，并考虑联合体责任共担的条款。团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对等投标文件将完整提交，确保符合招标要求。\n\n公司将继续发挥在施工组织、安全管理和进度控制方面的优势，同时借助联合体伙伴的资源，确保项目按期保质完成。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0006/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0006/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0006/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

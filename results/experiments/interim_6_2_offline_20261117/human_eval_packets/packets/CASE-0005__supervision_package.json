@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0005__supervision_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-020",
+  "package_role_hint": "supervision",
+  "award_excerpt": {
+    "bidder_type": "consortium",
+    "decision_reason": "奥雅纳-乘風联合监理体在技术方案上更完整，团队结构覆盖现场巡查、样品处理及质量审查，质量审查与报告纪律投入高，独立监督保障措施明确，风险应对机制完善。虽然报价在MOP金额上高于澳大凯谛思，但考虑到监理服务包对独立监督和报告纪律的高要求，低价标的人员配置和风险预备金不足可能影响监督覆盖度和质量审查控制力。作为业主，我优先保障监督质量，选择奥雅纳-乘風联合监理体。预合同澄清将聚焦于联合体内部责任落实和报告纪律执行，确保其承诺的监督深度得以实现。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于监理服务包的投标，我认为奥雅纳具备独立投标的技术实力，我们的第三方监察和业主报告能力完全匹配需求。但固定价格模式要求我们精确评估现场监督的人力投入，避免低估工期和样品处理工作量。我建议先由项目总监确认团队可用性摘要，特别是资深监理人员的调配，确保能覆盖质量审查和接口观察。若内部资源紧张，再考虑与本地伙伴组成组合体，但需明确责任划分。请商务团队基于此评估价格基础，我们下周内给出最终决定。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于监理服务包，我认为奥雅纳具备独立投标的能力，但考虑到固定价格模式和澳门本地监管要求，联合体投标可能更稳妥。我们的全球经验和质量记录是优势，但本地资源、语言和法规熟悉度可能不足。联合体可以共享责任，增强业主信心。建议评估潜在本地合作伙伴，并明确分工和风险分担。请商务团队尽快提供本地合作方名单和初步合作意向，以便我们决定是否联合投标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于这个监理服务包，我认为我们具备独立投标的能力，但需要谨慎评估。我们的优势在于强大的工程顾问背景和丰富的项目经验，能够提供高质量的监督服务。然而，监理服务要求独立的现场监督和报告纪律，这需要专门的团队和流程。我们可能需要考虑联合投标，以增强在本地市场的可信度和资源覆盖。建议我们进一步分析团队可用性和交付方法，确保能够满足招标要求。请商务团队评估联合投标的可行性和潜在合作伙伴。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "supervisor",
+      "message_type": "summary",
+      "content": "各位同事，综合技术团队和商务团队的意见，我认为奥雅纳具备独立投标的技术实力，但固定价格和本地合规要求是主要风险。我们的全球经验和质量记录是优势，但澳门本地资源、语言和法规熟悉度可能不足。我建议先由项目总监确认团队可用性摘要，特别是资深监理人员的调配，确保能覆盖质量审查和接口观察。若内部资源充足，我们可独立投标；若不足，则考虑与本地伙伴组成组合体，但需明确责任划分和风险分担。请商务团队基于此评估价格基础，并尽快提供本地合作方名单和初步合作意向，以便我们下周内做出最终决定。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "supervisor",
+      "message_type": "decision",
+      "content": "团队可用性摘要：奥雅纳全球约17,000人，大中华区超3,500人，可调配资深监理人员覆盖质量审查和接口观察。角色计划：项目总监统筹，配备现场监督团队、质量审查专家、安全期望跟踪专员及报告协调员。交付方法：采用独立现场监督流程，结合定期业主升级和接口观察，确保施工符合设计和规范。质量方法：基于ISO 9001体系，实施样品处理、质量审查和报告纪律，确保记录完整。价格基础：固定价格，基于监督服务范围，考虑工期和样品处理工作量，预留风险应对费用。进度视图：制定详细监督计划，与施工进度同步，定期向业主报告。风险应对：识别本地合规和资源风险，通过联合体分担责任，并制定应急预案。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于监理服务包的投标，我建议我们考虑联合体投标。虽然我们有相关项目经验，但公开数据缺口可能影响评标。联合体可以弥补这些不足，增强可信度。我们需要评估潜在合作伙伴的资质和信誉，确保责任分担清晰。请市场部尽快调研可能的联合体伙伴，并准备初步合作方案。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于监理服务包，我认为我们具备独立投标的能力，但需谨慎评估。我们的优势在于公共项目监理经验和第三方监察能力，但公开数据缺口可能让业主质疑我们的规模。联合体投标可以弥补这一点，但必须明确责任划分，避免职责模糊。我建议先核实团队可用性和过往项目的人员配置，确保能兑现承诺。请商务同事提供团队可用性摘要，以便我们评估是否需联合体。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于这个监理服务包，我认为我们具备独立投标的能力，但必须正视两个关键点。第一，固定价格模式要求我们精确估算监督人员投入，避免后期成本超支。第二，我们的公开数据缺口可能让业主质疑我们的资源规模，因此建议在标书中强化团队可用性摘要和角色计划，用具体人员配置来弥补。我倾向于独立投标，但若评标标准强调企业规模，联合体可作备选。请合约部同事协助核实过往类似项目的实际工时数据，以便我们制定更可靠的价格基础。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

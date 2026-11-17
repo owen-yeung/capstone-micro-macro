@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0006__design_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-021",
+  "package_role_hint": "design",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "COMP-0688在技术方案、团队配置、质量方法和业主审查响应上均表现最优，其报价MOP 3,500,000与COMP-0467持平，但成本构成更详细，风险准备金充足，体现了对设计质量的重视。虽然本地顾问合同尚未落实，但其风险应对方案中已明确备选机构，且技术优势显著，判给COMP-0688能更好地保障设计质量和工期。COMP-0461报价虽低，但分包管理费偏低，团队细节不足，履约风险较高；COMP-0467技术实力强，但工期较长，团队细节不足。因此，判给COMP-0688，并聚焦于本地顾问合同落实的澄清。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，我方在道路、桥梁及隧道设计方面经验扎实，但本包要求较强的MEP协调和交通组织设计能力，这并非我方核心强项。若单独投标，需在交付方法中详细说明如何通过内部协调或聘请专业分包来满足要求，但业主可能对责任划分存疑。建议评估与具备机电及交通工程能力的专业单位组成组合体的可行性，以增强技术可信度。请商务团队提供组合体合作意向及责任划分建议。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包涵盖道路、桥梁、排水和交通设施，与我们过往项目高度匹配。但MEP和结构协调要求较高，我们内部是否有足够的专业人手？如果不足，联合体可能是更稳妥的选择，但需明确责任划分。请设计总监评估团队可用性，确认能否在工期内完成BIM和MEP协调，否则我们需考虑联合体或放弃。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包涵盖道路、桥梁、排水和交通设施，我们具备核心能力，但MEP协调和交通组织设计需要额外专业支持。单独投标可行，但联合体可能增强竞争力。请设计总监评估团队可用性，特别是BIM和MEP协调的人力是否充足，以决定是否联合体投标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "designer",
+      "message_type": "summary",
+      "content": "各位同事，我同意技术负责人和商务负责人的判断。本包核心道路桥梁设计我们完全胜任，但MEP协调和交通组织设计确实是短板。单独投标可行，但业主可能质疑责任划分。联合体可以补足能力，但需明确责任和管理。请设计总监提供团队可用性摘要，特别是BIM和MEP协调人力是否充足，这决定我们是否必须联合体。若内部可调配，则单独投标；否则考虑联合体。请尽快回复。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "designer",
+      "message_type": "decision",
+      "content": "我司决定单独投标设计服务包。我们将组建专项设计团队，由资深道路桥梁工程师担任设计总监，并聘请具备MEP和交通工程资质的专业分包单位提供专项支持。交付方法将包括分阶段设计审查、BIM协调流程和交通组织方案，确保符合澳门规范。质量方法将遵循ISO9001体系，设置独立校审环节。价格基础按设计费总价包干，分阶段支付。进度视图将明确各设计阶段里程碑，风险应对将涵盖分包协调、规范变更和工期延误等。团队可用性摘要显示母公司可调配足够人力资源，确保项目按期完成。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位，这个设计包涵盖道路、排水、交通设施和MEP协调，超出我们桥梁设计的核心范围。虽然我们有澳门轻轨经验，但缺乏市政和MEP专项能力。单独投标可能因能力不足而影响评标，但联合体又增加协调和风险。我建议先评估能否通过分包商弥补缺口，否则考虑放弃。请市场部提供潜在分包商名单，以便我们判断可行性。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包涵盖道路、桥梁、排水和交通设施，我们的桥梁和轨道经验扎实，但市政排水和交通组织设计可能需要额外支持。我建议先核对团队可用性摘要和角色计划，确认内部能否覆盖MEP和结构协调。如果缺口明显，考虑与市政设计顾问组成联合体，但需明确其责任划分和监管服务。请设计总监确认我们是否有足够人力独立交付，否则我们应探讨联合体方案。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包的总价包干方式对成本估算要求很高，尤其是交通组织设计和BIM协调可能产生额外工时。我们虽有轻轨经验，但公开数据缺口让价格基础不够透明。我建议先确认设计团队的可用性和角色计划，再决定是否单独投标。若资源紧张，联合体可分担责任，但需明确分工。请设计负责人提供团队可用性摘要，以便我评估报价风险。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0006/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0006/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0006/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

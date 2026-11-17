@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0004__contractor_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-015",
+  "package_role_hint": "contractor",
+  "award_excerpt": {
+    "bidder_type": "consortium",
+    "decision_reason": "中建振華得寶聯合體的技术方案详细，联合体成员专项能力互补，对地库结构施工有明确安排，风险应对和文档管理完善，能有效控制交付风险。虽然报价高于中國路橋，但中國路橋地库结构报价明显偏低且未提供成本依据和施工方案，存在漏项和履约风险。综合评估，中建振華得寶聯合體在交付信心和风险控制上更优，符合业主对工程质量和工期的要求。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个基坑支护、土方和地库结构包技术难度不低，涉及桩基、支护和MEP协调。我们施工组织能力是强项，但公开数据缺口大，规模信息不明，单独投标可能显得单薄。我倾向联合体投标，共享责任能提升可信度，也能补足资源短板。请商务同事先确认潜在联合体伙伴的资质和资源，这直接影响我们能否按时交付。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包范围明确，涵盖基坑、土方、桩基和地库结构，与我们的施工组织能力匹配。但公开数据缺口可能影响评标，联合体投标能增强可信度，同时分担风险。我建议先评估联合体选项，重点确认价格基础和里程碑支付条款的可行性。请商务团队尽快核实工程量清单和支付节点，确保报价有竞争力且现金流可控。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个基坑支护、土方和地库结构包，我们施工组织、安全和进度控制是强项，但公开数据缺规模，单独投可能让业主质疑履约能力。我倾向组合体投标，共享责任更可信，但必须确保我方主导现场管理。请商务经理先核实团队可用性摘要，确认关键岗位能否到位，这决定我们能否承诺工期和质量目标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "contractor",
+      "message_type": "summary",
+      "content": "各位，技术、商务和我都倾向组合体投标，但公开数据缺口仍是硬伤。单独投标可能让业主质疑履约能力，组合体可补足资源并提升可信度。我同意组合体投标，我方主导施工管理，但必须确保责任划分清晰。请商务经理先核实潜在联合体伙伴的资质和资源，确认其能否支撑基坑支护和桩基工程的工期承诺，这决定我们能否按时交付。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "contractor",
+      "message_type": "decision",
+      "content": "我方建议以组合体形式投标施工总承包包，我方主导施工管理。组合体将补足资源短板，提升履约可信度。我方将提供团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对，确保满足业主全部要求。我方将严格审查伙伴资质，明确责任划分，确保基坑支护、土方、桩基及地库结构施工按时保质完成。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包与我们的核心能力高度匹配，青洲坊和妈阁项目已证明我们在基坑、桩基和地库结构上的实力。但公开数据缺口可能让评标时处于劣势，我建议考虑联合体投标，以共享责任增强可信度。我们需要确认联合体伙伴的资质和资源，确保工期和质量目标。请成本团队评估联合体报价的竞争力，并给出可行性判断。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包与我们青洲坊和妈阁交通枢纽的经验高度契合，团队能力和设备都具备。但基坑支护和桩基工程对地质变化敏感，价格风险不小。我建议先做一次地质与市场询价复核，确认报价基础是否稳妥。若单独投标，现金流压力大；若组联合体，需明确责任划分和监管服务。请商务合约部同事先提供地质勘察报告和分包询价汇总，我们再定投标策略。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包涉及基坑支护、桩基和地库结构，技术难度不低。我们公司有青洲坊和妈阁交通枢纽的经验，施工组织能力没问题，但地库结构的设计协调和施工衔接是关键。我建议考虑联合体投标，因为联合体可以分担技术责任，尤其在基坑和桩基这类高风险工序上，能提高评标可信度。不过，联合体需要明确分工和决策机制，避免现场扯皮。请项目总监评估一下我们单独投标的技术风险，特别是设计变更的审批流程，这直接影响工期和成本。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

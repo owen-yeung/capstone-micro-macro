@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0005__contractor_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-019",
+  "package_role_hint": "contractor",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "得宝建筑集团有限公司的报价合理，具备类似项目经验，团队配置完整，质量安全体系完善，分阶段施工方法清晰，业主控制响应符合要求。虽然报价较低，但通过合同谈判强化风险预备金和管线迁改专项方案，可以确保风险可控。其他投标人要么报价过高，要么工期过长或风险预备金不足。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个施工总承包包范围不小，道路、桥梁、管线迁改加机电，协调面广，工期压力大。我们施工组织、安全和进度控制是强项，但公开数据缺规模，业主可能担心资源。我倾向单独投，但前提是团队和分包资源能落实。请商务确认一下，我们现有项目的人员和设备能否在开标前腾出足够力量，这直接影响报价和进度承诺。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包范围不小，固定价格加上管线迁改和交通疏导的不确定性，成本风险需要认真评估。我们公司有施工组织能力，但公开数据缺口可能影响评标可信度。我建议先考虑联合体投标，共享责任和风险，同时要求商务团队做详细的成本分解和风险预留。请项目管理部先确认我们是否有足够的人手和现金流来支撑这个固定价格包，这直接影响我们是否投标的决定。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包技术难度不低，道路、桥梁、管线迁改和机电安装交叉作业，对施工组织和MEP协调要求很高。我们公司在施工组织、安全和进度控制上有优势，但公开数据缺口可能让业主对单独投标的可靠性存疑。我建议考虑联合体投标，共享责任和风险，同时补足技术短板。请商务同事评估联合体模式下报价和风险分担的可行性，这直接影响我们能否按时高质量交付。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工总承包包涉及道路、桥梁、管线迁改和机电安装，安全风险高，质量要求严。我们公司在施工组织、安全管理和进度控制上有优势，但公开数据缺口可能让业主质疑我们的能力。我建议考虑联合体投标，以分担责任并增强可信度。但联合体会增加协调难度，我们需要确保有足够的安全和质量管理人员。请商务同事确认我们能否在投标截止前补齐团队可用性摘要和角色计划，特别是安全质量管理人员的配置。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个施工总承包包范围不小，道路、桥梁、管线迁改、交通疏导加机电安装，工期压力肯定大。我们现场管理能力没问题，但单独投标的话，业主可能担心我们资源不够。我建议考虑组合体投标，找一家有类似大型基建经验的伙伴分担风险。不过组合体协调也麻烦，得先确认我们现有项目的机械和劳动力能不能腾出来。请商务同事先查一下我们当前项目的资源占用情况，再决定是单独投还是组组合体。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "contractor",
+      "message_type": "summary",
+      "content": "各位，我理解商务和技术都倾向联合体，但先别急着定。这个包工期压力大，协调面广，我们施工组织是强项，可公开数据缺规模，业主确实可能担心。联合体能增强可信度，但协调成本高，报价和进度承诺都会受影响。我建议先做一次资源可行性核查，确认现有项目的人员和设备能否在开标前腾出足够力量。请商务同事牵头，结合团队可用性摘要和角色计划，评估单独投和联合体两种模式下的资源匹配度，这直接决定我们怎么走。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "contractor",
+      "message_type": "decision",
+      "content": "团队可用性摘要：我们计划组建一个由项目总监李志強领导的核心团队，包括现场经理、商务经理、技术总工程师和质量安全经理，并配备足够的施工人员。现有项目将在开标前完成关键阶段，可调配足够的人力和设备。\n角色计划：项目总监负责整体协调，现场经理负责现场管理，技术总工程师负责技术方案和MEP协调，质量安全经理负责质量和安全，商务经理负责成本控制和合同管理。\n交付方法：采用分阶段施工，先进行管线迁改和交通疏导，再进行道路和桥梁施工，最后进行机电安装。通过周进度会议和每日现场检查确保进度和质量。\n质量方法：建立质量管理体系，执行三检制，并定期进行质量审计。安全方面，制定安全计划，进行安全培训，并配备专职安全员。\n价格基础：基于施工图纸和规范，进行详细成本分解，包括人工、材料、设备和分包费用，并预留风险金。\n进度视图：总工期为24个月，分为四个阶段，每个阶段有明确的里程碑和交付物。\n风险应对：识别主要风险包括管线迁改延误、交通疏导复杂性和机电安装协调，制定应对措施，如提前与管线单位协调、优化交通方案和加强MEP协调。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个施工总承包包的关键在管线迁改和交通疏导，工期压力大，MEP协调也复杂。我们公司有轻轨和连接桥经验，能力上匹配，但公开数据缺规模，单独投标可能让业主质疑资源。我倾向组合体投标，找一家有城市施工物流经验的伙伴分担风险，但必须先确认对方的施工能力和报价协调。请商务团队评估一下，能否在三天内找到合适的组合体伙伴并给出可行性判断？"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

@@ -17,6 +17,11 @@ from src.state_ops import company_by_id, final_agent, log_event, package_by_id
 
 
 async def reconsider_after_failed_consortiums(state: SimulationState, runtime: AgentRuntime) -> None:
+    # A3: remove reconsideration after consortium failure.
+    if runtime.ablation.no_reconsideration:
+        progress_log("reconsideration: skipped by ablation A3")
+        log_event(state, "reconsideration_skipped_ablation_a3", {"candidate_count": len(_candidates(state))})
+        return
     candidates = _candidates(state)
     progress_log(f"reconsideration: preparing {len(candidates)} failed-consortium decisions")
     raw_results = await asyncio.gather(
@@ -102,6 +107,7 @@ async def _task(
             company.company_id,
             package.package_id,
             {"bid_participation_decision", "consortium_formation"},
+            disabled=runtime.ablation.no_cross_stage_memory,
         ),
     )
     manager = final_agent(agents)

@@ -7,6 +7,7 @@ import os
 import sys
 from pathlib import Path
 
+from src.ablation import ABLATION_IDS, AblationConfig
 from src.async_policy import install_asyncio_policy
 from src.case_sources import DEFAULT_CONFIG, list_case_ids, load_case_config, load_case_inputs
 from src.llm_client import OpenAICompatibleClient
@@ -75,6 +76,16 @@ def parse_args() -> argparse.Namespace:
         choices=["full", "smoke"],
         default="full",
         help="full runs all MVP agents; smoke runs a smaller workflow for real LLM prompt testing.",
+    )
+    parser.add_argument(
+        "--ablation",
+        choices=["none", *ABLATION_IDS],
+        default="none",
+        help=(
+            "Interim §5.5 single-mechanism ablation: A1 single-agent firm, "
+            "A2 rule consortium without negotiation, A3 no reconsideration, "
+            "A4 no cross-stage memory. Real model runs still need a fresh authorized scope."
+        ),
     )
     parser.add_argument(
         "--resume-batch",
@@ -261,11 +272,13 @@ def _run_once(
     )
     workflow = None
     try:
+        ablation = AblationConfig.from_id(getattr(args, "ablation", "none"))
         workflow = TenderSimulationWorkflow(
             llm,
             profile=args.profile,
             audit_logger=audit_logger,
             checkpoint_store=checkpoint_store,
+            ablation=ablation,
         )
         project_idea = None
         companies = None
@@ -274,6 +287,7 @@ def _run_once(
             project_idea, companies, validation_context = load_case_inputs(config or {}, case_id)
             validation_context["run_mode"] = args.mode
             validation_context["profile"] = args.profile
+            validation_context["ablation"] = ablation.to_dict()
         state = workflow.run(
             project_prompt=None if case_id else (args.project_idea or None),
             project_idea=project_idea,
@@ -281,6 +295,8 @@ def _run_once(
         )
         if validation_context:
             state.validation_context = {**validation_context, **state.validation_context}
+        elif ablation.active_ids():
+            state.validation_context = {**state.validation_context, "ablation": ablation.to_dict()}
         output_files = write_outputs(state, run_dir)
         missing = missing_required_outputs(run_dir)
         if missing:
@@ -320,6 +336,7 @@ def _run_once(
     print("codedemo_v2 simulation completed")
     print(f"Mode: {args.mode}")
     print(f"Profile: {args.profile}")
+    print(f"Ablation: {','.join(ablation.active_ids()) or 'none'}")
     if case_id:
         print(f"Case id: {case_id}")
         print(f"Candidate companies: {len(companies or [])}")

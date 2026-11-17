@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0005__design_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-017",
+  "package_role_hint": "design",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "COMP-0467报价居中，风险预备费充足，工期合理，技术方案详细，风险控制措施具体，业主审查流程清晰，交付信心最强。虽然报价略高于最低价，但风险预备费和分包费用合理，能有效覆盖接口协调和管线迁改风险，降低后期变更和索赔可能性。COMP-0461报价最低但风险预备费和分包费用偏低，工期偏紧，可能低估实际风险；COMP-0827报价最高且工期较长，性价比不足。综合评估，COMP-0467在能力匹配、价格合理性和风险控制方面表现均衡，是本次判给的最佳选择。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包涵盖道路、桥梁、管线迁改、交通疏导和机电系统，范围较广。我们虽有道路和桥梁的丰富经验，但机电和管线迁改需要专业分包。考虑到业主对接口协调的重视，我认为单独投标可行，但需在方案中明确分包策略和质量控制。若决定联合体，应评估是否真的需要共享责任，还是仅需分包支持。请商务团队评估联合体的必要性和风险，以便我们做出最终决定。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包与我们的核心能力高度匹配，尤其是道路和桥梁设计。但管线迁改和机电系统协调可能超出我们常规控制范围，若单独投标，这些接口风险将全部由我们承担。我建议先确认我们的团队可用性摘要和分包商能力，若内部资源充足，可单独投标；否则，考虑与具备机电或管线设计资质的专业公司组成联合体，以分担责任并增强投标可信度。请设计负责人提供团队可用性摘要，以便我评估风险。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包与我们在澳门过往的A3连接桥和共同管道项目高度契合，单独投标在能力上是可行的。但机电和管线迁改部分需要额外协调，我建议先确认团队可用性和分包商资源，确保交付时间。若联合体，需明确责任划分，否则可能增加风险。请项目经理提供团队可用性摘要，以便我们决定是否单独投标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "designer",
+      "message_type": "summary",
+      "content": "各位同事，我同意先评估内部资源。我们过往的A3连接桥和共同管道项目证明道路桥梁能力足够，但机电和管线迁改需要专业分包。单独投标可行，但需在方案中明确分包策略和质量控制。若考虑联合体，需确认对方是否提供我们缺失的机电或管线设计资质，否则不如分包。请项目经理提供团队可用性摘要，以便我评估交付风险并决定最终投标策略。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "designer",
+      "message_type": "decision",
+      "content": "投标方案：\n\n1. 团队可用性摘要：公司现有设计团队具备道路、桥梁、隧道等基础设施设计能力，母公司735名员工可提供技术支持。针对本包，将组建专项设计团队，包括项目负责人、道路工程师、桥梁工程师、交通工程师、BIM协调员等，并预留分包管理岗位。关键人员均有类似项目经验，可确保团队稳定。\n\n2. 角色计划：公司作为设计总负责，负责整体设计协调、业主沟通、质量控制和进度管理。道路、桥梁、交通疏导等核心设计由公司内部团队完成；机电系统和管线迁改设计将分包给具有相应资质的专业公司，分包商需遵守公司质量管理体系，并接受公司审查。\n\n3. 交付方法：采用分阶段交付，先完成初步设计，经业主审查后深化施工图。设计过程中将定期与业主、相关部门及接口方召开协调会议，确保设计符合交通影响评估和接口要求。BIM模型将用于协调各专业设计，减少冲突。\n\n4. 质量方法：执行ISO9001质量管理体系，设置设计校审、专业接口检查、独立验证等环节。分包成果由公司专业负责人审核，确保满足规范及业主要求。关键节点设置质量门，未通过审查不得进入下一阶段。\n\n5. 价格基础：固定价格基于设计范围、工作量估算及分包询价，包含所…"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，我倾向单独投标。我们具备澳门轻轨东线初步设计等经验，覆盖道路、桥梁、管线迁改和机电协调，能力匹配度高。但需注意固定价格下设计变更对工期和成本的影响，建议在风险应对中明确变更管理流程。请商务团队确认团队可用性摘要和价格基础，确保报价合理且能体现质量目标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，我审阅了设计服务包的招标文件。范围涵盖道路、桥梁、管线迁改及机电系统，与我们澳门轻轨东线经验高度匹配，能力上可单独投标。但管线迁改和交通接口设计变更风险高，可能增加成本并影响支付审查。我建议在报价中预留风险费用，并强化变更管理流程。请设计总监确认团队可用性，以便我完善价格基础。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计服务包的核心是口岸人工岛连接线的详细设计，涉及道路、桥梁、管线迁改和机电系统。我们公司在桥梁和轨道交通设计上有丰富经验，但管线迁改的市政协调可能不是我们的强项。我建议单独投标，但在交付方法中明确与市政部门的协调流程，并考虑引入专业管线设计分包商。我们需要评估团队可用性，确保有足够人手应对紧凑的工期。请工程管理部确认我们的团队可用性摘要是否支持这个方案。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0005/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

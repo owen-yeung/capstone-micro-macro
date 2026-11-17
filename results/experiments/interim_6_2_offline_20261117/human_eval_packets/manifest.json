@@ -1,0 +1,128 @@
+{
+  "rubric_version": "behavioral_plausibility_v1",
+  "packet_count": 24,
+  "packets": [
+    {
+      "packet_id": "CASE-0001__design_package",
+      "case_id": "CASE-0001",
+      "package_id": "design_package"
+    },
+    {
+      "packet_id": "CASE-0001__supplier_package",
+      "case_id": "CASE-0001",
+      "package_id": "supplier_package"
+    },
+    {
+      "packet_id": "CASE-0001__contractor_package",
+      "case_id": "CASE-0001",
+      "package_id": "contractor_package"
+    },
+    {
+      "packet_id": "CASE-0001__supervision_package",
+      "case_id": "CASE-0001",
+      "package_id": "supervision_package"
+    },
+    {
+      "packet_id": "CASE-0002__design_package",
+      "case_id": "CASE-0002",
+      "package_id": "design_package"
+    },
+    {
+      "packet_id": "CASE-0002__supplier_package",
+      "case_id": "CASE-0002",
+      "package_id": "supplier_package"
+    },
+    {
+      "packet_id": "CASE-0002__contractor_package",
+      "case_id": "CASE-0002",
+      "package_id": "contractor_package"
+    },
+    {
+      "packet_id": "CASE-0002__supervision_package",
+      "case_id": "CASE-0002",
+      "package_id": "supervision_package"
+    },
+    {
+      "packet_id": "CASE-0003__design_package",
+      "case_id": "CASE-0003",
+      "package_id": "design_package"
+    },
+    {
+      "packet_id": "CASE-0003__supplier_package",
+      "case_id": "CASE-0003",
+      "package_id": "supplier_package"
+    },
+    {
+      "packet_id": "CASE-0003__contractor_package",
+      "case_id": "CASE-0003",
+      "package_id": "contractor_package"
+    },
+    {
+      "packet_id": "CASE-0003__supervision_package",
+      "case_id": "CASE-0003",
+      "package_id": "supervision_package"
+    },
+    {
+      "packet_id": "CASE-0004__design_package",
+      "case_id": "CASE-0004",
+      "package_id": "design_package"
+    },
+    {
+      "packet_id": "CASE-0004__supplier_package",
+      "case_id": "CASE-0004",
+      "package_id": "supplier_package"
+    },
+    {
+      "packet_id": "CASE-0004__contractor_package",
+      "case_id": "CASE-0004",
+      "package_id": "contractor_package"
+    },
+    {
+      "packet_id": "CASE-0004__supervision_package",
+      "case_id": "CASE-0004",
+      "package_id": "supervision_package"
+    },
+    {
+      "packet_id": "CASE-0005__design_package",
+      "case_id": "CASE-0005",
+      "package_id": "design_package"
+    },
+    {
+      "packet_id": "CASE-0005__supplier_package",
+      "case_id": "CASE-0005",
+      "package_id": "supplier_package"
+    },
+    {
+      "packet_id": "CASE-0005__contractor_package",
+      "case_id": "CASE-0005",
+      "package_id": "contractor_package"
+    },
+    {
+      "packet_id": "CASE-0005__supervision_package",
+      "case_id": "CASE-0005",
+      "package_id": "supervision_package"
+    },
+    {
+      "packet_id": "CASE-0006__design_package",
+      "case_id": "CASE-0006",
+      "package_id": "design_package"
+    },
+    {
+      "packet_id": "CASE-0006__supplier_package",
+      "case_id": "CASE-0006",
+      "package_id": "supplier_package"
+    },
+    {
+      "packet_id": "CASE-0006__contractor_package",
+      "case_id": "CASE-0006",
+      "package_id": "contractor_package"
+    },
+    {
+      "packet_id": "CASE-0006__supervision_package",
+      "case_id": "CASE-0006",
+      "package_id": "supervision_package"
+    }
+  ],
+  "status": "blanks_ready_awaiting_human_ratings",
+  "note": "No ratings are filled. IRR requires independent human completion of raterA/raterB sheets."
+}

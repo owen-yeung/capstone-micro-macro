@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0001__contractor_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-003",
+  "package_role_hint": "contractor",
+  "award_excerpt": {
+    "bidder_type": "consortium",
+    "decision_reason": "保澳建信联合体报价MOP 36,200,000，虽高于得宝国际，但技术方案完整，风险预备充足，质量文档管理扎实，联合体成员能力互补，能更好应对地质变化和交叉施工风险。得宝国际报价低，但风险预备金和现场管理投入不足，可能影响质量安全。作为业主，我优先考虑交付信心和风险控制，选择联合体是合理的。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个施工包我们做过类似项目，技术上能接，但公开数据缺规模，单独投可能让业主觉得产能不够。我倾向联合保华地基或建信工程组组合体投标，共享责任，提高可信度。风险是联营协调和报价分配，但工期和质量目标我们能把控。请商务同事确认一下联营伙伴的意向和报价基础，这直接影响我们是否推进。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，关于这个施工包，我建议优先考虑联营投标。我们虽有西湾湖堤围加固的联营经验，但公开数据缺口大，单独投标在评标时可能处于劣势。联营能共享资源、分担风险，但必须明确责任划分和成本控制机制。我建议先评估与保华地基或建信工程合作的可能性，请项目经理提供一份团队可用性摘要，以便我们判断联营的可行性。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，从技术角度看，这个施工包涉及地基处理和结构施工，我们虽有西湾湖堤围加固的联营经验，但公开数据缺口可能让业主质疑我们的独立能力。我建议联合投标，与保华地基或建信工程组成组合体，共享责任和资源，这样能提升技术方案的可信度。我们需要明确分工和质量控制流程，确保符合监管要求。请商务同事核实联合体伙伴的资质和财务稳定性，这直接影响我们的报价和风险应对。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工包涉及地基处理和结构施工，安全风险不低，环保要求也高。我们虽有西湾湖堤围加固的联营经验，但公开数据不足，单独投标可能让业主对安全管理和资源投入存疑。我建议考虑与保华地基或建信工程组成联合体，既能补强技术短板，也能在安全责任和监管配合上更可信。请商务同事先核实联合体投标的资格要求和责任划分，这直接影响我们的安全方案和报价基础。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个施工包涉及地基处理和结构施工，材料供应和进场协调是关键。我们虽有西湾湖联营经验，但公开数据缺口大，单独投标风险高。我建议考虑联合体投标，与有经验的伙伴分担责任，提高可信度。请商务经理确认联合体伙伴的材料供应能力和采购周期，这直接影响我们的进度和报价。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "contractor",
+      "message_type": "summary",
+      "content": "各位，联营方向基本一致，但关键卡在伙伴意向和报价分配。我们虽有西湾湖经验，但公开数据缺口让单独投标在评标时吃亏。我建议先锁定保华地基或建信工程，明确责任划分和里程碑支付，否则工期和质量目标难落地。请陈美玲尽快确认伙伴意向和报价基础，这决定我们能否在截止前组好组合体。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "contractor",
+      "message_type": "decision",
+      "content": "管理决策：建议以组合体形式投标施工包。\n\n决策依据：\n1. 公司虽有西湾湖堤围加固联营经验，但公开数据缺口大，单独投标可能因产能和资质证据不足而影响评标。\n2. 内部各部门一致认为联营可提升投标可信度，共享资源、分担风险，并满足业主对施工组织、安全管理和质量文档的要求。\n3. 联营伙伴（保华地基或建信工程）具有相关经验和资源，可补强公司短板，提高技术方案和交付能力。\n\n实施要点：\n1. 尽快与保华地基或建信工程确认联营意向，明确责任划分、报价分配和里程碑支付机制。\n2. 制定联合体协议，明确各方在施工、安全、质量、进度和成本方面的职责。\n3. 准备团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对，确保符合业主招标要求。\n4. 加强联营协调，确保材料供应、施工组织和安全监管顺畅，控制成本风险。\n\n风险应对：\n1. 联营协调风险：通过明确协议和定期沟通机制，确保各方步调一致。\n2. 成本风险：合理分配报价，控制材料采购和施工成本，确保利润空间。\n3. 工期风险：制定详细进度计划，加强进度监控，确保按期交付。\n4. 质量风险：建立联合质量管理体系，严格执行质量标准和…"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个施工包和我们之前西湾湖景大马路堤围加固的经验很对口，但咱们的规模、认证这些公开数据有缺口，单独投标可能在评标时吃亏。我建议优先考虑联营，找保澳建筑或建信工程这类老伙伴组组合体，把资质和资源补强。这样工期、质量、安全都有底。请商务同事先探一下保澳建筑对联营的意向，确认他们愿不愿意牵头或共同投标，这直接影响咱们的投标策略。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

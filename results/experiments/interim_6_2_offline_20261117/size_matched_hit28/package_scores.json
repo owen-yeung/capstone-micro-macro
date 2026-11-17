@@ -1,0 +1,2076 @@
+[
+  {
+    "case_id": "CASE-0001",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0525",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0525"
+    ],
+    "reference_company_ids": [
+      "COMP-0724"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0724"
+    ],
+    "candidate_company_ids": [
+      "COMP-0467",
+      "COMP-0525",
+      "COMP-0724"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0472",
+      "COMP-0473",
+      "COMP-0489"
+    ],
+    "reference_company_ids": [
+      "COMP-0472",
+      "COMP-0473",
+      "COMP-0489"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0472",
+      "COMP-0473",
+      "COMP-0489"
+    ],
+    "candidate_company_ids": [
+      "COMP-0025",
+      "COMP-0472",
+      "COMP-0473",
+      "COMP-0489"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 3,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.75,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0453",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0453"
+    ],
+    "reference_company_ids": [
+      "COMP-0453"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0453"
+    ],
+    "candidate_company_ids": [
+      "COMP-0453",
+      "COMP-0476",
+      "COMP-0486"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "consortium_supervision_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0467",
+      "COMP-0803"
+    ],
+    "reference_company_ids": [
+      "COMP-0467",
+      "COMP-0477",
+      "COMP-0803"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0467",
+      "COMP-0477",
+      "COMP-0803"
+    ],
+    "candidate_company_ids": [
+      "COMP-0467",
+      "COMP-0477",
+      "COMP-0803"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 3,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0462",
+      "COMP-0160"
+    ],
+    "reference_company_ids": [
+      "COMP-0462"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0462"
+    ],
+    "candidate_company_ids": [
+      "COMP-0160",
+      "COMP-0462",
+      "COMP-0703"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0184",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0184"
+    ],
+    "reference_company_ids": [
+      "COMP-0466"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0466"
+    ],
+    "candidate_company_ids": [
+      "COMP-0184",
+      "COMP-0466",
+      "COMP-0470",
+      "COMP-0478"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0469",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0469"
+    ],
+    "reference_company_ids": [
+      "COMP-0469",
+      "COMP-0512"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0469",
+      "COMP-0512"
+    ],
+    "candidate_company_ids": [
+      "COMP-0453",
+      "COMP-0469",
+      "COMP-0512"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.6666666666666666,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0455",
+      "COMP-0267",
+      "COMP-0535"
+    ],
+    "reference_company_ids": [
+      "COMP-0535"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0535"
+    ],
+    "candidate_company_ids": [
+      "COMP-0267",
+      "COMP-0455",
+      "COMP-0535"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0066",
+      "COMP-0463",
+      "COMP-0494"
+    ],
+    "reference_company_ids": [
+      "COMP-0066"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0066"
+    ],
+    "candidate_company_ids": [
+      "COMP-0066",
+      "COMP-0463",
+      "COMP-0494",
+      "COMP-0717"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.75
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0453",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0453"
+    ],
+    "reference_company_ids": [
+      "COMP-0453",
+      "COMP-0512"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0453",
+      "COMP-0512"
+    ],
+    "candidate_company_ids": [
+      "COMP-0453",
+      "COMP-0483",
+      "COMP-0512"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.6666666666666666,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0467",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0467"
+    ],
+    "reference_company_ids": [
+      "COMP-0461"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0461"
+    ],
+    "candidate_company_ids": [
+      "COMP-0461",
+      "COMP-0467",
+      "COMP-0827"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0493",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0493"
+    ],
+    "reference_company_ids": [
+      "COMP-0531"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0531"
+    ],
+    "candidate_company_ids": [
+      "COMP-0169",
+      "COMP-0493",
+      "COMP-0531",
+      "COMP-0534"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "consortium_supervision_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0118",
+      "COMP-0469"
+    ],
+    "reference_company_ids": [
+      "COMP-0118",
+      "COMP-0469",
+      "COMP-0475",
+      "COMP-0512"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0118",
+      "COMP-0469",
+      "COMP-0475",
+      "COMP-0512"
+    ],
+    "candidate_company_ids": [
+      "COMP-0118",
+      "COMP-0469",
+      "COMP-0475",
+      "COMP-0512"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 4,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0688",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0688"
+    ],
+    "reference_company_ids": [
+      "COMP-0461"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0461"
+    ],
+    "candidate_company_ids": [
+      "COMP-0461",
+      "COMP-0467",
+      "COMP-0688"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0494",
+      "COMP-0458",
+      "COMP-0459"
+    ],
+    "reference_company_ids": [
+      "COMP-0494"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0494"
+    ],
+    "candidate_company_ids": [
+      "COMP-0458",
+      "COMP-0459",
+      "COMP-0494",
+      "COMP-0507"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.75
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0521",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0521"
+    ],
+    "reference_company_ids": [
+      "COMP-0483",
+      "COMP-0512",
+      "COMP-0521"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0483",
+      "COMP-0512",
+      "COMP-0521"
+    ],
+    "candidate_company_ids": [
+      "COMP-0483",
+      "COMP-0512",
+      "COMP-0521"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 3,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0461",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0461"
+    ],
+    "reference_company_ids": [
+      "COMP-0461"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0461"
+    ],
+    "candidate_company_ids": [
+      "COMP-0119",
+      "COMP-0461",
+      "COMP-0520"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0527",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0527"
+    ],
+    "reference_company_ids": [
+      "COMP-0232",
+      "COMP-0532"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0232",
+      "COMP-0532"
+    ],
+    "candidate_company_ids": [
+      "COMP-0075",
+      "COMP-0232",
+      "COMP-0527",
+      "COMP-0532"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.5,
+    "size_matched_baseline": 0.5
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0475",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0475"
+    ],
+    "reference_company_ids": [
+      "COMP-0475",
+      "COMP-0482",
+      "COMP-0512"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0475",
+      "COMP-0482",
+      "COMP-0512"
+    ],
+    "candidate_company_ids": [
+      "COMP-0475",
+      "COMP-0482",
+      "COMP-0512"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 3,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0496",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0496"
+    ],
+    "reference_company_ids": [
+      "COMP-0470",
+      "COMP-0496",
+      "COMP-0497"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0470",
+      "COMP-0496",
+      "COMP-0497"
+    ],
+    "candidate_company_ids": [
+      "COMP-0470",
+      "COMP-0495",
+      "COMP-0496",
+      "COMP-0497"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 3,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.75,
+    "size_matched_baseline": 0.75
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0483",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0483"
+    ],
+    "reference_company_ids": [
+      "COMP-0483"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0483"
+    ],
+    "candidate_company_ids": [
+      "COMP-0477",
+      "COMP-0483",
+      "COMP-0518"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0066",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0066"
+    ],
+    "reference_company_ids": [
+      "COMP-0066",
+      "COMP-0501"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0066",
+      "COMP-0501"
+    ],
+    "candidate_company_ids": [
+      "COMP-0066",
+      "COMP-0492",
+      "COMP-0501",
+      "COMP-0534"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.5,
+    "size_matched_baseline": 0.5
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0475",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0475"
+    ],
+    "reference_company_ids": [
+      "COMP-0469"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0469"
+    ],
+    "candidate_company_ids": [
+      "COMP-0456",
+      "COMP-0469",
+      "COMP-0475"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0277",
+      "COMP-0461",
+      "COMP-0502"
+    ],
+    "reference_company_ids": [
+      "COMP-0461"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0461"
+    ],
+    "candidate_company_ids": [
+      "COMP-0277",
+      "COMP-0461",
+      "COMP-0502"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0169",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0169"
+    ],
+    "reference_company_ids": [
+      "COMP-0025"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0025"
+    ],
+    "candidate_company_ids": [
+      "COMP-0025",
+      "COMP-0169",
+      "COMP-0492",
+      "COMP-0699"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0540",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0540"
+    ],
+    "reference_company_ids": [
+      "COMP-0512",
+      "COMP-0540"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0512",
+      "COMP-0540"
+    ],
+    "candidate_company_ids": [
+      "COMP-0460",
+      "COMP-0512",
+      "COMP-0540"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.6666666666666666,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0541",
+      "COMP-0461",
+      "COMP-0267"
+    ],
+    "reference_company_ids": [
+      "COMP-0541"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0541"
+    ],
+    "candidate_company_ids": [
+      "COMP-0267",
+      "COMP-0461",
+      "COMP-0541"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0494",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0494"
+    ],
+    "reference_company_ids": [
+      "COMP-0071"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0071"
+    ],
+    "candidate_company_ids": [
+      "COMP-0025",
+      "COMP-0071",
+      "COMP-0458",
+      "COMP-0494"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0522",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0522"
+    ],
+    "reference_company_ids": [
+      "COMP-0512",
+      "COMP-0522"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0512",
+      "COMP-0522"
+    ],
+    "candidate_company_ids": [
+      "COMP-0484",
+      "COMP-0512",
+      "COMP-0522"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.6666666666666666,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0724",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0724"
+    ],
+    "reference_company_ids": [
+      "COMP-0044"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0044"
+    ],
+    "candidate_company_ids": [
+      "COMP-0044",
+      "COMP-0228",
+      "COMP-0724"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0469",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0469"
+    ],
+    "reference_company_ids": [
+      "COMP-0522"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0522"
+    ],
+    "candidate_company_ids": [
+      "COMP-0453",
+      "COMP-0469",
+      "COMP-0522"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0789",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0789"
+    ],
+    "reference_company_ids": [
+      "COMP-0750",
+      "COMP-0789"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0750",
+      "COMP-0789"
+    ],
+    "candidate_company_ids": [
+      "COMP-0455",
+      "COMP-0750",
+      "COMP-0789"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.6666666666666666,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0756",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0756"
+    ],
+    "reference_company_ids": [
+      "COMP-0756"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0756"
+    ],
+    "candidate_company_ids": [
+      "COMP-0075",
+      "COMP-0466",
+      "COMP-0532",
+      "COMP-0756"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "consortium_supervision_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0845",
+      "COMP-0477"
+    ],
+    "reference_company_ids": [
+      "COMP-0477",
+      "COMP-0520",
+      "COMP-0845"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0477",
+      "COMP-0520",
+      "COMP-0845"
+    ],
+    "candidate_company_ids": [
+      "COMP-0477",
+      "COMP-0520",
+      "COMP-0845"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 3,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0717",
+      "COMP-0066"
+    ],
+    "reference_company_ids": [
+      "COMP-0066",
+      "COMP-0199",
+      "COMP-0490",
+      "COMP-0504",
+      "COMP-0507",
+      "COMP-0532",
+      "COMP-0533",
+      "COMP-0717"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0066",
+      "COMP-0199",
+      "COMP-0490",
+      "COMP-0504",
+      "COMP-0507",
+      "COMP-0532",
+      "COMP-0533",
+      "COMP-0717"
+    ],
+    "candidate_company_ids": [
+      "COMP-0066",
+      "COMP-0199",
+      "COMP-0490",
+      "COMP-0504",
+      "COMP-0507",
+      "COMP-0532",
+      "COMP-0533",
+      "COMP-0717"
+    ],
+    "n_candidates": 8,
+    "k_references_in_pool": 8,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0660",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0660"
+    ],
+    "reference_company_ids": [
+      "COMP-0660"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0660"
+    ],
+    "candidate_company_ids": [
+      "COMP-0209",
+      "COMP-0482",
+      "COMP-0660"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0361",
+      "COMP-0406"
+    ],
+    "reference_company_ids": [
+      "COMP-0308",
+      "COMP-0361",
+      "COMP-0406"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0308",
+      "COMP-0361",
+      "COMP-0406"
+    ],
+    "candidate_company_ids": [
+      "COMP-0308",
+      "COMP-0361",
+      "COMP-0406"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 3,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0186",
+      "COMP-0362"
+    ],
+    "reference_company_ids": [
+      "COMP-0186"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0186"
+    ],
+    "candidate_company_ids": [
+      "COMP-0186",
+      "COMP-0362",
+      "COMP-0490",
+      "COMP-0507"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.5
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "consortium_supervision_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0475",
+      "COMP-0326"
+    ],
+    "reference_company_ids": [
+      "COMP-0326"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0326"
+    ],
+    "candidate_company_ids": [
+      "COMP-0296",
+      "COMP-0326",
+      "COMP-0475"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0046",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0046"
+    ],
+    "reference_company_ids": [
+      "COMP-0046"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0046"
+    ],
+    "candidate_company_ids": [
+      "COMP-0046",
+      "COMP-0246",
+      "COMP-0289"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0170",
+      "COMP-0436",
+      "COMP-0373"
+    ],
+    "reference_company_ids": [
+      "COMP-0170",
+      "COMP-0192",
+      "COMP-0373",
+      "COMP-0436"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0170",
+      "COMP-0192",
+      "COMP-0373",
+      "COMP-0436"
+    ],
+    "candidate_company_ids": [
+      "COMP-0170",
+      "COMP-0192",
+      "COMP-0373",
+      "COMP-0436"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 4,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0054",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0054"
+    ],
+    "reference_company_ids": [
+      "COMP-0049",
+      "COMP-0054",
+      "COMP-0363"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0049",
+      "COMP-0054",
+      "COMP-0363"
+    ],
+    "candidate_company_ids": [
+      "COMP-0049",
+      "COMP-0054",
+      "COMP-0363"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 3,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0463",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0463"
+    ],
+    "reference_company_ids": [
+      "COMP-0366"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0366"
+    ],
+    "candidate_company_ids": [
+      "COMP-0199",
+      "COMP-0366",
+      "COMP-0463",
+      "COMP-0491"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0410",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0410"
+    ],
+    "reference_company_ids": [
+      "COMP-0410"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0410"
+    ],
+    "candidate_company_ids": [
+      "COMP-0372",
+      "COMP-0378",
+      "COMP-0410"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0221",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0221"
+    ],
+    "reference_company_ids": [
+      "COMP-0162",
+      "COMP-0172",
+      "COMP-0221",
+      "COMP-0381"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0172",
+      "COMP-0221",
+      "COMP-0381"
+    ],
+    "candidate_company_ids": [
+      "COMP-0172",
+      "COMP-0221",
+      "COMP-0381"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 3,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0171",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0171"
+    ],
+    "reference_company_ids": [
+      "COMP-0162",
+      "COMP-0305"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0162",
+      "COMP-0305"
+    ],
+    "candidate_company_ids": [
+      "COMP-0161",
+      "COMP-0162",
+      "COMP-0171",
+      "COMP-0305"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.5,
+    "size_matched_baseline": 0.5
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0263",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0263"
+    ],
+    "reference_company_ids": [
+      "COMP-0263"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0263"
+    ],
+    "candidate_company_ids": [
+      "COMP-0263",
+      "COMP-0313",
+      "COMP-0804"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0338",
+      "COMP-0054"
+    ],
+    "reference_company_ids": [
+      "COMP-0054"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0054"
+    ],
+    "candidate_company_ids": [
+      "COMP-0054",
+      "COMP-0286",
+      "COMP-0338"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0087",
+      "COMP-0490",
+      "COMP-0197"
+    ],
+    "reference_company_ids": [
+      "COMP-0087"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0087"
+    ],
+    "candidate_company_ids": [
+      "COMP-0087",
+      "COMP-0197",
+      "COMP-0490",
+      "COMP-0716"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.75
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0114",
+      "COMP-0054"
+    ],
+    "reference_company_ids": [
+      "COMP-0054"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0054"
+    ],
+    "candidate_company_ids": [
+      "COMP-0054",
+      "COMP-0114",
+      "COMP-0257"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0190",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0190"
+    ],
+    "reference_company_ids": [
+      "COMP-0370"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0370"
+    ],
+    "candidate_company_ids": [
+      "COMP-0190",
+      "COMP-0339",
+      "COMP-0370",
+      "COMP-0472"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0141",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0141"
+    ],
+    "reference_company_ids": [
+      "COMP-0141"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0141"
+    ],
+    "candidate_company_ids": [
+      "COMP-0141",
+      "COMP-0338",
+      "COMP-0369"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0071",
+      "COMP-0491"
+    ],
+    "reference_company_ids": [
+      "COMP-0071"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0071"
+    ],
+    "candidate_company_ids": [
+      "COMP-0071",
+      "COMP-0339",
+      "COMP-0367",
+      "COMP-0491"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.5
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0369",
+      "COMP-0461",
+      "COMP-0859"
+    ],
+    "reference_company_ids": [
+      "COMP-0369"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0369"
+    ],
+    "candidate_company_ids": [
+      "COMP-0369",
+      "COMP-0461",
+      "COMP-0859"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "supplier_package",
+    "sim_role": "supplier",
+    "selected_bidder_id": "COMP-0050",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0050"
+    ],
+    "reference_company_ids": [
+      "COMP-0383"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0383"
+    ],
+    "candidate_company_ids": [
+      "COMP-0050",
+      "COMP-0263",
+      "COMP-0383"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0199",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0199"
+    ],
+    "reference_company_ids": [
+      "COMP-0139"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0139"
+    ],
+    "candidate_company_ids": [
+      "COMP-0139",
+      "COMP-0167",
+      "COMP-0190",
+      "COMP-0199"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0187",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0187"
+    ],
+    "reference_company_ids": [
+      "COMP-0187"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0187"
+    ],
+    "candidate_company_ids": [
+      "COMP-0171",
+      "COMP-0187",
+      "COMP-0322",
+      "COMP-0532"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "consortium_supervision_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0396",
+      "COMP-0410"
+    ],
+    "reference_company_ids": [
+      "COMP-0108"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0108"
+    ],
+    "candidate_company_ids": [
+      "COMP-0108",
+      "COMP-0396",
+      "COMP-0410"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 2,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.6666666666666667
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "consortium_design_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0361",
+      "COMP-0054"
+    ],
+    "reference_company_ids": [
+      "COMP-0054",
+      "COMP-0338",
+      "COMP-0361"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0054",
+      "COMP-0338",
+      "COMP-0361"
+    ],
+    "candidate_company_ids": [
+      "COMP-0054",
+      "COMP-0338",
+      "COMP-0361"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 3,
+    "m_awarded": 2,
+    "hit": true,
+    "naive_single_draw_baseline": 1.0,
+    "size_matched_baseline": 1.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0366",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0366"
+    ],
+    "reference_company_ids": [
+      "COMP-0366"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0366"
+    ],
+    "candidate_company_ids": [
+      "COMP-0359",
+      "COMP-0362",
+      "COMP-0366",
+      "COMP-0459"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.25
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0208",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0208"
+    ],
+    "reference_company_ids": [
+      "COMP-0263"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0263"
+    ],
+    "candidate_company_ids": [
+      "COMP-0208",
+      "COMP-0263",
+      "COMP-0477"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0054",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0054"
+    ],
+    "reference_company_ids": [
+      "COMP-0054"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0054"
+    ],
+    "candidate_company_ids": [
+      "COMP-0054",
+      "COMP-0152",
+      "COMP-0228"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0466",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0466"
+    ],
+    "reference_company_ids": [
+      "COMP-0183",
+      "COMP-0185"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0183",
+      "COMP-0185"
+    ],
+    "candidate_company_ids": [
+      "COMP-0183",
+      "COMP-0185",
+      "COMP-0311",
+      "COMP-0466"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.5,
+    "size_matched_baseline": 0.5
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0775",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0775"
+    ],
+    "reference_company_ids": [
+      "COMP-0196"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0196"
+    ],
+    "candidate_company_ids": [
+      "COMP-0196",
+      "COMP-0442",
+      "COMP-0775"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "design_package",
+    "sim_role": "designer",
+    "selected_bidder_id": "COMP-0054",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0054"
+    ],
+    "reference_company_ids": [
+      "COMP-0054",
+      "COMP-0345"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0054"
+    ],
+    "candidate_company_ids": [
+      "COMP-0054",
+      "COMP-0117",
+      "COMP-0294"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": true,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0345",
+      "COMP-0494",
+      "COMP-0282"
+    ],
+    "reference_company_ids": [
+      "COMP-0345"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0345"
+    ],
+    "candidate_company_ids": [
+      "COMP-0282",
+      "COMP-0345",
+      "COMP-0494",
+      "COMP-0716"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 1,
+    "m_awarded": 3,
+    "hit": true,
+    "naive_single_draw_baseline": 0.25,
+    "size_matched_baseline": 0.75
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0264",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0264"
+    ],
+    "reference_company_ids": [
+      "COMP-0410"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0410"
+    ],
+    "candidate_company_ids": [
+      "COMP-0264",
+      "COMP-0410",
+      "COMP-0445"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "COMP-0181",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0181"
+    ],
+    "reference_company_ids": [
+      "COMP-0054",
+      "COMP-0081"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0054",
+      "COMP-0081"
+    ],
+    "candidate_company_ids": [
+      "COMP-0054",
+      "COMP-0081",
+      "COMP-0181",
+      "COMP-0311"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.5,
+    "size_matched_baseline": 0.5
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "supplier_package",
+    "sim_role": "supplier",
+    "selected_bidder_id": "COMP-0178",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0178"
+    ],
+    "reference_company_ids": [
+      "COMP-0889"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0889"
+    ],
+    "candidate_company_ids": [
+      "COMP-0178",
+      "COMP-0292",
+      "COMP-0889"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 1,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.3333333333333333,
+    "size_matched_baseline": 0.33333333333333337
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "contractor_package",
+    "sim_role": "contractor",
+    "selected_bidder_id": "consortium_contractor_package_002",
+    "bidder_type": "consortium",
+    "awarded_company_ids": [
+      "COMP-0161",
+      "COMP-0170"
+    ],
+    "reference_company_ids": [
+      "COMP-0644",
+      "COMP-0653"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0644",
+      "COMP-0653"
+    ],
+    "candidate_company_ids": [
+      "COMP-0161",
+      "COMP-0170",
+      "COMP-0644",
+      "COMP-0653"
+    ],
+    "n_candidates": 4,
+    "k_references_in_pool": 2,
+    "m_awarded": 2,
+    "hit": false,
+    "naive_single_draw_baseline": 0.5,
+    "size_matched_baseline": 0.8333333333333334
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "supervision_package",
+    "sim_role": "supervisor",
+    "selected_bidder_id": "COMP-0474",
+    "bidder_type": "company",
+    "awarded_company_ids": [
+      "COMP-0474"
+    ],
+    "reference_company_ids": [
+      "COMP-0233",
+      "COMP-0844"
+    ],
+    "reference_in_pool_ids": [
+      "COMP-0233",
+      "COMP-0844"
+    ],
+    "candidate_company_ids": [
+      "COMP-0233",
+      "COMP-0474",
+      "COMP-0844"
+    ],
+    "n_candidates": 3,
+    "k_references_in_pool": 2,
+    "m_awarded": 1,
+    "hit": false,
+    "naive_single_draw_baseline": 0.6666666666666666,
+    "size_matched_baseline": 0.6666666666666667
+  }
+]

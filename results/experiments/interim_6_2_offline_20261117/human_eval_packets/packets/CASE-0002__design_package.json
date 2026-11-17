@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0002__design_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-005",
+  "package_role_hint": "design",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "COMP-0773的独立检查和BIM投入充足，质量保障有力，跨境接口协调机制明确，能更好满足青茂口岸项目的设计质量要求。虽然报价较高，但质量投入与风险控制更符合业主利益，且其本地经验丰富，交付信心更强。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，关于设计包，我方具备结构设计和大型交通枢纽经验，但跨境接口和紧凑设施协调是难点。单独投标可行，但需加强MEP和BIM协调能力。我建议先评估内部团队可用性，若资源紧张，可考虑与澳门本地设计院组成组合体，以弥补跨境规范知识。请设计管理部提供团队可用性摘要，以便决策。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包与我们的核心能力高度匹配，尤其是大型交通基础设施经验。但跨境接口和紧凑设施协调是新增挑战，我建议单独投标，但需在交付方法中明确跨境协调流程和本地支持安排。请设计总监确认团队可用性摘要，特别是MEP和BIM专家的投入时间，这直接影响我们能否在工期内完成初步设计和施工图设计。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包采用固定总价，跨境接口和紧凑设施协调可能带来设计变更和成本超支风险。我们虽有大型桥梁经验，但轻轨跨境项目涉及两地标准差异，需要额外投入。我建议先评估联合体是否必要，若选择联合体，需明确责任划分和成本分担机制。请商务负责人提供联合体伙伴的资质和过往合作记录，以便我评估风险。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，我支持参与此设计包，但必须把可持续性和质量目标前置。青茂口岸跨境接口和紧凑设施对耐久性和维护便利性要求高，我们应在初步设计阶段就嵌入绿色标准和全生命周期成本控制。公司有大型基础设施经验，但跨境轻轨项目记录不足，需在质量方法中明确独立审查和BIM协调流程。请设计总监确认团队可用性和角色计划，能否满足紧凑设施协调和跨境接口设计能力，以便我们在投标中突出质量与可持续性优势。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包涉及跨境接口和紧凑设施协调，文档控制要求会很高。我们虽有大型桥梁和交通枢纽经验，但跨境接口设计可能超出我们常规能力。我建议先评估联合体必要性，重点看对方能否补充跨境设计资质和当地规范经验。同时，我们的文档控制流程需要提前调整，确保BIM模型和设计版本在联合体间同步。请项目经理确认联合体候选方的跨境设计能力，这直接影响我们投标策略和文档管理方案。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "designer",
+      "message_type": "summary",
+      "content": "各位同事，综合各方意见，我认为此设计包与我们的核心能力匹配，但跨境接口和紧凑设施协调是新增风险。单独投标可行，前提是内部MEP和BIM团队可用性充足，且能在交付方法中明确跨境协调流程。若资源紧张，联合体可补足跨境规范知识，但需谨慎选择伙伴并明确责任划分。请设计管理部提供团队可用性摘要，特别是MEP和BIM专家的投入时间，这直接影响我们能否在工期内完成设计。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "designer",
+      "message_type": "decision",
+      "content": "投标策略：单独投标。\n团队可用性摘要：设计总负责人陈志远牵头，配置MEP协调工程师、BIM经理、结构工程师、跨境接口专家等核心团队，确保初步设计和施工图设计阶段投入充足。\n角色计划：设计总负责人统筹，MEP协调工程师负责紧凑设施协调，BIM经理负责模型整合，跨境接口专家负责与澳门本地规范对接。\n交付方法：分阶段交付，初步设计阶段明确跨境接口方案，施工图阶段细化BIM模型，定期与业主和承包商协调。\n质量方法：设置独立审查节点，BIM模型碰撞检查，跨境规范合规性审核，确保耐久性和维护便利性。\n价格基础：固定总价，包含所有设计阶段和协调工作，基于历史项目成本和跨境风险溢价。\n进度视图：初步设计4个月，施工图设计6个月，BIM模型同步更新，关键节点与业主审查对齐。\n风险应对：跨境规范差异通过本地咨询支持，紧凑设施协调通过BIM模拟和专家评审，设计变更通过合同条款控制。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，关于这个设计包，我认为我们具备单独投标的能力。我们在澳门的轻轨和隧道项目经验，加上BIM和MEP协调能力，足以应对跨境接口和紧凑设施设计。但需注意，设计协调工作量大，需确保团队可用性和进度安排。我建议我们单独投标，并重点展示我们的交付方法和质量方法。请设计管理部确认团队资源能否满足工期要求。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0002/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0002/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0002/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

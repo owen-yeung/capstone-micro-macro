@@ -11,6 +11,7 @@
 - [确定性反馈对照](../output/integration/capstone_validation_20261105/feedback/summary.json)：6个窗口、18次条件运行；说明规则应变，不表述为模型学会盈利。
 - [生成校验增强（门禁／评分表／锚点／去标识／覆盖／专家切片）](experiments/generation_validation_enhancement_20261117/index.json)：前向评阅流程与离线演示产物；0次新模型调用；不改写既有冻结评分。
 - [2026-11-17裁决批次](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117.json)／[wave2](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117_wave2.json)／[wave3](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117_wave3.json)／[wave4](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117_wave4.json)／[wave5](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117_wave5.json)：累计新增1036份有引文业务评阅；可读且门禁通过的待评积压已清零；[专家切片镜像](experiments/generation_validation_enhancement_20261117/expert_slice_reviews/summary.json)为同一助手填槽，非独立外部专家。
+- [Interim §6.2离线交付](experiments/interim_6_2_offline_20261117/README.md)：补齐规模匹配随机基线报告（46/71=64.8%对57.6%）、A1–A4消融开关、人类行为合理性评阅包与一致性工具、报价/工期字段盘点、352扩展资格盘点、授标→施工阶段映射；不发起新模型调用。协议见[research/interim_6_2_protocols.md](../research/interim_6_2_protocols.md)。
 
 ## 当前完成度
 

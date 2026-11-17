@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0003__contractor_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-011",
+  "package_role_hint": "contractor",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "中建三局报价居中且成本构成合理，技术方案成熟，自有混凝土和设备资源保障施工连续，风险预备费比例合理，整体可信度最高。虽然其防渗系统采用专业分包，但通过判给前澄清可确认分包商资质和履约能力，降低质量风险。南光工程报价虽低但风险预备金不足且分包资质存疑，联合体报价过高性价比低。因此，选择中建三局作为中标单位。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个土建与安装施工包涉及坝体加高和防渗系统，技术难度不低。我司虽有轻轨施工经验，但水利工程的专业性要求高，独立投标风险较大。建议考虑与有水利经验的单位组成联合体，共享责任和技术。请商务团队尽快评估潜在合作伙伴的资质和合作意愿，以便我们决定是否联合投标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，这个土建与安装包涉及坝体加高和防渗系统，技术门槛不低，我们虽有市政和轨道施工经验，但水库类项目并非强项，且公开数据缺规模信息，单独投标的履约风险偏高。我建议优先考虑与有水利经验的单位组成组合体投标，共享责任和资源，提升评标可信度。请商务团队核实潜在合作伙伴的资质和类似项目业绩，确认其技术和管理能力是否匹配，这直接影响我们是否推进联合投标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，水库扩容包涉及坝体加高和防渗系统，技术门槛不低。我们虽有轻轨和市政经验，但水利类业绩不足，单独投标风险较大。建议考虑与有水利资质的单位组成联合体，共享责任和风险。请商务同事先核实我方是否具备相关资质和类似业绩，以及联合体伙伴的可行性，这直接影响投标决策。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "contractor",
+      "message_type": "summary",
+      "content": "各位，技术负责人和商务负责人都提到水利业绩不足，我同意这个判断。单独投标风险太高，坝体加高和防渗系统不是我们的强项。我倾向联合体投标，但前提是找到有水利经验的伙伴，并且我方资质和类似业绩能支撑联合体分工。请商务同事尽快核实我方资质和潜在伙伴的可行性，这直接影响我们是否推进联合体投标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "contractor",
+      "message_type": "decision",
+      "content": "团队可用性摘要：我司将调配具有轻轨和市政施工经验的项目团队，并联合水利专业单位补充技术力量。\n角色计划：我司作为联合体成员，负责土建施工和现场管理，水利伙伴负责防渗系统等专业工程。\n交付方法：采用联合体管理模式，明确分工，协同施工，确保工期和质量。\n质量方法：建立联合体质量管理体系，执行澳门施工标准，设置关键节点检查。\n价格基础：按工程量清单报价，联合体内部合理分配费用，确保报价竞争力。\n进度视图：制定总进度计划，协调各专业施工，确保按期完工。\n风险应对：识别技术风险，制定专项方案，联合体共同承担风险。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位，这个土建与安装施工包体量不小，坝体加高和防渗系统对施工组织要求高，机电安装还要协调供应商。我们做过轻轨和装修，施工管理和进度控制有底子，但公开数据没显示规模，我怕资源吃紧。联合体投标能分担责任，让业主更放心，但协调成本也高。我建议先评估内部团队和分包资源，看能否独立拿下。请资源部给个团队可用性摘要，确认关键岗位和分包商到位情况。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，关于这个水库扩容的土建与安装施工包，我初步判断我们具备投标的基本条件，但坝体加高和防渗系统安装的技术门槛不低，成本风险也集中在这些专业分项上。单独投标的话，我们的报价必须留足风险预备金，否则容易在业主的成本审查中处于被动。联合体投标能分担技术责任，但协调成本和管理复杂度会上升。我建议先让工程部核实我们过往是否有类似水利或坝体工程的施工记录，这直接决定我们能否独立承担。请工程部提供一份能力确认，我们再定投标策略。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "contractor",
+      "message_type": "opinion",
+      "content": "各位同事，关于这个水库扩容的土建与安装施工包，我有些技术上的顾虑。坝体加高和防渗系统安装属于水利工程，我们过往的轻轨和住宅项目经验并不完全对口，技术风险偏高。虽然我们的施工组织、安全管理和进度控制能力是强项，但缺乏水利专项经验可能影响质量目标和业主审查。我建议考虑联合体投标，引入有水利经验的伙伴来分担技术责任，同时我们负责土建和机电安装。请商务同事评估一下联合体伙伴的资质和合作意向，这直接影响我们能否通过资格预审。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

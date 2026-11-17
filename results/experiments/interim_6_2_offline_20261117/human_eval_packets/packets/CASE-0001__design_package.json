@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0001__design_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-001",
+  "package_role_hint": "design",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "艾奕康作为单一责任主体，管理界面清晰，质量体系完善，风险储备充足，业主审查配合明确，能有效应对地质风险和设计变更，保障设计质量和工期。虽然报价较高，但考虑到项目的重要性和风险控制，选择艾奕康是合理的。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，关于设计包，我认为我们具备投标能力，但需注意地质勘察和MEP协调的专项要求。我们虽有综合甲级资质，但地质勘察可能需要专业分包。若单独投标，需确保团队可用性和质量文档能力满足要求。我建议先评估内部资源，若不足，考虑与地质勘察专业单位组建联合体，以增强技术可信度。请设计管理部提供团队可用性摘要，以便决策。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，我评估后认为本设计包与我们的能力高度匹配，珠江流域经验和综合甲级资质足以支撑独立投标。但需注意地质勘察与堤围加固设计的接口协调，以及施工图与技术规格书的一致性。我建议在投标文件中强化质量方法和文档纪律，明确内部审查和独立检查流程，以弥补公开数据缺口可能带来的业主疑虑。请设计总监确认团队可用性摘要和角色计划，确保资源到位。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，关于设计包投标，我建议先核实我们的地质勘察和MEP协调能力是否足够。公司有珠江流域综合规划经验，但设计包要求紧凑设施协调，需确认团队可用性和质量文档能力。若单独投标，需强化质量审查流程；若联合体，需明确责任划分。请项目经理提供团队可用性摘要，以便评估风险。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，从造价控制角度看，本包范围涵盖地质勘察和施工图设计，变更风险较高，需在报价中预留风险金。公司综合甲级资质和珠江流域经验是优势，但公开数据缺口可能影响评标。若联合体，需明确责任划分，避免造价失控。建议先评估内部团队可用性和成本模型，再决定是否联合。请造价合约部提供成本估算初稿，供决策参考。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位，设计包范围与我们综合甲级能力匹配，地质勘察和施工图设计是我们的强项。但工期紧，需确认团队可用性摘要和角色计划能否支撑。我建议独立投标，避免联合体增加协调负担。请项目经理确认人力安排，确保里程碑可控。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "designer",
+      "message_type": "summary",
+      "content": "各位同事，综合各方意见，我认为本设计包与我们的综合甲级资质和珠江流域经验高度匹配，但地质勘察和MEP协调是专项短板。若独立投标，需确保内部团队可用性和质量文档能力足以支撑，否则建议与地质勘察专业单位组建联合体，以增强技术可信度并明确责任划分。请设计管理部提供团队可用性摘要，确认能否在工期内完成地质勘察和施工图设计，这将决定我们是否独立投标或组建联合体。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "designer",
+      "message_type": "decision",
+      "content": "管理决策说明：\n\n经内部讨论，本设计包与公司综合甲级资质和珠江流域经验高度匹配，但地质勘察和MEP协调能力存在短板。为增强技术可信度并明确责任划分，决定与地质勘察专业单位组建联合体投标。联合体将共享设计责任，我方作为设计主导，负责整体设计协调、施工图设计和技术规格书编制，联合体成员负责地质勘察专项。投标文件将强化团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对，重点展示联合体的技术互补性和管理协调机制。通过联合体模式，我们能够满足业主对完整设计责任的要求，同时控制风险，确保项目顺利交付。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，关于设计包，我认为我们具备单独投标的能力，澳门轻轨东线等经验足以支撑设计协调和业主审查。地质勘察和MEP协调可通过分包解决，无需组成联合体。但公开数据缺口可能影响评标，建议市场部在投标文件中补充团队规模等证据，以增强可信度。请市场部确认能否在下次会议前提供相关数据。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}
