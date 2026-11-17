@@ -63,10 +63,17 @@
     "title": "规模匹配hit@1基线"
   },
   {
+    "id": "provider_compare_qwen",
+    "path": "results/experiments/provider_compare_qwen_20261117/README.md",
+    "purpose": "DeepSeek对照Qwen3.5-Flash（DashScope）第二提供商；默认dry-run；thinking关闭",
+    "available": true,
+    "title": "Provider-compare Qwen3.5-Flash"
+  },
+  {
     "id": "provider_compare_groq",
     "path": "results/experiments/provider_compare_groq_20261117/README.md",
-    "purpose": "DeepSeek对照Groq/Llama便宜第二提供商的执行入口与协议；默认dry-run",
+    "purpose": "可选DeepSeek对照Groq/Llama便宜提供商；保留不替换Qwen主对照",
     "available": true,
-    "title": "Provider-compare Groq/Llama"
+    "title": "Provider-compare Groq/Llama (optional)"
   }
 ]

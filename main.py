@@ -90,7 +90,7 @@ def parse_args() -> argparse.Namespace:
         "--llm-provider",
         default="",
         help=(
-            "Override LLM_PROVIDER for this run (deepseek, groq, openai, or other "
+            "Override LLM_PROVIDER for this run (deepseek, qwen, groq, openai, or other "
             "OpenAI-compatible id). Empty keeps the environment default."
         ),
     )

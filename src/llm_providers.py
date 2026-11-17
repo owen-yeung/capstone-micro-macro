@@ -24,11 +24,21 @@ PROVIDER_SPECS: dict[str, dict[str, str]] = {
         "default_model": "deepseek-chat",
         "default_base_url": "https://api.deepseek.com/v1",
     },
+    "qwen": {
+        # DashScope OpenAI-compatible endpoint (Alibaba Cloud Model Studio).
+        "api_key_env": "DASHSCOPE_API_KEY",
+        "api_key_env_alt": "QWEN_API_KEY",
+        "model_env": "QWEN_MODEL",
+        "base_url_env": "QWEN_BASE_URL",
+        # Interim §6.2 second provider: Qwen3.5-Flash (hybrid thinking; disable in client).
+        "default_model": "qwen3.5-flash",
+        "default_base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    },
     "groq": {
         "api_key_env": "GROQ_API_KEY",
         "model_env": "GROQ_MODEL",
         "base_url_env": "GROQ_BASE_URL",
-        # Cheap default for provider-compare; override with llama-3.3-70b-versatile if needed.
+        # Optional cheap alternative; override with llama-3.3-70b-versatile if needed.
         "default_model": "llama-3.1-8b-instant",
         "default_base_url": "https://api.groq.com/openai/v1",
     },
@@ -90,9 +100,14 @@ def resolve_provider_config(
     if selected_provider in PROVIDER_SPECS:
         spec = PROVIDER_SPECS[selected_provider]
         api_key = os.getenv(spec["api_key_env"], "").strip()
+        if not api_key and spec.get("api_key_env_alt"):
+            api_key = os.getenv(spec["api_key_env_alt"], "").strip()
         if not api_key:
+            alts = [spec["api_key_env"]]
+            if spec.get("api_key_env_alt"):
+                alts.append(spec["api_key_env_alt"])
             raise RuntimeError(
-                f"{spec['api_key_env']} is required for LLM_PROVIDER={selected_provider}. "
+                f"{' or '.join(alts)} is required for LLM_PROVIDER={selected_provider}. "
                 "Set it in .env or the shell environment."
             )
         return LLMConfig(

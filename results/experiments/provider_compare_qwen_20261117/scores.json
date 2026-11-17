@@ -1,0 +1,24 @@
+[
+  {
+    "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_qwen_20261117/qwen__qwen3.5-flash__seed1",
+    "cases_root": "/agent/repos/capstone-micro-macro/runs/provider_compare_qwen_20261117/qwen__qwen3.5-flash__seed1/batch_20261117_154641_000119/cases",
+    "hits": 0,
+    "denominator": 3,
+    "hit_rate": 0.0,
+    "size_matched_baseline": 0.47222222222222227,
+    "by_role": {
+      "contractor": {
+        "hit_rate": 0.0,
+        "size_matched_baseline": 0.75
+      },
+      "designer": {
+        "hit_rate": 0.0,
+        "size_matched_baseline": 0.33333333333333337
+      },
+      "supervisor": {
+        "hit_rate": 0.0,
+        "size_matched_baseline": 0.33333333333333337
+      }
+    }
+  }
+]

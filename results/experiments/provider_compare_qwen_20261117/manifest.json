@@ -1,0 +1,85 @@
+{
+  "experiment_id": "provider_compare_qwen_20261117",
+  "created_at": "2026-11-17T15:46:40+00:00",
+  "protocol": {
+    "cases": "frozen interim 28 via config_final28.json",
+    "ablation": "none",
+    "temperature": 0.2,
+    "seeds": 1,
+    "profile": "smoke",
+    "reporting": "size-matched hit@1 per provider/seed; never merge providers",
+    "qwen_thinking": "disabled via enable_thinking=false"
+  },
+  "arms": [
+    {
+      "provider": "qwen",
+      "model": "qwen3.5-flash",
+      "role": "second_provider"
+    }
+  ],
+  "execute": true,
+  "score_only": false,
+  "status": "completed",
+  "runs": [
+    {
+      "provider": "qwen",
+      "model": "qwen3.5-flash",
+      "role": "second_provider",
+      "seed": 1,
+      "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_qwen_20261117/qwen__qwen3.5-flash__seed1",
+      "command": [
+        "/usr/bin/python3",
+        "/agent/repos/capstone-micro-macro/main.py",
+        "--mode",
+        "case",
+        "--run-scope",
+        "batch",
+        "--config",
+        "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/config_final28.json",
+        "--profile",
+        "smoke",
+        "--ablation",
+        "none",
+        "--llm-provider",
+        "qwen",
+        "--llm-model",
+        "qwen3.5-flash",
+        "--output-dir",
+        "/agent/repos/capstone-micro-macro/runs/provider_compare_qwen_20261117/qwen__qwen3.5-flash__seed1",
+        "--max-cases",
+        "1"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "notes": [
+    "Qwen3.5-Flash is the second provider (DashScope OpenAI-compatible).",
+    "DeepSeek remains the reference arm.",
+    "Dry-run is the default. --execute requires API keys and authorized spend."
+  ],
+  "failures": [],
+  "scores": [
+    {
+      "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_qwen_20261117/qwen__qwen3.5-flash__seed1",
+      "cases_root": "/agent/repos/capstone-micro-macro/runs/provider_compare_qwen_20261117/qwen__qwen3.5-flash__seed1/batch_20261117_154641_000119/cases",
+      "hits": 0,
+      "denominator": 3,
+      "hit_rate": 0.0,
+      "size_matched_baseline": 0.47222222222222227,
+      "by_role": {
+        "contractor": {
+          "hit_rate": 0.0,
+          "size_matched_baseline": 0.75
+        },
+        "designer": {
+          "hit_rate": 0.0,
+          "size_matched_baseline": 0.33333333333333337
+        },
+        "supervisor": {
+          "hit_rate": 0.0,
+          "size_matched_baseline": 0.33333333333333337
+        }
+      }
+    }
+  ]
+}

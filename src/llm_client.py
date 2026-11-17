@@ -89,7 +89,11 @@ class OpenAICompatibleClient:
             "response_format": {"type": "json_object"},
         }
         if self.config.provider == "deepseek":
+            # DeepSeek thinking mode must stay off for structured JSON contracts.
             kwargs["extra_body"] = {"thinking": {"type": "disabled"}}
+        elif self.config.provider == "qwen" or self.config.model.lower().startswith("qwen3.5"):
+            # Qwen3.5 Flash/Plus enable thinking by default; disable for JSON tendering calls.
+            kwargs["extra_body"] = {"enable_thinking": False}
         return kwargs
 
     @staticmethod
