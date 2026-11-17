@@ -1,0 +1,29 @@
+{
+  "rubric_version": "behavioral_plausibility_v1",
+  "case_id": "CASE-0006",
+  "package_id": "design_package",
+  "rater_id": "raterA",
+  "artifact_paths": [
+    "results/experiments/interim_6_2_offline_20261117/human_eval_packets/packets/CASE-0006__design_package.json"
+  ],
+  "scores": {
+    "BP1": null,
+    "BP2": null,
+    "BP3": null,
+    "BP4": null,
+    "BP5": null
+  },
+  "rationales": {
+    "BP1": "",
+    "BP2": "",
+    "BP3": "",
+    "BP4": "",
+    "BP5": ""
+  },
+  "overall_notes": "",
+  "claims_forbidden": [
+    "Not independent external expert validation until raters are independent humans.",
+    "Not inter-rater reliability until >=2 human raters complete the same blinded packets."
+  ],
+  "packet_id": "CASE-0006__design_package"
+}

@@ -1,0 +1,134 @@
+{
+  "benchmark_rows": 499,
+  "benchmark_fields": {
+    "contract_amount": {
+      "nonempty_rows": 126,
+      "distinct_projects": 68,
+      "comparable_now": false,
+      "blocker": "Units, currency, contract scope, and package alignment are not yet confirmed.",
+      "samples": [
+        {
+          "case_id": "CASE-0001",
+          "company_id": "COMP-0472",
+          "value": "澳币365,000,000元",
+          "role": "施工/总承包"
+        },
+        {
+          "case_id": "CASE-0001",
+          "company_id": "COMP-0473",
+          "value": "澳币365,000,000元",
+          "role": "施工/总承包"
+        },
+        {
+          "case_id": "CASE-0001",
+          "company_id": "COMP-0489",
+          "value": "澳币365,000,000元",
+          "role": "施工/总承包"
+        },
+        {
+          "case_id": "CASE-0001",
+          "company_id": "COMP-0453",
+          "value": "澳币1,248,000元",
+          "role": "检测/质量控制"
+        },
+        {
+          "case_id": "CASE-0002",
+          "company_id": "COMP-0467",
+          "value": "澳币8,480,000元",
+          "role": "研究"
+        }
+      ]
+    },
+    "contract_duration": {
+      "nonempty_rows": 98,
+      "distinct_projects": 61,
+      "comparable_now": false,
+      "blocker": "Units, currency, contract scope, and package alignment are not yet confirmed.",
+      "samples": [
+        {
+          "case_id": "CASE-0001",
+          "company_id": "COMP-0472",
+          "value": "285个工作日",
+          "role": "施工/总承包"
+        },
+        {
+          "case_id": "CASE-0001",
+          "company_id": "COMP-0473",
+          "value": "285个工作日",
+          "role": "施工/总承包"
+        },
+        {
+          "case_id": "CASE-0001",
+          "company_id": "COMP-0489",
+          "value": "285个工作日",
+          "role": "施工/总承包"
+        },
+        {
+          "case_id": "CASE-0001",
+          "company_id": "COMP-0453",
+          "value": "360天",
+          "role": "检测/质量控制"
+        },
+        {
+          "case_id": "CASE-0002",
+          "company_id": "COMP-0467",
+          "value": "90天",
+          "role": "研究"
+        }
+      ]
+    },
+    "actual_duration": {
+      "nonempty_rows": 66,
+      "distinct_projects": 47,
+      "comparable_now": false,
+      "blocker": "Units, currency, contract scope, and package alignment are not yet confirmed.",
+      "samples": [
+        {
+          "case_id": "CASE-0024",
+          "company_id": "COMP-0118",
+          "value": "2009 至 2018",
+          "role": "咨询/顾问"
+        },
+        {
+          "case_id": "CASE-0029",
+          "company_id": "COMP-0789",
+          "value": "1996 至 1998",
+          "role": "设计"
+        },
+        {
+          "case_id": "CASE-0033",
+          "company_id": "COMP-0660",
+          "value": "2012 至 2019",
+          "role": "咨询/顾问"
+        },
+        {
+          "case_id": "CASE-0137",
+          "company_id": "COMP-0066",
+          "value": "213天",
+          "role": "施工/总承包"
+        },
+        {
+          "case_id": "CASE-0138",
+          "company_id": "COMP-0066",
+          "value": "395天",
+          "role": "施工/总承包"
+        }
+      ]
+    }
+  },
+  "frozen_28_sim_bids": {
+    "bid_count": 295,
+    "quotation_parsed": 295,
+    "schedule_months_parsed": 200,
+    "parse_failures": {
+      "schedule": 95
+    }
+  },
+  "validation_status": "blocked_pending_benchmark_field_confirmation",
+  "next_required_checks": [
+    "Confirm currency and amount unit for contract_amount vs simulated quotation",
+    "Confirm whether contract_duration is calendar months and package-scoped",
+    "Join only same case + same role/package; do not compare whole-project totals to package bids",
+    "Exclude rows marked 无法获取 or otherwise non-numeric"
+  ]
+}

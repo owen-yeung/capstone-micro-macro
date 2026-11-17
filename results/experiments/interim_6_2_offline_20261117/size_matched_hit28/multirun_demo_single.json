@@ -1,0 +1,63 @@
+{
+  "runs": [
+    {
+      "run_root": "validation/benchmark_ge3_compact/results/final_28_20260817/cases",
+      "overall": {
+        "hits": 46,
+        "denominator": 71,
+        "hit_rate": 0.647887323943662,
+        "mean_size_matched_baseline": 0.5762910798122066,
+        "mean_naive_single_draw_baseline": 0.47183098591549294,
+        "margin_vs_size_matched": 0.07159624413145538
+      },
+      "by_role": {
+        "contractor": {
+          "hits": 14,
+          "denominator": 26,
+          "hit_rate": 0.5384615384615384,
+          "mean_size_matched_baseline": 0.5224358974358975,
+          "mean_naive_single_draw_baseline": 0.40384615384615385,
+          "margin_vs_size_matched": 0.01602564102564097
+        },
+        "designer": {
+          "hits": 17,
+          "denominator": 21,
+          "hit_rate": 0.8095238095238095,
+          "mean_size_matched_baseline": 0.6507936507936508,
+          "mean_naive_single_draw_baseline": 0.47619047619047616,
+          "margin_vs_size_matched": 0.15873015873015872
+        },
+        "supervisor": {
+          "hits": 15,
+          "denominator": 22,
+          "hit_rate": 0.6818181818181818,
+          "mean_size_matched_baseline": 0.5909090909090909,
+          "mean_naive_single_draw_baseline": 0.5606060606060606,
+          "margin_vs_size_matched": 0.09090909090909083
+        },
+        "supplier": {
+          "hits": 0,
+          "denominator": 2,
+          "hit_rate": 0.0,
+          "mean_size_matched_baseline": 0.33333333333333337,
+          "mean_naive_single_draw_baseline": 0.3333333333333333,
+          "margin_vs_size_matched": -0.33333333333333337
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "hit_rate": {
+      "n": 1,
+      "mean": 0.647887323943662,
+      "sd": 0.0
+    },
+    "size_matched_baseline": {
+      "n": 1,
+      "mean": 0.5762910798122066,
+      "sd": 0.0
+    },
+    "n_runs": 1
+  },
+  "note": "Interim §5.5/§6.2 asks for 3–5 repeats with mean and SD. This script only aggregates existing offline archives."
+}

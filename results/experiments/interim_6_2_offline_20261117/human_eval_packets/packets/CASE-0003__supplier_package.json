@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0003__supplier_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-010",
+  "package_role_hint": "supplier",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "深圳华西报价虽为最高，但风险金和售后支持充足，责任界定清晰，技术方案完整，明确安装接口责任由总承包商承担，分包管理方案清晰，质量文档和售后支持计划详细，价格可信度较高。其报价在预算范围内，符合业主对供应质量和责任追溯的要求。武船重工报价最低，但分包管理费预留不足，可能影响交付质量；安徽富煌报价居中，但分包管理费偏低，存在类似风险。因此，选择深圳华西作为判给对象，以降低履约风险，确保供应质量。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "各位同事，此供应包以设备材料为主，我们具备供应协调、质量文档和售后支持能力，可单独投标。但安装接口信息需与承包商紧密配合，建议在投标中明确我方责任至交付和文档，安装由承包商负责。请商务确认报价含全生命周期成本，避免后期争议。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "我建议投标，但必须把质量文件作为核心承诺。我们具备境外工程经验，能提供完整质量文档和售后支持。需确认团队可用性和质量计划，确保符合规范。请商务同事核实价格基础，避免因数据缺口影响评标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "各位同事，这个供应包范围较广，包含防渗材料、监测系统和水处理设备，我们公司在钢结构领域有优势，但水处理设备并非强项，可能影响成本控制。建议单独投标，但需在合同中明确安装接口责任，避免与承包商产生纠纷。请技术部门评估设备适配性，确认能否满足质量要求。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "这个供应包以设备材料供应为主，我们具备供应协调、质量文件和售后支持能力，可以单独投标。但防渗材料和监测系统的技术规格需与设计图纸核对，确保产品匹配。安装接口信息必须清晰提供给承包商，避免后续责任纠纷。建议先确认产品清单和设计文件，再决定报价。请设计部提供详细技术规格，以便评估可行性。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "我认为可以单独投标，但必须明确供应范围与安装接口，避免责任模糊。公司有境外工程经验，供应协调和质量文档能力是优势，但公开数据缺口可能让业主疑虑。建议在投标中突出团队可用性和交付方法，并明确保修与售后支持。请商务部门确认价格基础是否覆盖全生命周期成本，以增强竞争力。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "我认为可以单独投标，因为公司具备供应协调和质量文件能力，能承担文档与售后责任。但需注意公开数据缺口可能影响资格评审，建议先核实团队可用性和交付方法，确保文档规范。请商务同事确认价格基础是否覆盖全生命周期成本。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "supplier",
+      "message_type": "summary",
+      "content": "各位同事，供应包以设备材料为主，我们具备供应协调、质量文档和售后支持能力，可单独投标。但水处理设备非强项，需技术部门确认适配性，并明确安装接口责任由承包商承担。请商务确认报价含全生命周期成本，避免后期争议。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "supplier",
+      "message_type": "decision",
+      "content": "投标方案：\n\n1. 团队可用性摘要：\n   我们拥有590人的团队，其中供应协调、质量管理和文档控制人员充足，可确保供应包的高效执行。关键岗位人员如项目总监、质量经理、商务经理等均有境外工程经验，能够满足项目需求。\n\n2. 角色计划：\n   - 项目总监：负责整体协调和客户沟通。\n   - 质量经理：负责质量文档和合规性。\n   - 商务经理：负责报价和合同管理。\n   - 供应协调专员：负责供应链管理和物流。\n   - 文档控制员：负责文档管理和交付。\n   - 设计协调工程师：负责技术规格核对和接口信息提供。\n\n3. 交付方法：\n   我们将采用分阶段交付方式，确保设备材料按时到达。与承包商紧密配合，提供安装接口信息，并明确安装责任由承包商承担。\n\n4. 质量方法：\n   我们将提供完整的质量文档，包括产品合格证、检测报告和合规证书。建立质量审查流程，确保所有产品符合规范。\n\n5. 价格基础：\n   报价基于产品清单，包含交付、保修和售后支持费用。我们将进行全生命周期成本分析，确保价格具有竞争力。\n\n6. 进度视图：\n   制定详细的时间表，包括采购、生产、检验、运输和交付节点。定…"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

@@ -1,0 +1,195 @@
+{
+  "experiment_id": "provider_compare_groq_20261117",
+  "created_at": "2026-11-17T15:18:49+00:00",
+  "protocol": {
+    "cases": "frozen interim 28 via config_final28.json",
+    "ablation": "none",
+    "temperature": 0.2,
+    "seeds": 3,
+    "profile": "full",
+    "reporting": "size-matched hit@1 per provider/seed; never merge providers"
+  },
+  "arms": [
+    {
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "role": "reference"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant",
+      "role": "cheap_second_provider"
+    }
+  ],
+  "execute": false,
+  "score_only": false,
+  "status": "planned",
+  "runs": [
+    {
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "role": "reference",
+      "seed": 1,
+      "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/deepseek__deepseek-chat__seed1",
+      "command": [
+        "/usr/bin/python3",
+        "/agent/repos/capstone-micro-macro/main.py",
+        "--mode",
+        "case",
+        "--run-scope",
+        "batch",
+        "--config",
+        "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/config_final28.json",
+        "--profile",
+        "full",
+        "--ablation",
+        "none",
+        "--llm-provider",
+        "deepseek",
+        "--llm-model",
+        "deepseek-chat",
+        "--output-dir",
+        "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/deepseek__deepseek-chat__seed1"
+      ]
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "role": "reference",
+      "seed": 2,
+      "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/deepseek__deepseek-chat__seed2",
+      "command": [
+        "/usr/bin/python3",
+        "/agent/repos/capstone-micro-macro/main.py",
+        "--mode",
+        "case",
+        "--run-scope",
+        "batch",
+        "--config",
+        "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/config_final28.json",
+        "--profile",
+        "full",
+        "--ablation",
+        "none",
+        "--llm-provider",
+        "deepseek",
+        "--llm-model",
+        "deepseek-chat",
+        "--output-dir",
+        "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/deepseek__deepseek-chat__seed2"
+      ]
+    },
+    {
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "role": "reference",
+      "seed": 3,
+      "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/deepseek__deepseek-chat__seed3",
+      "command": [
+        "/usr/bin/python3",
+        "/agent/repos/capstone-micro-macro/main.py",
+        "--mode",
+        "case",
+        "--run-scope",
+        "batch",
+        "--config",
+        "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/config_final28.json",
+        "--profile",
+        "full",
+        "--ablation",
+        "none",
+        "--llm-provider",
+        "deepseek",
+        "--llm-model",
+        "deepseek-chat",
+        "--output-dir",
+        "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/deepseek__deepseek-chat__seed3"
+      ]
+    },
+    {
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant",
+      "role": "cheap_second_provider",
+      "seed": 1,
+      "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/groq__llama-3.1-8b-instant__seed1",
+      "command": [
+        "/usr/bin/python3",
+        "/agent/repos/capstone-micro-macro/main.py",
+        "--mode",
+        "case",
+        "--run-scope",
+        "batch",
+        "--config",
+        "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/config_final28.json",
+        "--profile",
+        "full",
+        "--ablation",
+        "none",
+        "--llm-provider",
+        "groq",
+        "--llm-model",
+        "llama-3.1-8b-instant",
+        "--output-dir",
+        "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/groq__llama-3.1-8b-instant__seed1"
+      ]
+    },
+    {
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant",
+      "role": "cheap_second_provider",
+      "seed": 2,
+      "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/groq__llama-3.1-8b-instant__seed2",
+      "command": [
+        "/usr/bin/python3",
+        "/agent/repos/capstone-micro-macro/main.py",
+        "--mode",
+        "case",
+        "--run-scope",
+        "batch",
+        "--config",
+        "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/config_final28.json",
+        "--profile",
+        "full",
+        "--ablation",
+        "none",
+        "--llm-provider",
+        "groq",
+        "--llm-model",
+        "llama-3.1-8b-instant",
+        "--output-dir",
+        "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/groq__llama-3.1-8b-instant__seed2"
+      ]
+    },
+    {
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant",
+      "role": "cheap_second_provider",
+      "seed": 3,
+      "run_dir": "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/groq__llama-3.1-8b-instant__seed3",
+      "command": [
+        "/usr/bin/python3",
+        "/agent/repos/capstone-micro-macro/main.py",
+        "--mode",
+        "case",
+        "--run-scope",
+        "batch",
+        "--config",
+        "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/config_final28.json",
+        "--profile",
+        "full",
+        "--ablation",
+        "none",
+        "--llm-provider",
+        "groq",
+        "--llm-model",
+        "llama-3.1-8b-instant",
+        "--output-dir",
+        "/agent/repos/capstone-micro-macro/runs/provider_compare_groq_20261117/groq__llama-3.1-8b-instant__seed3"
+      ]
+    }
+  ],
+  "notes": [
+    "Groq is the cheap second provider (Llama). DeepSeek remains the reference arm.",
+    "Dry-run is the default. --execute requires API keys and authorized spend."
+  ]
+}

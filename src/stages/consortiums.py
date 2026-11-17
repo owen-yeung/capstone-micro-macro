@@ -23,6 +23,10 @@ async def form_consortiums(state: SimulationState, runtime: AgentRuntime) -> Non
         package = package_by_id(state, decision.package_id)
         candidates = _candidate_partners(state, lead.company_id, package.package_id, package.required_company_role)
         progress_log(f"consortium {lead.company_id}/{package.package_id}: start with {len(candidates)} candidate partners")
+        # A2: form consortia by deterministic rule without negotiation discussion.
+        if runtime.ablation.rule_consortium_no_negotiation:
+            _form_rule_consortium(state, lead, package, candidates)
+            continue
         for company in [lead, *candidates]:
             progress_log(f"consortium {package.package_id}: discussion with {company.company_id}")
             try:
@@ -35,7 +39,13 @@ async def form_consortiums(state: SimulationState, runtime: AgentRuntime) -> Non
                     [(1, "consortium_need_statement"), (2, "partner_response"), (3, "consortium_agreement")],
                     f"Companies consider a consortium for {package.package_name}.\nOwn documented profile:\n{_company_block(company)}\n"
                     + evidence_context(conditions(state, company.company_id, package.package_id)),
-                    company_package_memory(state, company.company_id, package.package_id, {"bid_participation_decision"}),
+                    company_package_memory(
+                        state,
+                        company.company_id,
+                        package.package_id,
+                        {"bid_participation_decision"},
+                        disabled=runtime.ablation.no_cross_stage_memory,
+                    ),
                 )
             except Exception as exc:
                 runtime.record_recovery(
@@ -104,6 +114,46 @@ async def form_consortiums(state: SimulationState, runtime: AgentRuntime) -> Non
         state.consortiums.append(consortium)
         log_event(state, "consortium_formed", {"consortium_id": consortium.consortium_id, "package_id": consortium.package_id})
         progress_log(f"consortium {consortium.consortium_id}: formed with {len(member_ids)} members")
+
+
+def _form_rule_consortium(
+    state: SimulationState,
+    lead: Company,
+    package: TenderPackage,
+    candidates: list[Company],
+) -> None:
+    """A2 deterministic formation: lead + first unused willing partner, no negotiation."""
+    partner = next((company for company in candidates if not _already_in_consortium(state, company.company_id, package.package_id)), None)
+    if partner is None:
+        log_event(
+            state,
+            "consortium_not_formed",
+            {"company_id": lead.company_id, "package_id": package.package_id, "ablation": "A2", "reason": "no_partner"},
+        )
+        progress_log(f"consortium {lead.company_id}/{package.package_id}: A2 rule path not formed (no partner)")
+        return
+    member_ids = [lead.company_id, partner.company_id]
+    consortium = Consortium(
+        f"consortium_{package.package_id}_{_next_consortium_no(state, package.package_id):03d}",
+        f"{lead.company_name}-{partner.company_name}联合体",
+        package.package_id,
+        lead.company_id,
+        member_ids,
+        "Ablation A2 rule formation without negotiation: first available willing partner paired with lead.",
+        {
+            lead.company_id: "Lead bidder; overall package accountability",
+            partner.company_id: "Supporting partner under lead coordination",
+        },
+        "Rule-formed consortium for ablation A2; no negotiated role split.",
+        "formed",
+    )
+    state.consortiums.append(consortium)
+    log_event(
+        state,
+        "consortium_formed",
+        {"consortium_id": consortium.consortium_id, "package_id": consortium.package_id, "ablation": "A2"},
+    )
+    progress_log(f"consortium {consortium.consortium_id}: A2 rule-formed with {len(member_ids)} members")
 
 
 def _require_consortium_response(data: dict) -> None:

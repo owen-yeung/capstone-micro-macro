@@ -14,5 +14,7 @@ Selected cases:
 
 Current consumers:
 
-- `scripts/compute_direct_hit28_20260817.py`
-- `scripts/build_experiment_ppt_20260817.py`
+- `scripts/compute_direct_hit28_20260817.py` (restored; offline size-matched hit@1 / Formula 6)
+- Frozen recomputation: `results/experiments/interim_6_2_offline_20261117/size_matched_hit28/`
+- `scripts/build_human_eval_packets_28.py` (behavioral plausibility blanks)
+- `scripts/build_experiment_ppt_20260817.py` (referenced historically; may be absent)

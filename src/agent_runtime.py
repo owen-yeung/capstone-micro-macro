@@ -7,6 +7,7 @@ from typing import Any, Callable
 
 from langchain_core.messages import HumanMessage, SystemMessage
 
+from src.ablation import AblationConfig
 from src.agent_message_contracts import require_agent_message
 from src.discussion_participants import round_participants
 from src.json_contract import with_json_contract
@@ -34,9 +35,11 @@ class AgentRuntime:
         company_grounding: bool = False,
         company_narrative_grounding: bool = False,
         task_role_grounding: bool = False,
+        ablation: AblationConfig | None = None,
     ):
         self.llm = llm_client
         self.profile = profile
+        self.ablation = ablation or AblationConfig.disabled()
         self.message_counter = 0
         self.throttle = LLMThrottle()
         self.audit_logger = audit_logger
@@ -60,7 +63,8 @@ class AgentRuntime:
         clone = AgentRuntime(self.llm, profile=self.profile, audit_logger=self.audit_logger,
                              company_grounding=self.company_grounding,
                              company_narrative_grounding=self.company_narrative_grounding,
-                             task_role_grounding=self.task_role_grounding)
+                             task_role_grounding=self.task_role_grounding,
+                             ablation=self.ablation)
         clone.throttle = self.throttle
         clone.recovery_events = self.recovery_events
         clone.response_attempts = self.response_attempts
@@ -336,7 +340,12 @@ class AgentRuntime:
         active_rounds = rounds[: min(2, len(rounds))] if self.profile == "smoke" else rounds
         for round_no, round_type in active_rounds:
             is_summary_round = round_no == active_rounds[-1][0]
-            participants = round_participants(agents, self.profile, is_summary_round)
+            participants = round_participants(
+                agents,
+                self.profile,
+                is_summary_round,
+                single_agent_firm=self.ablation.single_agent_firm,
+            )
             inputs = [(agent, previous[-6:], _agent_memory(memory_messages, agent)) for agent in participants]
             progress_log(
                 f"discussion {stage}: round {round_no} {round_type}, "

@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0004__design_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-013",
+  "package_role_hint": "design",
+  "award_excerpt": {
+    "bidder_type": "consortium",
+    "decision_reason": "Pengest-廣州地鐵-陳浩軍聯合設計體是唯一投标者，技术方案在岩土专项和独立审核方面符合项目需求，责任分工清晰，施工期现场支持明确。虽然风险预备金和联合体协调费用偏低，但通过判给前澄清可强化风险管控，且无其他可行替代方案。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位，这个设计包涵盖地库支护和邻近建筑物保护，岩土专项能力是关键缺口。我们虽有设计协调和业主审查优势，但单独投标在岩土设计上缺乏说服力。我建议与一家有岩土资质的顾问组成联合体，以补足能力并分担责任。请岩土顾问确认其团队可用性和联合体意向，这决定我们能否在评标中展现完整交付能力。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计服务包包含地质勘察解读、支护方案和邻近建筑物保护设计，这些超出我们建筑设计核心能力。单独投标的话，技术风险较高，业主审查可能质疑我们的地质和结构协调能力。我建议考虑组合体投标，引入岩土和结构专业顾问，但需明确责任划分和文档纪律。请工程总监确认是否有可靠的地质勘察合作伙伴，以便我们评估组合体的可行性。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计包包含地质勘察解读和支护方案，我们公司目前没有岩土专业团队，单独投标在技术可行性和风险应对上都不够扎实。我建议考虑联合体，引入有岩土资质的顾问作为正式伙伴，而不是普通分包，因为支护设计直接影响结构安全和成本。请市场部同事确认一下，是否有岩土顾问愿意以联合体身份参与，并明确责任划分和费用分配。这决定我们能否在技术审查和价格上站得住脚。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个设计服务包包含地质勘察解读、支护方案和邻近建筑物保护设计，明显超出我们建筑设计核心能力。单独投标在技术审查和风险应对上都不够扎实，我担心评标时会被质疑专业完整性。我建议考虑与一家有岩土工程资质的公司组成联合体，这样能补足缺失的岩土设计能力，也让业主看到我们对邻近建筑物保护和公共通道临时设计的完整责任承担。请岩土专业同事确认是否有合适伙伴愿意加入，并评估联合体模式下的工期和报价影响。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，我审阅了设计服务包的范围，发现地质勘察解读、支护方案和邻近建筑物保护设计超出了我们常规的建筑设计能力。虽然我们有设计协调和业主审查提交的优势，但缺乏岩土和结构专业深度，单独投标可能无法满足质量目标。我建议考虑联合体投标，引入具备岩土和结构资质的专业公司，以补足能力缺口。但联合体必须明确质量责任划分和独立审核机制，否则质量风险会转移。请市场部评估潜在联合体伙伴的资质和合作意愿，并反馈其质量体系情况。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "designer",
+      "message_type": "summary",
+      "content": "各位，我同意团队看法，岩土设计能力是我们单独投标的硬伤。但联合体不是简单找分包，而是要真正补足缺失的岩土专业责任。我建议市场部先确认一家有岩土资质的顾问是否愿意以联合体身份参与，并明确责任划分和费用分配。如果对方有意向，我们才能评估联合体在技术审查和报价上的竞争力。请市场部反馈这个意向，这决定我们能否在评标中展现完整交付能力。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "designer",
+      "message_type": "decision",
+      "content": "我司拟与一家具备岩土工程资质的顾问公司组成联合体，共同投标设计服务包。联合体将明确分工：我司负责建筑设计、设计协调、业主审查提交及公共通道临时设计；岩土伙伴负责地质勘察报告解读、支护方案设计、邻近建筑物保护设计及施工期间现场岩土支持。双方共享投标身份和交付责任，建立联合体管理架构，明确质量责任划分和独立审核机制。我司将提供团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对，确保联合体方案在技术审查和报价上具有竞争力。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位，这个设计包工期紧，接口复杂，尤其是地质勘察解读和支护方案，直接影响后续施工。我们设计协调和业主审查提交能力是强项，但独立投标要确认团队能否覆盖地质专业深度，否则审查周期会拖累进度。我建议先评估内部地质和结构人力，若不足，考虑与有地质勘察资质的单位组合体投标，共享责任更稳。请质量负责人确认团队可用性摘要和角色计划能否支撑。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

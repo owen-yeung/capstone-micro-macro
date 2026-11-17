@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0001__supervision_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-004",
+  "package_role_hint": "supervision",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "PAL 亞洲顧問有限公司的报价为MOP 2,060,000，在技术方案、成本合理性和业主控制响应上表现最佳。其团队配置完整，覆盖土木及机电专业，报告和升级机制明确，文档管理纪律强，风险应对金预留合理，能确保监管深度满足堤围加固工程约500米、地质复杂的工期和质量目标。布法蘭报价最低但存在监管缩水风险，凱諦思报价最高但性价比不足。因此，判给PAL，预合同澄清聚焦于人员配置表中全工期驻场和独立检查权的具体条款，以确保监管承诺可执行。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，我建议我们独立投标监管服务包。我们的团队拥有澳门国际机场、轻轨等大型项目的监察经验，150多名同事足以覆盖现场监督和质量审查需求。公开数据缺口虽存在，但可通过详细的团队可用性摘要和角色计划弥补。我们需在标书中明确交付方法、质量方法和风险应对，特别是独立现场监督和业主升级流程。请商务团队确认价格基础，按人月计费更灵活。下一步请准备团队可用性摘要，确保人员配置满足工期要求。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，关于监管服务包，我认为我们具备独立投标的能力，但必须正视公开数据缺口可能带来的信任问题。我们的ISO 9001体系和澳门公共项目经验是优势，但业主可能质疑我们的财务透明度。建议在标书中强化质量方法和独立检查流程，并附上团队可用性摘要以证明资源充足。若联合体，需明确责任划分，避免质量责任模糊。请商务团队评估联合体伙伴的资质，确保其质量记录与我们匹配。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，这个监管服务包的核心是独立现场监督和报告纪律，我们公司有澳门机场、轻轨等大型项目经验，ISO认证也齐全，独立投标在能力上没问题。但业主可能担心单一企业的财务稳定性，因为公开数据缺收入利润。我建议先确认团队可用性摘要，特别是驻地工程师和质检人员的排班，确保能覆盖工期。如果人手紧张，再考虑组合体，但组合体会增加协调成本，可能拖慢现场决策。请商务部门先评估报价基础，按人月计费更灵活，能匹配现场实际投入。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，我初步评估认为我们具备独立投标的能力，但需注意成本回收与支付风险。该监管服务包要求独立现场监督、质量审查和报告能力，我们拥有澳门国际机场、轻轨等项目的丰富经验，团队150多人，可满足人员配置。然而，公开数据缺口可能影响业主对财务稳健性的评估，建议在投标文件中强调我们的项目业绩和质量管理体系。报价方面，建议采用按人月计费，以降低固定费用风险。请合约部同事核实过往类似项目的成本数据，确保报价具有竞争力且覆盖成本。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，我建议我们单独投标监管服务包。我们公司在澳门公共项目上有丰富经验，如澳门国际机场和轻轨项目，具备独立现场监察和质量审查能力。但公开数据缺口可能影响评标，需在标书中强调团队可用性和质量方法。请商务团队确认价格基础，确保固定费用或按人月计费合理。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supervisor",
+      "message_type": "opinion",
+      "content": "各位同事，从文档控制角度看，我们具备独立投标的能力，但必须确保投标文件完整且可追溯。公司有150多名同事，拥有澳门国际机场、轻轨等代表项目经验，独立监督和质量审查能力有保障。然而，公开数据缺口可能影响资格预审，建议在投标文件中补充团队可用性摘要和角色计划，明确文档管理流程。请商务团队核实财务数据是否可补充，以确保投标文件合规。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "supervisor",
+      "message_type": "summary",
+      "content": "各位同事，综合大家意见，我倾向独立投标，但必须正视公开数据缺口对业主信任的影响。我们的经验和ISO体系是优势，但财务透明度不足可能成为评标短板。建议商务团队评估联合体伙伴的资质，若其财务记录和监管经验与我们匹配，联合体可增强标书可信度，但需明确责任划分，避免质量责任模糊。若独立投标，则需在标书中强化财务能力说明和团队可用性摘要。请商务团队本周内给出联合体可行性评估，以便我们决定投标策略。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "supervisor",
+      "message_type": "decision",
+      "content": "我们决定独立投标监管服务包。标书将重点展示公司在澳门大型公共项目中的监察经验，如澳门国际机场、轻轨项目，以及ISO 9001质量管理体系。我们将提供详细的团队可用性摘要和角色计划，确保150多名同事能覆盖现场监督和质量审查需求。质量方法将强调独立检查流程和业主升级机制。报价采用按人月计费，确保灵活性和成本覆盖。风险应对将包括财务透明度说明和文档管理方案，以弥补公开数据缺口。我们承诺以专业、独立的监管服务，确保施工符合设计和规范。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

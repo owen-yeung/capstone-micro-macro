@@ -1,0 +1,2657 @@
+[
+  {
+    "case_id": "CASE-0001",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 4000000.0,
+    "schedule_raw": "设计周期18个月，其中地质勘察3个月，初步设计3个月，施工图设计6个月，施工配合6个月。关键里程碑：第3个月提交勘察报告，第6个月提交初步设计，第12个月提交施工图，第18个月完成施工配合。",
+    "quotation_parsed": 4000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0525",
+    "quotation_raw": 11400000.0,
+    "schedule_raw": "设计总工期为18个月，其中地质勘察3个月，初步设计4个月，施工图设计6个月，施工配合5个月。关键里程碑：第3个月完成地质勘察报告，第7个月提交初步设计，第13个月提交施工图设计及技术规格书。",
+    "quotation_parsed": 11400000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0412",
+    "quotation_raw": 3150000.0,
+    "schedule_raw": "我方承诺在合同生效后20周内完成全部材料设备交付，具体交付计划与总包方施工进度同步。首批材料在合同生效后4周内交付，监测设备在安装前2周交付。保修期为最后一批交付后12个月。",
+    "quotation_parsed": 3150000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "supplier_package",
+    "bidder_id": "consortium_supplier_package_001",
+    "quotation_raw": 6270000.0,
+    "schedule_raw": "合同签订后12周内完成全部材料设备交付，具体批次按主承包商进度调整；保修期24个月，自验收合格之日起计算。",
+    "quotation_parsed": 6270000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 36200000.0,
+    "schedule_raw": "总工期16个月，自开工令发出之日起计算。关键里程碑：第2个月完成施工准备，第6个月完成地基处理，第12个月完成结构施工，第15个月完成MEP及公共通道，第16个月竣工移交。",
+    "quotation_parsed": 36200000.0,
+    "schedule_months_parsed": 16.0
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0025",
+    "quotation_raw": 13500000.0,
+    "schedule_raw": "总工期12个月，关键里程碑：第2个月末完成施工准备，第6个月末完成地基处理，第10个月末完成结构施工，第12个月末完成竣工验收。",
+    "quotation_parsed": 13500000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0453",
+    "quotation_raw": 2060000.0,
+    "schedule_raw": "监管服务覆盖整个施工工期，从项目启动至竣工验收，团队全程投入，确保独立监督和质量审查不间断。",
+    "quotation_parsed": 2060000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0476",
+    "quotation_raw": 2350000.0,
+    "schedule_raw": "我方承诺在合同生效后7天内完成监督计划编制，施工阶段全工期驻场监督，每周提交进度与质量报告，每月提交付款审查报告，竣工阶段在收到竣工资料后14天内完成竣工预验收报告。",
+    "quotation_parsed": 2350000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0001",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0486",
+    "quotation_raw": 1550000.0,
+    "schedule_raw": "我方承诺在合同规定工期内完成全部监督服务，包括动员、施工监督及竣工阶段。具体进度将配合施工总进度计划，确保关键工序监督到位。",
+    "quotation_parsed": 1550000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0688",
+    "quotation_raw": 3200000.0,
+    "schedule_raw": "我方承诺设计总工期为18个月（自合同生效日起），其中初步设计3个月，初步设计深化5个月，施工图设计6个月，施工支持4个月。关键里程碑：第3个月提交初步设计文件，第8个月提交中期审查文件，第14个月提交全部施工图，第18个月完成竣工图及施工支持。若因业主原因导致工期延误，我方将调整资源投入，确保关键节点不延误。",
+    "quotation_parsed": 3200000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0773",
+    "quotation_raw": 4180000.0,
+    "schedule_raw": "设计总工期18个月，其中初步设计6个月，施工图设计6个月，施工支持6个月。关键里程碑：第6个月提交初步设计文件，第12个月提交施工图文件，第18个月完成竣工支持。我们承诺关键人员全阶段在岗，并设置内部审查节点确保进度。",
+    "quotation_parsed": 4180000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0259",
+    "quotation_raw": 2500000.0,
+    "schedule_raw": "合同签订后2周内提交供应计划和质量文件模板；产品生产及采购周期约8-12周，具体按产品清单确认；交付期按总包要求分批或一次性到货，我方承诺在合同约定交付日期前完成全部供应，并提前7天通知到货时间。",
+    "quotation_parsed": 2500000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0149",
+    "quotation_raw": 900000.0,
+    "schedule_raw": "合同签订后6周内完成全部产品交付，交付后提供12个月保修与售后支持。具体里程碑：第1周确认清单，第4周完成生产与质检，第6周完成交付。",
+    "quotation_parsed": 900000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0178",
+    "quotation_raw": 2680000.0,
+    "schedule_raw": "我方承诺在合同生效后24周内完成全部产品交付，并配合承包商安装。具体进度：第4周提交产品适配报告，第16周完成生产，第24周完成交付。保修期自验收合格之日起12个月，期间提供24小时响应服务。",
+    "quotation_parsed": 2680000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 46000000.0,
+    "schedule_raw": "总工期20个月，自开工令发出之日起计算。关键里程碑：第2个月完成施工准备，第10个月完成土建结构，第16个月完成轨道和机电安装，第20个月完成验收移交。若因业主原因或不可抗力延误，按合同条款申请工期延长。",
+    "quotation_parsed": 46000000.0,
+    "schedule_months_parsed": 20.0
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0300",
+    "quotation_raw": 63000000.0,
+    "schedule_raw": "总工期14个月，自开工令下达之日起计算。关键节点：第4个月完成基础工程，第8个月主体结构封顶，第12个月轨道铺设完成，第14个月竣工移交。我司承诺按此进度执行，并设置7天应急缓冲期以应对不可预见因素。",
+    "quotation_parsed": 63000000.0,
+    "schedule_months_parsed": 14.0
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 3580000.0,
+    "schedule_raw": "合同簽訂後2週內完成動員，施工期間全程駐場，直至竣工驗收。具體工期以業主批准的施工進度為準，我方承諾同步提供監管服務。",
+    "quotation_parsed": 3580000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0002",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0477",
+    "quotation_raw": 1800000.0,
+    "schedule_raw": "我们承诺在合同生效后两周内完成动员，并按照项目进度提供持续的监管服务，直至工程竣工。具体进度将根据业主批准的施工计划调整，确保关键节点有足够的人力覆盖。",
+    "quotation_parsed": 1800000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 4880000.0,
+    "schedule_raw": "地质勘察与资料收集2个月，初步设计3个月，施工图设计4个月，设计审查支持与施工配合贯穿施工期。总设计周期约9个月完成施工图，施工期提供全程设计支持。",
+    "quotation_parsed": 4880000.0,
+    "schedule_months_parsed": 2.0
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0240",
+    "quotation_raw": 5750000.0,
+    "schedule_raw": "我方承诺在合同生效后8周内完成技术核对和采购准备，12周内完成首批防渗材料和监测系统交付，16周内完成全部设备材料交付，并随交付提供质量文档。保修期自验收之日起24个月，期间提供售后支持。",
+    "quotation_parsed": 5750000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0292",
+    "quotation_raw": 5550000.0,
+    "schedule_raw": "我方承诺在合同生效后9个月内完成全部设备与材料交付，具体节点：第2个月完成设计确认，第6个月完成生产与检验，第9个月完成最后一批交付。保修期自最后一批验收合格起12个月。",
+    "quotation_parsed": 5550000.0,
+    "schedule_months_parsed": 9.0
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0341",
+    "quotation_raw": 5830000.0,
+    "schedule_raw": "合同签订后2周内提交详细供应计划，首批防渗材料在4周内交付，监测系统在8周内交付，水处理设备在12周内交付，全部交付在16周内完成。保修期按合同要求执行，缺陷责任期内提供持续支持。",
+    "quotation_parsed": 5830000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0478",
+    "quotation_raw": 40000000.0,
+    "schedule_raw": "总工期18个月，自开工令下达之日起计算。关键里程碑：第4个月完成基础处理，第10个月完成坝体加高，第14个月完成机电安装，第16个月进入调试，第18个月竣工验收。",
+    "quotation_parsed": 40000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 130500000.0,
+    "schedule_raw": "总工期16个月，自开工令下达之日起计算。关键节点：第4月完成坝体填筑至50%高程，第8月完成防渗系统主体，第12月完成机电安装，第14月完成全部施工内容，第16月完成竣工验收。",
+    "quotation_parsed": 130500000.0,
+    "schedule_months_parsed": 16.0
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0184",
+    "quotation_raw": 53000000.0,
+    "schedule_raw": "总工期16个月，自开工令下达之日起计算。关键节点：第10个月完成坝体加高与防渗系统，第14个月完成机电安装，第16个月完成联合调试与验收。",
+    "quotation_parsed": 53000000.0,
+    "schedule_months_parsed": 16.0
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0469",
+    "quotation_raw": 2090000.0,
+    "schedule_raw": "监理服务期覆盖整个施工阶段，从合同签订至竣工移交，具体工期以业主批准的施工进度计划为准。我方承诺关键岗位全周期覆盖，现场巡查频次按工序要求执行，确保监理服务不因工期调整而中断。",
+    "quotation_parsed": 2090000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0512",
+    "quotation_raw": 1650000.0,
+    "schedule_raw": "我方承诺按项目工期提供全程监理服务，具体工期以业主合同为准。项目启动后一周内完成监察计划，施工阶段每周提交进度报告，竣工后两周内提交最终监察报告。",
+    "quotation_parsed": 1650000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0003",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0453",
+    "quotation_raw": 3600000.0,
+    "schedule_raw": "我方將在收到中標通知後14天內完成動員並進場，監理服務覆蓋整個施工階段直至竣工驗收。具體工期將與施工進度同步，我方承諾全程提供不間斷的駐地監理服務。",
+    "quotation_parsed": 3600000.0,
+    "schedule_months_parsed": 0.4666666666666667
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 3160000.0,
+    "schedule_raw": "设计周期为18周，其中方案深化与勘察解读4周，初步设计与支护方案6周，施工图设计与整合8周。施工期现场支持贯穿整个施工阶段，直至工程竣工。",
+    "quotation_parsed": 3160000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0298",
+    "quotation_raw": 9660000.0,
+    "schedule_raw": "供应周期与施工进度同步，首批材料在开工后4周内到场，后续批次按施工计划提前2周通知，全部供应在主体结构完工前完成。",
+    "quotation_parsed": 9660000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0426",
+    "quotation_raw": 22500000.0,
+    "schedule_raw": "合同签订后立即启动，首批材料在4周内交付，后续批次按总包施工进度每2-4周交付一次，全部材料在主体结构完工前完成交付。保修期自最后一批材料验收合格之日起12个月。",
+    "quotation_parsed": 22500000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 71000000.0,
+    "schedule_raw": "总工期为18个月，其中施工准备1个月，基坑支护与土方开挖4个月，桩基工程3个月，地库结构施工6个月，验收与移交2个月，预留2个月用于不可预见因素。关键节点：第5个月完成基坑支护及土方开挖，第8个月完成桩基工程，第14个月完成地库结构封顶。",
+    "quotation_parsed": 71000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0717",
+    "quotation_raw": 67000000.0,
+    "schedule_raw": "总工期为18个月，其中施工准备1个月，基坑支护与土方开挖4个月，桩基工程3个月，地库结构施工8个月，收尾及验收2个月。关键节点：第5个月完成基坑支护，第8个月完成桩基，第16个月完成地库结构。",
+    "quotation_parsed": 67000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 1850000.0,
+    "schedule_raw": "监理服务期覆盖整个施工工期，直至工程竣工及缺陷责任期结束。联合体将在合同签订后7天内完成动员并开始现场监督，每日巡查不间断，月度报告按时提交。",
+    "quotation_parsed": 1850000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0004",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0453",
+    "quotation_raw": 3300000.0,
+    "schedule_raw": "我方承诺按项目工期要求提供全周期监理服务，关键节点包括：进场准备7天内完成，日常巡查按计划执行，隐蔽工程验收24小时内响应，样品送检按规范时限完成，报告按周/月提交。具体工期以业主批准的计划为准，我方将确保人员到位和资源保障。",
+    "quotation_parsed": 3300000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0461",
+    "quotation_raw": 3550000.0,
+    "schedule_raw": "设计周期预计为10个月，自合同生效起计算。关键里程碑：初步设计提交（第3个月末）、业主审查通过（第4个月末）、施工图完成（第7个月末）、招标支持完成（第8个月末）、施工配合至竣工（第10个月末）。我司承诺按此进度执行，并设置2周缓冲时间以应对审查修改。",
+    "quotation_parsed": 3550000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0467",
+    "quotation_raw": 4450000.0,
+    "schedule_raw": "设计周期24周，自开工令起算。第12周提交初步设计文件，第20周提交详细设计送审稿，第24周提交最终施工图及BIM模型。施工阶段提供设计配合直至竣工验收。",
+    "quotation_parsed": 4450000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0827",
+    "quotation_raw": 4850000.0,
+    "schedule_raw": "我司承诺在合同生效后30周内完成详细设计并提交业主审查，施工阶段提供8周现场支持。关键里程碑包括：第4周完成启动报告，第12周完成方案设计，第24周完成详细设计初稿，第30周提交最终设计成果。",
+    "quotation_parsed": 4850000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0259",
+    "quotation_raw": 5640000.0,
+    "schedule_raw": "合同签订后2周内完成采购确认，首批材料在4周内交付，后续批次按施工进度分批交付，全部交付在合同工期内完成。",
+    "quotation_parsed": 5640000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0162",
+    "quotation_raw": 2650000.0,
+    "schedule_raw": "合同生效后4周内交付首批设备，12周内完成全部设备交付，保修期为最后一批设备交付后24个月。",
+    "quotation_parsed": 2650000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0298",
+    "quotation_raw": 2670000.0,
+    "schedule_raw": "合同签订后20周内完成全部设备材料交付，并配合安装进度提供现场支持。具体交付批次将根据主承包商安装计划调整，确保不延误工期。",
+    "quotation_parsed": 2670000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0531",
+    "quotation_raw": 39000000.0,
+    "schedule_raw": "总工期18个月，其中施工准备2个月，道路与桥梁施工12个月，管线迁改穿插进行，机电安装与土建交叉，最后2个月进行调试和竣工验收。关键节点：第4个月完成管线迁改，第10个月完成桥梁主体，第14个月完成道路面层，第16个月完成机电安装，第18个月竣工。",
+    "quotation_parsed": 39000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0493",
+    "quotation_raw": 25700000.0,
+    "schedule_raw": "总工期为18个月，分为施工准备（1个月）、管线迁改（3个月）、道路与桥梁主体（10个月）、机电安装（2个月）、竣工验收（2个月）。关键里程碑包括：第4个月完成管线迁改，第14个月完成主体结构，第16个月完成机电安装，第18个月竣工验收。",
+    "quotation_parsed": 25700000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0169",
+    "quotation_raw": 25000000.0,
+    "schedule_raw": "总工期20个月，自开工令下达之日起计算。关键里程碑：第5月完成管线迁改，第10月完成桥梁主体，第18月完成机电安装，第20月竣工。",
+    "quotation_parsed": 25000000.0,
+    "schedule_months_parsed": 20.0
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0534",
+    "quotation_raw": 30500000.0,
+    "schedule_raw": "总工期20个月，自开工令下达之日起计算。关键节点：第5个月完成管线迁改，第10个月完成桥梁主体，第18个月完成机电安装，第20个月竣工验收。",
+    "quotation_parsed": 30500000.0,
+    "schedule_months_parsed": 20.0
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 1850000.0,
+    "schedule_raw": "联合体将在开工前完成团队组建和进场准备，施工期间全程驻场监督，直至竣工验收。具体工期以业主施工进度为准，我方承诺关键岗位全程到位，并每周提交现场报告，每月提交综合监督报告。",
+    "quotation_parsed": 1850000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0005",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_002",
+    "quotation_raw": 1600000.0,
+    "schedule_raw": "监督服务覆盖施工全周期，自进场之日起至竣工验收完成。凯谛思驻场团队在施工高峰期全员到岗，澳门大学质量审查代表每周至少3天驻场。关键节点（隐蔽工程验收、材料进场检验）24小时内响应。",
+    "quotation_parsed": 1600000.0,
+    "schedule_months_parsed": 0.1
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0461",
+    "quotation_raw": 2130000.0,
+    "schedule_raw": "总设计周期22周，自合同生效起计算。关键里程碑：初步设计完成（第8周）、详细设计完成（第18周）、最终交付（第22周）。",
+    "quotation_parsed": 2130000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0467",
+    "quotation_raw": 3500000.0,
+    "schedule_raw": "设计周期为10个月，自合同生效起计算。前2个月完成方案深化，第3-5个月完成初步设计，第6-8个月完成详细设计，第9-10个月完成施工支持文件及技术规格书初稿。关键节点包括初步设计审查、详细设计审查和最终交付。",
+    "quotation_parsed": 3500000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0688",
+    "quotation_raw": 3500000.0,
+    "schedule_raw": "项目启动后16周内完成全部设计文件，其中第4周提交方案深化，第8周提交初步设计，第14周提交施工图设计，第16周提交最终设计文件及技术规格书初稿。施工期间提供设计配合服务，直至工程竣工。",
+    "quotation_parsed": 3500000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0426",
+    "quotation_raw": 2850000.0,
+    "schedule_raw": "我方承诺在合同生效后20周内完成全部材料设备的供应和交付，具体批次按供货计划执行，与施工进度同步。保修期为交付验收后24个月，备件供应在保修期内持续提供。",
+    "quotation_parsed": 2850000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0328",
+    "quotation_raw": 2450000.0,
+    "schedule_raw": "合同签订后2周内提交详细供货计划；第3周开始分批供货，第16周完成全部主要设备材料交付；安装阶段提供现场支持直至调试完成；质保期按招标文件要求执行。",
+    "quotation_parsed": 2450000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0201",
+    "quotation_raw": 4350000.0,
+    "schedule_raw": "合同签订后20周内完成全部交付，其中第4周提交首批样品，第8周完成信号系统出厂测试，第16周完成全部交付。",
+    "quotation_parsed": 4350000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 40500000.0,
+    "schedule_raw": "總工期為24個月，自開工令下達之日起計算。關鍵節點包括：第3個月完成管線探測和軟基處理方案深化；第6個月完成軟基處理和管線遷改；第12個月完成道路及橋樑主體工程；第18個月完成排水及附屬設施；第22個月完成交通設施安裝；第24個月完成竣工驗收。",
+    "quotation_parsed": 40500000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0507",
+    "quotation_raw": 61000000.0,
+    "schedule_raw": "总工期为18个月，计划开工日期为2025年1月，竣工日期为2026年6月。关键节点：软基处理及管线迁改完成（第4个月），道路基层完成（第8个月），桥梁主体完成（第12个月），排水工程完成（第14个月），交通设施安装完成（第16个月），竣工清理及验收（第18个月）。",
+    "quotation_parsed": 61000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0483",
+    "quotation_raw": 3150000.0,
+    "schedule_raw": "监理服务期为24个月，自开工令发出之日起计算。关键里程碑包括：第1个月完成监理规划和施工方案审查；第6个月完成基础工程验收；第12个月完成主体结构验收；第18个月完成机电安装验收；第20个月完成接口施工验收；第24个月完成竣工预验收并提交监理总结报告。我方承诺关键岗位人员全程在岗，确保进度控制。",
+    "quotation_parsed": 3150000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0512",
+    "quotation_raw": 2480000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自开工令发出之日起至竣工移交完成。我方将按合同工期配置人员，确保关键岗位全程在岗。若工期延长，我方将提前评估资源需求并与业主协商调整。",
+    "quotation_parsed": 2480000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0006",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0521",
+    "quotation_raw": 3000000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自施工准备阶段开始至竣工验收完成。我方将在合同签订后14天内完成监理团队进场和监理规划编制，施工期间每日巡查，每周提交进度报告，每月提交综合报告。关键工序和隐蔽工程实行旁站监理，接口施工专项观察。竣工验收阶段配合业主完成验收和资料移交。具体工期以施工总进度计划为准，我方承诺全程跟踪并定期更新进度评估。",
+    "quotation_parsed": 3000000.0,
+    "schedule_months_parsed": 0.4666666666666667
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0461",
+    "quotation_raw": 3600000.0,
+    "schedule_raw": "设计工期为8个月，自合同生效日起计算。关键节点：第4周完成启动及界面对齐，第12周提交初步设计，第24周提交详细设计及BIM模型，后续提供施工支持至竣工。",
+    "quotation_parsed": 3600000.0,
+    "schedule_months_parsed": 8.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0520",
+    "quotation_raw": 3350000.0,
+    "schedule_raw": "设计周期为12个月，自合同生效起计算。第1-2个月完成方案深化，第3-5个月完成初步设计，第6-9个月完成施工图设计，第10-12个月提供施工配合。关键里程碑包括：第2个月提交方案深化报告，第5个月提交初步设计文件，第9个月提交施工图及BIM模型。",
+    "quotation_parsed": 3350000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0119",
+    "quotation_raw": 3630000.0,
+    "schedule_raw": "设计周期为12个月，其中方案深化2个月，详细设计4个月，施工图及BIM模型4个月，施工阶段支持2个月。我们将确保每个阶段按时提交，并预留1个月缓冲以应对界面协调变化。",
+    "quotation_parsed": 3630000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0162",
+    "quotation_raw": 2750000.0,
+    "schedule_raw": "我司承诺在合同生效后立即启动供应工作，并在项目总进度计划规定的交付节点前完成所有产品供应。具体交付时间将根据业主确认的产品清单和项目进度要求制定，确保不影响整体施工进度。",
+    "quotation_parsed": 2750000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0375",
+    "quotation_raw": 2500000.0,
+    "schedule_raw": "我司承诺在合同生效后12周内完成全部产品交付，具体节点如下：第1-2周启动与确认，第3-8周采购与生产，第9-12周交付与验收。保修期自验收合格之日起计算，为期12个月。备件供应在保修期内持续提供，保修期后按合同约定提供有偿备件服务。",
+    "quotation_parsed": 2500000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0259",
+    "quotation_raw": 2500000.0,
+    "schedule_raw": "我方承诺在合同签订后12周内完成全部产品交付，并自交付之日起提供24个月保修服务。具体进度如下：第2周完成合同签订，第8周完成生产，第12周完成交付。若因我方原因导致延误，愿承担合同约定的违约责任。",
+    "quotation_parsed": 2500000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0532",
+    "quotation_raw": 30600000.0,
+    "schedule_raw": "总工期270个日历天，自开工令发出之日起计算。关键节点：第30天完成第一阶段交通导改；第90天完成桥梁下部结构；第150天完成道路基层；第210天完成主体工程；第240天完成安装调试；第270天完成竣工验收。",
+    "quotation_parsed": 30600000.0,
+    "schedule_months_parsed": 1.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 35500000.0,
+    "schedule_raw": "总工期16个月，自开工令之日起算。关键里程碑：第4月完成桥梁桩基，第8月完成桥梁主体，第12月完成道路基层，第14月完成MEP安装，第16月竣工验收。若因我方原因延误，按合同约定承担违约金。",
+    "quotation_parsed": 35500000.0,
+    "schedule_months_parsed": 16.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0527",
+    "quotation_raw": 33700000.0,
+    "schedule_raw": "总工期18个月，自开工令下达之日起计算。关键里程碑：第3个月完成排水管线50%，第9个月完成桥梁下部结构，第15个月完成主体工程，第18个月竣工并移交。",
+    "quotation_parsed": 33700000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0482",
+    "quotation_raw": 3780000.0,
+    "schedule_raw": "监管服务期覆盖整个施工工期，自开工令发出之日起至竣工移交完成，预计总工期约18个月。本公司承诺在合同约定的工期内完成全部监管工作，并配合业主的进度要求。",
+    "quotation_parsed": 3780000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0512",
+    "quotation_raw": 800000.0,
+    "schedule_raw": "我方承诺监管服务覆盖项目全过程，从合同签订后两周内完成动员，直至竣工报告提交。具体工期以实际施工进度为准，我方不设固定月数，但保证人员配置和报告频次满足合同要求。",
+    "quotation_parsed": 800000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0007",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0475",
+    "quotation_raw": 3150000.0,
+    "schedule_raw": "监管服务期与施工工期同步，自合同生效之日起至工程竣工移交之日止。我们将根据施工进度动态调整现场人员投入，确保关键节点全覆盖。具体工期以业主批准的施工进度计划为准，我司承诺在合同约定的服务期内提供不间断监管服务。",
+    "quotation_parsed": 3150000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0468",
+    "quotation_raw": 2780000.0,
+    "schedule_raw": "设计总工期10个月，其中方案设计2个月、初步设计3个月、施工图设计4个月，施工阶段配合服务贯穿整个施工期。各阶段提交审查文件后10个工作日内完成修改。",
+    "quotation_parsed": 2780000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0689",
+    "quotation_raw": 2780000.0,
+    "schedule_raw": "我司承诺设计总工期约24周（方案设计6周、初步设计8周、施工图设计10周），并严格配合业主审查节点，施工阶段配合服务直至竣工验收。具体节点以合同约定为准。",
+    "quotation_parsed": 2780000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0215",
+    "quotation_raw": 1350000.0,
+    "schedule_raw": "方案设计2个月，初步设计3个月，施工图设计4个月，施工阶段配合服务预计6个月，总设计周期约9个月（不含施工阶段）。各阶段提交成果满足业主审查节点要求。",
+    "quotation_parsed": 1350000.0,
+    "schedule_months_parsed": 2.0
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0321",
+    "quotation_raw": 8930000.0,
+    "schedule_raw": "我方承诺在合同签订后立即启动供应计划，首批设备在4周内交付，后续批次按项目进度分批送达，确保不延误总包施工。保修期自验收合格之日起计算，提供24小时响应支持。",
+    "quotation_parsed": 8930000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0414",
+    "quotation_raw": 2520000.0,
+    "schedule_raw": "供应周期为16周，自合同生效起计算。第1-2周完成准备与确认，第3-8周完成采购与质检，第9-16周分批交付。保修期自全部产品验收合格之日起计算，为期24个月。",
+    "quotation_parsed": 2520000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0229",
+    "quotation_raw": 5580000.0,
+    "schedule_raw": "合同签订后2周内提交详细供应计划；第3周开始首批交付，第20周完成全部交付；第24周完成验收和文档移交。保修期自验收合格之日起2年。",
+    "quotation_parsed": 5580000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0470",
+    "quotation_raw": 33000000.0,
+    "schedule_raw": "总工期18个月，关键里程碑：基础完工（第4个月）、主体结构封顶（第10个月）、机电安装完成（第14个月）、系统集成测试（第16个月）、竣工验收（第18个月）。",
+    "quotation_parsed": 33000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0496",
+    "quotation_raw": 33000000.0,
+    "schedule_raw": "总工期18个月，自开工令发出之日起计算。关键里程碑：第8月主体结构封顶，第14月机电安装完成，第16月系统调试完成，第18月竣工移交。",
+    "quotation_parsed": 33000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0495",
+    "quotation_raw": 34000000.0,
+    "schedule_raw": "总工期为18个月，自开工令发出之日起计算。关键节点：基础工程3个月，主体结构6个月，装修及机电安装6个月，系统集成及调试2个月，竣工验收1个月。本司承诺按节点完成，若因本司原因延误，承担相应责任。",
+    "quotation_parsed": 34000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0483",
+    "quotation_raw": 2900000.0,
+    "schedule_raw": "我方承诺在合同签订后7天内完成监理团队进场及监理规划报审，施工全过程提供不间断监理服务，直至工程竣工验收及缺陷责任期结束。具体工期以业主批复的施工进度计划为准，我方将同步调整人员投入，确保关键工序旁站和日常巡查不出现空档。",
+    "quotation_parsed": 2900000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0477",
+    "quotation_raw": 1250000.0,
+    "schedule_raw": "监理服务期与施工工期一致，自施工开始至竣工移交。我方承诺在收到中标通知后7天内完成监理团队组建并进场。",
+    "quotation_parsed": 1250000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0008",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0518",
+    "quotation_raw": 3100000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，直至竣工验收。我方将根据施工进度动态调整人员投入，确保关键工序和隐蔽工程有监理在场。具体工期以业主批准的施工进度计划为准，我方承诺在收到中标通知后7天内完成团队组建并进场。",
+    "quotation_parsed": 3100000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0694",
+    "quotation_raw": 2650000.0,
+    "schedule_raw": "设计周期为20周，自合同生效起算。关键里程碑：第4周提交检测方案初稿，第10周完成修复设计方案并通过业主中期审查，第18周提交施工图送审稿，第20周提交最终施工图和规范。施工阶段提供至竣工的现场配合服务。",
+    "quotation_parsed": 2650000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0468",
+    "quotation_raw": 1350000.0,
+    "schedule_raw": "设计周期为24周，分五个阶段：启动与检测方案4周，结构修复设计6周，机电修复设计5周，施工图纸与规范6周，施工支持阶段按施工工期配合。关键里程碑包括检测方案提交（第4周）、结构方案初步设计（第10周）、机电方案初步设计（第15周）、施工图纸提交（第21周）和最终成果交付（第24周）。",
+    "quotation_parsed": 1350000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0321",
+    "quotation_raw": 3675000.0,
+    "schedule_raw": "我方承诺在合同生效后16周内完成全部材料设备交付，具体批次按施工进度调整。保修期自最终验收合格之日起计算，为期12个月。",
+    "quotation_parsed": 3675000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0148",
+    "quotation_raw": 2550000.0,
+    "schedule_raw": "合同签订后12周内完成全部交付，具体批次按施工进度调整。首批交付在合同签订后6周内，全部交付在12周内。保修期自验收合格之日起计算，备件供应持续至保修期结束。",
+    "quotation_parsed": 2550000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0229",
+    "quotation_raw": 5120000.0,
+    "schedule_raw": "合同签订后12周内完成全部交付，具体批次节点在供应进度表中明确，与承包商安装计划衔接。保修期自最后一批验收合格起12个月。",
+    "quotation_parsed": 5120000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0066",
+    "quotation_raw": 5530000.0,
+    "schedule_raw": "总工期10个月，自开工令下达之日起计。关键里程碑：第2个月完成准备及现场核查，第6个月完成结构修复，第8个月完成机电安装，第10个月完成装饰修复及竣工验收。",
+    "quotation_parsed": 5530000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0501",
+    "quotation_raw": 10700000.0,
+    "schedule_raw": "总工期约6.5个月，自开工令下达之日起计算。关键里程碑：施工准备完成（第2周）、结构修复完成（第14周）、机电安装完成（第22周）、装饰修复完成（第26周）、竣工验收（第28周）。我方承诺按里程碑推进，若因我方原因延误，承担合同约定的违约金。",
+    "quotation_parsed": 10700000.0,
+    "schedule_months_parsed": 6.5
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0492",
+    "quotation_raw": 6150000.0,
+    "schedule_raw": "总工期20周，开工后第8周完成结构修复，第14周完成机电安装，第18周完成装饰修复，第20周完成验收及移交。关键里程碑：第8周结构验收，第14周机电调试，第18周装饰完工，第20周整体移交。",
+    "quotation_parsed": 6150000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0534",
+    "quotation_raw": 2680000.0,
+    "schedule_raw": "总工期26周，自开工令下达之日起计算。关键节点：第12周完成结构修复并通过验收，第20周完成机电安装及单机调试，第24周完成装饰修复，第26周完成竣工移交。",
+    "quotation_parsed": 2680000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0469",
+    "quotation_raw": 1140000.0,
+    "schedule_raw": "我們承諾在合同生效後7天內完成動員並開始現場監管，整個施工期內持續提供監管服務，直至竣工驗收完成。關鍵節點包括：動員階段完成、日常巡查啟動、每月報告提交、竣工報告提交，均按合同要求執行。",
+    "quotation_parsed": 1140000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0475",
+    "quotation_raw": 2280000.0,
+    "schedule_raw": "监管服务覆盖整个修复工程工期，直至竣工验收。关键人员到位时间：项目总监在施工前一周到位，现场监理工程师在施工前三天到位。每周提交周报，每月提交月报，重大问题即时升级。",
+    "quotation_parsed": 2280000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0011",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0456",
+    "quotation_raw": 2980000.0,
+    "schedule_raw": "我方承诺在合同生效后7日内完成团队组建并进场，首月内提交监管计划。施工阶段全程驻场，直至工程竣工。报告提交时限：每日现场日志于次日9:00前提交，周报于每周一12:00前提交，月报于次月5日前提交。最终监管总结报告于竣工后30日内提交。",
+    "quotation_parsed": 2980000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 3760000.0,
+    "schedule_raw": "设计周期为22周，自合同生效起计算，包括方案设计、初步设计、施工图设计及施工配合。关键节点：第2周完成启动会，第8周完成方案设计，第14周完成初步设计，第22周完成施工图设计。施工配合阶段持续至工程竣工。",
+    "quotation_parsed": 3760000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0178",
+    "quotation_raw": 2600000.0,
+    "schedule_raw": "合同签订后12周内完成全部材料交付，保修期按合同约定执行。",
+    "quotation_parsed": 2600000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0298",
+    "quotation_raw": 2695000.0,
+    "schedule_raw": "合同签订后16周内完成全部材料交付，具体批次按业主施工进度调整。",
+    "quotation_parsed": 2695000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0404",
+    "quotation_raw": 2600000.0,
+    "schedule_raw": "我司承诺在合同生效后12周内完成全部材料交付，具体批次按业主需求调整。交付计划将提前一周通知，确保现场接收准备。",
+    "quotation_parsed": 2600000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0025",
+    "quotation_raw": 5300000.0,
+    "schedule_raw": "总工期14周，自开工令下达之日起计算。关键节点：第2周完成管线保护措施，第4周完成交通导改实施，第12周完成管道安装及试压，第14周完成恢复及撤场。",
+    "quotation_parsed": 5300000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0169",
+    "quotation_raw": 5650000.0,
+    "schedule_raw": "总工期16周，自开工令下达之日起计算。关键里程碑：第2周完成交通导改方案报批，第6周完成管沟开挖，第10周完成管道安装，第14周完成试压和闭水试验，第16周完成竣工验收。",
+    "quotation_parsed": 5650000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0492",
+    "quotation_raw": 5700000.0,
+    "schedule_raw": "承诺总工期10个月，自开工令发出之日起计算。关键节点：第4个月完成排放管改道并恢复污水厂正常运行；第7个月完成周边平整；第10个月完成全部施工并移交。若因业主原因或不可抗力导致延误，将按合同条款申请工期顺延。",
+    "quotation_parsed": 5700000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0699",
+    "quotation_raw": 6080000.0,
+    "schedule_raw": "总工期14周，自开工令下达之日起计算。关键节点：第4周完成首段管道安装，第8周完成全部管道安装，第12周完成交通恢复，第14周竣工验收。",
+    "quotation_parsed": 6080000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0540",
+    "quotation_raw": 1250000.0,
+    "schedule_raw": "服务期覆盖整个项目施工阶段，从动员开始至最终报告提交。团队将在合同生效后2周内完成进场，并持续提供监管服务直至项目竣工。关键里程碑包括首月报告模板确认、季度业主评审会议和最终报告提交。",
+    "quotation_parsed": 1250000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0512",
+    "quotation_raw": 1000000.0,
+    "schedule_raw": "服务期覆盖整个施工阶段，直至竣工验收。启动阶段在合同生效后2周内完成，执行阶段按施工进度同步推进，收尾阶段在竣工验收后1个月内完成。关键节点驻场人员保证到位，紧急情况2小时内响应。",
+    "quotation_parsed": 1000000.0,
+    "schedule_months_parsed": 1.0
+  },
+  {
+    "case_id": "CASE-0014",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0460",
+    "quotation_raw": 2300000.0,
+    "schedule_raw": "监管服务期覆盖整个施工阶段，自开工令发出之日起至竣工移交完成。具体工期以业主批准的施工进度计划为准，我方承诺在服务期内提供连续、稳定的监管服务。关键节点包括：开工前准备（2周）、施工阶段监管（按实际工期）、竣工移交（最后1-2个月）。",
+    "quotation_parsed": 2300000.0,
+    "schedule_months_parsed": 2.0
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 4400000.0,
+    "schedule_raw": "设计周期18周，自合同生效起计算。方案设计4周，初步设计6周，施工图设计8周，施工配合至工程竣工。关键节点：第4周提交方案设计，第10周提交初步设计，第18周提交施工图。",
+    "quotation_parsed": 4400000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0201",
+    "quotation_raw": 2495000.0,
+    "schedule_raw": "合同签订后30天内完成采购订单；首批材料在合同签订后60天内到场；全部材料设备在施工完成前30天交付完毕；保修期自最后一批材料设备验收合格之日起24个月。",
+    "quotation_parsed": 2495000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0198",
+    "quotation_raw": 3260000.0,
+    "schedule_raw": "我司承诺在合同生效后12周内完成全部材料与设备交付，具体批次按承包商施工进度调整。首批材料在4周内交付，质量文档随批次提供。保修期按合同约定执行。",
+    "quotation_parsed": 3260000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0292",
+    "quotation_raw": 3400000.0,
+    "schedule_raw": "我司承诺在合同生效后14周内完成全部材料设备交付，具体进度如下：第1-2周完成需求确认和采购计划；第3-8周完成采购和生产；第9-14周分批交付至现场。保修期自最后一批交付验收合格之日起12个月。",
+    "quotation_parsed": 3400000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0071",
+    "quotation_raw": 8250000.0,
+    "schedule_raw": "我方承诺总工期9个月，自开工令下达之日起计算。关键节点：第1个月完成施工准备，第4个月完成土方开挖与支护，第6个月完成桩基工程，第8个月完成混凝土工程，第9个月完成验收移交。若因地质条件变化或业主指令导致工期延误，按合同条款申请延期。",
+    "quotation_parsed": 8250000.0,
+    "schedule_months_parsed": 9.0
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0494",
+    "quotation_raw": 8300000.0,
+    "schedule_raw": "总工期10个月，自开工令下达之日起计算。关键里程碑：第1月末完成首层支撑，第3月末完成土方及支护，第6月末完成桩基及底板，第10月末完成全部工程并移交。我方承诺按此进度执行，并制定赶工预案以应对不可预见延误。",
+    "quotation_parsed": 8300000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0458",
+    "quotation_raw": 9000000.0,
+    "schedule_raw": "总工期26周，自开工令起算。关键里程碑：第2周完成施工准备，第10周完成土方开挖及支护，第20周完成桩基及地基处理，第26周完成全部基础工程并移交。若遇不可预见地质条件，依据合同调价条款申请工期及费用调整。",
+    "quotation_parsed": 9000000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0025",
+    "quotation_raw": 7830000.0,
+    "schedule_raw": "总工期24周，自开工令下达之日起计算。关键节点：第2周完成监测初始报告，第8周完成土方和支护，第16周完成桩基，第22周完成混凝土，第24周完成竣工验收。若因地质条件变化或医院运营限制导致工期延误，将及时提交工期索赔，并调整施工计划。",
+    "quotation_parsed": 7830000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0522",
+    "quotation_raw": 1800000.0,
+    "schedule_raw": "监理服务期与基础工程施工工期同步，预计为12个月。我方承诺在合同签订后1周内完成动员，施工期间每日现场巡查，关键工序旁站，每周提交周报，每月提交月报。竣工阶段在施工完成后1个月内提交监理总结报告。",
+    "quotation_parsed": 1800000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0512",
+    "quotation_raw": 2700000.0,
+    "schedule_raw": "监理服务期覆盖基础工程施工全过程，自开工令发出之日起至竣工移交完成。我方承诺在合同签订后两周内完成动员，施工期间每日现场监督，关键工序旁站，每周提交周报，每月提交月报，竣工后两周内提交监理总结报告。",
+    "quotation_parsed": 2700000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0015",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0484",
+    "quotation_raw": 1600000.0,
+    "schedule_raw": "項目總工期預計為18個月，我方將在合同簽訂後一週內完成動員，施工階段全程駐場，竣工後提供缺陷責任期監理服務。",
+    "quotation_parsed": 1600000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0044",
+    "quotation_raw": 4150000.0,
+    "schedule_raw": "设计周期为8个月，其中地质资料分析1个月，初步设计2个月，施工图设计3个月，监测点布置方案和技术规格书编制1个月，施工阶段设计支持贯穿后续施工期。关键节点：第3个月完成初步设计审查，第6个月提交施工图设计，第8个月完成全部交付物。",
+    "quotation_parsed": 4150000.0,
+    "schedule_months_parsed": 8.0
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0724",
+    "quotation_raw": 3200000.0,
+    "schedule_raw": "设计周期10周，施工阶段支持至工程竣工。关键节点：第2周提交地质分析报告，第4周初步设计，第8周施工图送审稿，第10周正式施工图。施工阶段48小时响应现场问题。",
+    "quotation_parsed": 3200000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0228",
+    "quotation_raw": 1580000.0,
+    "schedule_raw": "设计周期22周，自合同生效起计算。第4周提交地质分析报告，第10周提交初步设计，第18周提交施工图，第22周提交技术规格书。施工阶段支持持续至主体结构完工，预计5个月。",
+    "quotation_parsed": 1580000.0,
+    "schedule_months_parsed": 5.0
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0414",
+    "quotation_raw": 6050000.0,
+    "schedule_raw": "供应周期与施工进度同步，合同签订后1周内提交详细供应计划，施工期间按周分批供货，确保关键节点材料提前48小时到场。保修期按合同约定执行，备件供应在保修期内保证48小时响应。",
+    "quotation_parsed": 6050000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0293",
+    "quotation_raw": 23000000.0,
+    "schedule_raw": "我司承诺按以下关键节点交付：首批钢筋于合同生效后6周内交付；混凝土供应于第8周开始，按施工进度持续供应；防水材料于第10周交付；监测设备于第12周交付。全部材料设备于第16周前完成交付。保修期自验收合格之日起计算，为期12个月。",
+    "quotation_parsed": 23000000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0426",
+    "quotation_raw": 2500000.0,
+    "schedule_raw": "合同签订后1周内完成材料清单复核，2周内开始首批交付，施工期间按总包进度持续供应，竣工后提供12个月保修支持。",
+    "quotation_parsed": 2500000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0493",
+    "quotation_raw": 50400000.0,
+    "schedule_raw": "我司承诺总工期为24个月，自开工令发出之日起计算。关键节点：地下连续墙完成不晚于第10个月，桩基完成不晚于第14个月，土方开挖及支护完成不晚于第18个月，全部验收及移交不晚于第24个月。我司将投入足够资源确保按期完成，若因我方原因延误，愿按合同约定承担逾期违约金。",
+    "quotation_parsed": 50400000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0478",
+    "quotation_raw": 32700000.0,
+    "schedule_raw": "总工期12个月，关键节点：第2个月完成准备，第6个月完成地连墙，第10个月完成桩基和土方开挖，第12个月完成验收。若遇地质变化或不可抗力，按合同调整工期。",
+    "quotation_parsed": 32700000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0495",
+    "quotation_raw": 7200000.0,
+    "schedule_raw": "总工期75天，其中地连墙专项15天，主体结构及桩基60天。我方承诺按此工期完成，并设置关键节点：第15天地连墙完成，第75天竣工验收。",
+    "quotation_parsed": 7200000.0,
+    "schedule_months_parsed": 2.5
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0459",
+    "quotation_raw": 27900000.0,
+    "schedule_raw": "总工期16个月，自开工令下达之日起计算。关键节点：第8个月完成全部地下连续墙，第12个月完成全部桩基，第14个月完成土方开挖与支护，第16个月完成验收并移交。",
+    "quotation_parsed": 27900000.0,
+    "schedule_months_parsed": 16.0
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0522",
+    "quotation_raw": 1100000.0,
+    "schedule_raw": "监理服务期覆盖整个施工阶段，从开工准备至竣工验收。我司承诺在收到中标通知后7天内完成团队动员并启动监理服务，服务期与施工工期同步，直至工程竣工并提交监理总结报告。",
+    "quotation_parsed": 1100000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0453",
+    "quotation_raw": 4100000.0,
+    "schedule_raw": "項目全週期監察服務，從動員至竣工驗收，具體工期以業主合同為準。關鍵節點：動員完成 14 天，首次報告 7 天，每週報告，每月質量報告，竣工報告提前 14 天。",
+    "quotation_parsed": 4100000.0,
+    "schedule_months_parsed": 0.4666666666666667
+  },
+  {
+    "case_id": "CASE-0020",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0469",
+    "quotation_raw": 2145000.0,
+    "schedule_raw": "监理服务期覆盖整个施工工期，预计约18个月，具体以业主批准的施工进度计划为准。我方承诺在施工期间全程驻场，关键节点24小时响应。",
+    "quotation_parsed": 2145000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0789",
+    "quotation_raw": 4550000.0,
+    "schedule_raw": "设计周期为18个月，其中方案设计3个月、初步设计3个月、施工图设计6个月、施工阶段支持6个月。各阶段里程碑与设计里程碑支付挂钩，确保按时交付。",
+    "quotation_parsed": 4550000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0750",
+    "quotation_raw": 11050000.0,
+    "schedule_raw": "设计总工期预计18个月，其中方案设计4个月，初步设计5个月，施工图设计8个月，施工阶段设计支持至项目竣工。关键节点：方案设计完成并提交业主审查，初步设计完成并提交业主审查，施工图设计完成并提交业主审查。",
+    "quotation_parsed": 11050000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0455",
+    "quotation_raw": 3220000.0,
+    "schedule_raw": "设计总工期约18个月，其中方案设计3个月，初步设计5个月，施工图设计8个月，施工配合2个月。关键里程碑包括方案设计送审、初步设计送审、施工图设计送审及施工配合阶段。",
+    "quotation_parsed": 3220000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0328",
+    "quotation_raw": 2472000.0,
+    "schedule_raw": "中标后第1-2周完成产品确认，第3周起按施工计划分批交付，全部交付在12周内完成，保修期自安装验收后起算，为期24个月。",
+    "quotation_parsed": 2472000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0243",
+    "quotation_raw": 3000000.0,
+    "schedule_raw": "我方承诺在合同生效后12周内完成全部产品交付，并提交完整质量文档和接口信息。具体批次交付时间将根据业主和承包商要求调整，但总工期不超过16周。保修期自验收合格之日起计算，为期24个月。",
+    "quotation_parsed": 3000000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0356",
+    "quotation_raw": 2900000.0,
+    "schedule_raw": "供应进度与总承包商施工计划衔接，关键节点包括：合同签订后30天内完成产品确认，60天内完成生产与检验，90天内完成首批交付，后续批次按施工进度分批交付。保修期自交付验收之日起计算，提供24个月保修服务。",
+    "quotation_parsed": 2900000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0756",
+    "quotation_raw": 66300000.0,
+    "schedule_raw": "我司承诺总工期为22个月，自开工令发出之日起计算。关键里程碑包括：第2个月完成施工准备，第12个月完成主体结构封顶，第20个月完成设备安装及公共设施建设，第22个月完成竣工验收并移交。我司将配备充足资源，确保关键路径节点按时完成，若因我司原因导致工期延误，愿承担合同约定的违约责任。",
+    "quotation_parsed": 66300000.0,
+    "schedule_months_parsed": 22.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0466",
+    "quotation_raw": 131500000.0,
+    "schedule_raw": "总工期24个月，关键节点：地基处理完成第6个月，结构封顶第14个月，设备安装完成第20个月，竣工验收第24个月。",
+    "quotation_parsed": 131500000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0075",
+    "quotation_raw": 120500000.0,
+    "schedule_raw": "总工期按合同要求，我司承诺在合同规定工期内完成全部施工内容。关键节点：场地准备与地基处理在开工后3个月内完成，主体结构在开工后10个月内封顶，设备安装与公共设施在开工后14个月内完成，交通接口施工与收尾在开工后18个月内完成。具体以合同谈判确定。",
+    "quotation_parsed": 120500000.0,
+    "schedule_months_parsed": 3.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0532",
+    "quotation_raw": 33750000.0,
+    "schedule_raw": "总工期19个月，自开工令下达之日起计算。关键里程碑：第2个月完成场地准备；第10个月完成地基处理和主体结构；第16个月完成设备安装；第19个月完成交通接口和竣工验收。我司承诺按此进度执行，若因我方原因延误，承担合同约定的违约金。",
+    "quotation_parsed": 33750000.0,
+    "schedule_months_parsed": 19.0
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0520",
+    "quotation_raw": 1400000.0,
+    "schedule_raw": "监督服务期覆盖整个施工阶段，自开工令发出之日起至竣工移交止。我方承诺在收到开工通知后7天内完成动员并开始驻场监督。",
+    "quotation_parsed": 1400000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0026",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 2730000.0,
+    "schedule_raw": "本联合体承诺在合同生效后立即启动动员，并在整个监督服务期内保持人员连续覆盖。具体进度安排如下：\n- 第1-2周：完成启动准备，包括人员进场、手册编制和首次协调会议。\n- 第3周至竣工前：持续执行现场监督、质量审查、样品处理和报告提交。\n- 竣工后1个月内：提交最终监管总结报告并配合业主验收。\n\n关键节点：\n- 每月5日前提交上月监督月报。\n- 每月10日前完成上月计量与支付审查。\n- 每季度末进行联合综合检查并提交季度报告。",
+    "quotation_parsed": 2730000.0,
+    "schedule_months_parsed": 1.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 3600000.0,
+    "schedule_raw": "设计总工期12个月，其中方案设计3个月、初步设计4个月、施工图设计5个月，施工配合至项目竣工。关键节点：方案设计完成并提交业主审查（第3个月末），初步设计完成（第7个月末），施工图设计完成并提交审查（第12个月末）。",
+    "quotation_parsed": 3600000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0462",
+    "quotation_raw": 5000000.0,
+    "schedule_raw": "设计总工期为12个月，其中方案设计3个月，初步设计4个月，施工图设计5个月，施工配合阶段自施工开始至竣工，预计12个月。关键审查节点包括方案设计审查、初步设计审查、施工图设计审查，每个节点均预留业主审查时间。我司承诺按此进度计划提交设计文件，并配合业主审查。",
+    "quotation_parsed": 5000000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "supplier_package",
+    "bidder_id": "consortium_supplier_package_001",
+    "quotation_raw": 40000000.0,
+    "schedule_raw": "合同签订后20周内完成全部设备与材料交付，具体批次按项目施工进度调整，交付时间表在合同签订后2周内提交业主确认。",
+    "quotation_parsed": 40000000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0490",
+    "quotation_raw": 370000000.0,
+    "schedule_raw": "总工期为36个月，自开工令发出之日起计算。关键里程碑：地基与基础工程12个月内完成，主体结构封顶24个月内完成，装修及室外工程36个月内完成并竣工验收。",
+    "quotation_parsed": 370000000.0,
+    "schedule_months_parsed": 36.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 385000000.0,
+    "schedule_raw": "总工期28个月，自开工令发出之日起计算。关键节点：第6个月完成基坑支护验收，第18个月主体结构封顶，第24个月完成装修，第28个月竣工移交。若因我方原因延误，按合同约定承担违约金。",
+    "quotation_parsed": 385000000.0,
+    "schedule_months_parsed": 28.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0504",
+    "quotation_raw": 380000000.0,
+    "schedule_raw": "我司承诺总工期36个月，自开工令发出之日起计算。关键节点：第6个月完成地基处理及深基坑支护；第18个月完成主体结构封顶；第30个月完成机电安装及装修；第36个月完成竣工验收并移交。",
+    "quotation_parsed": 380000000.0,
+    "schedule_months_parsed": 36.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0507",
+    "quotation_raw": 328000000.0,
+    "schedule_raw": "总工期36个月，自开工令之日起计算。关键节点：第3个月完成地基处理，第9个月完成地下室，第21个月主体结构封顶，第31个月完成机电安装及装修，第36个月完成室外工程并竣工验收。",
+    "quotation_parsed": 328000000.0,
+    "schedule_months_parsed": 36.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0532",
+    "quotation_raw": 365000000.0,
+    "schedule_raw": "本司承诺总工期为36个月，自开工令发出之日起计算。关键节点包括：第6个月完成地基处理及深基坑支护，第18个月完成主体结构封顶，第30个月完成机电安装及装修，第36个月完成竣工验收并交付。",
+    "quotation_parsed": 365000000.0,
+    "schedule_months_parsed": 36.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0533",
+    "quotation_raw": 370000000.0,
+    "schedule_raw": "总工期30个月，自开工令发出之日起计算。关键节点：基坑支护完成（第6个月）、主体结构封顶（第18个月）、机电安装完成（第24个月）、竣工验收（第30个月）。我司承诺按此进度计划执行，并制定赶工措施以应对延误。",
+    "quotation_parsed": 370000000.0,
+    "schedule_months_parsed": 30.0
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0660",
+    "quotation_raw": 2850000.0,
+    "schedule_raw": "监理服务期覆盖整个施工工期，自合同签订之日起至工程竣工验收合格及保修期结束。具体工期以业主批准的施工进度计划为准，我方承诺按合同要求配备足够人员，确保监理服务不中断。",
+    "quotation_parsed": 2850000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0209",
+    "quotation_raw": 2850000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自合同生效之日起至工程竣工验收合格并提交监理总结报告止。关键节点：合同签订后7日内完成监理规划报审；施工阶段每周提交周报，每月提交月报；竣工阶段在收到施工方竣工申请后14日内组织预验收并出具意见。",
+    "quotation_parsed": 2850000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0032",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0482",
+    "quotation_raw": 2480000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自开工令发出之日起至工程竣工验收合格之日止。我方承诺在合同签订后7天内完成监理团队进场和监理规划编制，施工阶段全程驻场，竣工阶段配合业主完成验收和档案移交。具体工期以实际施工工期为准，我方将根据施工进度动态调整人员投入，确保监理服务不脱节。",
+    "quotation_parsed": 2480000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 3360000.0,
+    "schedule_raw": "方案设计 2 个月，初步设计 3 个月，施工图设计 4 个月，施工配合贯穿施工期。关键节点：方案设计审查、初步设计审查、施工图审查。",
+    "quotation_parsed": 3360000.0,
+    "schedule_months_parsed": 2.0
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0308",
+    "quotation_raw": 4200000.0,
+    "schedule_raw": "方案设计8周，初步设计10周，施工图设计14周，施工配合至竣工验收。关键节点：第8周方案审查，第18周初步设计审查，第32周施工图审查，第36周BIM模型交付。",
+    "quotation_parsed": 4200000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0375",
+    "quotation_raw": 6600000.0,
+    "schedule_raw": "我司承诺在合同生效后12个月内完成全部设备材料供应、交付和安装指导。关键节点：第2个月完成深化设计确认，第6个月完成主要设备制造，第8个月完成全部交付，第12个月完成安装指导和验收支持。",
+    "quotation_parsed": 6600000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0050",
+    "quotation_raw": 7350000.0,
+    "schedule_raw": "合同签订后32周内完成全部设备材料交付、安装指导和调试配合，具体到货批次与总包施工进度同步。",
+    "quotation_parsed": 7350000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0317",
+    "quotation_raw": 6250000.0,
+    "schedule_raw": "合同签订后8个月内完成全部设备材料交付，质保期24个月，安装指导配合至总包安装完成。",
+    "quotation_parsed": 6250000.0,
+    "schedule_months_parsed": 8.0
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 473000000.0,
+    "schedule_raw": "我方承诺总工期为32个月，自开工令下达之日起计算。关键里程碑：基础工程完成（第6个月）、主体结构封顶（第14个月）、机电安装完成（第24个月）、幕墙封闭（第22个月）、室内装修完成（第30个月）、竣工验收（第32个月）。我方将投入充足资源，确保按期交付。",
+    "quotation_parsed": 473000000.0,
+    "schedule_months_parsed": 32.0
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_002",
+    "quotation_raw": 430000000.0,
+    "schedule_raw": "总工期为合同签订后900日历天，其中基础工程180天，主体结构300天，机电安装与幕墙插入施工，装修及室外工程收尾。关键里程碑：主体结构封顶于第480天，机电调试完成于第780天，竣工验收于第900天。",
+    "quotation_parsed": 430000000.0,
+    "schedule_months_parsed": 30.0
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0296",
+    "quotation_raw": 2800000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自开工令发出之日起至竣工验收合格止。我方承诺在收到业主通知后7日内完成监理团队进场，并全程提供不间断监理服务，直至工程竣工。",
+    "quotation_parsed": 2800000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0144",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 4200000.0,
+    "schedule_raw": "我方承诺监理服务期覆盖施工全过程，直至工程竣工验收及保修期满。具体工期以业主批准的施工总进度计划为准，我方将同步调整监理资源配置，确保全过程监督到位。",
+    "quotation_parsed": 4200000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0046",
+    "quotation_raw": 3550000.0,
+    "schedule_raw": "设计总工期30周，自合同生效起算。方案设计8周，初步设计10周，施工图设计12周，深化设计及施工配合随施工进度。关键节点：方案设计审查、初步设计审查、施工图审查、绿色建筑预评价。",
+    "quotation_parsed": 3550000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 4650000.0,
+    "schedule_raw": "设计总工期12个月，其中方案设计3个月，初步设计3个月，施工图设计4个月，深化设计及施工支持2个月。关键节点：第3个月提交方案设计，第6个月提交初步设计，第10个月提交施工图设计，第12个月完成深化设计。",
+    "quotation_parsed": 4650000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0263",
+    "quotation_raw": 8550000.0,
+    "schedule_raw": "合同签订后12周内完成全部设备材料交付，具体批次按施工进度调整。保修期按设备厂家标准执行，不低于24个月。",
+    "quotation_parsed": 8550000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 555000000.0,
+    "schedule_raw": "我方承诺总工期24个月，关键节点：第6个月主体结构封顶，第12个月幕墙龙骨安装完成，第18个月装饰基层完成，第24个月竣工验收。若因我方原因延误，按合同约定承担违约金。",
+    "quotation_parsed": 555000000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0192",
+    "quotation_raw": 52500000.0,
+    "schedule_raw": "总工期14个月，自开工令下达之日起计算。关键里程碑：第1个月完成施工准备，第7个月完成主体结构封顶，第12个月完成安装与装饰主要工程，第14个月完成竣工验收。若因我方原因延误，承担合同约定的违约责任。",
+    "quotation_parsed": 52500000.0,
+    "schedule_months_parsed": 14.0
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 4700000.0,
+    "schedule_raw": "监理服务期覆盖项目施工全过程，自开工令发出之日起至竣工验收合格之日止，并延伸至缺陷责任期结束。我方承诺在施工准备期完成监理规划审批，施工期按合同要求驻场监督，竣工验收阶段配合业主完成验收，缺陷责任期内提供回访及整改监督服务。",
+    "quotation_parsed": 4700000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0145",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0209",
+    "quotation_raw": 3840000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，预计总工期约18个月，具体以施工合同为准。我方承诺在施工准备期、施工实施期、竣工验收期及保修期内提供全程监理服务，关键人员按计划到位，确保监理工作连续、稳定。",
+    "quotation_parsed": 3840000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0363",
+    "quotation_raw": 1400000.0,
+    "schedule_raw": "设计总工期为20周，自合同生效之日起计算。方案设计4周，初步设计6周，施工图设计10周。施工期现场服务及竣工图编制按实际进度安排，确保满足业主审查节点。",
+    "quotation_parsed": 1400000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0054",
+    "quotation_raw": 3350000.0,
+    "schedule_raw": "设计总工期为9个月，自合同生效之日起计算。方案设计2个月，初步设计3个月，施工图设计4个月。施工配合及竣工图编制随施工进度，直至竣工验收。关键里程碑：方案设计完成（第2个月末）、初步设计完成（第5个月末）、施工图设计完成（第9个月末）。",
+    "quotation_parsed": 3350000.0,
+    "schedule_months_parsed": 9.0
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "supplier_package",
+    "bidder_id": "consortium_supplier_package_001",
+    "quotation_raw": 13600000.0,
+    "schedule_raw": "合同签订后16周内完成全部设备材料交付，具体批次按承包商施工进度调整；保修期按合同约定执行，奥的斯电梯提供24个月保修，其他设备按品类提供12-24个月保修。",
+    "quotation_parsed": 13600000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0463",
+    "quotation_raw": 43000000.0,
+    "schedule_raw": "总工期15个月，自开工令发出之日起计。关键节点：3个月内完成临建及基坑支护，8个月内主体结构封顶，12个月内完成安装及装饰，15个月内完成室外工程及竣工验收。",
+    "quotation_parsed": 43000000.0,
+    "schedule_months_parsed": 15.0
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 51000000.0,
+    "schedule_raw": "我方承诺总工期24个月，自开工令发出之日起计算。关键里程碑：第6个月完成地下室结构，第12个月主体结构封顶，第18个月机电安装完成，第22个月装饰装修完成，第24个月竣工验收并移交。若因我方原因延误，愿按合同约定承担逾期违约金。",
+    "quotation_parsed": 51000000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0410",
+    "quotation_raw": 2400000.0,
+    "schedule_raw": "监理服务期覆盖施工准备阶段至保修期结束，具体工期与施工合同工期一致。我司承诺在接到业主进场通知后7日内完成监理机构组建并进驻现场。关键岗位人员将按计划到位，确保监督工作不间断。",
+    "quotation_parsed": 2400000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0150",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 3850000.0,
+    "schedule_raw": "我方承诺在合同签订后7日内完成监理团队进场准备，并按照工程总进度计划全程提供监理服务，直至缺陷责任期结束。若因业主原因导致工期延长，我方将配合调整人员安排，但延长期间的费用需另行协商。",
+    "quotation_parsed": 3850000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0221",
+    "quotation_raw": 3650000.0,
+    "schedule_raw": "我方承诺设计总工期约34周（不含施工配合期），其中方案设计8周、初步设计10周、施工图设计12周、施工图审查配合4周。施工配合期贯穿整个施工阶段，直至竣工验收。关键里程碑：方案设计提交（第8周末）、初步设计提交（第18周末）、施工图设计提交（第30周末）、施工图审查通过（第34周末）。我方将配置充足人力资源，确保各阶段按时交付，并设置进度检查节点，每周更新进度计划，及时预警和纠偏。",
+    "quotation_parsed": 3650000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0381",
+    "quotation_raw": 950000.0,
+    "schedule_raw": "方案设计阶段预计3个月，初步设计阶段预计4个月，施工图设计阶段预计5个月，总工期12个月，与设计范围和深度匹配。",
+    "quotation_parsed": 950000.0,
+    "schedule_months_parsed": 3.0
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0172",
+    "quotation_raw": 3450000.0,
+    "schedule_raw": "设计周期20周，施工阶段支持至竣工。关键节点：第4周方案设计提交，第10周初步设计提交，第20周施工图设计提交。",
+    "quotation_parsed": 3450000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0328",
+    "quotation_raw": 2595000.0,
+    "schedule_raw": "合同生效后30天内完成首批产品交付，60天内完成全部产品交付，具体交付计划与业主施工进度协调。",
+    "quotation_parsed": 2595000.0,
+    "schedule_months_parsed": 1.0
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0332",
+    "quotation_raw": 2520000.0,
+    "schedule_raw": "合同签订后12周内完成全部产品交付及验收，具体节点：第2周完成启动会及清单确认，第8周完成采购与检验，第10周完成首批交付，第12周完成全部交付及文档移交。保修期自验收合格之日起24个月。",
+    "quotation_parsed": 2520000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0162",
+    "quotation_raw": 35150000.0,
+    "schedule_raw": "总工期12个月，自开工令下达之日起计算。关键里程碑：第1个月完成施工准备；第4个月完成主体结构；第8个月完成机电安装；第10个月完成装饰及调试；第12个月竣工验收并移交。",
+    "quotation_parsed": 35150000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0305",
+    "quotation_raw": 26200000.0,
+    "schedule_raw": "总工期18个月，自开工令下达之日起计算。关键里程碑：第2个月完成施工准备，第12个月完成主体结构封顶，第16个月完成机电安装调试，第18个月完成竣工验收并移交。我方承诺投入足够资源确保里程碑节点，若因我方原因延误，愿按合同约定承担违约责任。",
+    "quotation_parsed": 26200000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0171",
+    "quotation_raw": 29650000.0,
+    "schedule_raw": "总工期21个月，自开工令下达之日起计算。关键里程碑节点：第4个月末完成基础工程，第10个月末完成主体结构，第14个月末完成机电安装，第17个月末完成装饰装修，第19个月末完成室外工程，第21个月末完成调试与验收。我司承诺按里程碑节点组织施工，若因我方原因延误，愿承担合同约定的违约责任。",
+    "quotation_parsed": 29650000.0,
+    "schedule_months_parsed": 21.0
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0161",
+    "quotation_raw": 57000000.0,
+    "schedule_raw": "总工期15个月，关键里程碑：第2个月完成施工准备，第7个月完成主体结构封顶，第12个月完成机电安装，第15个月完成竣工验收。",
+    "quotation_parsed": 57000000.0,
+    "schedule_months_parsed": 15.0
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0263",
+    "quotation_raw": 1900000.0,
+    "schedule_raw": "我方承诺在合同签订后1周内完成启动准备，并按照业主批准的检查计划开展监管服务。服务周期覆盖整个项目施工阶段，直至竣工验收。具体工期以业主发布的施工进度计划为准，我方将同步调整人员投入，确保监管不脱节。",
+    "quotation_parsed": 1900000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0313",
+    "quotation_raw": 1535000.0,
+    "schedule_raw": "我司承诺在合同生效后7天内完成动员，并按照项目全周期提供监管服务，直至竣工移交。具体进度将根据业主总体工期调整，确保监管覆盖所有关键节点。",
+    "quotation_parsed": 1535000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0156",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0804",
+    "quotation_raw": 2900000.0,
+    "schedule_raw": "我方承诺在合同签订后2周内完成动员，并按照项目总工期提供全过程监管服务。具体进度计划将在动员阶段提交业主审批，并每月更新进度报告。",
+    "quotation_parsed": 2900000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 5030000.0,
+    "schedule_raw": "设计总工期为12个月，其中方案设计2个月、初步设计3个月、施工图设计4个月、施工配合阶段贯穿施工期（预计12个月）。我方承诺按阶段提交设计成果，并配合业主审查和施工进度。",
+    "quotation_parsed": 5030000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0286",
+    "quotation_raw": 2660000.0,
+    "schedule_raw": "设计总工期预计为12个月，其中方案设计2个月，初步设计3个月，施工图设计4个月，施工配合服务至工程竣工验收。各阶段成果交付与业主审查节点同步，确保设计进度满足招标要求。",
+    "quotation_parsed": 2660000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0263",
+    "quotation_raw": 2550000.0,
+    "schedule_raw": "合同签订后12周内完成全部设备交付，安装期间提供技术支持，保修期24个月，备件供应持续至保修期结束后12个月。",
+    "quotation_parsed": 2550000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0731",
+    "quotation_raw": 2460000.0,
+    "schedule_raw": "合同签订后12周内完成全部设备交付，并配合总包安装进度提供接口信息。保修期为设备验收合格后24个月，期间提供及时售后响应和备件供应。",
+    "quotation_parsed": 2460000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0414",
+    "quotation_raw": 2500000.0,
+    "schedule_raw": "合同签订后20周内完成全部设备交付及文档移交，保修期按合同约定执行。",
+    "quotation_parsed": 2500000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 46500000.0,
+    "schedule_raw": "总工期18个月，关键节点：第3个月完成基础，第8个月主体封顶，第14个月机电安装完成，第16个月装修完成，第18个月竣工验收。",
+    "quotation_parsed": 46500000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0716",
+    "quotation_raw": 39000000.0,
+    "schedule_raw": "总工期18个月，自开工令下达之日起计算。关键里程碑：第2个月完成施工准备，第10个月主体结构封顶，第16个月机电安装和装修基本完成，第18个月完成联调、竣工验收并移交。我司承诺按此计划执行，若因我方原因延误，承担合同约定的违约责任。",
+    "quotation_parsed": 39000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0264",
+    "quotation_raw": 2890000.0,
+    "schedule_raw": "我方承诺在合同签订后7天内完成监理团队进场，并提交监理规划和实施细则。施工阶段全程驻场，按合同工期完成监理服务。若工期延长，我方将根据变更情况调整人员投入，费用按合同约定协商。",
+    "quotation_parsed": 2890000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0296",
+    "quotation_raw": 4550000.0,
+    "schedule_raw": "我方承诺按照合同约定的工期完成监理服务，包括施工准备阶段、施工阶段、竣工验收阶段和缺陷责任期阶段。具体进度将根据工程实际进度动态调整，确保监理工作与施工进度同步。",
+    "quotation_parsed": 4550000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0160",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0484",
+    "quotation_raw": 1500000.0,
+    "schedule_raw": "我方承諾在合同簽訂後14天內完成動員並進場，服務期覆蓋整個施工階段直至竣工驗收及缺陷整改期結束。具體工期以業主批准的施工進度計劃為準，我方將同步調整監理資源，確保全程覆蓋。",
+    "quotation_parsed": 1500000.0,
+    "schedule_months_parsed": 0.4666666666666667
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0257",
+    "quotation_raw": 3000000.0,
+    "schedule_raw": "设计总工期约9个月，其中概念设计2个月，方案深化3个月，初步设计及概算编制4个月。后续施工配合服务至项目竣工。",
+    "quotation_parsed": 3000000.0,
+    "schedule_months_parsed": 9.0
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 7200000.0,
+    "schedule_raw": "总设计周期22周，自合同生效起计算。关键节点：概念设计完成（第4周）、方案深化完成（第10周）、初步设计完成（第18周）、概算及接口移交（第22周）。",
+    "quotation_parsed": 7200000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0420",
+    "quotation_raw": 2450000.0,
+    "schedule_raw": "我们承诺在合同生效后16周内完成主要设备与材料的交付，具体批次安排与总承包商施工进度协调。保修期自验收合格之日起12个月，备件供应在保修期后5年内保证。",
+    "quotation_parsed": 2450000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0731",
+    "quotation_raw": 3110000.0,
+    "schedule_raw": "自合同生效起26周内完成全部交付，并配合总包安装。具体节点：第2周确认清单，第6周完成采购，第14周完成生产，第20周完成交付，第26周完成安装支持。",
+    "quotation_parsed": 3110000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0370",
+    "quotation_raw": 25500000.0,
+    "schedule_raw": "我司承诺总工期为18个月，自开工令发出之日起计算。关键里程碑：基础工程3个月，主体结构6个月，机电安装4个月，装修及室外工程3个月，竣工交付2个月。我司将制定详细施工进度计划，与设计包衔接，确保按期交付。",
+    "quotation_parsed": 25500000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0190",
+    "quotation_raw": 83500000.0,
+    "schedule_raw": "总工期18个月，自开工令下达之日起计。关键里程碑：桩基完成（第4月）、主体封顶（第8月）、机电调试完成（第14月）、竣工交付（第18月）。若因我司原因延误，按合同约定承担违约金。",
+    "quotation_parsed": 83500000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0472",
+    "quotation_raw": 38950000.0,
+    "schedule_raw": "我司承诺在合同生效后18个月内完成全部施工并交付，关键里程碑为：第2个月完成施工准备，第9个月主体结构封顶，第15个月安装装修基本完成，第18个月竣工交付。若因我司原因延误，愿按合同约定承担违约责任。",
+    "quotation_parsed": 38950000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0339",
+    "quotation_raw": 30800000.0,
+    "schedule_raw": "总工期18个月，开工后3个月完成基础，8个月主体封顶，14个月机电安装完成，16个月装修及园林完工，18个月竣工验收。关键节点设奖惩机制，确保按期交付。",
+    "quotation_parsed": 30800000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0208",
+    "quotation_raw": 2860000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，直至竣工验收。我方承诺在收到中标通知后2周内完成监理团队进场和监理规划编制，施工期间全程驻场，每周提交监理周报，每月提交监理月报，竣工验收后1个月内提交监理总结报告。",
+    "quotation_parsed": 2860000.0,
+    "schedule_months_parsed": 1.0
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0523",
+    "quotation_raw": 1050000.0,
+    "schedule_raw": "监理服务期覆盖整个施工工期，从动员至竣工移交。我方承诺在服务期内保持团队稳定，每周巡查不少于3次，关键工序旁站，整改闭环时限48小时。若工期调整，我方将按业主要求调配资源，确保监督连续性。",
+    "quotation_parsed": 1050000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0164",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0474",
+    "quotation_raw": 2580000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自施工准备阶段开始至竣工验收及缺陷责任期结束。我方承诺在合同签订后7日内完成监理团队组建及监理规划编制，施工期间保持现场监督连续，每周提交监理周报，每月提交监理月报，竣工验收后30日内提交监理总结报告。",
+    "quotation_parsed": 2580000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0141",
+    "quotation_raw": 6900000.0,
+    "schedule_raw": "我方承诺初步设计阶段3个月内完成，施工图设计阶段4个月内完成，施工配合阶段贯穿整个施工期，直至项目竣工验收。具体进度将根据业主批准的设计进度计划执行，并确保与施工工期衔接。",
+    "quotation_parsed": 6900000.0,
+    "schedule_months_parsed": 3.0
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0369",
+    "quotation_raw": 3150000.0,
+    "schedule_raw": "我方承诺在合同签订后2周内提交初步设计大纲，3个月内完成初步设计，7个月内完成施工图设计，并配合业主完成施工图审查。施工配合阶段自施工开始至竣工验收，我方将派驻现场设计代表，确保设计服务贯穿全过程。",
+    "quotation_parsed": 3150000.0,
+    "schedule_months_parsed": 3.0
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0308",
+    "quotation_raw": 6070000.0,
+    "schedule_raw": "我司承诺在合同生效后40周内完成全部设备与材料交付，并配合施工方完成安装调试。具体交付节点：首批设备于第16周交付，第二批于第24周交付，第三批于第32周交付。",
+    "quotation_parsed": 6070000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0356",
+    "quotation_raw": 7900000.0,
+    "schedule_raw": "我司承诺在合同生效后32周内完成全部设备交付，并配合施工方在28周内完成安装指导，验收后进入24个月保修期。具体里程碑：第12周完成采购，第20周完成首批交付，第28周完成全部交付。",
+    "quotation_parsed": 7900000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0375",
+    "quotation_raw": 3950000.0,
+    "schedule_raw": "我司承诺在合同生效后10个月内完成全部设备与材料的交付，具体批次按施工进度调整。首批关键设备（通风和监控）在4个月内交付，桥墩托换材料在6个月内交付，交通设施在8个月内交付。保修期为最终验收后24个月。",
+    "quotation_parsed": 3950000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 285000000.0,
+    "schedule_raw": "总工期36个月，其中隧道主体施工24个月，地面道路改造及交通导改18个月（与隧道施工部分重叠），MEP协调及公共通道协调贯穿全过程，竣工验收3个月。关键节点：开工后6个月内完成施工准备和交通导改方案审批；12个月内完成隧道开挖50%；24个月内完成隧道主体结构；30个月内完成地面道路改造；36个月内完成竣工验收。",
+    "quotation_parsed": 285000000.0,
+    "schedule_months_parsed": 36.0
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_002",
+    "quotation_raw": 270500000.0,
+    "schedule_raw": "总工期26个月，关键节点：第2个月完成交通导改；第8个月完成隧道开挖过半；第16个月完成隧道贯通；第20个月完成桥墩托换；第24个月完成地面道路改造；第26个月竣工验收。",
+    "quotation_parsed": 270500000.0,
+    "schedule_months_parsed": 26.0
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 3780000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自开工令发出之日起至竣工验收合格之日止。关键人员到位时间：项目总监和质量负责人在开工前7天到位，现场监理团队在开工前3天到位。每周提交监理周报，每月提交监理月报，重大问题24小时内报告业主。",
+    "quotation_parsed": 3780000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0167",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0453",
+    "quotation_raw": 3150000.0,
+    "schedule_raw": "监理服务期与施工工期一致，从施工准备阶段开始至竣工验收结束。具体工期以业主批准的施工进度计划为准。我们将根据施工进度动态调整人员投入，确保高峰期有足够人力。",
+    "quotation_parsed": 3150000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 10800000.0,
+    "schedule_raw": "设计总工期12个月，其中方案设计3个月、初步设计4个月、施工图设计5个月。关键节点：第3个月完成方案设计并提交业主审查；第7个月完成初步设计；第12个月完成全部施工图及BIM交付。",
+    "quotation_parsed": 10800000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0050",
+    "quotation_raw": 6500000.0,
+    "schedule_raw": "合同签订后，根据项目总进度计划分批供货，首批设备在60天内到场，全部设备在180天内完成供货，并配合安装调试。",
+    "quotation_parsed": 6500000.0,
+    "schedule_months_parsed": 2.0
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0263",
+    "quotation_raw": 5120000.0,
+    "schedule_raw": "我方承诺在合同签订后20周内完成全部设备供货，并配合总包完成安装和调试。具体供货计划将在合同签订后2周内提交业主审批，确保关键设备（电梯、空调主机）提前排产，不影响整体工期。",
+    "quotation_parsed": 5120000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0139",
+    "quotation_raw": 46700000.0,
+    "schedule_raw": "总工期为24个月，自开工令发出之日起计算。关键节点：临时设施及基础施工3个月，主体结构12个月，安装及装饰8个月，室外总体及竣工验收1个月。我司承诺按此进度计划执行，并配置充足资源，确保按期交付。",
+    "quotation_parsed": 46700000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0199",
+    "quotation_raw": 45700000.0,
+    "schedule_raw": "总工期按合同要求，我司承诺在合同约定的工期内完成全部施工内容，并确保关键节点按时完成。具体进度计划详见施工组织设计。",
+    "quotation_parsed": 45700000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0190",
+    "quotation_raw": 46800000.0,
+    "schedule_raw": "我方承诺总工期为540日历天，自开工令发出之日起计算。关键节点：基础工程完成于第120天，主体结构封顶于第300天，装饰装修完成于第450天，竣工验收于第540天。我方将按此计划配置资源，并设置周计划和月计划进行动态控制，确保按期交付。",
+    "quotation_parsed": 46800000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0167",
+    "quotation_raw": 200000000.0,
+    "schedule_raw": "总工期24个月，开工后第4个月完成基础，第12个月主体封顶，第18个月安装装饰完成，第24个月竣工验收。关键节点如有延误，将采取增加资源、调整工序等措施确保按期完成。",
+    "quotation_parsed": 200000000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0476",
+    "quotation_raw": 3000000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，直至工程竣工验收合格并提交完整的监理资料。具体工期以业主批准的施工工期为准，我方承诺在施工期间全程驻场，关键工序旁站，确保监理服务不间断。",
+    "quotation_parsed": 3000000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0170",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0483",
+    "quotation_raw": 3150000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自开工令发出之日起至工程竣工验收合格并移交全部监理资料止。我方将根据实际施工进度调整人员投入，确保关键工序旁站和日常巡视到位。",
+    "quotation_parsed": 3150000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0827",
+    "quotation_raw": 2500000.0,
+    "schedule_raw": "设计周期为10个月，自合同生效之日起计算。关键节点：第1个月完成概念设计，第3个月完成方案深化，第6个月完成初步设计，第10个月完成施工图设计。施工配合期至竣工验收，预计12个月。",
+    "quotation_parsed": 2500000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0836",
+    "quotation_raw": 3600000.0,
+    "schedule_raw": "我方承诺在合同生效后10个月内完成全部设计服务，包括方案设计、深化设计、施工图设计及施工阶段支持。关键里程碑：第2个月完成方案设计审查，第5个月完成深化设计审查，第8个月提交施工图设计，第10个月完成施工阶段配合。",
+    "quotation_parsed": 3600000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0246",
+    "quotation_raw": 1900000.0,
+    "schedule_raw": "设计周期约6个月，分四个阶段：方案设计（1个月）、深化设计（2个月）、BIM协调（1.5个月）、审查及文档提交（1.5个月）。关键节点包括设计审查会议和文档提交，确保满足业主进度要求。",
+    "quotation_parsed": 1900000.0,
+    "schedule_months_parsed": 6.0
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0317",
+    "quotation_raw": 2420000.0,
+    "schedule_raw": "我方承诺在合同生效后4个月内完成全部产品交付，具体里程碑：第1个月完成需求确认与产品适配，第2个月完成生产/采购，第3个月完成质量检验与包装，第4个月完成交付及接口信息移交。售后支持自交付之日起24个月。",
+    "quotation_parsed": 2420000.0,
+    "schedule_months_parsed": 4.0
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0259",
+    "quotation_raw": 2495000.0,
+    "schedule_raw": "合同签订后12周内完成全部交付，具体交付时间与承包商施工进度衔接，保修期自验收合格之日起2年。",
+    "quotation_parsed": 2495000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0293",
+    "quotation_raw": 2700000.0,
+    "schedule_raw": "我方承诺按业主和承包商确认的里程碑交付，供应计划与安装进度衔接。启动后2周内提交详细供应计划，关键设备提前采购，确保不延误安装。保修期自验收之日起计算，期间提供及时响应。",
+    "quotation_parsed": 2700000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0187",
+    "quotation_raw": 38000000.0,
+    "schedule_raw": "总工期为18个月，自开工令下达之日起计算。关键里程碑包括：第3个月完成地下室结构，第8个月完成主体结构封顶，第12个月完成机电安装，第15个月完成装修，第18个月完成系统调试和竣工验收。我司承诺按此进度执行，并设置赶工措施以应对延误。",
+    "quotation_parsed": 38000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0532",
+    "quotation_raw": 71000000.0,
+    "schedule_raw": "总工期为24个月，自开工令下达之日起计算。关键节点：第6个月完成地下室结构，第12个月主体结构封顶，第18个月机电安装完成，第22个月联合调试完成，第24个月竣工移交。",
+    "quotation_parsed": 71000000.0,
+    "schedule_months_parsed": 24.0
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0322",
+    "quotation_raw": 48000000.0,
+    "schedule_raw": "总工期56周，自开工令下达之日起计算。关键里程碑：第4周完成施工准备，第24周完成主体结构封顶，第48周完成机电安装及装饰装修，第56周完成竣工验收并移交。",
+    "quotation_parsed": 48000000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0171",
+    "quotation_raw": 27800000.0,
+    "schedule_raw": "我司承诺总工期为18个月，自开工令下达之日起计算。关键里程碑：基础完工（第4个月）、主体结构封顶（第8个月）、机电安装完成（第14个月）、竣工验收（第18个月）。我司将制定详细的施工进度计划，并每周跟踪、每月向业主报告，确保按期交付。",
+    "quotation_parsed": 27800000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0108",
+    "quotation_raw": 1800000.0,
+    "schedule_raw": "我方承诺在合同生效后14天内完成监管计划编制并启动现场监控，项目全周期内持续提供监管服务，直至工程竣工验收。关键节点包括：首月完成现场监控体系建立，每季度提交质量审查报告，最终验收前完成全部监管文件移交。",
+    "quotation_parsed": 1800000.0,
+    "schedule_months_parsed": 0.4666666666666667
+  },
+  {
+    "case_id": "CASE-0186",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 2700000.0,
+    "schedule_raw": "我方承诺按业主批准的监管计划执行，全项目监管服务覆盖施工准备至竣工阶段。关键里程碑包括：合同生效后14天内提交监管计划，施工阶段每月提交月度报告，竣工阶段提交最终监管报告。具体工期以业主指令为准，我方将保持资源弹性，确保监管连续性。",
+    "quotation_parsed": 2700000.0,
+    "schedule_months_parsed": 0.4666666666666667
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 5350000.0,
+    "schedule_raw": "设计总工期为 12 个月，其中方案设计 2 个月，初步设计 3 个月，施工图设计 5 个月，施工配合 2 个月。关键节点：第 2 个月完成方案设计并提交业主审查，第 5 个月完成初步设计，第 10 个月完成施工图设计，第 12 个月完成施工配合。",
+    "quotation_parsed": 5350000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0338",
+    "quotation_raw": 3600000.0,
+    "schedule_raw": "设计总工期预计为10个月，其中方案设计2个月，初步设计3个月，施工图设计3个月，施工支持2个月。各阶段设置业主审查节点，确保设计进度和质量。",
+    "quotation_parsed": 3600000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0226",
+    "quotation_raw": 6680000.0,
+    "schedule_raw": "我司承诺在合同生效后12个月内完成全部设备材料交付，并配合安装调试。关键节点：合同生效后1个月内完成订单下达，第6个月完成首批主要设备交付，第12个月完成全部交付。具体批次安排将根据总包施工进度调整，确保不延误安装。",
+    "quotation_parsed": 6680000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "supplier_package",
+    "bidder_id": "consortium_supplier_package_001",
+    "quotation_raw": 7650000.0,
+    "schedule_raw": "承诺在合同生效后14个月内完成全部设备交付和安装配合，具体节点：第2个月完成深化设计，第6个月完成采购，第10个月完成主要交付，第14个月完成安装配合和验收。",
+    "quotation_parsed": 7650000.0,
+    "schedule_months_parsed": 14.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0366",
+    "quotation_raw": 16800000.0,
+    "schedule_raw": "总工期为18个月，自开工令下达之日起计算。关键里程碑包括：第3个月完成施工图深化，第6个月完成基础工程，第12个月完成主体结构，第15个月完成机电安装，第18个月完成竣工验收。",
+    "quotation_parsed": 16800000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0459",
+    "quotation_raw": 36800000.0,
+    "schedule_raw": "总工期14个月，自开工令起算。关键里程碑：第2个月完成施工图深化，第10个月结构封顶，第12个月MEP安装完成，第14个月竣工验收。",
+    "quotation_parsed": 36800000.0,
+    "schedule_months_parsed": 14.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0362",
+    "quotation_raw": 51900000.0,
+    "schedule_raw": "总工期为18个月，自开工令下达之日起计算。关键里程碑：施工图深化及报审2个月，基础及主体结构施工10个月，机电安装及装饰装修4个月，调试及竣工验收2个月。我司承诺按此进度计划组织施工，并制定赶工措施以应对延误风险。",
+    "quotation_parsed": 51900000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0359",
+    "quotation_raw": 14980000.0,
+    "schedule_raw": "总工期为18个月，自开工令下达之日起计算。关键节点：第3个月完成施工图深化，第6个月完成基础工程，第12个月完成主体结构，第15个月完成MEP安装，第18个月完成竣工验收。",
+    "quotation_parsed": 14980000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0208",
+    "quotation_raw": 2980000.0,
+    "schedule_raw": "我方承诺在合同签订后7天内完成团队进场和准备工作，并按照项目总体进度计划提供全过程监理服务，直至工程竣工验收。具体进度安排将在进场后提交详细监理规划，并每周更新进度报告。",
+    "quotation_parsed": 2980000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0195",
+    "package_id": "supervision_package",
+    "bidder_id": "consortium_supervision_package_001",
+    "quotation_raw": 1750000.0,
+    "schedule_raw": "本联合体承诺在合同生效后2周内完成动员并进场，服务期覆盖整个施工阶段直至竣工，竣工后2周内提交最终监管报告。具体工期以业主批准的施工进度计划为准，我方将同步调整监督资源，确保全过程覆盖。",
+    "quotation_parsed": 1750000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0054",
+    "quotation_raw": 3980000.0,
+    "schedule_raw": "总工期32周，方案设计8周，初步设计10周，施工图设计14周。关键里程碑：方案设计提交（第8周）、初步设计提交（第18周）、施工图设计提交（第32周）。施工阶段提供设计支持直至竣工验收。",
+    "quotation_parsed": 3980000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0228",
+    "quotation_raw": 4550000.0,
+    "schedule_raw": "我方承诺在合同生效后20周内完成全部设计工作，包括方案设计4周、初步设计6周、施工图设计10周。各阶段提交业主审查，审查意见回复时间不超过5个工作日。BIM模型随各阶段同步交付，最终施工图交付后2周内提交完整BIM模型。",
+    "quotation_parsed": 4550000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0152",
+    "quotation_raw": 3900000.0,
+    "schedule_raw": "方案设计阶段3个月，初步设计阶段4个月，施工图设计阶段6个月，总设计周期13个月。各阶段审查节点按计划执行，若业主审查反馈延迟，工期相应顺延。",
+    "quotation_parsed": 3900000.0,
+    "schedule_months_parsed": 3.0
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0358",
+    "quotation_raw": 2400000.0,
+    "schedule_raw": "合同签订后12周内完成全部交付，保修期12个月。具体交付节点与承包商施工进度同步，关键设备提前2周到场。",
+    "quotation_parsed": 2400000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0346",
+    "quotation_raw": 2800000.0,
+    "schedule_raw": "我司承诺在合同生效后26周内完成全部供应、交付和售后支持工作，具体交付批次与承包商施工进度同步，确保不延误安装。",
+    "quotation_parsed": 2800000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0412",
+    "quotation_raw": 2700000.0,
+    "schedule_raw": "我司承诺在合同生效后16周内完成主要货物交付，具体交付计划与施工进度同步，并在第2周提供详细到货计划。保修期自验收合格之日起计算，保修期内提供及时售后响应。",
+    "quotation_parsed": 2700000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0183",
+    "quotation_raw": 8800000.0,
+    "schedule_raw": "总工期为18个月，其中施工准备1个月，结构改造3个月，机电安装与装修穿插进行12个月，系统调试与竣工验收2个月。关键节点包括样板间完成、机电主管线安装完成、装修大面积完成。",
+    "quotation_parsed": 8800000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0185",
+    "quotation_raw": 7350000.0,
+    "schedule_raw": "我司承诺总工期为10个月，自开工令下达之日起计算。关键节点：第1个月完成施工准备；第4个月完成结构改造；第8个月完成机电安装和装修；第10个月完成调试、验收和移交。若因我司原因导致工期延误，愿按合同约定承担违约责任。",
+    "quotation_parsed": 7350000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0311",
+    "quotation_raw": 6830000.0,
+    "schedule_raw": "总工期24周，自开工令下达之日起计算。关键里程碑：第4周样板确认；第12周结构改造完成；第16周机电安装完成；第20周装修工程完成；第24周竣工验收。我司承诺按此进度执行，若因我司原因延误，愿承担合同约定的违约责任。",
+    "quotation_parsed": 6830000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0466",
+    "quotation_raw": 6950000.0,
+    "schedule_raw": "我司承诺按合同工期完成全部施工内容，总工期为12个月。开工后第1-2个月完成结构改造，第3-6个月完成机电安装，第7-10个月完成装修工程，第11个月进行系统调试和整改，第12个月完成竣工验收和移交。关键节点：第2个月末完成样板先行验收，第6个月末完成机电隐蔽工程验收，第10个月末完成装修工程初验。",
+    "quotation_parsed": 6950000.0,
+    "schedule_months_parsed": 12.0
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0196",
+    "quotation_raw": 950000.0,
+    "schedule_raw": "我方承诺在合同签订后1周内完成监管计划编制和人员进场，施工阶段每日巡查、每周提交周报、每月提交月报，紧急问题24小时内书面通知业主。竣工阶段在业主通知后2周内提交最终监管报告。",
+    "quotation_parsed": 950000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0775",
+    "quotation_raw": 1300000.0,
+    "schedule_raw": "我方承诺在项目施工全周期内提供监管服务，直至竣工验收及缺陷责任期结束。具体工期以业主批准的施工进度计划为准，我方将同步调整监管资源配置，确保覆盖关键节点。",
+    "quotation_parsed": 1300000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0196",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0442",
+    "quotation_raw": 1640000.0,
+    "schedule_raw": "我方承诺按项目实际工期提供全程监管服务，关键节点包括：进场后7日内完成监管计划报审；施工阶段按周、月提交进度报告；每季度提交综合监管报告；项目竣工后30日内提交监管总结报告。具体工期以业主批复的施工进度计划为准，我方将同步调整人力投入。",
+    "quotation_parsed": 1640000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0054",
+    "quotation_raw": 3980000.0,
+    "schedule_raw": "设计总工期为18个月，其中方案设计3个月，初步设计4个月，施工图设计5个月，施工配合6个月。关键节点包括方案设计审查（第3个月末）、初步设计审查（第7个月末）、施工图交付（第12个月末）及施工配合结束（第18个月末）。",
+    "quotation_parsed": 3980000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "design_package",
+    "bidder_id": "consortium_design_package_001",
+    "quotation_raw": 2400000.0,
+    "schedule_raw": "总设计周期30周，自合同生效之日起计算。方案设计8周，初步设计10周，施工图设计12周。每阶段提交业主审查，审查意见反馈后5个工作日内修改。关键里程碑：方案设计完成（第8周）、初步设计完成（第18周）、施工图设计完成（第30周）。",
+    "quotation_parsed": 2400000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0263",
+    "quotation_raw": 2205000.0,
+    "schedule_raw": "我方承诺在合同签订后12周内完成全部产品交付，并配合承包商安装进度。具体交付计划将在合同签订后2周内提交业主确认。",
+    "quotation_parsed": 2205000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0341",
+    "quotation_raw": 3600000.0,
+    "schedule_raw": "合同签订后12周内完成全部产品交付，并配合承包商安装。具体里程碑：第4周完成产品确认，第8周完成首批交付，第12周完成全部交付。",
+    "quotation_parsed": 3600000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0226",
+    "quotation_raw": 2750000.0,
+    "schedule_raw": "合同签订后4周内完成产品确认与采购，8周内完成生产与质检，12周内完成交付并配合安装。具体进度将根据承包商安装计划调整，确保不延误总工期。",
+    "quotation_parsed": 2750000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 43500000.0,
+    "schedule_raw": "总工期38周，自开工令下达之日起计算。关键里程碑：第4周完成施工准备，第20周结构封顶，第32周机电调试完成，第36周展陈验收，第38周竣工验收。",
+    "quotation_parsed": 43500000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0716",
+    "quotation_raw": 38100000.0,
+    "schedule_raw": "总工期18个月，其中施工准备2个月，土建施工10个月，机电与展陈施工4个月，调试与验收2个月。关键里程碑：第3个月完成土方开挖，第8个月主体结构封顶，第14个月机电和展陈安装完成，第16个月开始系统调试。",
+    "quotation_parsed": 38100000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0410",
+    "quotation_raw": 3210000.0,
+    "schedule_raw": "我方承诺在合同签订后7天内完成团队进场和交底，服务期覆盖项目全过程，直至竣工验收。每日巡查、每周报告、每月综合报告按时提交，不因节假日或天气原因中断。若工期延长，我方将保持驻场，但费用调整机制按合同约定执行。",
+    "quotation_parsed": 3210000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0264",
+    "quotation_raw": 3350000.0,
+    "schedule_raw": "我方承诺按业主批准的施工工期提供全程监理服务，服务期自开工令发出之日起至工程竣工验收合格之日止。关键节点：开工前7天完成监理团队进场；每月5日前提交上月监理月报；每周提交监理周报；竣工验收前30天提交监理工作总结报告。",
+    "quotation_parsed": 3350000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0198",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0445",
+    "quotation_raw": 3110000.0,
+    "schedule_raw": "监理服务期与施工工期同步，自合同生效之日起至工程竣工验收合格并完成保修期监理服务。我方承诺在合同签订后2周内完成监理团队组建和监理规划编制，施工期间常驻人员到岗率不低于95%，关键工序旁站覆盖率100%，样品送检及时率100%，周报、月报按时提交率100%。",
+    "quotation_parsed": 3110000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0468",
+    "quotation_raw": 6000000.0,
+    "schedule_raw": "设计总工期为18个月，其中方案设计3个月，初步设计5个月，施工图设计7个月，施工配合及后期服务3个月。各阶段关键节点：方案设计完成并提交审查后2周内取得业主意见；初步设计完成审查后1个月内修改完善；施工图设计完成审查后2周内提交正式成果。",
+    "quotation_parsed": 6000000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0398",
+    "quotation_raw": 3930000.0,
+    "schedule_raw": "我司承诺设计总工期约9个月，自合同生效之日起计算，至施工图设计完成并提交业主审查通过。施工配合阶段持续至项目竣工。各阶段具体节点如下：方案设计阶段2个月，初步设计阶段3个月，施工图设计阶段4个月。我司将严格按照进度计划执行，若因业主审查或不可抗力导致延误，将及时调整资源并提交进度更新。",
+    "quotation_parsed": 3930000.0,
+    "schedule_months_parsed": 9.0
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0110",
+    "quotation_raw": 11780000.0,
+    "schedule_raw": "设计总工期约25个月，其中方案设计3个月、初步设计4个月、施工图设计6个月、施工配合12个月。各阶段可适度重叠以压缩总工期，但关键审查节点不省略。我们承诺按里程碑提交设计成果，并配合业主审查周期。",
+    "quotation_parsed": 11780000.0,
+    "schedule_months_parsed": 25.0
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0358",
+    "quotation_raw": 3300000.0,
+    "schedule_raw": "合同签订后第2周提交供应计划，第4周开始分批交付，第12周完成全部交付，具体批次按业主总进度调整。",
+    "quotation_parsed": 3300000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "supplier_package",
+    "bidder_id": "consortium_supplier_package_001",
+    "quotation_raw": 5470000.0,
+    "schedule_raw": "我方承诺在合同生效后12周内完成全部设备材料交付，具体交付时间表如下：第1-2周确认规格，第3-8周采购生产，第9-12周分批交付。若因我方原因延误，愿承担合同约定的违约责任。",
+    "quotation_parsed": 5470000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0054",
+    "quotation_raw": 49100000.0,
+    "schedule_raw": "总工期为540日历天，计划开工日期为2025年10月1日，竣工日期为2027年3月25日。关键节点：基础工程完成于2026年2月，主体结构封顶于2026年8月，装修及安装完成于2027年1月，竣工验收于2027年3月。我方将投入足够资源，确保按期交付。",
+    "quotation_parsed": 49100000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0081",
+    "quotation_raw": 40500000.0,
+    "schedule_raw": "总工期18个月，自开工令下达之日起计算。关键节点：第2个月完成施工准备，第8个月主体结构封顶，第14个月完成安装装修，第18个月完成竣工验收并移交。我方承诺按此进度计划执行，若因我方原因延误，愿承担合同约定的违约责任。",
+    "quotation_parsed": 40500000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0181",
+    "quotation_raw": 41100000.0,
+    "schedule_raw": "我方承诺总工期为540日历天，自开工令下达之日起计算。关键里程碑：基础工程完成90天，主体结构封顶270天，装修及安装完成450天，竣工验收540天。我方将投入足够资源确保按期交付，若因我方原因延误，愿承担合同约定的工期违约金。",
+    "quotation_parsed": 41100000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "contractor_package",
+    "bidder_id": "COMP-0311",
+    "quotation_raw": 5300000.0,
+    "schedule_raw": "总工期9个月，开工后第1个月完成临建和图纸会审，第4个月完成主体结构，第7个月完成机电安装和装修，第9个月完成绿化和竣工验收。关键岗位人员开工前到位，材料采购与进度计划对齐，每周滚动更新进度计划。",
+    "quotation_parsed": 5300000.0,
+    "schedule_months_parsed": 9.0
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0220",
+    "quotation_raw": 2970000.0,
+    "schedule_raw": "监理服务期覆盖项目施工全过程，自开工令发出之日起至竣工验收合格之日止。我方承诺在接到进场通知后7天内完成监理团队进场和监理规划报审，施工阶段全程驻场，竣工阶段配合业主完成验收工作。",
+    "quotation_parsed": 2970000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0275",
+    "quotation_raw": 2850000.0,
+    "schedule_raw": "监理服务期覆盖整个施工工期，直至竣工验收完成。我方承诺在施工准备期开始前完成监理团队组建和监理规划编制，施工期间全程驻场，竣工验收后提交监理总结报告。具体工期以业主批准的施工进度计划为准，我方将同步调整监理资源配置。",
+    "quotation_parsed": 2850000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0202",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0140",
+    "quotation_raw": 2640000.0,
+    "schedule_raw": "监理服务期覆盖施工全过程，自开工令发出之日起至竣工验收合格之日止。我方将按合同约定投入人员，确保监理工作连续、及时。",
+    "quotation_parsed": 2640000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0703",
+    "quotation_raw": 5200000.0,
+    "schedule_raw": "设计周期10个月，其中方案设计2个月，初步设计2个月，施工图设计3个月，施工配合3个月。关键节点：第2月末提交方案设计，第4月末提交初步设计，第7月末提交施工图及BIM模型，第10月末完成施工配合。",
+    "quotation_parsed": 5200000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0875",
+    "quotation_raw": 4850000.0,
+    "schedule_raw": "设计周期10个月，分四个阶段：概念设计2个月，方案设计3个月，深化设计2个月，施工图设计3个月。施工阶段支持至竣工，每周现场巡查。",
+    "quotation_parsed": 4850000.0,
+    "schedule_months_parsed": 10.0
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "design_package",
+    "bidder_id": "COMP-0096",
+    "quotation_raw": 3600000.0,
+    "schedule_raw": "设计周期约6个月，其中方案设计6周，深化设计10周，施工阶段支持按项目工期。关键里程碑：合同生效后2周内提交规范差距分析报告；6周内提交方案设计；16周内提交深化设计送审稿；20周内提交最终设计成果及BIM模型。",
+    "quotation_parsed": 3600000.0,
+    "schedule_months_parsed": 6.0
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0889",
+    "quotation_raw": 6650000.0,
+    "schedule_raw": "我司承诺按交付节点完成供应，具体节点如下：\n- 合同签订后2周内提交详细供应计划。\n- 预制构件：合同签订后6周内开始交付，8周内完成。\n- 机电设备：合同签订后8周内开始交付，12周内完成。\n- 卫浴设施：合同签订后10周内开始交付，14周内完成。\n- 全部交付后2周内提交完整质量文件和备件清单。\n我司将每周向承包商报告进度，确保按期完成。",
+    "quotation_parsed": 6650000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0292",
+    "quotation_raw": 4550000.0,
+    "schedule_raw": "交付计划与项目总进度匹配，预制构件按批次在安装前交付，机电卫浴设备在安装节点前到场，具体时间表在合同签订后提供。",
+    "quotation_parsed": 4550000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "supplier_package",
+    "bidder_id": "COMP-0178",
+    "quotation_raw": 4670000.0,
+    "schedule_raw": "合同签订后2周内完成需求确认和交付计划；首批交付在合同签订后6周内完成；后续按交付节点分批交付，全部交付在合同签订后6个月内完成；保修期按合同约定执行。",
+    "quotation_parsed": 4670000.0,
+    "schedule_months_parsed": 6.0
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_001",
+    "quotation_raw": 28500000.0,
+    "schedule_raw": "总工期18个月，自开工令下达之日起计算。关键里程碑：第2月完成现场准备，第8月结构封顶，第14月机电安装完成，第18月竣工验收。联合体承诺按此进度执行，每周提交进度报告，若因联合体原因延误，承担合同约定的违约金。",
+    "quotation_parsed": 28500000.0,
+    "schedule_months_parsed": 18.0
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "contractor_package",
+    "bidder_id": "consortium_contractor_package_002",
+    "quotation_raw": 33200000.0,
+    "schedule_raw": "总工期14个月，自开工令下达之日起计算。关键节点：第2个月完成现场准备，第8个月主体结构封顶，第12个月机电安装完成，第14个月竣工验收。联合体将投入充足资源，确保按期交付，若因联合体原因延误，承担合同约定的违约责任。",
+    "quotation_parsed": 33200000.0,
+    "schedule_months_parsed": 14.0
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0233",
+    "quotation_raw": 1310000.0,
+    "schedule_raw": "我方承诺在合同生效后7日内完成动员并开始现场监督，服务期覆盖整个施工阶段，直至竣工验收。每周提交进度报告，重大问题即时升级。",
+    "quotation_parsed": 1310000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0844",
+    "quotation_raw": 900000.0,
+    "schedule_raw": "服务期与施工工期同步，自开工令发出至竣工验收完成。我方在动员阶段一周内完成团队组建和报告流程确认，施工阶段每日现场监督，每周提交进度报告，竣工后两周内提交最终监理报告。",
+    "quotation_parsed": 900000.0,
+    "schedule_months_parsed": null
+  },
+  {
+    "case_id": "CASE-0279",
+    "package_id": "supervision_package",
+    "bidder_id": "COMP-0474",
+    "quotation_raw": 1300000.0,
+    "schedule_raw": "我方承诺在业主发出开工通知后7天内完成进场准备并开始驻场监督。施工阶段全程提供现场监督，直至竣工验收完成。每周提交进度报告，每月提交综合报告，关键节点即时提交专项报告。若业主要求增加报告频次或临时检查，我方在收到通知后48小时内响应。",
+    "quotation_parsed": 1300000.0,
+    "schedule_months_parsed": 0.23333333333333334
+  }
+]

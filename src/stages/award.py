@@ -67,7 +67,12 @@ async def _award_task(
         owner_agents,
         [(1, "award_risk_review"), (2, "final_award_alignment")],
         _award_discussion_context(report, options),
-        owner_package_memory(state, owner.company_id, report.package_id),
+        owner_package_memory(
+            state,
+            owner.company_id,
+            report.package_id,
+            disabled=runtime.ablation.no_cross_stage_memory,
+        ),
     )
     if report.recommended_winner is None:
         progress_log(f"award {report.package_id}: no award")

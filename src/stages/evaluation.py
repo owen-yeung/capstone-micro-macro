@@ -75,7 +75,12 @@ async def _evaluation_task(
         [(1, "department_evaluation"), (2, "comparative_review")],
         f"Owner evaluates bids for {package.package_name}.\n"
         + "\n".join(f"{bid.bidder_id}: {submitted_condition_context(bid)}" for bid in bids),
-        owner_package_memory(state, owner.company_id, package.package_id),
+        owner_package_memory(
+            state,
+            owner.company_id,
+            package.package_id,
+            disabled=runtime.ablation.no_cross_stage_memory,
+        ),
     )
     if not bids:
         progress_log(f"evaluation {package.package_id}: done (no bids)")

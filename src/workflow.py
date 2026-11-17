@@ -5,6 +5,7 @@ from typing import Any, TypedDict
 
 from langgraph.graph import END, StateGraph
 
+from src.ablation import AblationConfig
 from src.agent_runtime import AgentRuntime
 from src.models import Company, ProjectIdea, SimulationState
 from src.stages.award import make_award_decisions
@@ -40,9 +41,16 @@ class TenderSimulationWorkflow:
         profile: str = "full",
         audit_logger: LLMCallAuditLogger | None = None,
         checkpoint_store: WorkflowCheckpointStore | None = None,
+        ablation: AblationConfig | None = None,
     ):
         self.profile = profile
-        self.runtime = AgentRuntime(llm_client, profile=profile, audit_logger=audit_logger)
+        self.ablation = ablation or AblationConfig.disabled()
+        self.runtime = AgentRuntime(
+            llm_client,
+            profile=profile,
+            audit_logger=audit_logger,
+            ablation=self.ablation,
+        )
         self.checkpoint_store = checkpoint_store
         self.graph = self._build_graph()
 

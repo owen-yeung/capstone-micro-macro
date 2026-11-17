@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0004__supplier_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-014",
+  "package_role_hint": "supplier",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "评标推荐COMP-0298，其报价在MOP金额上显著较低，技术方案覆盖本包需求，团队配置和交付方法基本可行。虽然存在低价风险，但通过合同澄清可要求其补充成本构成依据，明确调价机制和风险应对措施，并加强支付审查和进度监控，以保障业主利益。COMP-0426报价过高，超出预算风险大，且保修期较短。因此，判给COMP-0298，并附澄清重点。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "我们具备供应协调、质量文档和售后支持能力，可独立投标。但需明确供应范围与安装接口，避免责任不清。交付物流是工期风险点，建议提前制定物流计划。请商务同事确认价格基础，以固定总价或单价合同报价，并明确支付节点。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "各位同事，从设计技术角度看，此供应包涵盖支护、防水、钢筋等基础材料，我们具备供应协调和质量文档能力，但安装接口需由总包负责。若独立投标，需明确提供详细接口信息，避免设计脱节。建议评估我们能否承担全部供应责任，或与总包联合投标以增强可信度。请采购经理确认我们是否有足够资源应对交付物流和保修支持。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "这个供应包我们单独投标可行，但要注意界面责任。我们负责材料供应、质量文档和物流，安装由总包负责，需在标书中明确。价格按批次支付，风险可控。建议先确认团队可用性和交付计划，避免延误。请工程部评估材料规格匹配度。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "我建议单独投标，但必须明确质量文档和交付责任。公司有供应协调和质量文件能力，但公开数据缺口需在投标中补强。请商务同事确认价格基础，并确保质量方法符合业主标准。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "各位同事，此供应包以材料设备为主，我们具备供应协调、质量文档和售后支持能力，可单独投标。但需注意，公开数据缺认证和业绩，可能影响评标。建议在投标中强调供应责任和安装界面信息，明确我方负责供应、交付、文档和保修，安装由总包负责。请商务合约部核实价格基础，确保单价合同风险可控。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "这个供应包涵盖支护、防水、钢筋、混凝土等基础材料，我们公司有供应协调和售后支持能力，但公开数据缺认证和业绩，单独投标可能让业主担心交付可靠性。建议与主承包商组合投标，我们负责材料供应、质量文档和物流，主承包商负责安装界面，这样责任清晰，投标更可信。请商务同事评估组合投标的可行性。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "supplier",
+      "message_type": "summary",
+      "content": "各位同事，我倾向独立投标，但必须把交付物流和接口责任写清楚。我们供应协调和售后支持是强项，但公开数据缺认证，评标时可能吃亏。建议在标书里强调我方负责供应、质量文档、物流和保修，安装由总包负责，并提供详细接口信息。请商务经理确认价格基础，按批次支付风险可控。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "supplier",
+      "message_type": "decision",
+      "content": "我们决定独立投标材料及设备供应包。我们将提供团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对。我们负责供应、质量文档、物流和保修，安装由总包负责，并提供详细接口信息。我们将强化质量文档和交付计划，以弥补公开数据缺口。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0004/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

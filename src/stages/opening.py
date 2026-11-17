@@ -75,7 +75,12 @@ async def _opening_discussion_task(state: SimulationState, runtime: AgentRuntime
         owner_agents,
         [(1, "submission_check"), (2, "evaluation_handoff_observation")],
         _opening_context(record),
-        owner_package_memory(state, owner.company_id, record.package_id),
+        owner_package_memory(
+            state,
+            owner.company_id,
+            record.package_id,
+            disabled=runtime.ablation.no_cross_stage_memory,
+        ),
     )
     return local_state.agent_discussion_history
 

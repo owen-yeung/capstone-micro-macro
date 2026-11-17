@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0003__design_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-009",
+  "package_role_hint": "design",
+  "award_excerpt": {
+    "bidder_type": "consortium",
+    "decision_reason": "中交四航院-中建设计联合体是勘察设计包唯一投标者，报价MOP 4,880,000在预算内，技术方案对坝体加高、防渗系统及配套设施设计有清晰分工，BIM协调与独立校审流程有助于界面管理，风险预备金已计入报价。虽然报价明细存在不一致，且单一投标缺乏竞争，但技术方案基本满足包需求，且联合体具备设计主导与结构协调能力。经评估，判给该联合体，但需在判给前澄清报价明细差异，并明确设计审查节点和地质勘察成果纳入设计流程，以降低技术风险和合同价格争议风险。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，九澳水库扩容工程与我们在路环和九澳的过往经验高度匹配，技术风险可控。但地质勘察和MEP协调能力需确认，若内部资源不足，可考虑与专业勘察单位组成组合体，以增强投标可信度。请项目经理提供团队可用性摘要，评估能否独立完成勘察与设计协调，否则需启动组合体谈判。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，这个勘察设计包与我们在路环和九澳的项目经验高度契合，但固定总价包含所有阶段和审查支持，风险不小。我们公开数据缺少人员规模，可能让业主质疑我们的交付能力。我建议先评估内部团队可用性，如果资源紧张，考虑与具备地质勘察专长的企业组成联合体，以增强投标可信度并分担责任。请项目经理提供团队可用性摘要，以便我们决定是单独投标还是联合体投标。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，九澳水库扩容的勘察设计包与我们过往的路环防洪和九澳水库项目高度契合，我认为具备单独投标的能力基础。但业主会关注我们的团队规模和地质勘察资源，公开数据缺口可能成为评标短板。我建议先由商务同事核实团队可用性摘要和角色计划，确认能否在工期内投入足够人力。若产能不足，再考虑联合体，但联合体需明确责任划分，避免管理风险。请商务同事本周内给出团队可用性评估。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "designer",
+      "message_type": "summary",
+      "content": "各位同事，九澳水库扩容勘察设计包与我们在路环和九澳的经验高度契合，单独投标在技术上是可行的。但业主会关注团队规模和地质勘察资源，公开数据缺口可能成为评标短板。我建议商务同事先核实团队可用性摘要和角色计划，确认能否在工期内投入足够人力。若产能不足，再考虑与专业勘察单位组成组合体，但组合体需明确责任划分，避免管理风险。请商务同事本周内给出团队可用性评估。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "designer",
+      "message_type": "decision",
+      "content": "经内部讨论，公司决定以组合体形式参与九澳水库扩容工程勘察设计包的投标。公司具备港航、水利、市政等设计经验，过往在路环和九澳的项目与本次招标包高度匹配，但地质勘察能力需外部补充。组合体将明确责任划分，公司负责设计主导和审查支持，合作单位负责地质勘察，共同承担交付责任。投标文件将包含团队可用性摘要、角色计划、交付方法、质量方法、价格基础、进度视图和风险应对，强调组合体的协同优势和质量管理体系。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，关于九澳水库扩容工程勘察设计包，我认为我们具备独立投标的能力，但需在方案中明确地质勘察和MEP协调的分包策略，并强化内部审查流程。我们应强调设计协调和业主审查提交的优势，同时确保团队可用性和进度安排合理。请市场部确认分包商的资质和合作意向，以便在投标文件中体现完整的交付方法。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，九澳水库扩容工程涉及坝体加高和防渗系统，质量与可持续性要求高。我们虽有设计协调和业主审查能力，但地质勘察和MEP协调可能需要专业支持。若联合体，需明确责任划分，确保质量目标落实。建议先评估内部团队可用性和技术能力，再决定是否联合。请项目经理提供团队可用性摘要，以便评估。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "designer",
+      "message_type": "opinion",
+      "content": "各位同事，九澳水库扩容工程的设计包采用固定总价，地质条件不确定会带来设计变更风险，成本控制压力大。我们虽有设计协调能力，但公开数据缺口可能影响资格评估。建议考虑联合体投标，以分担地质勘察和设计责任，但需明确责任划分和成本控制机制。请设计负责人确认地质勘察是否需独立分包，以及如何控制设计变更成本。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0003/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}

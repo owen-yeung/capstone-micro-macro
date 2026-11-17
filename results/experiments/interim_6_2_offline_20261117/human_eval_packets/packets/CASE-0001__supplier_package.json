@@ -1,0 +1,147 @@
+{
+  "packet_id": "CASE-0001__supplier_package",
+  "rubric_version": "behavioral_plausibility_v1",
+  "dimensions": [
+    {
+      "id": "BP1",
+      "name": "Role-consistent reasoning",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores role duties or invents authority the firm does not have",
+        "1": "Partially role-aware with notable gaps",
+        "2": "Consistently stays within stated role, package, and authority"
+      }
+    },
+    {
+      "id": "BP2",
+      "name": "Evidence use",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "No grounding in provided company/package facts",
+        "1": "Uses some facts but also unsupported claims",
+        "2": "Key claims cite available facts; unknowns left open"
+      }
+    },
+    {
+      "id": "BP3",
+      "name": "Negotiation / deliberation plausibility",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Implausible leaps, contradictory positions, or rubber-stamp consensus",
+        "1": "Mixed: some realistic exchange with unresolved contradictions",
+        "2": "Trade-offs, objections, and settlement look organizationally credible"
+      }
+    },
+    {
+      "id": "BP4",
+      "name": "Cross-stage consistency",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Later bids/positions contradict earlier participation without explanation",
+        "1": "Mostly consistent with minor unexplained shifts",
+        "2": "Participation → consortium/bid/award trail remains coherent"
+      }
+    },
+    {
+      "id": "BP5",
+      "name": "Risk and commercial caution",
+      "scale": [
+        0,
+        1,
+        2
+      ],
+      "anchors": {
+        "0": "Ignores obvious commercial/risk constraints in the packet",
+        "1": "Mentions risk but does not act on material constraints",
+        "2": "Treats capacity, price, compliance, and uncertainty proportionately"
+      }
+    }
+  ],
+  "blinded": true,
+  "case_label": "PACKET-002",
+  "package_role_hint": "supplier",
+  "award_excerpt": {
+    "bidder_type": "company",
+    "decision_reason": "独立投标深圳达实智能报价MOP 3,150,000，明显低于联合体报价MOP 6,270,000，且独立投标责任单一、接口清晰，交付信心更足。虽然其质量投入和风险预备金较低，但可通过合同明确最低投入要求来管控。联合体报价存在金额不一致，且接口复杂，风险较高。因此，判给独立投标。"
+  },
+  "discussion_excerpts": [
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "我们具备供应协调、质量文件和售后支持能力，适合独立投标此供应商包。需明确物流、质量文档和保修责任，与总包协调安装界面。建议提交团队可用性摘要和交付方法，确保进度和风险应对。请采购确认价格基础是否含运输。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "各位同事，我审阅了供应商包的技术要求，涉及土工材料、混凝土和监测设备供应。公司具备物联网和智能系统集成经验，但堤围加固材料的专业供应和质量文档能力需进一步评估。建议先核实材料规格和监测设备的技术参数，确认能否满足规范。若可行，可单独投标，但需明确物流和保修责任。请采购部门提供材料供应商的资质和价格信息，以便评估。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "各位同事，这个供应商包我们具备供应协调和售后支持能力，可以独立投标。但要注意公开数据缺口，需补充团队可用性和认证信息。报价需包含运输和交付条款，并预留价格波动风险。请技术部门确认材料规格和监测设备兼容性，以便我们制定准确的交付方案。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "我建议单独投标此供应包。公司具备供应协调、质量文件和售后支持能力，符合包件要求。需重点控制材料价格波动和物流成本，建议报价包含运输和交付条款，并明确质量文档和保修责任。请商务同事确认价格基础，以便我编制现金流计划。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "这个供应包以材料设备供应为主，我们公司有供应协调、质量文件和售后支持能力，单独投标可行。关键是物流交付和安装接口要写清楚，避免现场扯皮。我建议投标，但报价要含运输和交付条款，风险应对里要提材料涨价和到货延误。请商务同事确认价格基础是否覆盖这些风险。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 2,
+      "role": "supplier",
+      "message_type": "summary",
+      "content": "各位同事，综合技术、采购和成本意见，我支持独立投标此供应商包。我们具备供应协调、质量文件和售后支持能力，符合包件要求。需重点明确物流交付、质量文档和保修责任，并与总包协调安装界面。请采购确认价格基础是否含运输和交付条款，以便我编制进度和风险应对。"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 3,
+      "role": "supplier",
+      "message_type": "decision",
+      "content": "投标决策：深圳达实智能股份有限公司决定独立投标供应商包。\n\n团队可用性摘要：公司已组建专项供应团队，由项目总监陈志远统筹，技术负责人李慧敏负责技术规格确认，采购经理王建国负责供应链协调，成本控制主管赵丽华负责成本与现金流，现场经理刘志强负责物流与现场接口。团队具备供应协调、质量文件和售后支持经验，可满足包件要求。\n\n角色计划：项目总监负责整体交付与业主沟通；技术负责人负责材料规格和监测设备技术参数确认；采购经理负责供应商资质审核和采购计划；成本控制主管负责报价和成本控制；现场经理负责物流交付和现场接口协调。\n\n交付方法：采用分阶段交付计划，按工程进度分批供应材料设备。与总包建立接口协调机制，明确交付时间、地点和验收标准。物流采用可靠运输方案，确保按时到货。\n\n质量方法：建立质量文档体系，包括材料合格证、检测报告、设备技术文件等。执行进场检验和文档审核，确保符合规范。提供保修和备件支持，明确售后响应流程。\n\n价格基础：报价为总价，包含运输和交付条款，涵盖物流、保险和税费。预留材料价格波动风险，报价有效期90天。\n\n进度视图：供应计划与工程总进度衔接，关键节点包括材料采购、生产、运输和交付…"
+    },
+    {
+      "stage": "bid_participation_decision",
+      "round": 1,
+      "role": "supplier",
+      "message_type": "opinion",
+      "content": "各位同事，这个供应商包涉及材料设备供应、物流、质量文档和售后，我们公司有供应协调和售后能力，但团队规模小，公开数据不足，单独投标风险较高。建议考虑联合体投标，与有实力的承包商或供应商组合，分担责任。请商务评估联合体可行性和分工。"
+    }
+  ],
+  "source_paths_hidden_from_rater": [
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/simulated_award_result.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/agent_discussion_history.json",
+    "/agent/repos/capstone-micro-macro/validation/benchmark_ge3_compact/results/final_28_20260817/cases/case-0001/bid_documents.json"
+  ],
+  "instructions": "Score BP1–BP5 using only this packet. Do not look up case ids, company names outside the packet, or benchmark outcomes."
+}
