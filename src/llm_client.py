@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import os
 import asyncio
 from dataclasses import dataclass
 from pathlib import Path
@@ -10,46 +9,14 @@ from typing import Any
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI
 
-
-def load_env_file(path: Path) -> bool:
-    if not path.exists():
-        return False
-    for raw_line in path.read_text(encoding="utf-8").splitlines():
-        line = raw_line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
-    return True
-
-
-def load_project_env() -> list[str]:
-    root = Path(__file__).resolve().parents[1]
-    paths = [Path.cwd() / ".env", root / ".env"]
-    loaded: list[str] = []
-    seen: set[Path] = set()
-    for path in paths:
-        resolved = path.resolve()
-        if resolved in seen:
-            continue
-        seen.add(resolved)
-        if load_env_file(resolved):
-            loaded.append(str(resolved))
-    return loaded
-
-
-def env_int(name: str, default: int) -> int:
-    value = os.getenv(name, "").strip()
-    return int(value) if value else default
-
-
-@dataclass
-class LLMConfig:
-    provider: str
-    model: str
-    base_url: str
-    api_key: str
-    timeout: int = 60
+from src.llm_providers import (  # noqa: F401 - re-export for callers
+    LLMConfig,
+    PROVIDER_SPECS,
+    env_int,
+    load_env_file,
+    load_project_env,
+    resolve_provider_config,
+)
 
 
 @dataclass
@@ -75,42 +42,15 @@ class OpenAICompatibleClient:
         )
 
     @classmethod
-    def from_env(cls, *, model: str | None = None) -> "OpenAICompatibleClient":
-        """Load credentials and defaults, allowing an explicit run model name."""
-        if model is not None and (not isinstance(model, str) or not model.strip()):
-            raise ValueError("An explicit model override must be a nonempty name")
-        selected_model = None if model is None else model.strip()
+    def from_env(
+        cls,
+        *,
+        provider: str | None = None,
+        model: str | None = None,
+    ) -> "OpenAICompatibleClient":
+        """Load credentials and defaults, allowing explicit provider/model overrides."""
         env_files = load_project_env()
-        provider = os.getenv("LLM_PROVIDER", "deepseek").strip().lower()
-        if provider == "deepseek":
-            api_key = os.getenv("DEEPSEEK_API_KEY", "").strip()
-            if not api_key:
-                raise RuntimeError("DEEPSEEK_API_KEY is required for LLM runs. Set it in .env or the shell environment.")
-            return cls(
-                LLMConfig(
-                    provider="deepseek",
-                    model=selected_model or os.getenv("DEEPSEEK_MODEL", "deepseek-chat").strip() or "deepseek-chat",
-                    base_url=os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1").strip()
-                    or "https://api.deepseek.com/v1",
-                    api_key=api_key,
-                    timeout=env_int("LLM_TIMEOUT", 60),
-                ),
-                env_files,
-            )
-        api_key = os.getenv("OPENAI_API_KEY", "").strip()
-        if not api_key:
-            raise RuntimeError("OPENAI_API_KEY is required for LLM runs. Set it in .env or the shell environment.")
-        return cls(
-            LLMConfig(
-                provider=provider or "openai-compatible",
-                model=selected_model or os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip() or "gpt-4o-mini",
-                base_url=os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1").strip()
-                or "https://api.openai.com/v1",
-                api_key=api_key,
-                timeout=env_int("LLM_TIMEOUT", 60),
-            ),
-            env_files,
-        )
+        return cls(resolve_provider_config(provider, model=model), env_files)
 
     def request_policy(self) -> dict[str, Any]:
         """Describe the actual no-retry transport without issuing a request."""

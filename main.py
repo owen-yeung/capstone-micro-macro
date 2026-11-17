@@ -10,7 +10,6 @@ from pathlib import Path
 from src.ablation import ABLATION_IDS, AblationConfig
 from src.async_policy import install_asyncio_policy
 from src.case_sources import DEFAULT_CONFIG, list_case_ids, load_case_config, load_case_inputs
-from src.llm_client import OpenAICompatibleClient
 from src.mock_llm import MockLLMClient
 from src.progress import set_log_path
 from src.run_audit import BatchRunTracker, LLMCallAuditLogger, write_case_error, write_case_status
@@ -88,6 +87,19 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--llm-provider",
+        default="",
+        help=(
+            "Override LLM_PROVIDER for this run (deepseek, groq, openai, or other "
+            "OpenAI-compatible id). Empty keeps the environment default."
+        ),
+    )
+    parser.add_argument(
+        "--llm-model",
+        default="",
+        help="Override the provider model name for this run. Empty keeps the provider default.",
+    )
+    parser.add_argument(
         "--resume-batch",
         type=Path,
         default=None,
@@ -130,7 +142,7 @@ def main() -> int:
         args.profile = tracker.profile
         args.mode = tracker.manifest["mode"]
         args.config = Path(tracker.manifest["config_path"])
-    llm = _build_llm_client()
+    llm = _build_llm_client(args)
     needs_config = args.mode == "case" or args.case_id or args.batch or args.run_config or args.run_scope != "manual"
     config = load_case_config(args.config) if needs_config else {}
     if tracker is not None:
@@ -197,10 +209,18 @@ def main() -> int:
     return 0
 
 
-def _build_llm_client():
+def _build_llm_client(args: argparse.Namespace | None = None):
     if os.getenv("CODEDEMO_USE_LOCAL_TEST_CLIENT", "").strip() == "1":
         return MockLLMClient()
-    return OpenAICompatibleClient.from_env()
+    # Lazy import keeps mock/local wiring usable without langchain installed.
+    from src.llm_client import OpenAICompatibleClient
+
+    provider = getattr(args, "llm_provider", "") if args is not None else ""
+    model = getattr(args, "llm_model", "") if args is not None else ""
+    return OpenAICompatibleClient.from_env(
+        provider=provider or None,
+        model=model or None,
+    )
 
 
 def _case_ids(args: argparse.Namespace, config: dict) -> list[str]:
@@ -283,11 +303,13 @@ def _run_once(
         project_idea = None
         companies = None
         validation_context = {}
+        llm_meta = _llm_metadata(llm)
         if case_id:
             project_idea, companies, validation_context = load_case_inputs(config or {}, case_id)
             validation_context["run_mode"] = args.mode
             validation_context["profile"] = args.profile
             validation_context["ablation"] = ablation.to_dict()
+            validation_context["llm"] = llm_meta
         state = workflow.run(
             project_prompt=None if case_id else (args.project_idea or None),
             project_idea=project_idea,
@@ -295,8 +317,11 @@ def _run_once(
         )
         if validation_context:
             state.validation_context = {**validation_context, **state.validation_context}
-        elif ablation.active_ids():
-            state.validation_context = {**state.validation_context, "ablation": ablation.to_dict()}
+        else:
+            extras = {"llm": llm_meta}
+            if ablation.active_ids():
+                extras["ablation"] = ablation.to_dict()
+            state.validation_context = {**state.validation_context, **extras}
         output_files = write_outputs(state, run_dir)
         missing = missing_required_outputs(run_dir)
         if missing:
@@ -337,6 +362,7 @@ def _run_once(
     print(f"Mode: {args.mode}")
     print(f"Profile: {args.profile}")
     print(f"Ablation: {','.join(ablation.active_ids()) or 'none'}")
+    print(f"LLM: {_llm_metadata(llm).get('provider')}/{_llm_metadata(llm).get('model')}")
     if case_id:
         print(f"Case id: {case_id}")
         print(f"Candidate companies: {len(companies or [])}")
@@ -360,6 +386,17 @@ def _reliability_summary(events: list[dict]) -> dict:
         "status": "degraded" if events else "succeeded",
         "recovery_count": len(events),
         "recovery_counts": counts,
+    }
+
+
+def _llm_metadata(llm) -> dict[str, str | None]:
+    config = getattr(llm, "config", None)
+    if config is None:
+        return {"provider": "mock", "model": "mock"}
+    return {
+        "provider": getattr(config, "provider", None),
+        "model": getattr(config, "model", None),
+        "base_url": getattr(config, "base_url", None),
     }
 
 

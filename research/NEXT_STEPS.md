@@ -15,7 +15,8 @@
 8. 固定反馈来源和窗口后完成跨项目应变/控制比较，不伪造结算或按理想翻转结果挑来源。
 9. 更新论文主表、图、敏感性分析和典型样本专业复核。完整保留未知请求、失败和不适配原因。
 10. Interim §6.2（见[协议](interim_6_2_protocols.md)与[离线结果](../results/experiments/interim_6_2_offline_20261117/README.md)）：
-    - 规模匹配基线报告与`--ablation A1|A2|A3|A4`开关已落地；授权后按3–5次重复跑消融/敏感性/双提供商，并用`scripts/aggregate_tender_multirun_metrics.py`汇总。
+    - 规模匹配基线报告与`--ablation A1|A2|A3|A4`开关已落地；授权后按3–5次重复跑消融/敏感性，并用`scripts/aggregate_tender_multirun_metrics.py`汇总。
+    - 双提供商对照已接 Groq/Llama 便宜第二提供商：`scripts/run_provider_compare_groq_20261117.py`（默认 dry-run；`--execute` 需 `GROQ_API_KEY`/`DEEPSEEK_API_KEY` 与明确花费授权）。
     - 人类行为合理性评阅包已生成空白卷；待独立人工双评后算kappa，不把助手填槽当IRR。
     - 报价/工期合理性仍待确认benchmark字段单位与包范围后再比。
     - 352扩展输入已盘点；完整招投标重跑需新授权范围。

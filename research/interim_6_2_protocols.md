@@ -41,9 +41,13 @@ Protocol for an authorized run:
 
 ## Multi-provider comparison
 
-- Client already supports `LLM_PROVIDER` / OpenAI-compatible endpoints (`src/llm_client.py`).
-- Protocol: same 28 cases, same ablation=`none`, temperature 0.2, two providers, ≥3 seeds each.
-- Compare operational completion and size-matched hit margins; do not merge providers into one hit rate.
+- Named providers in `src/llm_client.py`: `deepseek` (reference), `groq` (cheap Llama second provider), `openai`.
+- Default cheap Groq model: `llama-3.1-8b-instant` (`GROQ_MODEL`; stronger option `llama-3.3-70b-versatile`).
+- Harness: `scripts/run_provider_compare_groq_20261117.py` (dry-run by default; `--execute` launches batches).
+- Case set: `validation/benchmark_ge3_compact/config_final28.json` (frozen 28; excludes 0140/0157).
+- Protocol: same 28 cases, ablation=`none`, temperature 0.2, ≥3 seeds each; score with size-matched hit@1 per provider/seed.
+- Do not merge DeepSeek and Groq into one hit rate.
+- CLI overrides: `main.py --llm-provider groq --llm-model llama-3.1-8b-instant`.
 
 ## Construction-stage connection
 
