@@ -85,6 +85,19 @@ O4 D3−S4: {'comparable_actor_pairs': 2, 'disagreements': 0, 'fraction': 0.0, '
 - On frozen D1/D4, S4 often matches or exceeds D3; D2/eval-D3 slightly favor D3 in this sample.
 - Macro T-path remains null on the first block — do not claim downstream project gains from this block.
 
+## Relation to upstream `micro-org-*` (2026-11-19 merge)
+
+Parallel organization-mechanism line under `results/experiments/micro-org-1118/` (and replication/extension). **Not a drop-in replacement for this CP07 battery** and scores must **not** be pooled:
+
+| | This experiment | `micro-org-*` |
+|---|---|---|
+| Task surface | Frozen CP07 free-generation business cards | Live tender pipeline stages (策划／决策／投标／定标) |
+| Arms | S / D3 / S4 | single / solo / multi (rough analogy only) |
+| Primary grades | Frozen D1–D4 (0–2) | Rubric v2 R1–R6 (1–5) |
+| Subset labels R1–R6 here | Separate LLM subset rubric on CP07 texts | Different scale/definitions — name collision only |
+
+Rough arm map for narrative only: S≈single, S4≈solo, D3≈multi. Upstream finding that most multi vs single gain is multi-step (solo) rather than multi-role is thematically consistent with S4 strength on D1/D4 here; do not treat either line as confirming the other numerically.
+
 ## Artifacts
 
 - `summary.json` — machine-readable aggregate

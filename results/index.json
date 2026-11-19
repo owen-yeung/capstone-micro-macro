@@ -49,9 +49,23 @@
     "title": "确定性反馈对照"
   },
   {
+    "id": "org_deliberation_metrics_20261119",
+    "path": "results/experiments/org_deliberation_metrics_20261119/SUMMARY.md",
+    "purpose": "冻结CP07上D3−S4配对质量、缺资料敏感性、过程代理与12窗LLM评阅；0次新模型调用；与micro-org招标管线互补，分数不可合并",
+    "available": true,
+    "title": "组织审议对照指标（D3 vs S/S4）"
+  },
+  {
+    "id": "org_ablation_sensitivity_20261119",
+    "path": "results/experiments/org_ablation_sensitivity_20261119/README.md",
+    "purpose": "冻结CP07终稿提示上dropout／顺序／门禁bit-flip预注册实验；56次调用待PIC双门禁授权；不改写CP07评分",
+    "available": true,
+    "title": "组织消融／输入敏感性（待授权）"
+  },
+  {
     "id": "micro_org_judge",
     "path": "results/experiments/micro-org-1118/REPORT.md",
-    "purpose": "6个项目、三种组织方式、353份输出的模型评审分；multi比single六项均值高0.15，主要在风险与权衡；未经人工校准，待验收",
+    "purpose": "6个项目、三种组织方式、353份输出的模型评审分；multi比single六项均值高0.15，主要在风险与权衡；未经人工校准，待验收；与CP07 org_deliberation指标互补，不可合并计分",
     "available": true,
     "title": "单智能体与多智能体微观评分"
   },

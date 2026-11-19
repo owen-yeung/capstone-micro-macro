@@ -41,3 +41,7 @@ Requires frozen paths under `Capstone报告/验证体系/实验/…` and optiona
 - **D1 / D4**: S4 ahead; D3 more abs-sensitive to `missing_core`.
 - **Process**: D3 subset O1 slightly higher; O2 similar; R2 favors D3, R3/R4 favor S4; R6 prefs D3 1 / S4 8 / tie 3 after batch_b/d adjudication.
 - **Macro first block**: no D3−S4 commercial or state divergence.
+
+## Relation to upstream `micro-org-*`
+
+Complementary, not substitutive. Upstream `micro-org-1118` / replication / extension score live tender-pipeline arms (`single`/`solo`/`multi`) with rubric v2 (1–5). This battery stays on frozen CP07 S/D3/S4 with D1–D4 plus a separate subset rubric. Do not pool scores or treat label `R1–R6` as shared. See SUMMARY for the arm-map and claim boundary. Protocol/metrics here needed **no regenerate** after the 2026-11-19 upstream merge.

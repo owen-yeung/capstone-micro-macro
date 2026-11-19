@@ -40,6 +40,8 @@
 
 ## 2026-11-19 实验结果
 
+组织机制有两条并行证据线，**分数不可合并**：上方索引中的 CP07 `org_deliberation_metrics_20261119`／`org_ablation_sensitivity_20261119`（冻结业务卡 S/D3/S4），与下方 `micro-org-*`（招标管线 single/solo/multi + rubric v2）。臂名仅可作叙述类比（S≈single，S4≈solo，D3≈multi）。
+
 - [单智能体与多智能体微观评分](experiments/micro-org-1118/REPORT.md)
 - [真实模型端到端跑通](experiments/e2e-case0014-1119/README.md)
 - [真实模型端到端跑通（第二案例）](experiments/e2e-case0001-1119/README.md)

@@ -127,3 +127,14 @@ Optional second LLM scoring pass can reuse the org-metrics rubric (`R1–R6`) on
 - Report axes separately (robustness vs sensitivity); do not collapse into “D3 win rate.”
 - Final-only dropout/order tests **use of existing role text**, not whether roles would have written different comments under dropout.
 - Bit-flips are host-injected verifications on frozen cards — not new external evidence corpora.
+
+## Relation to upstream `micro-org-*` (2026-11-19 merge)
+
+**No protocol revision required.** This runner mutates frozen CP07 `request-step-4.json` only and calls `OpenAICompatibleClient`; it does not import the upstream tender-stage `agent_runtime` / `condition_review` path used by `micro-org-*` and e2e runners.
+
+Keep scopes separate:
+
+- Ablation = CP07 final-only dropout / order / gate bit-flip (56 planned calls).
+- `micro-org-*` = live multi-stage tender generation + rubric v2 judging.
+
+Do not retarget this ledger onto micro-org cases without a new experiment id and PIC scope. Optional post-run scoring may reuse the **org-metrics** subset rubric, not micro-org rubric v2, unless a new protocol says otherwise.
