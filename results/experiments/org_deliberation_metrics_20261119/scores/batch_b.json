@@ -1,0 +1,361 @@
+{
+  "batch": "B",
+  "scorer": "Cursor agent LLM judge; researcher-assisting; not external human expert",
+  "new_model_calls": 0,
+  "scoring_notes": {
+    "source_packets": "results/experiments/org_deliberation_metrics_20261119/packets/<window>.json",
+    "finals": "where packet step-4 text was truncated at 4000 chars, dispositions/rubric use the same frozen job parsed finals cited by packet grades.response_path",
+    "strictness": "prefer lower rubric when uncertain; O1 counts only input-supported non-restatement novelties across steps 1-3"
+  },
+  "windows": [
+    {
+      "window_id": "CP00-EXPAND-23-full",
+      "role": "supplier",
+      "info": "full",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 8,
+          "O2_correctly_responded_items": 7,
+          "O2_rate": 0.875,
+          "items": [
+            {
+              "id": "archive_scope_provisional",
+              "quote": "档案仅支持…业务范围…只能按暂定方案报价，不能声称已有库存",
+              "disposition": "adopted"
+            },
+            {
+              "id": "huizhou_macau_logistics",
+              "quote": "惠州厂区发运至澳门…承运商、报关与现场卸货接口均属待落实",
+              "disposition": "adopted"
+            },
+            {
+              "id": "channel_audit_unresolved",
+              "quote": "供应商渠道审核…requested…不得出现任何已通过审核",
+              "disposition": "adopted"
+            },
+            {
+              "id": "warranty_accept_allowance",
+              "quote": "外部支持是否接受保修与质量文档要求…按上限allowance计列",
+              "disposition": "adopted"
+            },
+            {
+              "id": "split_quote_buckets",
+              "quote": "报价须区分厂内生产成本估算与外部运输/支持暂定费用",
+              "disposition": "adopted"
+            },
+            {
+              "id": "need_qty_spec_or_scale",
+              "quote": "请技术口提供…暂定数量与规格清单，否则…按包规模比例估算",
+              "disposition": "adopted"
+            },
+            {
+              "id": "batch_factory_qc_docs",
+              "quote": "出厂检验与质量文档清单…表单与频次属待确认方案",
+              "disposition": "adopted"
+            },
+            {
+              "id": "handover_damage_liability",
+              "quote": "交接检验与破损责任划分…属暂定假设",
+              "disposition": "omitted"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 7,
+          "O2_correctly_responded_items": 7,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "conditional_supplier_intention",
+              "quote": "仅保留有条件投标意向…不承担整包施工或EPC总包责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_not_capability",
+              "quote": "档案文本，非经审核的供货能力或认证",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknowns_not_assets",
+              "quote": "产品目录、库存、本地团队、历史成本、认证…不得…写成既有能力",
+              "disposition": "adopted"
+            },
+            {
+              "id": "clarify_before_formal_quote",
+              "quote": "正式报价前需澄清…非提交前强制门槛",
+              "disposition": "adopted"
+            },
+            {
+              "id": "fail_verify_defer_decline",
+              "quote": "若核实显示…无法满足…转为有据等待或不投标",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_line_items_margin",
+              "quote": "分项暂定估算并保留调整余量…非最终报价",
+              "disposition": "adopted"
+            },
+            {
+              "id": "info_gap_verify_list",
+              "quote": "产品规格与目录、产能可用性、惠州至澳门配送与关务安排、认证文件",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "high",
+        "note": "物流（跨境交付假设）、商务（分项口径/精度）、质量（出厂检验与保修接口/破损责任）关注点可区分；破损责任划分未进入终稿。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 1,
+          "R5": 1,
+          "notes": "条件与未知绑定强、跨职能覆盖好；异议处理弱；精确分项金额无历史成本支撑故R4从严；提交暂定报价但失败退出路径不如S4清晰。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 1,
+          "R5": 2,
+          "notes": "自检收紧能力措辞并写明等待/不投触发；仍列大额暂定金额故R4=1。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "S4终稿把意向钉在“正式报价前核实”并保留“有据等待或不投标”出口（risk_response），比D3更清晰的暂定提交姿态更利于未知充足时的企业风险控制。",
+        "order_presented": "D3_then_S4"
+      }
+    },
+    {
+      "window_id": "CP01-EXPAND-22-full",
+      "role": "supplier",
+      "info": "full",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 7,
+          "O2_correctly_responded_items": 7,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "supplier_boundary_archive_limit",
+              "quote": "仅承担产品/材料供应…经营范围…非已审定的产品目录",
+              "disposition": "adopted"
+            },
+            {
+              "id": "local_3pl_zone_batches",
+              "quote": "澳门本地第三方物流…分区交付节奏分批配送…到货检验接口",
+              "disposition": "adopted"
+            },
+            {
+              "id": "external_support_after_written_accept",
+              "quote": "外部支持须书面接受…后方纳入…已落实范围",
+              "disposition": "adopted"
+            },
+            {
+              "id": "conditions_clarify_before_finalize",
+              "quote": "非提交前强制阻断项，但须在报价定稿前澄清",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_cost_framework",
+              "quote": "暂定成本框架…不得作为已获供应商报价引用",
+              "disposition": "adopted"
+            },
+            {
+              "id": "confirm_list_then_amounts",
+              "quote": "确认可投标的产品范围清单与交付批次，再据实形成分项暂定金额",
+              "disposition": "adopted"
+            },
+            {
+              "id": "qa_desk_and_doc_pack",
+              "quote": "质量文档按批次归口…保修接口设单一归口联系人与响应台账",
+              "disposition": "adopted"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "supplier_not_maincon",
+              "quote": "不得出现整包施工、现场总包管理或施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_catalog_assets_cost",
+              "quote": "产品目录、库存、本地配送资产、历史采购成本均未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "conditional_estimate_recalc",
+              "quote": "条件性暂定估算…待取得产品清单与数量后重算",
+              "disposition": "adopted"
+            },
+            {
+              "id": "channel_fail_defer_decline",
+              "quote": "如渠道审核未通过…转为有据等待或不投",
+              "disposition": "adopted"
+            },
+            {
+              "id": "warranty_reject_narrow_or_decline",
+              "quote": "外部支持不接受保修文档要求…收窄保修承诺或转为不投",
+              "disposition": "adopted"
+            },
+            {
+              "id": "no_claimed_locked_resources",
+              "quote": "不主张任何已落实的分包、库存或人员安排",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "medium",
+        "note": "三角色共享供应商边界与未决条件表述较多；物流3PL、商务分项口径、质保归口仍有可辨增量，但重叠高于EXPAND-23。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 1,
+          "R5": 1,
+          "notes": "接口与分项具体；几乎无明示取舍/否决；无清单仍给出600.8万故R4从严；缺条件失败退出分支。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 1,
+          "R5": 2,
+          "notes": "自检与risk_response写明审核失败→等待/不投；金额同为无清单暂定故R4=1。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "S4在同等供应商边界下额外写明渠道/保修条件失败时的“有据等待或不投”路径，比D3“定稿前澄清但仍暂定报价”对企业更稳妥。",
+        "order_presented": "D3_then_S4"
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-01-missing_core",
+      "role": "supplier",
+      "info": "missing_core",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 7,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 0.857,
+          "items": [
+            {
+              "id": "casino_archive_not_rail_supply",
+              "quote": "银河娱乐为…综合度假城运营企业…不能据此推断具备或不具备轨道交通材料供货能力",
+              "disposition": "omitted"
+            },
+            {
+              "id": "conditional_provisional_costs",
+              "quote": "条件性投标意向…暂定方案与估算性成本，不得表述为已获供应商报价",
+              "disposition": "adopted"
+            },
+            {
+              "id": "disclose_two_conditions",
+              "quote": "两项未决条件…作为明示假设披露，不得声称已通过审核",
+              "disposition": "adopted"
+            },
+            {
+              "id": "managed_external_support",
+              "quote": "受我方管理的支持方…保修与质量文档接受情况为待确认",
+              "disposition": "adopted"
+            },
+            {
+              "id": "three_traceable_bases_plus_risk",
+              "quote": "单列三项可追溯依据…并保留…商业风险预留",
+              "disposition": "adopted"
+            },
+            {
+              "id": "qa_doc_pack_reserve",
+              "quote": "质量文档包…编制与移交预留",
+              "disposition": "adopted"
+            },
+            {
+              "id": "warranty_sla_provisional",
+              "quote": "保修期内的响应与备件支持预留…响应时限口径为暂定假设",
+              "disposition": "adopted"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "no_price_or_supply_commit",
+              "quote": "在清单与保修要求明确前，不对外作出价格或供货承诺",
+              "disposition": "adopted"
+            },
+            {
+              "id": "casino_archive_not_capability",
+              "quote": "档案原文，非经审核的供应能力认定",
+              "disposition": "adopted"
+            },
+            {
+              "id": "all_proposed_assumption",
+              "quote": "所有供应与配送安排须明确标注为proposed/assumption",
+              "disposition": "adopted"
+            },
+            {
+              "id": "need_bom_and_acceptance_specs",
+              "quote": "产品/材料清单、数量、交付地点、验收标准、保修期与文档深度均未提供",
+              "disposition": "adopted"
+            },
+            {
+              "id": "two_conditions_affect_channel_warranty",
+              "quote": "两项未决条件…直接影响渠道方案与保修责任划分",
+              "disposition": "adopted"
+            },
+            {
+              "id": "supplier_not_epc",
+              "quote": "不承担整包施工或EPC总包责任",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "medium",
+        "note": "商务分项口径与质保文档包有岗位增量，但三步大量复述unknown与未决条件；终稿未保留“赌场运营档案≠轨交供货能力”这一关键警示。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 0,
+          "R4": 0,
+          "R5": 1,
+          "notes": "条件披露尚可，但missing_core下仍给出280万含185万材料估算，属无支撑数值/能力暗示；无明示异议处理；退出/等待触发弱于S4。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "报价0+明确不作价格/供货承诺；自检禁止暗示既有渠道/仓储；跨职能细节少于D3故R2=1。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "在档案仅为综合度假城运营、产品清单全缺时，S4“报价暂列MOP 0…不作价格或供货承诺”显著优于D3编造280万材料供货框架。",
+        "order_presented": "D3_then_S4"
+      }
+    }
+  ]
+}
