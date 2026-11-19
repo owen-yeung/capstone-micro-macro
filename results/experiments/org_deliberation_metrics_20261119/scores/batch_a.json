@@ -1,0 +1,181 @@
+{
+  "batch": "A",
+  "scorer": "Cursor agent LLM judge; researcher-assisting; not external human expert",
+  "new_model_calls": 0,
+  "windows": [
+    {
+      "window_id": "CP01-EXPAND-20-full",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 7,
+          "O2_correctly_responded_items": 7,
+          "O2_rate": 1.0,
+          "items": [
+            {"id": "scope_fit_archive", "quote": "与我方档案所载业务范围…方向相符，可作为单一责任承建商牵头投标", "disposition": "adopted"},
+            {"id": "unknowns_not_possessed", "quote": "档案未提供同类酒店免税店精装修经验、资格证明及人员档期…不能视为已具备", "disposition": "adopted"},
+            {"id": "two_submission_gates", "quote": "指定岗位人员档期…资格证明…未核实前只能作有条件投标意向", "disposition": "adopted"},
+            {"id": "specialty_sub_assumptions", "quote": "天花、机电、消防、弱电、固定家具…属投标假设，尚未取得任何分包报价或承诺", "disposition": "adopted"},
+            {"id": "provisional_mop_no_cost_basis", "quote": "无供应商报价及历史成本依据…只能标注为暂定MOP估算", "disposition": "adopted"},
+            {"id": "operating_efficiency_contingency", "quote": "预留不可预见费与营运时段施工的效率折损", "disposition": "adopted"},
+            {"id": "qa_and_contract_boundaries", "quote": "内部复核与独立检查节点…明确单一责任承建商身份、分包责任传递与保修条款边界", "disposition": "adopted"}
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {"id": "single_contractor_no_design", "quote": "以建利作为单一责任承建商…不主张设计或整体系统集成责任", "disposition": "adopted"},
+            {"id": "archive_text_not_capability", "quote": "属档案文本，并非已审阅的资格或能力确认", "disposition": "adopted"},
+            {"id": "no_metadata_inference", "quote": "不得以公司名称、地址、行业或人员总数推断具备本包经验", "disposition": "adopted"},
+            {"id": "two_submission_gates", "quote": "condition_68f1898a…与 condition_61b70be0…仍未解决…核实前只能维持有条件意向", "disposition": "adopted"},
+            {"id": "provisional_commitments", "quote": "报价、人员分配、分包安排…均为暂定方案，未取得任何外部确认", "disposition": "adopted"},
+            {"id": "hotel_ops_as_assumptions", "quote": "营业中酒店环境的施工界面、夜间作业与营运协调应列为施工方案假设", "disposition": "adopted"}
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "low",
+        "note": "三角色高度复述同一门禁/分包/暂定报价骨架（lexical Jaccard≈0.59）；增量仅营运折损（商务）与复核/保修边界（质量），独特关切薄。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "双门禁与未知项绑定清楚，覆盖施工/商务/质量合同；异议弱（共识为主，仅排除组合体）。无新编数字能力。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检实质收紧事实/角色/承诺；最终保留不揽设计集成与酒店营运假设；门禁触发清晰。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "tie",
+        "reason": "Both finals keep conditional single-contractor bid with the same two gates; D3 adds QA/contract detail (\"内部复核与独立检查\") while S4 tighter on role exclusion (\"不主张设计或整体系统集成\") and hotel-ops assumptions — near parity.",
+        "order_presented": "D3_then_S4"
+      }
+    },
+    {
+      "window_id": "CP01-EXPAND-16-missing_core",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 5,
+          "O2_correctly_responded_items": 4,
+          "O2_rate": 0.8,
+          "items": [
+            {"id": "all_topics_unknown", "quote": "公司资料库对施工范围、经验、认证、交付资源及成本依据均为未知，不能据此推断能力或缺失", "disposition": "adopted"},
+            {"id": "two_hard_gates", "quote": "人员档期与资格证明两项条件仍处于待核实状态，属提交前必须落实的前提", "disposition": "adopted"},
+            {"id": "narrow_external_support", "quote": "外部支持仅限窄范围配合，不改变我方施工责任主体地位", "disposition": "adopted"},
+            {"id": "provisional_mop_vs_sub_quotes", "quote": "只能编制MOP暂定报价基础，区分内部估算与尚未取得的分包商或供应商报价", "disposition": "adopted"},
+            {"id": "single_party_fit_question", "quote": "施工范围与现场组织能否由我方作为单一责任承建商承担", "disposition": "wrong_adopt"}
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {"id": "controlled_scenario_framing", "quote": "任务合同明确本包为受控角色与报价情景而非实际招标包", "disposition": "adopted"},
+            {"id": "archive_minimal_unknown_neq_incapable", "quote": "范围、认证、人员档期与本地资源均属未知，未知不等于不具备能力", "disposition": "adopted"},
+            {"id": "role_no_gc_design", "quote": "不得把总承包或设计协调职责写成本公司职责", "disposition": "adopted"},
+            {"id": "provisional_mop_vs_quotes", "quote": "报价须全部以MOP列示…与已获供应商报价严格区分", "disposition": "adopted"},
+            {"id": "gates_no_presuppose", "quote": "两项待决条件…仍为提交前置，未核实前不提交，也不得…预设核实结果", "disposition": "adopted"},
+            {"id": "consortium_or_abandon_fallback", "quote": "若核实结果不支持独立承担，则转为组合体或放弃", "disposition": "adopted"}
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "medium",
+        "note": "共享双门禁，但商务新增暂定报价区分、质量新增复核/验收节点；独特关切有分化，非低重叠复读。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 1,
+          "R4": 0,
+          "R5": 2,
+          "notes": "门禁清楚，但最终reason断言“业务方向相符/具备争取价值”且thoughts引“央企背景…值得争取”——在scope=unknown下无依据；职能覆盖偏薄。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检禁止经验暗示；保留组合体/放弃退路；未知≠无能且不编方向适配。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "S4 keeps \"未知不等于不具备能力\" and forbids hotel-experience implications, while D3 final wrongly asserts \"与我方作为承建商的业务方向相符\" under missing_core scope=unknown.",
+        "order_presented": "D3_then_S4"
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-13-missing_core",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 5,
+          "O2_rate": 0.833,
+          "items": [
+            {"id": "conditional_not_ready", "quote": "只能作为有条件投标意向处理，不能视为已具备提交条件", "disposition": "adopted"},
+            {"id": "two_prereq_gates", "quote": "人员档期…资格证明…均为提交前必须完成的先决条件，未落实前不提交", "disposition": "adopted"},
+            {"id": "provisional_mop_no_sub_quotes", "quote": "报价只能以MOP临时成本预留列示，不得当作已收报价", "disposition": "adopted"},
+            {"id": "archive_scale_not_proof", "quote": "总体人员规模与办公地址不能证明本包所需岗位人员档期已落实", "disposition": "adopted"},
+            {"id": "qa_contract_proposed", "quote": "设定内部复核节点与独立检查流程…明确责任划分、付款审查与变更处理机制", "disposition": "adopted"},
+            {"id": "single_party_not_consortium", "quote": "常规专业分包按我方单一责任主体管理，不构成组合体理由", "disposition": "wrong_adopt"}
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {"id": "minimal_archive_only", "quote": "公司档案仅提供名称、注册地址与网站等基本资料…业务范围…均为未知", "disposition": "adopted"},
+            {"id": "conditional_no_submit_yet", "quote": "保持有条件投标意向，但现阶段不提交", "disposition": "adopted"},
+            {"id": "two_verification_gates", "quote": "人员档期…资格证明…属提交前必须完成的核查，未完成前不构成提交", "disposition": "adopted"},
+            {"id": "proposed_role_not_capability", "quote": "“承担施工组织…”应明确写为拟议角色安排而非既有能力陈述", "disposition": "adopted"},
+            {"id": "provisional_mop_vs_quotes", "quote": "MOP暂定估算…与已收到的供应商报价严格区分，不得把拟议分包安排写成已取得对方承诺", "disposition": "adopted"},
+            {"id": "no_dilute_if_gates_miss", "quote": "若两项核查无法在提交窗口内完成，则按不提交处理，不以降低责任边界换取投标", "disposition": "adopted"}
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "medium",
+        "note": "施工/资源/质量有增量（拟议分包、档案规模不可证、复核与合同机制），但“单一责任不组合体”被三方同声推进并在缺scope下过强落地。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 0,
+          "R5": 2,
+          "notes": "门禁与暂定报价清楚且有质量合同覆盖；但最终把“均可由我方作为单一责任主体承担”写成已判定拟合，缺scope支持（对齐冻结D1=inappropriate）。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "拟议≠能力、核查前不承诺工期人员；自检收紧有效；跨职能细节少于D3故R2=1。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "S4 final keeps \"拟议角色安排，不构成对既有施工能力…的陈述\" and no-submit if gates miss the window; D3 over-asserts single-party fit (\"均可由我方作为单一责任主体承担\") despite unknown scope.",
+        "order_presented": "D3_then_S4"
+      }
+    }
+  ]
+}
