@@ -1,0 +1,290 @@
+{
+  "batch": "C",
+  "scorer": "Cursor agent LLM judge; researcher-assisting; not external human expert; batch C windows 7-9; offline packet read only",
+  "new_model_calls": 0,
+  "windows": [
+    {
+      "window_id": "CP00-EXPAND-08-full",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 5,
+          "O2_correctly_responded_items": 5,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "design_not_epc",
+              "quote": "本包我方角色是设计统筹、设计成果、顾问接口与内部复核，不承担整包EPC的设计采购施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_scope_unverified",
+              "quote": "公司资料仅载明业务范围为建筑设计与咨询、室内装修设计等，属档案文本…经验、认证、交付资源与历史成本依据均属未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "phased_deliverables_review",
+              "quote": "按方案、深化、施工配合分阶段提交成果，设置内部复核与独立检查节点",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "本包指定岗位人员档期是否可用，该条件未核实前不得提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "no_jv_ordinary_support",
+              "quote": "普通专业支持与顾问接口属常规安排，不因此自动要求联合体",
+              "disposition": "adopted"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 5,
+          "O2_correctly_responded_items": 5,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "conditional_no_submit",
+              "quote": "有条件参与本包，但现阶段不作出可提交的投标承诺…核实前不提交投标",
+              "disposition": "adopted"
+            },
+            {
+              "id": "epc_boundary_no_proxy",
+              "quote": "仅承担设计统筹、设计成果、顾问接口和设计复核，不承担整包设计采购施工责任…不得代其承诺",
+              "disposition": "adopted"
+            },
+            {
+              "id": "proposed_only_archive",
+              "quote": "只能作为拟议方案，不能表述为已具备能力或已落实资源",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_mop",
+              "quote": "报价基础为暂定MOP估算、非供应商报价",
+              "disposition": "adopted"
+            },
+            {
+              "id": "dual_exit_triggers",
+              "quote": "若人员档期无法落实或设计责任边界无法在招标文件中清晰划分，则转为不投标",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "low",
+        "note": "设计/资源/合同三岗共享边界+档期主线；资源岗薄增派驻不可推断，合同岗薄增反联合体，独特关切区分度低偏中下限。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "门禁与EPC边界绑定清楚；三岗高度一致，联合体否定属补充非对立异议。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检收紧夸大/代承诺/额外门槛；跨职能覆盖薄于D3分阶段方案；双退出触发清楚。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "tie",
+        "reason": "两端均把设计非EPC边界与档期门禁写清且无编造；D3交付骨架略丰，S4退出触发略硬，质量接近。",
+        "order_presented": "D3_then_S4"
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-08-missing_core",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 5,
+          "O2_correctly_responded_items": 5,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "all_topics_unknown",
+              "quote": "范围、经验、认证、产品范围、交付资产与历史成本基础均为未知…不能当作既有事实",
+              "disposition": "adopted"
+            },
+            {
+              "id": "design_role_only",
+              "quote": "设计统筹、设计成果、顾问接口与复核，不承担整包EPC设计采购施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "本包指定岗位人员档期是否可用，在该条件核实前不得提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "consultant_interfaces_proposed",
+              "quote": "机电、消防、弱电智能化等专业以顾问接口方式协调…不代表已获顾问承诺或已确认人员",
+              "disposition": "adopted"
+            },
+            {
+              "id": "no_jv_ordinary_advisory",
+              "quote": "普通专业顾问支持属常规安排，不构成联合体理由",
+              "disposition": "adopted"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 5,
+          "O2_correctly_responded_items": 5,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "minimal_registration_only",
+              "quote": "现有资料仅显示公司基本注册信息与合规记录…均属未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "controlled_subconsultants",
+              "quote": "MEP、BIM、结构、可持续及澳门合规等专项以受控分顾问方式纳入",
+              "disposition": "adopted"
+            },
+            {
+              "id": "assumption_not_fact",
+              "quote": "相关分顾问承诺尚未取得，属投标假设而非既成事实",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate_no_bid_response",
+              "quote": "核实前保持有条件意向、不提交投标，也不进入开标响应",
+              "disposition": "adopted"
+            },
+            {
+              "id": "draft_mop_only",
+              "quote": "报价与工期只能作为MOP口径的草案性意向…不作承诺性数字",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "medium",
+        "note": "资源岗新增拟议组织/接口清单，合同岗新增反联合体；较full窗略有分化，但仍围绕同一档期闸门。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "全主题未知与档期闸门写实；异议少，主要为同向补充。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检纠正把分顾问写成既定能力；最终不进入开标响应与草案报价纪律一贯。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "在全未知投影下，S4把受控分顾问明确标成假设，并写清核实前不进入开标响应，门禁收紧更一贯。",
+        "order_presented": "D3_then_S4"
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-15-missing_core",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 4,
+          "O2_correctly_responded_items": 3,
+          "O2_rate": 0.75,
+          "items": [
+            {
+              "id": "design_boundary",
+              "quote": "整包EPC的设计采购施工责任不在本角色范围内，须在投标文件中明确界定设计责任边界",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_capability",
+              "quote": "公司资料库对同类项目经验、认证、交付资源与历史成本依据均为未知，不能据此宣称能力或缺失能力",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "condition_2768662f739f8e078d8d所指的本包指定岗位人员档期是否可用…未获确认前…不得提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "overclaim_controllable_fit",
+              "quote": "设计统筹、设计成果、顾问接口与复核属于我们可控的设计责任",
+              "disposition": "wrong_adopt"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 5,
+          "O2_correctly_responded_items": 5,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "only_1980_practice",
+              "quote": "公司资料仅显示自1980年起在澳门开展建筑实践…均未提供，故现阶段不对外宣称任何具体设计能力或业绩",
+              "disposition": "adopted"
+            },
+            {
+              "id": "exclusion_clause",
+              "quote": "仅承担设计统筹、设计成果、顾问接口与复核，不承担整包EPC…以责任排除条款形式表述",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate_package_specific",
+              "quote": "取得对应本包指定岗位的可核实档期确认前不提交投标…不得以泛化团队可用性替代",
+              "disposition": "adopted"
+            },
+            {
+              "id": "subconsultants_proposed",
+              "quote": "MEP、结构、消防、声学及多媒体展陈等专项以分包顾问方式接口…尚无已接受的合作方承诺",
+              "disposition": "adopted"
+            },
+            {
+              "id": "mop_not_commitment",
+              "quote": "仅为暂定MOP口径框架，未取得任何供应商或分包顾问报价，不构成承诺性价格",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "low",
+        "note": "三岗高度重复边界/未知/档期；资源与合同仅薄增核对流程与反联合体，几乎无独立业务增量。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 1,
+          "R2": 1,
+          "R3": 1,
+          "R4": 1,
+          "R5": 2,
+          "notes": "档期条件仍在，但最终断言“建筑设计事务所的业务方向一致”，在scope全未知的missing_core下越界；与冻结D1=inappropriate一致。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "仅引用1980澳门执业；责任排除、岗位特定档期闸门与暂定报价干净；拒绝组合体有理由。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "S4把证据压在1980执业一条并写责任排除；D3最终额外断言未提供的业务方向契合，对firm更危险。",
+        "order_presented": "D3_then_S4"
+      }
+    }
+  ]
+}
