@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读为档案模块化钢结构范围内有边界暂定供货；分项可复算且未决条件不升硬门槛，detailed_required为true故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-200-full-v2_4-r1-a1.json",
   "initial_record_sha256": "d7335f5609777d30657fac66f802eefa1e5f8d389e4bddd2634f2f9ddb68ef86",
   "response_sha256": "268978e74ce7a2de92b5d3b9ddb1c488c5d78f665d53ea012a07ae0606486b55",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

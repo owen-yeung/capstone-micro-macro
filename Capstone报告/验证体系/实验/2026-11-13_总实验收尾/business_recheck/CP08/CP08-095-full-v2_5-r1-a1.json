@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "证据复核同读：设计阶段材料供货接口仍适当；软门命中为否定句，detailed未要求不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-095-full-v2_5-r1-a1.json",
   "initial_record_sha256": "d2f033cc453321fd3ce0fde1fb725471d214a33725bf2ae0ec6ee1163184cda8",
   "response_sha256": "76234ab873d54147a332400dd720a6d25c930446b1a3e94e962dafc8764d411d",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

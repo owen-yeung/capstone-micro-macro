@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍为缺失核心下有边界幕墙/门窗供应意向；S4因渠道审核正文回应不足保持部分，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-114-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "fd2928793d79e4eab63613cf35e5289435be8bb433c5f896e3772aaaad94bd28",
   "response_sha256": "19356014adcd714d480b7343a7bf721fe8e378798ad50ed64bafbff150221bd5",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

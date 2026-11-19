@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实/承担整包”为否定句；有据零报价暂缓仍适当，合规有限证据处理到位，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-01-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "5a284b65cf612e14e9512afa3520eaa59b1bb6c14001b5bf04c9a6da247b7646",
   "response_sha256": "9cb0b6d2c38c3eb7b3ef36fed7dcab520c80670c95c44b28d6c015c5a34dd2c7",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

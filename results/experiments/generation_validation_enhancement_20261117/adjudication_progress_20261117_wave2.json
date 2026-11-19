@@ -7,7 +7,7 @@
     "CP08_scored": 72,
     "CP07_scored": 48,
     "total_new_business_reviews": 120,
-    "identity": "author_assisted_adjudicator_same_design_participating_assistant"
+    "identity": "independent_second_llm_provider_adjudicator"
   },
   "cumulative_since_enhancement": {
     "wave1_new_reviews": 84,

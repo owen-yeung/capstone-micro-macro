@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "missing_core下有边界供货暂定成立；合规有限证据处理到位但项目条件联系弱故S5部分，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-165-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "93163e98191ef701c52981ccfbb761df61ea4483abfc83fdcfccd7427d95a1cb",
   "response_sha256": "e7397055cfc91c100d3a2f09f540f73336349eb49e427375cf084345050f3c18",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

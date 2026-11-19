@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案物流装备方向支持暂定供货意向；软门“已落实”仅在“不构成已落实措施”否定语境；detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-109-full-v2_4-r1-a1.json",
   "initial_record_sha256": "76d98cb88592d777f32a7fb2ea931e1f3575624c0764f10b9b2fe42ce5961f49",
   "response_sha256": "03fa9a42df10e514fb745482a715ac704896ef7b953e12c281fb061b35a43542",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

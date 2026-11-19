@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已核实」在否定句；缺核心下条件性设计主导仍适当，组织与门禁充分故D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-15-missing_core-S-r1-a1.json",
   "initial_record_sha256": "3f445322d150a8a1e3731558e8f2e4897b8fa1f5e8b6125eafc3b4f9abe3976c",
   "response_sha256": "151e88b9306445e99d6ff365e8f24f5cd182f85b2ccce586d72016053d7b7776",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍适当，S4因非硬门槛升正式提交阻断记部分；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-216-full-v2_4-r1-a1.json",
   "initial_record_sha256": "573eaca2685c95670e34d42c5209e23cbbdbe740650db9c94fc5820d594bc453",
   "response_sha256": "493ffa4a248a4c7ae07b9d57fde4f243bb2028aca19103d549b1c80c8172a05d",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

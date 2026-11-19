@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "复核确认有条件供货草案适当；软门“已落实/承担整包施工责任”均在否定语境，不构成无据承诺或越界。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-047-full-v2_5-r1-a1.json",
   "initial_record_sha256": "1e2cc1bdcc865fb95cbd873037d6c2f09815e0b656240a34081c9d6826e203dc",
   "response_sha256": "7d3a63c312bca083fde7d3fe8ec1019333dedb836edf45c743bbf1aa7af940c9",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

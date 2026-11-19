@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界幕墙铝门窗供应意向仍适当；软门“已确认”仅在否定句，条件保持待核实。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-073-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "0f131ec06bafa45750d9a3de0decb2a476a8c1dc36451d911591d591d63f69f0",
   "response_sha256": "13083fbc32a3bbd6a378813f6996c3c7d9cb6752dc856e72bee099a199861d86",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

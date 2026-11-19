@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界供应草案仍适当；S5因缺合规有限证据处理记部分；detailed_required故写D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-176-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "1a5284115d2c321c14fe069503acffe55b8bc1951080acd8663f33b7926df2b6",
   "response_sha256": "4e03dd58124f78fcdcbb703fc954713c865a4e6c6ba7b07c78ed9a4ae585bbb8",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

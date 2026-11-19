@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "非整包桩基供应意向适当；未决条件与资源缺口交代充分；软门均在否定语境。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-060-full-v2_5-r1-a1.json",
   "initial_record_sha256": "7321c3297e3a7e41adb05e7edd80ea4e6b348f64bdd1fdff76988c6a546d7092",
   "response_sha256": "be66005bfb8feba39ec6ea14031f74b348c7b195d8887ef3da2c80fd839831a6",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

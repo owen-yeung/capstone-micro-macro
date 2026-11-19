@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在否定句；missing_core有边界供货仍适当，渠道/保修未升硬门槛；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-216-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "e33e1d91a3a9e4729f2a62a73db1bd84a4a882b7a80cc199aa391eb96330d40d",
   "response_sha256": "51c24d00ace9e9835e4b715c3320d0bd701ab4a5814dce49c1119e00e8c8755e",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

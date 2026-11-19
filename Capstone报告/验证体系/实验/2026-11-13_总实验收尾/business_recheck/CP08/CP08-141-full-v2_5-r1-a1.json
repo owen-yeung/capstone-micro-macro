@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "球场材料暂定供货意向成立；软门“整包施工/已落实”均在否定句，条件未升硬门槛，detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-141-full-v2_5-r1-a1.json",
   "initial_record_sha256": "b68f30cb79a1bcb9e6d634fabb1a58ae9ac4eb8350aeafcd65384f5423134086",
   "response_sha256": "7da0aaa091d28e7b92732a03a229634a3d58e22b278157f3f28a15dd976f0b9e",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

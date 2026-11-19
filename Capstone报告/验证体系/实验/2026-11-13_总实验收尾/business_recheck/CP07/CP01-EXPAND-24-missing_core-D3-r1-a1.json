@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已落实」在否定句；真正问题是missing_core下主张未给体量匹配与风险可控，组织与门禁仍可读故详细维降为1。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-24-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "2fcc471db2980f9db13b9933f21662c51030a36008d8ca2cd6577a4caa175be3",
   "response_sha256": "5d08e916a17d6860440dd9d5a4f7808b92670322c0868d43d6fdd40cd2f68dc5",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

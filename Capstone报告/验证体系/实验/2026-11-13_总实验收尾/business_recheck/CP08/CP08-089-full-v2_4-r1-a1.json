@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "复核仍为监督包误读成设计组合体；V1矛盾、V2缺检查方案，D3=0；档期门槛不能挽救D1。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-089-full-v2_4-r1-a1.json",
   "initial_record_sha256": "42a4dad7771a7d45074ef5d56869d67eb9337e2a18899751a98bace2c346829b",
   "response_sha256": "4bb8c0fb3cd76a742411a2ac5051ece8edc12836632cb27758f0dde119d5666d",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

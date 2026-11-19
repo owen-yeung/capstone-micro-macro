@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下模块化暂定供货仍适当；软门“整包施工”在否定句；S5缺合规有限证据处理记部分，detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-150-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "26994929b75eef43614d96aae27502382202c6b7f0b77ff7b27f38c9fdfa7a86",
   "response_sha256": "a6c236f905df40f4cccb53d4553addbd917f99190698e159e951ebfcda3a9c72",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

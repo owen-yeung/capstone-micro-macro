@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在否定句；全量档案范围与条件性设计方案充分，详细维均为2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-09-full-D3-r1-a1.json",
   "initial_record_sha256": "837fc2310fb452c5fe631ab4da64564cfc611c092a0a09c60b2ecca8a1f235da",
   "response_sha256": "4c91f66e39366119c2fe0fb3eb5196ed2631408e9da19f2c97d5c5e72714f27e",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

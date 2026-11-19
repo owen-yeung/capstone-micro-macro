@@ -1,4 +1,4 @@
-"""Persist explicitly authored same-assistant recheck conclusions, no judging API."""
+"""Persist explicitly authored recheck conclusions, no judging API."""
 import argparse
 from decimal import Decimal
 from pathlib import Path
@@ -28,7 +28,15 @@ def main(path):
             reported = Decimal(str(payload['quotation']))
             numeric = {'parts_sum': str(total), 'reported_total': str(reported),
                        'difference_parts_minus_reported': str(total - reported), 'original_tolerance': '1 MOP'}
-        record = {**note, 'reviewer': 'Same author-assisting AI evidence recheck, not independent or blinded',
+        authored_hint = str(initial.get('authored_labels_path') or path)
+        if 'GV20261117' in authored_hint or 'independent_second_llm_provider' in authored_hint:
+            reviewer = (
+                'Independent second LLM provider evidence recheck; '
+                'not original pipeline design participant; not external human expert; not blinded'
+            )
+        else:
+            reviewer = 'Same author-assisting AI evidence recheck, not independent or blinded'
+        record = {**note, 'reviewer': reviewer,
             'initial_record_path': str(initial_path.relative_to(ROOT)).replace('\\', '/'),
             'initial_record_sha256': sha(initial_path), 'response_sha256': sha(response),
             'task_card_sha256': initial['input_card_sha256'],

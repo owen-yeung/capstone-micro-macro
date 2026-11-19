@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "复核确认有条件材料供货草案适当；软门“已落实”仅出现在否定承诺语境。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-047-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "39eb6bb3d91a6fc38e7e5d9f37399d6edd3318f5f64bd6471abbedb29e0df953",
   "response_sha256": "9fd3e3856c2d8b74828e37996b0eeb8e5e23fe6a4f49c8094cf8813ec73186b3",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下主张未给业务可承担契合；档期门槛与检查安排可成立，但V5无项目条件联入，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-166-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "91260bff1a02e99d130057166854f31517e45bc8bce4021802840bb9d6b5fd05",
   "response_sha256": "593252e4391ab8dcf787932b8ff2e038d162a0c4a2ae6a27fb426d3c8d98f8d4",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

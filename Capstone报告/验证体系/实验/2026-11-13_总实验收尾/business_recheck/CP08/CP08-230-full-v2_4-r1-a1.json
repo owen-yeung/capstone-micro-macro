@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "完整范围与认证文本支持有条件单一投标；C5因本题要求的合规有限处理缺失降为部分，组织人员仍框架性。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-230-full-v2_4-r1-a1.json",
   "initial_record_sha256": "de5783ab586da7e8302b6e9c06a3491b7e190b6434ad10b6be95d03ab5ea6ed4",
   "response_sha256": "b57bb94bdc7c6df6ec21d4ee0990a59729aadaf0f22cda2ac6e9eb7cb4056206",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

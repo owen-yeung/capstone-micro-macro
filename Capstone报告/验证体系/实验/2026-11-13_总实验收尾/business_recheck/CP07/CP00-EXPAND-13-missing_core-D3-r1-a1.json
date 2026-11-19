@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在否定证明语境；未知声明不能挽救“均可由我方单一承担”的无据承接断言，组织与门禁仍可读故详细维为1。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-13-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "a49f127ca34b49d818f1bcbe29dc90e1c87d950010e330b76371acd6a042447e",
   "response_sha256": "e5b71366c3b2b81e6fd8a671b05602631d1c363e3ab77ee9e8b7a8694ba99195",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下发明建筑设计机构方向并把未知写成供应可信能力缺口；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-198-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "bf726ee93e72b46bbacd4c4e847cf82c0ba408dddf4a1890ec0fa35493727b17",
   "response_sha256": "443e83aa25d456689439854eb78c8394c887794b843dc9940aff6de288c52ac8",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

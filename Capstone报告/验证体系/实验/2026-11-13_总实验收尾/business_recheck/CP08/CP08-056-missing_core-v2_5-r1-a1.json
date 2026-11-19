@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "证据复核同读：适当条件性市政供应草案；发明事实软门为“不视为已通过”否定句，维持原评。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-056-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "57712f8d5a901402a2165d1e101179dd45b1382656cebd052e662d1987f0bf53",
   "response_sha256": "ca31124ac57a3843d37a23b68cab81e16ddc1a3c37c9aa7412b5399a4b12d488",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

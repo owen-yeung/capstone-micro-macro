@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界学校材料供货成立；软门“已落实/整包施工”均在否定句，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-104-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "b6d13ab51cd3202731414a1a94d7ee22821afeef49cdd7eb4eaa382b80492f0a",
   "response_sha256": "b1495248b42d9cd091a3d3ca08379a7c87862014e9c77b246dc731bb2827915d",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

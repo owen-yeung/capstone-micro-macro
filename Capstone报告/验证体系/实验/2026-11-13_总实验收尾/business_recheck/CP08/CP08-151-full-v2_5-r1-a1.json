@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“整包设计采购施工责任”在否定句；通读为有边界条件性单一设计意向，D3/D4按条件性方案给2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-151-full-v2_5-r1-a1.json",
   "initial_record_sha256": "4146a9105eaf9ab2f1ff9a472908f1e0768dc0465b35ffd1bdc1e8ee9d1dc7f7",
   "response_sha256": "ddf51bab3b609a831802404f10ec68b8eeb3dbf97f6c1dda638a1af1a04ac885",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

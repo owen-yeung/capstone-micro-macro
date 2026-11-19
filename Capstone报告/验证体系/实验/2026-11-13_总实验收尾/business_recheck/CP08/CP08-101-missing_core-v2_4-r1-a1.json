@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍为承建角色下无据设计主导单一责任意向；提交门闩不能挽救D1，detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-101-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "c27cb6c6f0304655aa5a4b40d2e1b3ed872d82b045b1e30bd941e925aa571231",
   "response_sha256": "61c7b0a178d3d6a74795d7d8735e37f2360556a112bd34f77a5994280ac85735",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

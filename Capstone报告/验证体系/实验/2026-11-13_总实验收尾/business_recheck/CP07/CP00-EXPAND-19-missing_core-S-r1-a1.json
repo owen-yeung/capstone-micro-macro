@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在否定句；缺核心范围下有边界条件性承建仍适当，C3岗位偏框架保持部分，D3/D4按连贯方案给2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-19-missing_core-S-r1-a1.json",
   "initial_record_sha256": "a6055c9c81414cfd1d4c5be682a480e1e0488ca5318e6cab9e34f33adc450013",
   "response_sha256": "cc8e75ff41ac9341e6f8cfd1b093ba4a9497f50bc399b9650ef68e7adb89e888",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

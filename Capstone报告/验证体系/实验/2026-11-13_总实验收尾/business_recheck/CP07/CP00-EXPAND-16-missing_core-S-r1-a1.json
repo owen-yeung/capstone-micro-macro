@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "缺核心下条件性监督与检查关口仍成立；项目条件联系与档期取舍支持V5正确及D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-16-missing_core-S-r1-a1.json",
   "initial_record_sha256": "fd0f99f73727d084ca49f5268101a6eed3dbca7be0bfe6db8e58fb96faa775d5",
   "response_sha256": "af1749c6c9f9b421f868a28b58d7e37ae0aee954ac78a63419d9f08037417aca",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "missing_core有边界拟议供货仍适当；软门整包字样为否定句，S1–S6与D3/D4=2维持。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-20-missing_core-S-r1-a1.json",
   "initial_record_sha256": "803786974682e29cff0d5810c073f62e231ea35eab24597912711962b5afb8c7",
   "response_sha256": "ef1521c245a37855c436a86fa79a9b6b5bc46598dbf89e2134d8881ace1da822",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

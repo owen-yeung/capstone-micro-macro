@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”为禁止表述；职责与档期正确，检查/岗位偏栏目故V2/V3部分、D3=1；隧道-档案联系与取舍支持V5正确与D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-07-full-D3-r1-a1.json",
   "initial_record_sha256": "728938090cb827286b71c7664499698cc5079665de93ff164a0d3d84f9cc375f",
   "response_sha256": "716d9b0b17c690aa9062daefaac471499eacdcfcb89eb6f548e258cdfdd0df63",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

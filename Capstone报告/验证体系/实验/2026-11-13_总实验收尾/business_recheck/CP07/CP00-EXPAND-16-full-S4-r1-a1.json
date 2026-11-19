@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在否定句；V5仅部分项目针对性，其余与D3/D4=2维持，非独立专家。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-16-full-S4-r1-a1.json",
   "initial_record_sha256": "21bd4062a5ec16ae418ac5c98680f6898209d3e6a6e0ba7e81227f6f4d37206e",
   "response_sha256": "987f685b5a48043c0698f46858fad0299e41e115c4aa92163f5c9882988fbed8",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

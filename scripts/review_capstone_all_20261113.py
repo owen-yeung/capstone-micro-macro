@@ -166,9 +166,13 @@ def ingest(path):
             'content_review_read_view': data['content_review_read_view'],
             'D2_correct_coverage': sum(f['rating'] == 'correct' for f in factors) / len(factors),
             'detailed': detailed, 'input_card_path': str(card_path.relative_to(ROOT)).replace('\\', '/'),
-            'input_card_sha256': sha(card_path), 'authored_labels_path': str(path.resolve().relative_to(ROOT)).replace('\\', '/'),
+            'input_card_sha256': sha(card_path),             'authored_labels_path': str(path.resolve().relative_to(ROOT)).replace('\\', '/'),
             'authored_labels_sha256': sha(path), 'initial_review_complete': True, 'evidence_recheck': None,
-            'reviewer': '作者辅助AI评阅；参与设计，同一助手，非独立专业评阅，非盲评',
+            'reviewer': (
+                '独立第二LLM提供方评阅；非原管线设计参与者，非人类外部专家，非盲评'
+                if 'GV20261117' in str(path) or 'independent_second_llm_provider' in str(path)
+                else '作者辅助AI评阅；参与设计，同一助手，非独立专业评阅，非盲评'
+            ),
             'evaluation_identity': 'exploratory_old_material' if cohort == 'CP00' else 'fixed_cohort_content_review'}
         prepared.append((MASTER / 'business_review' / cohort / f'{wid}-{arm}-r{repeat}-a{attempt}.json', record))
     for destination, record in prepared:

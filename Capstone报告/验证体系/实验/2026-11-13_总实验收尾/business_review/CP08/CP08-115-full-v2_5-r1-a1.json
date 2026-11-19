@@ -150,6 +150,7 @@
   "authored_labels_sha256": "1349d138195263d8c97c302e68535396e74a880fcba14bcd73f0ea41b6c66ebc",
   "initial_review_complete": true,
   "evidence_recheck": null,
-  "reviewer": "作者辅助AI评阅；参与设计，同一助手，非独立专业评阅，非盲评",
-  "evaluation_identity": "fixed_cohort_content_review"
+  "reviewer": "独立第二LLM提供方评阅；非原管线设计参与者，非人类外部专家，非盲评",
+  "evaluation_identity": "fixed_cohort_content_review",
+  "reviewer_identity_note": "Label correction 2026-11-18: adjudicator is an independent second LLM provider (Cursor); original pipeline was not developed with Cursor. Grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "条件性监管意向成立且档期门闩清楚；软门“已落实”在否定句；V5仅有项目名复述故记missing，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-120-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "fcb63f1dcb8927051ae92b18e039e74eec97d1f3af931619140610fe6a19ed1a",
   "response_sha256": "08fa2c793c6b123c8303a152224041bf5f38e531208ce18caba98b6a90b54826",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

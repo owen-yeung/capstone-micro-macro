@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下主张单一责任设计方定位相符；未知不作能力主张与档期门禁不能挽救D1，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-193-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "4695b1213cc33652cc838fd4aded2f6a74516f5237862046aa99365cb4570e5e",
   "response_sha256": "63298bf29aae748a6d4bf6b048b888ba6d265bbd0516187e9f0d73764a707d4d",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

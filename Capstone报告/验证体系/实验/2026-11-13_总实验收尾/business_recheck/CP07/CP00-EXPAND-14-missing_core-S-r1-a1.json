@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Soft-gate 已落实/整包 hits are negations; missing-core provisional MEP/finishing materials draft stays appropriate.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-14-missing_core-S-r1-a1.json",
   "initial_record_sha256": "84ae6b2650cd36f1eebc5bd7b45c615880cf94080cab804ae5a788f35ebc7f6c",
   "response_sha256": "af06c4903ca7b02a914422e486d7c9991a4d4de907c2f2cea7b9574f2a2f42fa",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

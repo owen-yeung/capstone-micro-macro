@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍为有边界条件性设计主导；档期闸门与未知能力保留成立，detailed未要求故无总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-102-full-v2_5-r1-a1.json",
   "initial_record_sha256": "87869ab5b796758f1b2a3d3261cc1f8cdac116c477134f7366816e22eaa112fb",
   "response_sha256": "24fa6213a9c19700974a608e5df9255bd141dbf4e2e8e6843de76a1f197ccf00",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下主张未给设计主导定位并强制组合体补权威；档期门槛本身成立，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-212-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "5975fb1d73230f6fd0407fbc82b9de72c328a670e9ba0a10bed0e8f3f8efe649",
   "response_sha256": "7e234dcdb993a23ab220e85b512e579dfd27872dbee2a6c7a616a779d1b8080b",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

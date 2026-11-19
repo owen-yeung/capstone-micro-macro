@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "证据复核同读：未知范围下适当的市政供应意向；软门“已落实”为否定，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-056-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "ddf478c1eac935390a31f320c64888c9776be8b51c06dcc16f7a6ebc599b15e3",
   "response_sha256": "521e26429d5ec81ce5a947176ca8a29bd2de9e8f4ce8103f0a4a63e13f54d03c",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

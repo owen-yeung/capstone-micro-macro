@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下主张未给设计院接口协调能力；软门“已落实/已通过”均在否定句，detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-145-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "cdf33b4074f4b736cc4af08ef4e9a42a276724308e6a01038f4cae70fdec84ab",
   "response_sha256": "e773626cd250f36e3c2ac8d965611f2ba1344015ba8c08b1bd08be8f1f2c2069",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

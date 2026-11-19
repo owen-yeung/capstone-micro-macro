@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”仅在“而非已落实事实”否定语境；真正问题是无据业务定位契合，检查安排不能挽救D1；detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-126-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "b995a8a590291a2b7187a81d6f4cc12bc92d7aafb331a941a57b255c9ed5bec9",
   "response_sha256": "311191a7728194dd8085c652aa46742a1035e4c50f00248a679968eaf06493dc",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

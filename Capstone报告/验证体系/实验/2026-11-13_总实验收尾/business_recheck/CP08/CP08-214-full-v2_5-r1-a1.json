@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”在“并非已核实的本包资格或经验”否定句；通读为有边界条件性单一承建，C3岗位仍框架；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-214-full-v2_5-r1-a1.json",
   "initial_record_sha256": "3c1f1c6739c665d84f80f5db43a3ff6b670e30d523e54988b038d62c9d948f7b",
   "response_sha256": "c4bcdbf9af7e8f1dcac025e3495a1581ec986a945472a97c02803760c96c507e",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

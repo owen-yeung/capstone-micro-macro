@@ -7,7 +7,7 @@
     "CP08_scored": 344,
     "CP07_scored": 96,
     "total_new_business_reviews": 440,
-    "identity": "author_assisted_adjudicator_same_design_participating_assistant",
+    "identity": "independent_second_llm_provider_adjudicator",
     "note": "Wave 5 scored the full remaining eligible-for-business-scoring backlog; detailed_required from needs_detailed enforced up front."
   },
   "cumulative_since_enhancement": {

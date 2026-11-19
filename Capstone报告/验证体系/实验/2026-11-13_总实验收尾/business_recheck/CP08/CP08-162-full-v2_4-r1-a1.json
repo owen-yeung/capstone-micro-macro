@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案电梯范围支持的暂定供货成立；S4因渠道/保修正式投标硬门槛升级保持部分；软门“已落实”在否定句；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-162-full-v2_4-r1-a1.json",
   "initial_record_sha256": "da5753a125e134882e71ea936d2967f86a27f522e2810f14484539c1a0853951",
   "response_sha256": "5352c20bd6a1b632db944a7fec73de3542989d732f59f1f67d05e8296b317fcb",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

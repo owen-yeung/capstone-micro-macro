@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: validation_failed does not block business reading; conditional missing-core supply with non-blocking conditions and exit triggers remains appropriate.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-11-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "46b17adb3c616de1b29be2287e60231c44f56530c4fb43a6d870264418d93f64",
   "response_sha256": "a1e0962f5acef5784821eb49b916789e4555dd6d5bd99461fd7f89c5570fba8b",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

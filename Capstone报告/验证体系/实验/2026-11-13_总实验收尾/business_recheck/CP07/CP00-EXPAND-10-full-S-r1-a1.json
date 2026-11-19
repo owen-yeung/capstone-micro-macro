@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "检查闭环与基础工程风险重点支持V2/V5正确与D3/D4=2；档期角色计划保留未知，整体适当，非独立专家。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-10-full-S-r1-a1.json",
   "initial_record_sha256": "930360a29b07295ecd76a23ceec69e0335fd4878d8e67db1de9634ffdcc7ddc8",
   "response_sha256": "b6e7b353fed333b6094f4708a663dece62ca880b5ce6587e7493e3b1ca881f96",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

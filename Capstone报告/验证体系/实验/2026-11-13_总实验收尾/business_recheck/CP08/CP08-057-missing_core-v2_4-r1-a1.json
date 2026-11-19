@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "validation_failed不阻业务评分；D1/C1不适当来自无据“可承担常规总承包”，不以条件门闩自动挽回。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-057-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "a0423bdd38d3f82f91d929f842056e20a66b25bda2c626cd7a4c99d6e8d42f51",
   "response_sha256": "2049abeab0d4ddfd0edec6d40478ba6c50e0c0465ea42859cd32667ef33af6ce",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

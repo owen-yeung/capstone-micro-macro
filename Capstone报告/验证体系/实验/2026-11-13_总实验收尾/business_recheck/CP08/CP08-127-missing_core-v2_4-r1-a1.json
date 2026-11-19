@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”仅在“均无已核实记录”否定语境；通读仍为未知升格能力缺口并强制组合体，detailed未要求故无D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-127-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "0ffcac8377d68ed6a0a4f33e581ec0817438354ce8516340be2c9226f62287ee",
   "response_sha256": "d2bef1d88fb4edc3a3bb74c7dc27bcccb982ba0ed34ffceb74751f743cd6dffd",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实/承担整包”均在否定句；通读为档案范围支持的条件性酒店供货草案，detailed_required故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-14-full-S-r1-a1.json",
   "initial_record_sha256": "65d0ba1ab11c8f670a88309796960f2c9a22df87d4bf954071238c2d097a5690",
   "response_sha256": "182939647ce095b0925306fd20d9497716f53e37b793372bd194b8a7f0be1eee",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

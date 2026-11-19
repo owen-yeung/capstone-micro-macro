@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实/整包”均为否定句；草案适当但S4因渠道审核硬门槛升级保持部分，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-114-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "848d25a78e9fcb3d4db7b619b182f685767979902d278e5a81452ec77ce48918",
   "response_sha256": "96ac75b46a1eae4a5921e7805b8f666379603506c998fa562ca6a61222209437",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”仅在“不能对外声称…已落实资源”否定语境；条件性独立投标适当，C2/C3仍框架，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-074-full-v2_5-r1-a1.json",
   "initial_record_sha256": "8b27ac4eb26058878fdd37f50d4668df230edd883f0e74f578e3d0fc09dc56f4",
   "response_sha256": "f5ceccd1b364ef14fa54a02c3c86a35e1d1e9353092ef1359589b70ae48f3d4a",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

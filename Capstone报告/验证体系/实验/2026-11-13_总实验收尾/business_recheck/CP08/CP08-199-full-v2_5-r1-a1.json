@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”在“不构成已核实的能力”否定句；通读为档案监理范围支持的条件性监管意向，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-199-full-v2_5-r1-a1.json",
   "initial_record_sha256": "5a3d40e19d48f6eb3d95a550ab732d07283c67c7cbc099878aa6d140a4c7fbf9",
   "response_sha256": "a525d187a1733ecb20a2d49707bef880b17e0155117a6041f9e652191dac57ef",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

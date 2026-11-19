@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围未写成无能也不虚构能力；条件性单一承建适当，组织与人员仍框架故C2/C3部分；detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-087-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "5ac0a45d5f9309d98e6cfaff38538230eb9deef14ac7ca627df5cc1a989cb9c9",
   "response_sha256": "c90d3715781e37dce35eacb76e46a8e65994fff5a79786726882b61956129e8f",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

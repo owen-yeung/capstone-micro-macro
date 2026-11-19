@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已落实」在否定句；通读为档案未知与档期门槛支持有据拒绝并保留重评，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-06-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "6da5e65b1a099ec1138654a9ba64d642aadb8ddf57281f4e41fcf7908393a545",
   "response_sha256": "7eca4fe48df2439ff305eab950726689ce9c7710b5b4000fd77cdfc04e5eaba6",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

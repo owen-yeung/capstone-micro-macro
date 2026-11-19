@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "证据复核同读：档案范围内D&B配合供货意向仍适当；软门“已落实”为否定句，D3/D4维持2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-090-full-v2_4-r1-a1.json",
   "initial_record_sha256": "e5336d1ff0e2d88b6de76bcdf1a29598bfc2abb14b7ad49d4ad37d014e26ab50",
   "response_sha256": "b6f180f903981e2a3d71d4a698b60bc13a0d71917a0ecf95db66df49914d3bf2",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

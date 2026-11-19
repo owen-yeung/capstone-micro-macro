@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门与invented命中均在“而非已确认可提交”否定语境；条件性监管意向适当，V5缺项目条件联系，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-077-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "7f25c6416334e6200f3d69d7fb7ae7ba834dd4de9967e632f4a4ed821c0528b2",
   "response_sha256": "4e59c544659b2025c5bd9fc818a7a93bbfba2d5b7d55438e400219450a208870",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

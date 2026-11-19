@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”在“不作为已核实报价”类否定语境；真正问题是无据业务方向匹配，检查安排不能挽救D1；detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-108-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "f1ba2c81a24ec7aff9e56d5b2b24603e0b6c6511c33aa1c1b6a3fed294db1be9",
   "response_sha256": "3c7d420c4007ceca0437301744219a176669aa742060d47de7225234f4884471",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在“不得表述为已落实承诺”否定句；真正问题是missing_core下主张未给总承建商可承担定位；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-226-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "9c36d8e03bd3aca908fe8a8ae73fb7e7738a168d159c7b4ac50b9d5ea641e779",
   "response_sha256": "94b62562111fc7c832694782a566b6a1ce71e65528b92431c5ee6a50062b8ede",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围与慢行交通规划契合支持有条件牵头意向；人员与分包边界保持，软门禁否定表述不改判。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-111-full-v2_4-r1-a1.json",
   "initial_record_sha256": "e8dec75e0c14d48fbd3adf9a68c95f29fe27446b3c054d51652e8d62e30fdf8a",
   "response_sha256": "b42d4bc274c0ce5f087316f936258736172bd244a7c8e7fb73fb74706243368f",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

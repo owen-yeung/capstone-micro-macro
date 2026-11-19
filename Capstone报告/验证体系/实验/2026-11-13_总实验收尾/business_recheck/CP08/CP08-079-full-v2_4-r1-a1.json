@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍为档案智能化范围支持的暂定供货意向；validation_failed不阻业务分，D3/D4按条件性方案给2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-079-full-v2_4-r1-a1.json",
   "initial_record_sha256": "57e9f13d8100492ecccc4f6468ce4f5a5ae023881ef4bceee2ba49fde5be07ff",
   "response_sha256": "3466c55f619cc84d8afbb401b8c8eb6f2bff265054b6687948577fcb4c81f2f1",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

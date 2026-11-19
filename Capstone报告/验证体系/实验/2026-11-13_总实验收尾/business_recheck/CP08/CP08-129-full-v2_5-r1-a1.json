@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围支持的消防装备暂定供货成立；软门“已确认”在否定句，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-129-full-v2_5-r1-a1.json",
   "initial_record_sha256": "9bc4fabcf55ff7817a4c14dbc963e43cade9cc72d96833c563add175cc2b4354",
   "response_sha256": "03f23660c28b013f990f235b2a39ccc2a2487b48191ec4a918d157768f7eff88",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在否定句；missing_core下有边界供货暂定成立，S5因缺合规有限证据处理记部分，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-180-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "ab630e9f1c2b807b5f755f75f8c542b421ad90285e3f7f635942559361250760",
   "response_sha256": "1c5f17558c01627465627bacae865f83b698356a9d70cd40feadbc9e87909127",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案建材方向支持的暂定供货成立；软门“已落实”在否定句，S5仅因缺合规有限证据处理记部分，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-133-full-v2_4-r1-a1.json",
   "initial_record_sha256": "ed291eae39cbda63b5a0aa9a42d244b75dc573deee7627b528ebbb4ebbd3537f",
   "response_sha256": "46300841573ceacc62a61ddab020dd8359502bd6ec1ac3c98d2aa925c4177457",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

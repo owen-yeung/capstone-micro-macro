@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "与EXPAND-09对比，本答未主张未给业务方向相符；通读后仍为有据条件性设计统筹意向。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-02-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "ce427a04043363c7e9520833e63af770ae0a4e30d162deaac7d03b43b9fc5101",
   "response_sha256": "e6ba5ca6798d6b534cee32f2b2c5fa82514504d2515507685a886e52c109b1c8",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案未知与两项提交前门槛支持有据拒绝；C2重审触发偏薄故部分，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-110-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "59cedf6789de41f68aaa43d76fc4cb61e75836ade042f362d414c1d7bff7bbb5",
   "response_sha256": "e17043901eda16a3b54a31a2e45cf060298f408e12b1e4e255798f6a198a6093",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知能力与档期门槛处理得当；检查与人员仍框架故V2/V3部分；属地与角色联系成立，条件性投标适当。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-055-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "ba116638d447198dadf8d01aab2a544d69b26712a8009469603f6229552a6fb0",
   "response_sha256": "29713a89979e114574ba736550f2a2bcf10e2c55371797a270e8a9a95e8311e7",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

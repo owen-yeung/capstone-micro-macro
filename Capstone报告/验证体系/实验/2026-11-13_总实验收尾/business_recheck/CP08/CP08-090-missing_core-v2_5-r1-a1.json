@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "相对同窗v2_4设计越界，本臂回到供应商供货；软门命中为否定句，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-090-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "27003a993ad7e8a0f525a3c395e79751bd90175f609d1ce722d095881d006403",
   "response_sha256": "e23b0098fe4c4bf2dc2d70961184e06328024f8cfedac897b7614b2f1b6a3426",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

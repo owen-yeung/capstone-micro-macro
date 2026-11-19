@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Soft-gate 已核实/整包 hits are negations; missing-core provisional category supply remains appropriate with both conditions unresolved.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-14-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "d412696204c3b423a6239da06e94540f3c082ebfc3789d144aa03c63ff15c66c",
   "response_sha256": "9f4aff450ee9a12a4c29cca60843cf6c7873d416aadc693658980f40f07fd4ef",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

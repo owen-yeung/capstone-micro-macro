@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围支持的有条件商业办公投标仍适当；组织与人员停留框架故C2/C3部分、D3=1，承诺边界D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-02-full-S4-r1-a1.json",
   "initial_record_sha256": "8ed16d5eca729199c65720774272186107c41f00c2815fe79f190934b43f6200",
   "response_sha256": "11fb4467037ecdb6bdc03240570d2f8db8affcb2e27feedea6fdd930de547810",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

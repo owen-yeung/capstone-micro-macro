@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下主张常规业务范围/设计主导定位；软门“承担整包EPC责任”在否定句，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-156-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "177f2051bf06de512d03eec2e4e9cd4e5f10b2e0b64d6855daa6fa1b0628cc22",
   "response_sha256": "d6144b304997072a0e49104a56734898aa942e92d29488caa75508f1e33b876d",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "证据复核同读：适当非整包市政供货草案；S1因未锚定已给经营范围保持部分，D3/D4仍为2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-056-full-v2_5-r1-a1.json",
   "initial_record_sha256": "136ca7a6067cc3d08b0dbccca3ca932a7a5f5d66529338c44029db5dbd2ec646",
   "response_sha256": "687a0a23c2f7f45887f856ca8cd0fddc10db63316b8a8f0a3fea4fb4d2745318",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

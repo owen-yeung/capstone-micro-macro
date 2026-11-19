@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍以发明的本地常驻要求与“缺乏交付基础”压过档案检测与监理方向；V2–V4按拒绝分支可成立，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-137-full-v2_5-r1-a1.json",
   "initial_record_sha256": "1bf73e54e434e85930e8192210396bfc390f00815821f93c4728230521be5ae4",
   "response_sha256": "8dd7883075544a3706f96353b0732a7cc1a95eff79d839f1c5fb4cf3225b62e1",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

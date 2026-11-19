@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“承担整包施工责任”在“不承担”否定句；通读为档案范围内有边界暂定供货，detailed_required故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-10-full-S-r1-a1.json",
   "initial_record_sha256": "d736bf510bd46bbf9ff7d44397b04bb5d192a40516958eae3f3d32e8f8cd249a",
   "response_sha256": "38811fbc703f89f14836f0785f9ae5a3e6ba4694685f7192ddd55938c7c84eab",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

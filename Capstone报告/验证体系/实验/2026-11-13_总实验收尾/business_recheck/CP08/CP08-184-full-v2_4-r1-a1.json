@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案监理方向支持条件性监管意向；岗位仍提案故V3部分；软门“已落实”在“未取得确认前不作已落实表述”否定句；detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-184-full-v2_4-r1-a1.json",
   "initial_record_sha256": "f24a98630977b54df98f74093e49de9ccb3dcc614bfe6e8bbc25c9674ca5534e",
   "response_sha256": "eacadee4edd2f1b872ac57f6af4bd667e6a4703898fed18bf7ebfa03e686aa03",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

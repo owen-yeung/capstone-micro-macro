@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门整包为否定句；缺核心条件性供货且非硬门槛处理正确，S1–S6与D3/D4=2维持。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-23-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "6b19ccf9ff41f930f1f26b5ada1390e4cd95fdf63b4ff27c2f011953a8e96950",
   "response_sha256": "4531b9ab4f28824a6a15a037b8236653724c32375104a9c62337b44944c4ab24",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

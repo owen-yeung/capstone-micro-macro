@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "材料供应暂定意向成立；拒绝整包施工，软门“已核实/已通过”均在否定句，条件非硬门槛。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-099-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "5be9bfbaf05e953e3e0a0bf7254ab5f3b36e768b5f3be4172e1ede337ee6ad3d",
   "response_sha256": "12ee07cc63bd3cbdd41a2e533ec64c9b3435b98d8a480a36dd20eb4793c2c984",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

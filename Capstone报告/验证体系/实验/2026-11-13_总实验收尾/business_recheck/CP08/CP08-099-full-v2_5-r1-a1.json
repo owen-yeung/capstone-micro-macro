@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: full-variant scope-bounded CIMC supplier draft remains appropriate with correct factor handling; soft 已确认 is negation of commitment.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-099-full-v2_5-r1-a1.json",
   "initial_record_sha256": "af5cabe18cf48bf6b3929264d5c1dc67535997c7c949a0a411f969fcdc6f5632",
   "response_sha256": "13812a0e4ed81265cc0f9b5815aef71e98c00e652e002fd993d712a3eb3080a6",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

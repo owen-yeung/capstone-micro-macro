@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已确认”仅在“无任何已确认的设计伙伴承诺”否定句；通读仍以发明施工总承包主业硬拒，detailed未要求故无D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-100-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "6aaf356c7c6a5e96eb919e39bb0f21818696321e39e319debfa9f396cd4ce7e4",
   "response_sha256": "019471ba59430f4860fba262e52b363ae73e7ffafb467a7b0ab718901f16e27f",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

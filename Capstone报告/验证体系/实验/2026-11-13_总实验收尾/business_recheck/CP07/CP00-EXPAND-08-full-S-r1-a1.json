@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "室内装修范围与排除整包EPC成立；合规记载未进入D5故记部分，评价D3/D4仍为2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-08-full-S-r1-a1.json",
   "initial_record_sha256": "7778c95098f76c37b5d1cb3754e81b1775f580c29e4df3c24b8c4e40e70ee795",
   "response_sha256": "d17d0841e7c5cc2733f67276ebe1cf835026613e1bfe6dd7113bdd27ca115a40",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

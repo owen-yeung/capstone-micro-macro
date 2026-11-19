@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "工地平整建材暂定意向成立；软门“已落实”在否定句；S5项目联系可读但缺合规记载处理，detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-140-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "47ae3f99359b087aa8cf9fdfa23e29dbc5721229f523a22333b6eaaae53ba23a",
   "response_sha256": "f3bf90e89ab77222e20c6873892671876921266895eb665c17558bbb3bbf9d65",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读后仍为有据条件性暂定供货；S5缺合规有限证据处理记partial，软门否定句不改D1，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-01-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "bbaba1155d53d9d880b014adb44f70daa4194058f63184e2797ab23ba1391c88",
   "response_sha256": "dbd051aea93ac671215092995a9680126d762c6bea720c6da9720761932a23ac",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

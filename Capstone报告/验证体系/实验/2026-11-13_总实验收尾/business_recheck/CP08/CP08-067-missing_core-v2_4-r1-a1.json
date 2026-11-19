@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”均在否定语境；未知范围下查验设备供货意向适当，S5因未用已给规模保持部分，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-067-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "6cabed8d0f3a0206cae59c962145f012f49e8a221d86db1fe84168661a69b05f",
   "response_sha256": "e3b270c9b4936300b561211dcc5a9738158efb3afbfbc6d323b3d7f38cb80bbb",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已落实」在「非已落实事实」否定句；通读为档案范围支持的条件性单一承建，C3岗位偏框架，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-11-full-D3-r1-a1.json",
   "initial_record_sha256": "e6c29f3b6c9cf04b800f559db1fe208dd35c76b5100642becc6892e4bfed7291",
   "response_sha256": "3b7506b029069843b4d7e5e1b074e2b29c360807b8bf2634500e1f2ef1de7002",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

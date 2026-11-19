@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案建材方向支持的将军澳工地暂定供货成立；S5因缺合规有限证据处理记部分；detailed_required故写D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-176-full-v2_4-r1-a1.json",
   "initial_record_sha256": "6fc5900d607af05affe1b5829acb6699d6d20c57e0f94aa12f8c07fcc6ad6802",
   "response_sha256": "5fd6124b3f217571aafb7273e7b1001d929216512fc0b4539dfe292d71c7e477",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

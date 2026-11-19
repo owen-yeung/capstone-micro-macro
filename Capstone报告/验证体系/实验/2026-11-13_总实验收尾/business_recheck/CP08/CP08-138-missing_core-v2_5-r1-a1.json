@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”在“不对外主张任何已核实业绩或资质”否定语境；条件性单一承建可读，detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-138-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "c897b73f0153a5fea86a9ba62b120a8b9a446511cbd1a87ab113a3d2f038e8e5",
   "response_sha256": "143ad57d095244bee1b4ea10022d9ca22deb1628b78474767f48f443e728723b",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

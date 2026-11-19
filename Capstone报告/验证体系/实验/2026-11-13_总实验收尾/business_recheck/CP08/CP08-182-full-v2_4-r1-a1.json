@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读为档案基建范围支持的有条件单一承建；C3缺具体岗位故部分；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-182-full-v2_4-r1-a1.json",
   "initial_record_sha256": "6006317c5c1675c1c36207003172cac93561b74674c75ea364b729308080c849",
   "response_sha256": "f665d6060700e1392d6da51dc86f544edb833e0fc3b492430ab56994b5b080d6",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

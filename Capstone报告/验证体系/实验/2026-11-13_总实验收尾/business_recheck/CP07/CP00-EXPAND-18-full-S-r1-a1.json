@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”在否定句；档案边界与档期门闩仍成立，V5仅部分项目针对性，D3/D4给2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-18-full-S-r1-a1.json",
   "initial_record_sha256": "90cc59ba43591bd20055435efecf79ae571ebeaa7addc6e22d83bdc19e0db29f",
   "response_sha256": "7b7fc2b5c3e30699fa7269f184f3e4aa25d7b94f40372116d1ece36233c055bb",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

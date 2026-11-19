@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知≠无能声明成立；条件性单一承建与两项闸门可读。detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-083-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "eb21d77269caa6c828bcca563c6c386d02180b146961791b83d3199bb7650b19",
   "response_sha256": "6721bef222c35c69b8632f1c14d31ed488de1da3f2d137ea3c7cc5ff33bfcbd3",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

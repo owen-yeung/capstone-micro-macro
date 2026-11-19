@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已核实」在「不构成已核实承诺」否定句；有边界条件性仪器供货仍适当，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-18-full-S-r1-a1.json",
   "initial_record_sha256": "d2f04863b83c5ef19dbd5f9a62503ea1a7615a720fe15c509bf996404c93eb58",
   "response_sha256": "7c39b10a375fefea21bc496a0fcda9f0a91a5e887ed3381ca398352ec5c2b5d7",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

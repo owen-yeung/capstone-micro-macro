@@ -10,12 +10,19 @@ from pathlib import Path
 from review_capstone_all_20261113 import ROOT,read,save,sha,ingest,source,locate
 from recheck_capstone_authored_evidence_20261113 import main as recheck
 
+ALLOWED_IDENTITIES = {
+    # Legacy author-assisted bundles (pre-Cursor pipeline participant).
+    'explicitly_authored_initial_and_same_assistant_recheck',
+    # Cursor / independent second LLM provider adjudication (GV20261117+).
+    'explicitly_authored_initial_and_independent_second_llm_provider_recheck',
+}
+
 
 def main(path):
     path=path.resolve()
     bundle=read(path)
     cohort,repeat,attempt=[bundle[k] for k in ['cohort','repeat','attempt']]
-    assert bundle['identity']=='explicitly_authored_initial_and_same_assistant_recheck'
+    assert bundle['identity'] in ALLOWED_IDENTITIES
     rows=[];notes=[]
     for authored in bundle['rows']:
         assert len(authored['D1'])==3 and authored['recheck_reason'].strip()

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在否定句中。未把EPC当整包义务，D1适当；项目条件几乎未用于针对性故C5 missing，组织人员框架对应D3=1，承诺边界D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-24-full-S4-r1-a1.json",
   "initial_record_sha256": "88fb15251b80e75df4bfc9298059448ae9d5655335ce713e3573397e0786982c",
   "response_sha256": "736d494074790363da24c7dda2864608758429473e32245942c17517de21abbb",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

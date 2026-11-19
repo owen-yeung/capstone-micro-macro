@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "复核确认供应商身份被改写成设计总包服务；S2仍缺供货安排，D3=0，同助手非独立专家。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-090-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "9fd0df371f55796e38b245e210aaece4b9828e14514198e9fcb55f3f97834ac5",
   "response_sha256": "4974a5af911961c702e1a944a8493e449da6b16216dd3b144880bd23f181e397",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

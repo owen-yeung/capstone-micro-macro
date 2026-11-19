@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "缺核心范围下的有边界拟议供货仍适当；S6因总额与分项不一致降为partial，其余维持，非独立专家。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-23-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "24756884fa73e2de9117be2618d821b1482358545aa751024ea61ec59683adee",
   "response_sha256": "7f7e1ec2dbe6ff6078d4d0566eb3d68fcddb70eac73fbf93c88b59f789ac0912",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

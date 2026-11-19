@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已落实」为否定表述；拟议检查/派驻与档期门闩支持D3/D4=2，非独立专家。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-04-full-D3-r1-a1.json",
   "initial_record_sha256": "1565a3b4bd5c2466a8bd6adf14e2736331065e56f71cd7c335e46f8ec1260960",
   "response_sha256": "be625ab7d51944ba7027f016061070eeb26c9422890d597e3d0f649deaa8076a",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

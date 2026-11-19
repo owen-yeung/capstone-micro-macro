@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已落实」在否定句；条件性监督意向与检查安排仍成立，同助手初评非独立专家。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-03-full-S-r1-a1.json",
   "initial_record_sha256": "f1e4a7dd97a0354b9d3e1cec18e44afa87ad60e2e512d142591bf2b845181844",
   "response_sha256": "84694a710be11815ee59fa57984b6ad7d4e11a8d94bbd0eacd1c1289eca75b5a",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

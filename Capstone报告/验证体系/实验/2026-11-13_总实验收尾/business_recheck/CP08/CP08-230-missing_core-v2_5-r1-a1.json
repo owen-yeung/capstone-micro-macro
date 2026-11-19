@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "虽承认经验/认证/人员/成本unknown，仍主张承建商可承接常规住宅类型与单一主导合理基础，故D1不当且C1矛盾；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-230-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "f234de5f7e87b1d9c69be0a4b84a2a338884e289e715c23b8ad399dacb7f48d0",
   "response_sha256": "35a551a30f9873383c6555fb3b2c406e87ea8433620666c42b1f75c052e17244",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

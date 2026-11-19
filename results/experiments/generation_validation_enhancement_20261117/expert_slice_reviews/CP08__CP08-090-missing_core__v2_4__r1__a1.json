@@ -1,5 +1,5 @@
 {
-  "identity": "same_assistant_filled_expert_slice_slot_not_independent_external_expert",
+  "identity": "independent_second_llm_provider_filled_expert_slice_slot_not_external_human_expert",
   "expert_slice_seed": "20261117",
   "response_id": "CP08|CP08-090-missing_core|v2_4|r1|a1",
   "official_business_review_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-090-missing_core-v2_4-r1-a1.json",

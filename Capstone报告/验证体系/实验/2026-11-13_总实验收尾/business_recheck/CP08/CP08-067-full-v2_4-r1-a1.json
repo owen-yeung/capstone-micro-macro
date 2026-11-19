@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”仅出现在“非已核实成本”否定句；范围锚定的查验场供货意向通读仍适当，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-067-full-v2_4-r1-a1.json",
   "initial_record_sha256": "80e9409ad55d7d7569a3125c640991a09eb2903f0e9438d5257437e5308efe61",
   "response_sha256": "101769e127f2cfb1752e038bc1e566ab1847152180409f533a12a3baf4ef677d",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

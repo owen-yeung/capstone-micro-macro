@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围内条件性材料供应意向仍适当；软门“已落实”为否定句，detailed未要求不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-095-full-v2_4-r1-a1.json",
   "initial_record_sha256": "89ea5290c6e13018b52d4e75ef656cc74e733cdf1881b348afa8ce7ed9052b5b",
   "response_sha256": "19fc8fffb0466e478be5cb650f858ae90600515df9fb888c316075b3e36379c9",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

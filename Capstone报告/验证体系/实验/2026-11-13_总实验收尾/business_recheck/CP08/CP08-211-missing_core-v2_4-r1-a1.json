@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”在“均无已核实来源/任何已核实证据”否定句；真正问题是missing_core下主张未给设计主导监管方向契合，故D1不当且V1矛盾，D3/D4=1。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-211-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "88bac0eeec035569bdd1a9c21f41692af139e2a91ff6c16b8471006722f55d5c",
   "response_sha256": "f70e5717e6c286da572595e4de64c2707fd23b87a5beb33f5954435039806a08",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

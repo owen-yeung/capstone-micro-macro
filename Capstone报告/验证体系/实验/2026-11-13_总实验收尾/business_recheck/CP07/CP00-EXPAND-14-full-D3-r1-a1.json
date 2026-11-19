@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Soft-gate spans are negations (不承担整包 / 非已确认); provisional residential-materials draft remains appropriate with both conditions unresolved.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-14-full-D3-r1-a1.json",
   "initial_record_sha256": "52f9577efd58d051acf08cb9c8093d6244bf60d8a7418d9e0c43384220f3b9ec",
   "response_sha256": "e11108df74e39800b975c41421bb9477599cf6cf625bfcebe8724994eb412874",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

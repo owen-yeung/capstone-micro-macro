@@ -848,6 +848,6 @@
   "selection_sha256": "45aec04c8b286890f9c81ab8b82697f850ec1333ab798e4891a97a03a8e9fc1f",
   "limitations": [
     "Fixed-hash selection; do not refilter by preference after seeing outcomes.",
-    "Reports same-assistant order sensitivity, not independent expert agreement."
+    "Reports within-provider order sensitivity, not external-human-expert agreement."
   ]
 }

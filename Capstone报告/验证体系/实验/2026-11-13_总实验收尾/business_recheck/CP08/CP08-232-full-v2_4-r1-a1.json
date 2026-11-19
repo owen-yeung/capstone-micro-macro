@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读为档案机电/装饰/电梯范围下有边界暂定供货；渠道/保修未决未升硬门槛；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-232-full-v2_4-r1-a1.json",
   "initial_record_sha256": "37de8c5a5e036ee117caa02a70fe74bdba51ff36532f1a55c22c82dc767d37f5",
   "response_sha256": "33b64d00792c013b2233d6f9132cf30e117c686f50e63f6ba520ae849cd84b22",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

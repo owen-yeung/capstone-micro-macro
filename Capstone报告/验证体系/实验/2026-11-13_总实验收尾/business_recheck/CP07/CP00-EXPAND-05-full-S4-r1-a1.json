@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: validation_failed soft scope hit is a denial of whole-package duty; conditional materials supply remains appropriate.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-05-full-S4-r1-a1.json",
   "initial_record_sha256": "4477403aadf8075532ebc29529aec72457ec1101247c9cea38485d2c8e3eaadf",
   "response_sha256": "41e1ad2f3497d68b2a35dda2efbbfa25dbb314c00fe801f04782eec840179d16",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍为未知升格问责缺口并强制组合体；建筑设计范围不能挽救共享包级设计责任，D3=0/D4=1。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-151-full-v2_4-r1-a1.json",
   "initial_record_sha256": "aa2fd607b6278177b55eb9e15541251205d80868e3467b312f7fafaf6c09519f",
   "response_sha256": "6c3a3c90cdf1612c3168904cc55f9c8b52556d298390c0491552bec1f2ac990f",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

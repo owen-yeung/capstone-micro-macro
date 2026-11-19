@@ -1,5 +1,5 @@
 {
-  "identity": "explicitly_authored_initial_and_same_assistant_recheck",
+  "identity": "explicitly_authored_initial_and_independent_second_llm_provider_recheck",
   "cohort": "CP07",
   "repeat": 1,
   "attempt": 1,

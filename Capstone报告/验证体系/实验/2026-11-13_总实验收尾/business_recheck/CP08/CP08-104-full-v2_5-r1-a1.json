@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围内学校材料/机电配套暂定供货成立；软门“承担整包施工责任”在否定句，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-104-full-v2_5-r1-a1.json",
   "initial_record_sha256": "ee33be7b561249b3247d9069a80efb6670d24aacef115b8956d35a87d7e42146",
   "response_sha256": "5f7dec21e3eec208f9b8977dbf724486c6e58b29ef04ca52cb1f35a837c6cf05",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

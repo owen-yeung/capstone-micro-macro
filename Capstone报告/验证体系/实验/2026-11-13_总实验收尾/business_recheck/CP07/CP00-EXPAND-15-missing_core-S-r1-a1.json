@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下“业务方向”契合主张；档期与接口可读不能挽救D1，详细维降为1。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-15-missing_core-S-r1-a1.json",
   "initial_record_sha256": "337929472b4df13abf970430a0252fa7f0947831a46d7857f9b952ae83a1e2c0",
   "response_sha256": "5427ecffe96094c82796a01f8549abc119292e96e648b2c4083809d9f9cc4c94",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

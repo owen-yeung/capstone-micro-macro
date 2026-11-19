@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”为否定表述；V2/V3/V5偏框架故部分、D3=1；门闩与退出支持V4与D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-10-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "e8f593ba66b42b2003a4aa6767ca54209127f1046fa2e2d5fe4d48c2a982c219",
   "response_sha256": "848a2fdcfef4f45b99b8f3ec5d8546192d7de3750f8885526e9c31ad365d1314",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

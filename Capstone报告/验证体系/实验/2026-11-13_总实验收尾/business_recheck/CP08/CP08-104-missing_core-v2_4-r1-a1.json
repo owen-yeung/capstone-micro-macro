@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下把自产/可控品类写成组织前提；软门“已核实”在无已核实来源否定语境；detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-104-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "ec6912fc7af2147ede1fae365d260fea7e6676c3d3cf51d0c064b67713069c42",
   "response_sha256": "4e9cc6b78e148d8f699ced41b9fea1ccbf6530ee157e8df3ac5cbe3ef5861afc",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

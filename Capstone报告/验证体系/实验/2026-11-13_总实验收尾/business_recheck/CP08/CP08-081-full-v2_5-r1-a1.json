@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围支持的机房配套暂定供货成立；软门“已落实/整包施工”均在否定句，条件未升硬门槛。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-081-full-v2_5-r1-a1.json",
   "initial_record_sha256": "6ae4a1cca1b034dc69aa784fb6a7cb6cc41d2758fbfd06cfaf0dd3e6b1e92894",
   "response_sha256": "9e654a800b2eb0e2f5f16adf8d2392b76b2a602c30a13dd46702bcde99b0d0a8",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

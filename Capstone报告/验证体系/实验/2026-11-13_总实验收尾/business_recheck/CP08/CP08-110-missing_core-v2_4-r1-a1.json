@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍以发明的EPC整体问责把空白写成核心交付无法举证；C2–C4按拒绝分支可成立，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-110-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "0f50a14386c2443cc5393494fdba8cc177109e7eff84e55fb9e9d0a8efb84d00",
   "response_sha256": "4a6c698947c7e87c6e54698a5e63c5eede85f2165a83ecdc6cbec03e103cd3ec",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

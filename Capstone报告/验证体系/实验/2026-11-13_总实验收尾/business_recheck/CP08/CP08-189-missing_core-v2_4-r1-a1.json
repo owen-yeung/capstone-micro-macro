@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: bounded Otis elevator-supplier draft with provisional MOP allowances and unresolved channel/warranty conditions; soft 已落实 hit is negation only.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-189-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "01a07b3f6467561d0c7c39381eb8549cc0db706098cc4d0d57fb694bd3ec957c",
   "response_sha256": "f4c7b85c81b238d7265aaf2d4a1b872fc6ddaa7d29a3f3b405cab57615c88ad2",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

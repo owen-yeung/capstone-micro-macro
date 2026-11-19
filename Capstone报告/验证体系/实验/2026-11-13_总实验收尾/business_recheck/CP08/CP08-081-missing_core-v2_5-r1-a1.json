@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界供应意向仍适当；非整包、条件非硬门槛，软门命中为否定语境。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-081-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "959205c51fb0b5b02608c328283921e59bad1b12114371a5a2799fdcb9bad6c9",
   "response_sha256": "ecf6ae83e460c931ba63d3ee9eac5b787d4dcc957c11d35866445acd4ef4b544",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

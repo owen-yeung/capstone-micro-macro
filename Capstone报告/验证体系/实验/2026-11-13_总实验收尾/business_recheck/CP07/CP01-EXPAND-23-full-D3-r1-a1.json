@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实/承担整包设计采购施工责任”均在否定句；通读为档案支持的条件性单一设计，D5缺项目条件，detailed_required故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-23-full-D3-r1-a1.json",
   "initial_record_sha256": "6f7fd55413323347ca15bdb8fcb9b9283906cb716b593dd7fdce30e70c7079eb",
   "response_sha256": "139d1d93866345f863d3e3db60e09214bb80e5fdfedf9101c3782eafa9964381",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

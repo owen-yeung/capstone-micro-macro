@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下主张未给业务可承担公共房屋设计类型；交付/档期/项目条件仍可成立，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-217-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "07d282f29b94a19ce2f698a98e1e765805e00a9fe63a6e5c7ba793c6a76f7032",
   "response_sha256": "55af8fd93b786cc737719c77ebec9d9f56d7c1a2b0936f32afe34ef58a3c3548",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

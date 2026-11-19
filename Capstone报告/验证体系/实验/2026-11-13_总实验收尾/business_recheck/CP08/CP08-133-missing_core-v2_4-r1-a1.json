@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界供应草案仍适当；软门“已落实/已通过”在否定句，S5因合规未作风险核查说明记部分，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-133-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "c9e3c226126c25e9bd379910348b8e2432fbbd869e5104a225db320d9621bd38",
   "response_sha256": "a7864126991d8fb64f5cd25cddf32f206af7b556f65442f52bbcdf2aa1c7d924",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

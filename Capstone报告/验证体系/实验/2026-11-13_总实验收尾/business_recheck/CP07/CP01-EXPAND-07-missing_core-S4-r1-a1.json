@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门与invented_fact命中均在「非已落实/不作已通过」否定句；缺核心有条件供货仍适当，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-07-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "a2a6d739e5ade3fe1f115a7400b69e027a8ca74deed0467bf25875437948b826",
   "response_sha256": "524c44947e3ab215148803669b7d07713041c8eea3767dc712025d72fee4e48a",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

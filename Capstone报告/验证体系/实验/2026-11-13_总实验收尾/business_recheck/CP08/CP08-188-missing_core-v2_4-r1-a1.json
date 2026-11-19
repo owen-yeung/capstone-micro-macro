@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下主张未给工程顾问业务方向契合；档期门槛与检查安排可成立，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-188-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "9fb77ba2b0db0afd79a0ab9cf386f9791356a4e6b8a7e6311708498c2898194d",
   "response_sha256": "af5432cbc151e6a0edcefc4cedafc6a4a53f1b0e5527c1a8259ec854910432ba",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

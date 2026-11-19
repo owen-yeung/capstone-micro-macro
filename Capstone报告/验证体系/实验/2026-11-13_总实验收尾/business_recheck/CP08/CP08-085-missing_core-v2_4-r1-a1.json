@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "与整包主导不当例同读：未知范围声明不能挽救代建/设计统筹越界；资源与条件披露仍可读，detailed未要求不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-085-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "66f90ebc11e2294e9dc1723a70a0f6cae46597e001f39e3106f58b1fc1c6f442",
   "response_sha256": "28150c129ab4539beb7c0ba33ff67c689031663b28e800ffbc7cca06ba86a79a",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

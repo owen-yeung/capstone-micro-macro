@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: soft-gate spans are negations; provisional bored-pile materials draft remains appropriate with both conditions unresolved.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-05-full-D3-r1-a1.json",
   "initial_record_sha256": "3774dade0b6cc2d4c6419aa7eb48b572c557f12f2d9a5e54f054684ec279834d",
   "response_sha256": "99a259621270454371551ed38af8a659b622a5550b327d1435349d2f79fe79a1",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

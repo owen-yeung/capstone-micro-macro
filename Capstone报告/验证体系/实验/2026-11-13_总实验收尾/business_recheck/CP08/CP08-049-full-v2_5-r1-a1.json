@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "经营范围与居住设计对口；受控分顾问与复核交付具体。detailed_required为false，不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-049-full-v2_5-r1-a1.json",
   "initial_record_sha256": "10742e399658e7cb979eac19303c81be055a046ad12103d24c5c1748d4500a99",
   "response_sha256": "85b4107008692c8910572c43f7e5557795135aec53a381ac4b1dfb6acf3e6926",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

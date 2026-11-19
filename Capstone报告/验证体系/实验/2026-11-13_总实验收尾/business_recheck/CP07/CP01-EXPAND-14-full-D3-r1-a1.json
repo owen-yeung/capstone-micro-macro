@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实/承担整包”为否定句；通读仍适当，但S5缺项目条件联系记missing，组织接口充分故D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-14-full-D3-r1-a1.json",
   "initial_record_sha256": "e4248eb7af87d7f29c2b89f07f7f8e1605a15ce2c0f7234ca3683fc6157d1f7c",
   "response_sha256": "8f5500d36226d1ac1f35f62f84b68f4d1aa622b028bc9ac7c2befe5b47450be7",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

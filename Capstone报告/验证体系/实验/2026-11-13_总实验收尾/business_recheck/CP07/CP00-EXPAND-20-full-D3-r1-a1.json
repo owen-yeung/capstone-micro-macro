@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Soft-gate whole-package hit is a denial; provisional elderly-center renovation-materials draft remains appropriate with both conditions requested.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-20-full-D3-r1-a1.json",
   "initial_record_sha256": "9c7b13b36c92f0947fb94730284495d6932ea8e055765bfa2801212aa7f6c41f",
   "response_sha256": "7ffa29544f1265b754a50cbf5dff635566cf2346350dd7c3634690a7fa1f0a19",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

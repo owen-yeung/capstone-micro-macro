@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围支持的有条件预制件意向仍适当；两项条件非硬门槛处理正确，S1–S6与D3/D4=2维持。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-23-full-S4-r1-a1.json",
   "initial_record_sha256": "3563873e6c36d13908cbc5b9eb043f41cf15dc1a66c70a0304d671f72b4d7e82",
   "response_sha256": "261a3711dbca6a2a745d3b105066c22b101993caf32411cc4d33bcc0f4d6d5ba",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

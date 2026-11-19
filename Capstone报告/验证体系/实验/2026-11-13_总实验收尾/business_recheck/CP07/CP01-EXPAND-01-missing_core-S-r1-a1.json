@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已确认/承担整包”为否定句；missing_core有边界拟议供货仍适当，合规披露到位故S5正确，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-01-missing_core-S-r1-a1.json",
   "initial_record_sha256": "46e62c8d9627b7f0337155c0d617e151143a983bb2d980e9e65ea666091a46c1",
   "response_sha256": "06031baec4d3f3adf29846eb9e0e7daa02ea4fd6b3275b5d250630a3aa22683b",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

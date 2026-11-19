@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "复核仍为未知升格能力缺口并强制组合体；V2缺检查方案，V1矛盾，D3=0；软门“已确认”在尚无已确认合作方否定语境。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-058-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "edb7b29ab4bd9cb25f08bcf6d98a96552774a6f8857524bcb27aa9b38e4599ba",
   "response_sha256": "116297ef400c72d5a0d37524f56a17365a54bf8aacb9a9b5bef3938e7228b32d",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

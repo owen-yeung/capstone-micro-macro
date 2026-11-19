@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "missing_core有边界拟议供货仍适当；S4因渠道/保修正式提交硬门槛升级记部分，detailed_required为true故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-219-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "f99811cb5d648d294cbb499069233520e8696ad2671b6871aaabb12c00c23a91",
   "response_sha256": "875b1c1435254eb82af9464a3ec1f017d5dcb1a15d7d145f058a4dedcad29f36",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

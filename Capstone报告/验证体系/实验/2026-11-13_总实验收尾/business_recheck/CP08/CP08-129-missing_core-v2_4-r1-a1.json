@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界供应意向仍适当；软门命中均在否定句，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-129-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "176d51e32fd8704c457a5b74814e0c9f3cf9b01a924098b7f3901ac4c244cb93",
   "response_sha256": "04d576ecb1310c92e47dfbf2b25dd3c897201bcc540094b38bec81bcb2f5afe5",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "复核仍为监督包越界成施工图设计总承包；人员门闩不救D1；detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-086-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "86e1dee3a45c8ff07af7f42c8ea82dd31af4322cfe00a4c566ff4dbb14d1424d",
   "response_sha256": "52fcb239da90d84d4a4c34201c57bce8382cc7faab3a862d904164b95e851cdc",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

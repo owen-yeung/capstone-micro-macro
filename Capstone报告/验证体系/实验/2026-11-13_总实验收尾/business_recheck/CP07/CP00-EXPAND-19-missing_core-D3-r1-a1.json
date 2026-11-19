@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下“本业范围/可单一承担”无据断言；组织与门禁仍可读，故详细维降为1而非0。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-19-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "1952a3f784cb2bb49462bf925a6e634808ff32141bd2d25f454059a08612982a",
   "response_sha256": "48ecdb11079ba7cb1565accd481ed35964294ebe39b4203d30a21fa21ac6d637",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

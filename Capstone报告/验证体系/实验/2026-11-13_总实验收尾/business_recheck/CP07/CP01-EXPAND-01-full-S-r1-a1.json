@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已确认/承担整包”均在否定语境；通读仍适当，S5仅因缺合规有限证据处理记partial，D3/D4给2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-01-full-S-r1-a1.json",
   "initial_record_sha256": "a34c3039251065e0d6c28008befba9614f450668bf62f3ac65ec1fbe2a24ee21",
   "response_sha256": "c984151a4f29615a614a8ff5ae826dc2868911f1506a20307b9197ade2cb997c",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

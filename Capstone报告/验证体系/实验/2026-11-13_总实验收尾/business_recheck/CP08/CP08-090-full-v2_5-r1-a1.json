@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "证据复核同读：设计阶段有边界供货意向仍适当；无软门命中，D3/D4维持2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-090-full-v2_5-r1-a1.json",
   "initial_record_sha256": "b54b97a776ab2a228473c125d5e1e1a9a51ac2722d18cea44d9c2e63efe210f0",
   "response_sha256": "74b9c5666c2006b76ff27c3d9b670ba787dded9525132d62cf6b1240727588fa",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

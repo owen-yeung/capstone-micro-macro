@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在否定句；V5缺失不影响职责与门闩，检查计划支持D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-18-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "c26d3e72a4ad62f316e0a47d702038a1a9857469108c2babf716623592aa03c8",
   "response_sha256": "447b013ba7e0cc83ffed87f1d8ec8a751be162007069be599d3d6af33948aa3c",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

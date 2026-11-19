@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: conditional supply intention stays appropriate; S5 missing because no given project condition is linked.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-14-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "6ffcb4c3f1b6cf1f24e0a22869085682abad9c02bdd0b72e1f7567cf12131bed",
   "response_sha256": "bfe68bd9bc78b1e83ddbb66f577eddf4f405561ab16b289a2ed008634132d92f",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

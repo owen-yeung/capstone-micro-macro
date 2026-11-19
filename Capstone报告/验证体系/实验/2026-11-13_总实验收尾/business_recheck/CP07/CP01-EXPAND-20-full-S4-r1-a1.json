@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已确认」在「而非已确认安排」否定句；通读为档案范围内有边界条件性承建，C3缺具体岗位故部分，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-20-full-S4-r1-a1.json",
   "initial_record_sha256": "d405f0b6b0329b1a0da66b8e7fc6942b6b6be7a3fc220d321815815f09b1d890",
   "response_sha256": "e0de7032a8eb684a6772e5dd49617a19bba288647585f6ef68719cc2cdcaa5e8",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

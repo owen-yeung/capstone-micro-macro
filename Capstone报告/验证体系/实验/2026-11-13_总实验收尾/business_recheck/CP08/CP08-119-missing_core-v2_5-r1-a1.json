@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: appropriate provisional materials draft; S5 remains partial because concrete given scale/owner facts are not used to shape the arrangement.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-119-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "c41b4932a5a67a3e179ace056ce0b7a134f4106b05ee4cfdf4be190097218ba4",
   "response_sha256": "4c733205e54dff4f477abd57d478df83f9b2fa6cf0fbaaf49b4c2dda8068dede",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

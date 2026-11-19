@@ -7,7 +7,7 @@
     "CP08_scored": 168,
     "CP07_scored": 72,
     "total_new_business_reviews": 240,
-    "identity": "author_assisted_adjudicator_same_design_participating_assistant",
+    "identity": "independent_second_llm_provider_adjudicator",
     "note": "14 CP08 bundles required compact_first_002 after adding D3/D4 for detailed_score_groups windows; failed first-pass expanded artifacts left frozen."
   },
   "cumulative_since_enhancement": {

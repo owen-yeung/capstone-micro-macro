@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "条件性单一承建与档案范围一致；组织与人员仍框架故C2/C3部分；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-127-full-v2_4-r1-a1.json",
   "initial_record_sha256": "b50a26eefe9cf34a0dc09d6eb7e6bd92f8b38faa187ec1a5cf40c350f8d865ee",
   "response_sha256": "60b37692cc9fb0cc98ecbf72f9759447fb5cc19c6c11bb906eb445d816d4db82",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

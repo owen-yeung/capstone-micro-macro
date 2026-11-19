@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "validation_failed可读答仍适当；本题无合规专项要求，S1–S6均可支持，软门整包施工为否定句，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-05-full-S-r1-a1.json",
   "initial_record_sha256": "e3ee1a6dd1fd427ec45461c2a2a41f48e8aa311e470cddeda9251ddf32a3706e",
   "response_sha256": "f61a8a4e57203a3be0cd7b9f59b1816485efdab4499fd888dd529eb3d6b35d87",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

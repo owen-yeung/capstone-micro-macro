@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍为缺失核心下有边界智能化供货意向；条件待核实且非硬门槛，D3/D4给2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-079-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "735a332066049307a7438ccdae4d02e39c487d68f2e5a2adc7fb49b8eb7c3d95",
   "response_sha256": "37a303f97544ae2a88aafdd4ad71adcfc3365c988433f1c8991fad06edaf67fd",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

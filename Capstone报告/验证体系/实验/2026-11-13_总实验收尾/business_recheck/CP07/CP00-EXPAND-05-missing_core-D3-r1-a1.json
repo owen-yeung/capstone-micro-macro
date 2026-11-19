@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: invented-fact soft hit is a denial of verified status; provisional three-phase draft remains appropriate.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-05-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "2374f46694aaf7696f9a5c1db14573febb7b92d2abe47fb767e691678fb4bae5",
   "response_sha256": "71744a4a18c2fa974e9afde6c8da12d9c4fdd53f26a21ec2b8ad44802419847f",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "无软门命中；通读为缺核心下有边界条件性供货意向，detailed_required故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-18-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "74a14a331930bb7f7c9e111a90017d107a77d48052c300bcf0814a58d0f4624a",
   "response_sha256": "8e77978f0adfd252766c7cad5f1b3b562bb04b677697e06be17cadb6387c41fc",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

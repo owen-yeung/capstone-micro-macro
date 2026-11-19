@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门为否定整包责任语境；条件性设计意向适当，交付与档期处理充分，评价D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-02-full-D3-r1-a1.json",
   "initial_record_sha256": "1bb729856d0f66d585687fee0dc3b87fb019fbfcf3b3254cafae0ab6b3bb7985",
   "response_sha256": "79fed875f38e95734119a09b5115f8e5f2e1af15a434f394af44eeeb2a0ecb94",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

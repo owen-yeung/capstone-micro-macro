@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "铝制品供应边界与非整包声明成立；资源与条件均标未落实，软门命中为否定语境。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-073-full-v2_5-r1-a1.json",
   "initial_record_sha256": "19ad531a9bd5eb2871eaa541266e1615c94087bbca33fc8e7a11cbca6b8c27fe",
   "response_sha256": "c9dc42e44b8fa4f834800e13255500f58988e8bdbafc78f19fd004a91abd03e7",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

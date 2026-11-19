@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“承担整包EPC责任”在“不承担…”否定句；通读为有边界条件性设计意向，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-161-full-v2_5-r1-a1.json",
   "initial_record_sha256": "841df5730dac4556fc6cbd22507f77ea70b562990f650b1e2ece8b96cdad0e3f",
   "response_sha256": "b0c4c9327fdbe4ff641aa18f032db2ced660d1ffdf3f85883307914d49afdd53",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

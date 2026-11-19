@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”仅在“不构成已落实的资源”否定语境；通读仍为有边界条件性设计主导，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-080-full-v2_4-r1-a1.json",
   "initial_record_sha256": "5115827a08888110e6504f1ccae6899f67693702966fecd45330d0cca0eb2786",
   "response_sha256": "c8c846d401fed1e114a6e3b567bd706c3775c7af9b1f62edc33a46e47518322f",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

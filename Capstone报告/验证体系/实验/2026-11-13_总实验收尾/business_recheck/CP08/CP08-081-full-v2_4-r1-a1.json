@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已签订”仅在“非已签订服务协议”否定句；通读仍为范围锚定的机房供货意向，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-081-full-v2_4-r1-a1.json",
   "initial_record_sha256": "fa63b6a3f40589b8cb03434f7dd0fd16c5b27a62977601996c075b249d0feb74",
   "response_sha256": "9fecaa21d66359ede2c2f21cfad0cd04ef5efb1de71ef4b7eba2f96c913a5589",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

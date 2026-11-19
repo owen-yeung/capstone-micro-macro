@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "复核仍为监督包越界成基坑作业牵头；人员门闩不能挽救D1；detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-061-full-v2_4-r1-a1.json",
   "initial_record_sha256": "945310ac6d400e0991dfe45ae4aca6262392f0db821bffab72eac102746e2416",
   "response_sha256": "cff2678d6ef97e000e4f35cdce6d70c18aca5f8dd0c21c101b3eb20ed7fe07cf",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

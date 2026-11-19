@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读为缺核心下有边界条件性供货框架；未知与未决条件处理到位，detailed_required故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-14-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "94c4194cb12d7f3a35ae24963bb17d29d81996712996e08d1a0dd48a624743b9",
   "response_sha256": "c05f2302ef83f0e850b8d21a1b8efc0fcfe07ee4d0f47ca9aad80f2a038cafac",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知声明不能挽救“属于我方可单一统筹范围”的无据承接断言；组织与门禁仍可读，故详细维为1而非0。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-06-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "0702a49abcf31420cf397f0c4335d428479fd05c0a7e40c8b51a1472de9b1ddc",
   "response_sha256": "e4c149285c8f89660235211af38f0547b67e85d0a591820723b22e3b576aa51a",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

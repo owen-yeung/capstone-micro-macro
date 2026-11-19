@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "missing_core球场建材暂定意向成立；软门“已核实”在否定句，条件未升硬门槛，detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-141-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "9a9a4ed04d87944a14ef9d73d729c1cb645c95cc8de887b2960290ff7f119211",
   "response_sha256": "477127ec19748d665f687a5961cf950694244302f10b9a948792043c3771c2c3",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

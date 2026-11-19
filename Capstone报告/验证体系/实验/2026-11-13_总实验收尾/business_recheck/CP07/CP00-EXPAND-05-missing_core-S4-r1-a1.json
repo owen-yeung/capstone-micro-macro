@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: soft-gate spans are negations; conditional missing-core materials intention remains appropriate.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-05-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "84f1ac0673e1e8d1e66a8403fd73e4b21eb48123df723e64f3879864b4273b3b",
   "response_sha256": "25404c82ebb4cba6e6d20b0a090e95267d2b5df5871e4a1819bc795846c7ed94",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

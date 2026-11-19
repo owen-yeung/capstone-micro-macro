@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已落实」在否定句；通读为档案监理支持的条件性监督，V5缺项目条件联系，detailed_required故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-21-full-D3-r1-a1.json",
   "initial_record_sha256": "2c7a1ce60a02078dbe2f3e453dd20d5447635e16ab33596599d12bc73235fa7d",
   "response_sha256": "2e281e1ecdbda9bdb49f9a9dd79fbd78dc22439e1f815d244025b556d8c27ed4",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

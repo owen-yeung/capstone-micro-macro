@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "证据复核同读：范围感知的外购市政供货意向仍适当；软门“已落实”为否定句，D3/D4维持2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-056-full-v2_4-r1-a1.json",
   "initial_record_sha256": "5e80bd6f7d5ffef5a8027af4fc55c2b847f3a335fe5abb902cbad6e78f4cc6c0",
   "response_sha256": "5904c1da4506ec97d51a30e6fd668a855103ddac22fd6529426726ac6849b73e",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

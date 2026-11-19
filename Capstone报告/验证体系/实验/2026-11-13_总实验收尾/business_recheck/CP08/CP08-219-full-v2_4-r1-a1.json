@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已确认”在“不代表…已确认的库存”否定句；通读仍适当，S4因非硬门槛升正式提交阻断记部分，detailed_required为true故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-219-full-v2_4-r1-a1.json",
   "initial_record_sha256": "f3c9c7990a7592ff3186adcd914e0a15c3c97fb7f17de465fda1034c062dbfcc",
   "response_sha256": "300a9925a988605545a277b907d10de3682d22fdd0754e14ee11a586511ac7cb",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

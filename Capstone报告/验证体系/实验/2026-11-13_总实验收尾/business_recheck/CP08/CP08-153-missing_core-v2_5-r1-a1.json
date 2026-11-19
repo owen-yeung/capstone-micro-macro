@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "与既有EPC误升格为必要联合体读法一致；范围未知声明不能挽救整包身份共享。两项真必要条件仍承认，故C4仅部分而非抹掉。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-153-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "5b693ce82c71e8a3b6460d45d37d1dd2c68052d3eabd9e3dcbbf2a71f92e33ee",
   "response_sha256": "ac1f53d5ede89f3e1f173453a9e8b86f6655ac91f0c31e20cd87b87c63440a21",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

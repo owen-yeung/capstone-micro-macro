@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读为有边界条件性单一设计意向；交付/档期/外部协作与项目条件均成立，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-167-full-v2_5-r1-a1.json",
   "initial_record_sha256": "86a415c8785dfa8c5deb311b85f9c31cb0e12e502af4e2a368a46cfa12b490d6",
   "response_sha256": "16a20ddc85b18bb6631934d48e741fdd565fe2e4cfab3b00cd76f4a7bf2c7df0",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

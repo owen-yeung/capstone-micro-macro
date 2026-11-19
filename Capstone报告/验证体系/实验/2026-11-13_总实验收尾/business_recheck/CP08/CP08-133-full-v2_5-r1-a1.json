@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "建材暂定供货仍适当；软门“整包施工/已通过”均在否定句；真正缺口是S5未挂钩项目条件与合规，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-133-full-v2_5-r1-a1.json",
   "initial_record_sha256": "a22588200aefdf68192c7b7bfd18cd46fbf969165900e8bb81525c649547d01f",
   "response_sha256": "5e67d7e182b7eec7fe40cad3e082fee91d5b2c23b379a321adaddcf953e8f45c",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

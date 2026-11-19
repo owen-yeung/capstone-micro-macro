@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "有条件监理意向与五项处理均成立；未知与档期门闩清楚，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-120-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "5317927ea64e8c9698f5ca32fdce045e01f5e49b3a1a872a5eee6dbb9142a90a",
   "response_sha256": "dfb456dd652ceeeb1130904393fc8a29f259853f57cc6d12978a7d97110a6785",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

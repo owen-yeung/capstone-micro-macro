@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "与S同窗对照：软门命中为否定句；S5仍缺合规有限证据处理，其余正确，detailed维保持2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-01-full-D3-r1-a1.json",
   "initial_record_sha256": "26446009835e6c2ce67a3fef5350b2732e609542d3e043ab6425c577a5330aca",
   "response_sha256": "8e81f5e61d91f7c94bfbd5d8d7ad7c3b46dcb4bc8b6f5a1fb488e8d8fa8cb387",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

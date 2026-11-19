@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "通读仍为缺失核心下有边界工业物流配套供应意向；条件与未知边界成立，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-119-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "a00c40e0d008a7ed47c2694c35edda57e707f3d82723374ad4a08ae2ac23d6f9",
   "response_sha256": "495f500dd3b398a318945142dca09bbd2a25ba91d3b71a76c68cadc2e2a05d82",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

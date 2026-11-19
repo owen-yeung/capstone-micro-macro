@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案铝制品方向支持暂定供货，但 outward 未挂钩已给项目条件故S5缺失；软门命中均为否定语境；detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-114-full-v2_4-r1-a1.json",
   "initial_record_sha256": "625d5790cc255accdea5c881ff111439effad4d6ccbcf8fe83b3b6cbb8b6d67d",
   "response_sha256": "71c8de75823970c18e85288e9b3e333fee8c69f9ce3a5d2bff9aace93891950e",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

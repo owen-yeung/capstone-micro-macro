@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "assumptions虽写未知不等于不具备，通读仍以发明的EPC一体化包要求把空白写成不具备；C2重评触发偏弱，detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-117-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "5894a1234b7f33fa40ec497436185ff0649c4af27fd15b81f44b805c7ac008d2",
   "response_sha256": "fb6771fed92546011823fbbac3bd1b668c358744d50bb15b3c8d7e38ebfe2c83",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

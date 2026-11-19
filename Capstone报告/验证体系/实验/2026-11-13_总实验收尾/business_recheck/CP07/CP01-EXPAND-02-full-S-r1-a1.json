@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围支持的有条件总承建意向仍适当；组织与人员停留框架故C2/C3部分、D3=1，承诺边界D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-02-full-S-r1-a1.json",
   "initial_record_sha256": "b39f2e44a54f1bb415f8f947a616eea4ff75f6e4b45f714eb606e908a6cb906e",
   "response_sha256": "89001bd1be84360bf8880babe5b57127c2333a24b242885fde47e31a5018df2c",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门整包为否定句；缺核心下有边界条件性材料方案仍适当，S1–S6与D3/D4=2维持。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-20-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "e3bebeb0e76721bcf6e39b80d39344785704f37ff6419c4529c057c6148c2a70",
   "response_sha256": "0a76c5e751e1f75b5d7ebce6708d0081d005236d2356dc468816045f06957115",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

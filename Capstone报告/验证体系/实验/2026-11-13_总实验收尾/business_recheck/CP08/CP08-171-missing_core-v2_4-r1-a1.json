@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界供应草案仍适当；条件保持未决非硬门槛，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-171-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "a90bfb04cb091c7d882bae7fc75ab2536a740b96bc71bb76d9919e7cd4bd3126",
   "response_sha256": "db9dffc76696be268742f30c4c6e002535506ac4e50796c32e4a4bcac2eaf89f",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”仅在“不声称…已落实外部支持/不作为已落实承诺”否定句；通读仍适当但S5缺项目条件联系，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-124-full-v2_4-r1-a1.json",
   "initial_record_sha256": "6c2bdb6b6336690bbb57f4e49c97afcbe4cbc221c0675f0dba6bd631f274416d",
   "response_sha256": "e4cc48364e37fd049a050e441d07de37a2e3879a2b17f90addf9673241946fa5",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "missing_core有边界拟议机电供货仍适当；S4因未点名两项原请求未决记部分，detailed_required为true故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-224-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "7b6da34149fc541175c8921a0cecefd3f3f4ca71c6686ad1541dc5befb65aabb",
   "response_sha256": "791cd179074b04d8d08cf704cd723de2dbe061e0f2ea6fdfbf6f23ecdce9ffdb",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "缺核心资料仍允许条件性设计方案。主题娱乐顾问对接文旅娱乐项目；软命中为“不作为已核实事实”否定语境，评价D3/D4均为2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-19-missing_core-D3-r1-a1.json",
   "initial_record_sha256": "89e8df038750a79fc13ba9098cdb25cd69aa85582719932229842a1315a192ad",
   "response_sha256": "4b19a23a5eb55c7a65f02d237f707cb79c5165d7ea1852a1f1ae2504699d54c3",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

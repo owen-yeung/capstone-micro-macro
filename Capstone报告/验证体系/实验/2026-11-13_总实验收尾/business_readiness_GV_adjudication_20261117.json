@@ -6,7 +6,7 @@
     "expert_slice_scored": 36,
     "additional_pending_CP08_scored": 48,
     "total_new_business_reviews": 84,
-    "identity": "author_assisted_adjudicator_same_design_participating_assistant"
+    "identity": "independent_second_llm_provider_adjudicator"
   },
   "business_review_counts_after": {
     "CP08": 246,
@@ -18,7 +18,7 @@
   },
   "notes": [
     "Alternate-schema answers remain business-scorable via soft gate path.",
-    "Expert-slice reviews mirror official grades under honest non-independent identity.",
+    "Expert-slice reviews filled by independent second LLM provider; not external human expert.",
     "Backlog not fully cleared; remaining pending retained."
   ]
 }

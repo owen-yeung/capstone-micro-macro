@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知≠能力主张成立；条件性设计主导与档期门禁可读，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-198-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "fe166bc59875642708144449615c0bc60d02a611322d690a7e63b9d28993b063",
   "response_sha256": "bd0f5101de7bbdc3362f80c9f5f9cc0b975a80eaa572f2371c849e9910ffe3ba",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

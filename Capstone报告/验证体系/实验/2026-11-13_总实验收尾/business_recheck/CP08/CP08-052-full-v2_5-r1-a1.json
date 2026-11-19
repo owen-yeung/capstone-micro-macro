@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "与同窗v2_4整包EPC主导对照：本臂保持承建商施工职责与条件门闩，整体适当；组织人员仍部分；detailed未要求故无D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-052-full-v2_5-r1-a1.json",
   "initial_record_sha256": "fccf80eb07e63aa96e26d5b99f7fef0e34b12df1ab05f571fd1c5f499f095d4b",
   "response_sha256": "605353a1cf77f288f16a7fe414056ec5442ea1a65144499ecd6cd3c59b7a57f3",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

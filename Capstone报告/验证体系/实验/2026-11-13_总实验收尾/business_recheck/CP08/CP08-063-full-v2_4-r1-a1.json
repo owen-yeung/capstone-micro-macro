@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "学校桩基供应意向适当；范围、交付、条件与报价边界清楚，无无据承诺。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-063-full-v2_4-r1-a1.json",
   "initial_record_sha256": "03b1523733b3534b2b8488f74e1521f1b871167a7a907556e7daa1d215f9c42f",
   "response_sha256": "404413eecaa192f90917b272fc5c1c79430110f0289a84c4b51e95ceb71b4dce",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

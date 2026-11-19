@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案范围内检疫营材料/机电暂定供货成立；软门“已核实”在“并无已核实”否定语境，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-158-full-v2_4-r1-a1.json",
   "initial_record_sha256": "22563a34383d65491ba1a9dbb164caa252f35a8dacefa878b32136c37341b89e",
   "response_sha256": "a4c4183e103b09b8887326009eaccf73b18818913cb659130dfb75e16f3adb44",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

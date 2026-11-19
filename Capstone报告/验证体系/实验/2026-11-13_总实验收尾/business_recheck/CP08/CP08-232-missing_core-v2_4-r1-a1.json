@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "missing_core有边界拟议单一供货仍适当；软门仅缺task_role不扣业务分；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-232-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "0529c6769a5528c8e4e8e6043dc491eb9def7d6a9add642355a7391717f9be2b",
   "response_sha256": "e9ffa9ac2e4f67cec0e4e8bfbfdd06972e7fbcce1d84acbe697b16eaa6f298b6",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

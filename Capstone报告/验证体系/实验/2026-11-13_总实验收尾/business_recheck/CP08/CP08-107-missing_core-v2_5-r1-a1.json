@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界光学耗材暂定供货仍适当；软门“承担整包施工责任”在否定句；detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-107-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "86c2c8d4ffe4c00f2ed5b2d0b0602cd4e30c89f30a1e733f0138e8f85ffcf10f",
   "response_sha256": "31f909265866650310331d4d780a3d0c2daad7d12e6766cfc872872ce00c19fc",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

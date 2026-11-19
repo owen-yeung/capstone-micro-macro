@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界电梯供货草案仍适当；S4因渠道/保修正式提交硬门槛升级保持部分；软门“已落实”在否定句；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-162-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "cc34ba13b2f7401080819b0a554562c4496902df8accf4bb13f86519eced0acd",
   "response_sha256": "5f459183e9f5c64a70ad54ec8de782da8cffda4f7560be618b39c5ad25cf31da",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

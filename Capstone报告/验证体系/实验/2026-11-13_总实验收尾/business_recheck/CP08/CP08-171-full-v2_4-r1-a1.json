@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案环保装备方向支持的社区联络中心暂定供货成立；软门“已落实”在否定句，detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-171-full-v2_4-r1-a1.json",
   "initial_record_sha256": "76d70b766db3ac0328873b7469c7ba36d8f3b7b77ebaf2cadc8c2a2df55bb536",
   "response_sha256": "09b9895af1347a2b02b2fe655b0e0a36199ae8c42016c33de9c65f18cab14375",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

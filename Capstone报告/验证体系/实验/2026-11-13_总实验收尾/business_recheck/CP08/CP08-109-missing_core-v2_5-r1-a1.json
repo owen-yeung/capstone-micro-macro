@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界一般性材料供货仍适当；软门“承担整包施工责任”在否定句；detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-109-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "ab48eda8ddc162e892b10a2b2deb7b0eb0240815e30142d638cd0b99e6e007cb",
   "response_sha256": "a82584889660a7f7bb9c2718d5b16473e9d362cf7ef9417c5249fd3272caeb27",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

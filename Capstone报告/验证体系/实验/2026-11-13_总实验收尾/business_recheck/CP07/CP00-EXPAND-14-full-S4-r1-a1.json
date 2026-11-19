@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Soft-gate whole-package hit is a denial; grounded zero-quote deferral remains appropriate with both conditions unresolved.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-14-full-S4-r1-a1.json",
   "initial_record_sha256": "5a6245365ab3bac62b1d7448df07062c808c8afff87bd062f2f26d042d123094",
   "response_sha256": "de5beb47a07585d9a6ca496f2ff0ba6fa93c80bac73e4f00f3559bfc5a7f1866",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界配套供货草案仍适当；软门“已确认/已通过”均在否定句，条件未升硬门槛。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-072-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "4b82e41763fbf1ada29b09029c5c9066c0eb91235572a4f202b6256c81e69528",
   "response_sha256": "039bb5690a7a90208da61248ed4921d62ddcfe5f4902b632751e3dc1da6486fb",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

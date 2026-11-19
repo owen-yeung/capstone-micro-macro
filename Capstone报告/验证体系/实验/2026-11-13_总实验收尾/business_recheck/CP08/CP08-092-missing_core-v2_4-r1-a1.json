@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "条件式单一责任意向适当；软命中为“不表述为已落实”否定句。组织职能有列举但欠具体，C2部分；资格人员前提与未知边界正确。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-092-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "b7d0efb72c17a7c092fdbcdce8b2ae09247162ea66ea83f8c9271e3b70b06c85",
   "response_sha256": "607343cf98d5d7cc1ec49bbf512640549489ff0d33c3270a984eb106d30d4cbe",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

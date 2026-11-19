@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真实设计范围与天钻居住项目对口；软门“已落实/整包EPC”均在否定句，详细维2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-09-full-S-r1-a1.json",
   "initial_record_sha256": "9fcdd9d774a9b98480039e2c8bbae1d53e25a93a0b7c73b2cca6ae1873e177a5",
   "response_sha256": "b5fd979237f6ce221559e10eca850169ccd250dbe8da653ea626fc758c24efc9",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

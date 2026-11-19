@@ -24,7 +24,9 @@
       "mechanical_gates_demo_EXPAND-01-full-v2_5.json",
       "score_sheet_blank_demo_EXPAND-01-full-v2_5.json",
       "blind_single_demo_EXPAND-01-full-v2_5.json"
-    ]
+    ],
+    "reviewer_identity_correction": "results/experiments/generation_validation_enhancement_20261117/reviewer_identity_correction_20261118.json",
+    "thread_summary": "results/experiments/generation_validation_enhancement_20261117/THREAD_SUMMARY.md"
   },
   "coverage_acceptance_gate": {
     "pass": true,
@@ -47,7 +49,7 @@
       "expert_slice_scored": 36,
       "additional_pending_CP08_scored": 48,
       "total_new_business_reviews": 84,
-      "identity": "author_assisted_adjudicator_same_design_participating_assistant"
+      "identity": "independent_second_llm_provider_adjudicator"
     },
     "business_review_counts_after": {
       "CP08": 246,
@@ -59,7 +61,7 @@
     },
     "notes": [
       "Alternate-schema answers remain business-scorable via soft gate path.",
-      "Expert-slice reviews mirror official grades under honest non-independent identity.",
+      "Expert-slice reviews filled by independent second LLM provider; not external human expert.",
       "Backlog not fully cleared; remaining pending retained."
     ]
   },
@@ -73,7 +75,7 @@
       "CP08_scored": 72,
       "CP07_scored": 48,
       "total_new_business_reviews": 120,
-      "identity": "author_assisted_adjudicator_same_design_participating_assistant"
+      "identity": "independent_second_llm_provider_adjudicator"
     },
     "cumulative_since_enhancement": {
       "wave1_new_reviews": 84,
@@ -103,7 +105,7 @@
       "CP08_scored": 96,
       "CP07_scored": 56,
       "total_new_business_reviews": 152,
-      "identity": "author_assisted_adjudicator_same_design_participating_assistant"
+      "identity": "independent_second_llm_provider_adjudicator"
     },
     "cumulative_since_enhancement": {
       "wave1": 84,
@@ -131,7 +133,7 @@
       "CP08_scored": 168,
       "CP07_scored": 72,
       "total_new_business_reviews": 240,
-      "identity": "author_assisted_adjudicator_same_design_participating_assistant",
+      "identity": "independent_second_llm_provider_adjudicator",
       "note": "14 CP08 bundles required compact_first_002 after adding D3/D4 for detailed_score_groups windows; failed first-pass expanded artifacts left frozen."
     },
     "cumulative_since_enhancement": {
@@ -159,7 +161,7 @@
       "CP08_scored": 344,
       "CP07_scored": 96,
       "total_new_business_reviews": 440,
-      "identity": "author_assisted_adjudicator_same_design_participating_assistant",
+      "identity": "independent_second_llm_provider_adjudicator",
       "note": "Wave 5 scored the full remaining eligible-for-business-scoring backlog; detailed_required from needs_detailed enforced up front."
     },
     "cumulative_since_enhancement": {
@@ -178,5 +180,9 @@
       "CP08": 0,
       "CP07": 0
     }
+  },
+  "reviewer_identity_correction_20261118": {
+    "path": "reviewer_identity_correction_20261118.json",
+    "summary": "Relabeled GV20261117 adjudications as independent second LLM provider; grades unchanged; pre-Cursor author-assisted reviews retained original identity."
   }
 }

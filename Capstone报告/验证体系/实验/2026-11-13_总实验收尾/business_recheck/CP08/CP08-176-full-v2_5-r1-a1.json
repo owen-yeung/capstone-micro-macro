@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实/承担整包施工责任”均在否定句；通读仍适当，S5因缺合规有限证据处理记部分；detailed_required故写D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-176-full-v2_5-r1-a1.json",
   "initial_record_sha256": "300ceab085dcc8493e1cbf014c3718640cfa194210b7b5022ef116ca9f8ee4a5",
   "response_sha256": "747e5314e217eb57a1faea0e861ecd3db4a3b5f1053891170830ba1a49119215",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

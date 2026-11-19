@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”在“不代表…已落实人员”否定句；条件性监督意向成立，检查/岗位仍框架故V2/V3部分。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-045-full-v2_5-r1-a1.json",
   "initial_record_sha256": "6dad7cb0bbba16ce42055c5bfde5684c28c3716ee2708ae9299c8399a24b0d5e",
   "response_sha256": "5fd2915327da4a91a550f47896cb5409c970d1d2c23a79cd5d77d6467c232ba5",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

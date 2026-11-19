@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界供应意向仍适当；软门“整包施工”在否定句；真正缺口是S5未挂钩项目条件与合规，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-133-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "5be46fb09c92892c18edeab8a305416760b06778467d52df5795ac173d5699b3",
   "response_sha256": "f5afd23f6ca750d97cc967715f88fb6627b6083d51cd12018cbb31491af0b038",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

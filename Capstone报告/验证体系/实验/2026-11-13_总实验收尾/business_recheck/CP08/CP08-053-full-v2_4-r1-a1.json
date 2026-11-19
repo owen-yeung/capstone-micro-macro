@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案建筑设计范围延伸至装修设计属有据条件性方案；人员门禁与非联合体边界保持，通读不改判。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-053-full-v2_4-r1-a1.json",
   "initial_record_sha256": "cc2003859615450128ec5f944ef8bcd7a9c245c8e3f55576aa99ab6761145384",
   "response_sha256": "ca4b44b04a8bdf10fc41fca3ba67f7d81a3832a154020bc395ef3deb5b8672ca",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "范围错配支持有条件组合体意向；伙伴未承诺且提交门槛保留。C2仅有待谈判分工框架，记部分；软门禁否定句不改适当。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-101-full-v2_5-r1-a1.json",
   "initial_record_sha256": "a5612b60370e1dd46cb44e48a0caed885b38c06774d118436ad844aef3300c90",
   "response_sha256": "5afaebb74248e656f5f8b1a320b5986119c53b0f36548481a33a1bf7d995dcfe",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

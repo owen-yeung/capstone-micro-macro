@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "Same reading after evidence pass: soft-gate hits are negations; Venetian renovation materials draft correctly keeps EPC out of supplier duty.",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-11-full-S-r1-a1.json",
   "initial_record_sha256": "5d9ba411861d15564adb497cd25d73caa264743f13d83a927ea082a1892c3297",
   "response_sha256": "0afc399873e83092c830d6e1ffb120a17a67f8b996a5ecf92df3eba1fd04a05a",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

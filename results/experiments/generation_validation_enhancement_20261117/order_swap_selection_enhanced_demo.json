@@ -260,6 +260,6 @@
   "selection_sha256": "7a2f7674c03c4e0f0da4ffca268a2bc464c22a8e98c067f6ab15b04b7370a76d",
   "limitations": [
     "Fixed-hash selection; do not refilter by preference after seeing outcomes.",
-    "Reports same-assistant order sensitivity, not independent expert agreement."
+    "Reports within-provider order sensitivity, not external-human-expert agreement."
   ]
 }

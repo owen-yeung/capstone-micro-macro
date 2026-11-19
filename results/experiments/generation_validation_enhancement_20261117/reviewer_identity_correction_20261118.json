@@ -1,0 +1,20 @@
+{
+  "at_UTC": "2026-11-18T03:34:59.070169+00:00",
+  "correction": "reviewer_identity_relabel_to_independent_second_llm_provider",
+  "scope": "GV20261117 adjudication artifacts only; pre-Cursor author-assisted reviews left unchanged",
+  "grades_changed": false,
+  "new_strings": {
+    "reviewer": "独立第二LLM提供方评阅；非原管线设计参与者，非人类外部专家，非盲评",
+    "recheck_reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
+    "compact_identity": "explicitly_authored_initial_and_independent_second_llm_provider_recheck",
+    "progress_identity": "independent_second_llm_provider_adjudicator",
+    "expert_slice_identity": "independent_second_llm_provider_filled_expert_slice_slot_not_external_human_expert"
+  },
+  "counts": {
+    "reviews": 1036,
+    "rechecks": 1036,
+    "compact": 194,
+    "expert": 37,
+    "skipped_reviews": 176
+  }
+}

@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "真正问题是missing_core下主张未给总承建商可承担业务方向；软门“已核实”在“无已核实来源/尚未核实”否定句；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-214-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "ca627103d213112296881be93469a90548b9ab12caf0ad4036fb5830bbd12645",
   "response_sha256": "9f3149fd7bdb4e6a396dd0db6574a25453b3afc3a5c3e4eba44b450e4979d7bc",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

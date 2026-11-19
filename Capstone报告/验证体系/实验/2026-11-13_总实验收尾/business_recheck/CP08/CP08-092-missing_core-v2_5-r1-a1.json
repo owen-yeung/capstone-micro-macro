@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "条件式单一责任意向适当；组织职能有列举但欠具体，C2部分；资格人员前提与未知边界正确；detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-092-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "f46e6a2fc0a8a95f5e7a18d7013aa535b78fedf16cf730cbc67c17cab5c09e1d",
   "response_sha256": "ed65a27f90b244225da0f5f84125f22da33f47a396cd2b5073d9aa11876077be",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

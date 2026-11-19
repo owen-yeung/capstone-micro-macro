@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已核实”在“非已核实资质”否定句；通读为档案监理范围支持的条件性单一监管，EPC边界清晰，detailed_required故D3=2、D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-12-full-S4-r1-a1.json",
   "initial_record_sha256": "195df78b0e87267893b9b73d8e9ae640c8b9df65c2669e48f6dc4e6facf94399",
   "response_sha256": "88b04519cccbcadea4171f3e0b050ccb48685e951d3a330af845ea81ec4c6fb3",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

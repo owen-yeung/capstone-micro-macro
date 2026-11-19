@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未主张未给业务方向或体量匹配；通读为缺核心下有边界条件性承建意向，C3缺具体岗位故部分，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-24-missing_core-S4-r1-a1.json",
   "initial_record_sha256": "2bf7ebcae158dc499ae1c89a535e74a023ce86575f2cd815a54ff1a030c6c33e",
   "response_sha256": "45b29c7477373d47139e081e88a83dd3751f4cc7803bbc665efb2f8768ea87cf",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

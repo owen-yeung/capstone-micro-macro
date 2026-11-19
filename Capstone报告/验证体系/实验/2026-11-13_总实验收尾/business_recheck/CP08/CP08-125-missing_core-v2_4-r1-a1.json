@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案未知与提交前档期门槛支持有据拒绝；未知≠无能且保留重评；detailed_required为false故不写总体D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-125-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "d2994feec2cab9f1f470bb0141938829b679cdb4718b43341ac51af23c65e110",
   "response_sha256": "af576e26f387dfd3dd978431a040edcd7d38d73691225b067d2a932b1b695aff",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

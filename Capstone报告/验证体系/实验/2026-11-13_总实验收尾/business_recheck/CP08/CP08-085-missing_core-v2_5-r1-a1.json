@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界供货意向仍适当；软门“已确认/整包施工”均在否定句，条件未升硬门槛。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-085-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "de44d2fe17b65cdad968e7d0409831a06966195986399f3f9cf458b86dacb8db",
   "response_sha256": "fe437b3200013c182feed9b752a97ecd111db20652bd5de30e35bd78636f3c50",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

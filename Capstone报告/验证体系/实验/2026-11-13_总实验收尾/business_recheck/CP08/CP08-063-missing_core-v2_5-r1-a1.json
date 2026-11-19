@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门“已落实”仅在“不构成已落实”否定句；通读仍为缺失核心下有边界管桩供应意向，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-063-missing_core-v2_5-r1-a1.json",
   "initial_record_sha256": "b3fb5828c560e24c46ac1ca2df05f38a51ec635f4b0071fb38d0784c3c39792e",
   "response_sha256": "14a4047ad91ab0922318926209cac5787647bee6117e6303a34010adbfbcea86",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

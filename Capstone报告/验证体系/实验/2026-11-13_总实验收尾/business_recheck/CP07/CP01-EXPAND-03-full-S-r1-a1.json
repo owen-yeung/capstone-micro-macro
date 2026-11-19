@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "软门「已确认」「承担整包EPC责任」均在否定句；条件性室内设计意向适当，D3/D4=2。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-03-full-S-r1-a1.json",
   "initial_record_sha256": "41b734ea27d0242ba2753815958fcd6fce32dcfb560159b85294a36ae9833ea5",
   "response_sha256": "ffa83b5bdbd6300ff2668895b8fc639ee40e98d1f6d79424e6ae75f2129fce20",
@@ -18,5 +18,6 @@
   },
   "numeric_recalculation": null,
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

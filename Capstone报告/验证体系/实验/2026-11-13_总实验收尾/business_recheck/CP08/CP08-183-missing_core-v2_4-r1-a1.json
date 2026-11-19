@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "未知范围下有边界钻孔桩供货草案仍适当；S5合规仅罗列故部分；软门“已落实”在否定句；detailed_required为false故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-183-missing_core-v2_4-r1-a1.json",
   "initial_record_sha256": "b95d6c33029f3726ba263383f84cbef36b6b14d985dddae7a1090ebaf2fc3415",
   "response_sha256": "94b9999d4f71b94558cae7bd3eebd6052989f2745c6630368a9021b17a1cc522",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }

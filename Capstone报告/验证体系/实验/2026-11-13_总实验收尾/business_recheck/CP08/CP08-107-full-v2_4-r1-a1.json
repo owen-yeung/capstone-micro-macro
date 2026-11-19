@@ -6,7 +6,7 @@
   "attempt": 1,
   "conclusion": "no_change",
   "reason": "档案光学范围内条件性供货成立；软门“已核实”在非已核实成本否定语境，detailed未要求故不写D3/D4。",
-  "reviewer": "Same author-assisting AI evidence recheck, not independent or blinded",
+  "reviewer": "Independent second LLM provider evidence recheck; not original pipeline design participant; not external human expert; not blinded",
   "initial_record_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP08/CP08-107-full-v2_4-r1-a1.json",
   "initial_record_sha256": "ae7cde829ece1e37f6e3a37caa0330fba78e0a05e47220e9ca18d866087e9c3c",
   "response_sha256": "d11ec9963c4daa90fa867d33c4dcc85e69d778639d1e7ca338f5216875fec14f",
@@ -23,5 +23,6 @@
     "original_tolerance": "1 MOP"
   },
   "complete": true,
-  "new_provider_calls": 0
+  "new_provider_calls": 0,
+  "reviewer_identity_note": "Label correction 2026-11-18: independent second LLM provider recheck; grades unchanged."
 }
