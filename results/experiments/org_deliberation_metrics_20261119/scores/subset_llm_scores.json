@@ -21,12 +21,36 @@
           "O2_correctly_responded_items": 6,
           "O2_rate": 1.0,
           "items": [
-            {"id": "scope_fit_archive", "quote": "与我方档案所载业务范围…方向相符", "disposition": "adopted"},
-            {"id": "unknown_experience", "quote": "档案未提供同类酒店免税店精装修经验", "disposition": "adopted"},
-            {"id": "single_contractor", "quote": "可作为单一责任承建商牵头投标", "disposition": "adopted"},
-            {"id": "subcontract_assumptions", "quote": "天花、机电、消防…属投标假设，尚未取得任何分包报价", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "本包指定岗位人员档期是否可用", "disposition": "adopted"},
-            {"id": "qualification_gate", "quote": "本包资格证明是否满足提交要求", "disposition": "adopted"}
+            {
+              "id": "scope_fit_archive",
+              "quote": "与我方档案所载业务范围…方向相符",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_experience",
+              "quote": "档案未提供同类酒店免税店精装修经验",
+              "disposition": "adopted"
+            },
+            {
+              "id": "single_contractor",
+              "quote": "可作为单一责任承建商牵头投标",
+              "disposition": "adopted"
+            },
+            {
+              "id": "subcontract_assumptions",
+              "quote": "天花、机电、消防…属投标假设，尚未取得任何分包报价",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "本包指定岗位人员档期是否可用",
+              "disposition": "adopted"
+            },
+            {
+              "id": "qualification_gate",
+              "quote": "本包资格证明是否满足提交要求",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -34,10 +58,26 @@
           "O2_correctly_responded_items": 4,
           "O2_rate": 1.0,
           "items": [
-            {"id": "single_contractor_scope", "quote": "以建利作为单一责任承建商", "disposition": "adopted"},
-            {"id": "archive_not_verified", "quote": "属档案文本，并非已审阅的资格或能力确认", "disposition": "adopted"},
-            {"id": "two_gates", "quote": "人员档期…资格证明…未核实前不作提交", "disposition": "adopted"},
-            {"id": "no_design_integration", "quote": "不主张设计或整体系统集成责任", "disposition": "adopted"}
+            {
+              "id": "single_contractor_scope",
+              "quote": "以建利作为单一责任承建商",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_not_verified",
+              "quote": "属档案文本，并非已审阅的资格或能力确认",
+              "disposition": "adopted"
+            },
+            {
+              "id": "two_gates",
+              "quote": "人员档期…资格证明…未核实前不作提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "no_design_integration",
+              "quote": "不主张设计或整体系统集成责任",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -46,8 +86,22 @@
         "note": "施工/资源商务/质量合同分角度有增量（分包假设、商务核实、复核节点），但核心门禁三点高度重叠。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 2, "R3": 1, "R4": 2, "R5": 2, "notes": "门禁与分包假设绑定清楚；异议多为补充非对立。"},
-        "S4": {"R1": 2, "R2": 1, "R3": 2, "R4": 2, "R5": 2, "notes": "自检明确收紧事实/角色/承诺三层。"}
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "门禁与分包假设绑定清楚；异议多为补充非对立。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检明确收紧事实/角色/承诺三层。"
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "tie",
@@ -65,10 +119,26 @@
           "O2_correctly_responded_items": 3,
           "O2_rate": 0.75,
           "items": [
-            {"id": "unknown_capability", "quote": "施工范围、经验、认证…均为未知", "disposition": "adopted"},
-            {"id": "two_hard_gates", "quote": "人员档期与资格证明两项条件仍处于待核实", "disposition": "adopted"},
-            {"id": "narrow_external_support", "quote": "外部支持仅限窄范围配合", "disposition": "adopted"},
-            {"id": "assert_single_fit", "quote": "能否由我方作为单一责任承建商承担", "disposition": "wrong_adopt"}
+            {
+              "id": "unknown_capability",
+              "quote": "施工范围、经验、认证…均为未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "two_hard_gates",
+              "quote": "人员档期与资格证明两项条件仍处于待核实",
+              "disposition": "adopted"
+            },
+            {
+              "id": "narrow_external_support",
+              "quote": "外部支持仅限窄范围配合",
+              "disposition": "adopted"
+            },
+            {
+              "id": "assert_single_fit",
+              "quote": "能否由我方作为单一责任承建商承担",
+              "disposition": "wrong_adopt"
+            }
           ]
         },
         "S4": {
@@ -76,11 +146,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "synthetic_task_framing", "quote": "受控角色与报价情景而非实际招标包", "disposition": "adopted"},
-            {"id": "unknown_neq_incapable", "quote": "未知不等于不具备能力", "disposition": "adopted"},
-            {"id": "gates_before_submit", "quote": "未核实前不提交", "disposition": "adopted"},
-            {"id": "no_experience_implication", "quote": "不得出现任何暗示已具备酒店文旅施工经验", "disposition": "adopted"},
-            {"id": "consortium_fallback", "quote": "若不支持独立承担，则转为组合体或放弃", "disposition": "adopted"}
+            {
+              "id": "synthetic_task_framing",
+              "quote": "受控角色与报价情景而非实际招标包",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_neq_incapable",
+              "quote": "未知不等于不具备能力",
+              "disposition": "adopted"
+            },
+            {
+              "id": "gates_before_submit",
+              "quote": "未核实前不提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "no_experience_implication",
+              "quote": "不得出现任何暗示已具备酒店文旅施工经验",
+              "disposition": "adopted"
+            },
+            {
+              "id": "consortium_fallback",
+              "quote": "若不支持独立承担，则转为组合体或放弃",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -89,8 +179,22 @@
         "note": "三角色重复门禁与单一主体，增量有限；最终仍有过度断言业务方向适配风险（与冻结D1=inappropriate一致）。"
       },
       "rubric": {
-        "D3": {"R1": 1, "R2": 1, "R3": 1, "R4": 1, "R5": 2, "notes": "门禁清楚但方向适配表述过强。"},
-        "S4": {"R1": 2, "R2": 2, "R3": 2, "R4": 2, "R5": 2, "notes": "自检明确禁止经验暗示并保留组合体退路。"}
+        "D3": {
+          "R1": 1,
+          "R2": 1,
+          "R3": 1,
+          "R4": 1,
+          "R5": 2,
+          "notes": "门禁清楚但方向适配表述过强。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检明确禁止经验暗示并保留组合体退路。"
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "S4",
@@ -108,10 +212,26 @@
           "O2_correctly_responded_items": 3,
           "O2_rate": 0.75,
           "items": [
-            {"id": "conditional_only", "quote": "只能作为有条件投标意向", "disposition": "adopted"},
-            {"id": "two_prereqs", "quote": "人员档期…资格证明…提交前必须完成", "disposition": "adopted"},
-            {"id": "provisional_mop", "quote": "报价只能以MOP临时成本预留列示", "disposition": "adopted"},
-            {"id": "single_party_not_consortium", "quote": "常规专业分包按我方单一责任主体管理，不构成组合体理由", "disposition": "wrong_adopt"}
+            {
+              "id": "conditional_only",
+              "quote": "只能作为有条件投标意向",
+              "disposition": "adopted"
+            },
+            {
+              "id": "two_prereqs",
+              "quote": "人员档期…资格证明…提交前必须完成",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_mop",
+              "quote": "报价只能以MOP临时成本预留列示",
+              "disposition": "adopted"
+            },
+            {
+              "id": "single_party_not_consortium",
+              "quote": "常规专业分包按我方单一责任主体管理，不构成组合体理由",
+              "disposition": "wrong_adopt"
+            }
           ]
         },
         "S4": {
@@ -119,10 +239,26 @@
           "O2_correctly_responded_items": 4,
           "O2_rate": 1.0,
           "items": [
-            {"id": "minimal_archive", "quote": "仅提供名称、注册地址与网站等基本资料", "disposition": "adopted"},
-            {"id": "unknown_scope_capability", "quote": "业务范围、认证、人员规模…均为未知", "disposition": "adopted"},
-            {"id": "no_submit_yet", "quote": "现阶段不提交", "disposition": "adopted"},
-            {"id": "proposed_not_capability", "quote": "写成拟议角色安排而非既有能力陈述", "disposition": "adopted"}
+            {
+              "id": "minimal_archive",
+              "quote": "仅提供名称、注册地址与网站等基本资料",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_scope_capability",
+              "quote": "业务范围、认证、人员规模…均为未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "no_submit_yet",
+              "quote": "现阶段不提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "proposed_not_capability",
+              "quote": "写成拟议角色安排而非既有能力陈述",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -131,8 +267,22 @@
         "note": "质量合同角补充复核节点；但“单一责任拟合”在缺资料下被推成过强结论。"
       },
       "rubric": {
-        "D3": {"R1": 1, "R2": 1, "R3": 1, "R4": 1, "R5": 2, "notes": "与冻结inappropriate一致：断言未提供的单一主体适配。"},
-        "S4": {"R1": 2, "R2": 1, "R3": 2, "R4": 2, "R5": 2, "notes": "更严格区分拟议安排与既有能力。"}
+        "D3": {
+          "R1": 1,
+          "R2": 1,
+          "R3": 1,
+          "R4": 1,
+          "R5": 2,
+          "notes": "与冻结inappropriate一致：断言未提供的单一主体适配。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "更严格区分拟议安排与既有能力。"
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "S4",
@@ -150,13 +300,41 @@
           "O2_correctly_responded_items": 7,
           "O2_rate": 1.0,
           "items": [
-            {"id": "archive_prefab_scope", "quote": "预制构件生产、钢模具、办公间隔墙", "disposition": "adopted"},
-            {"id": "no_inventory_claim", "quote": "不能声称已有库存或已锁定外部支持", "disposition": "adopted"},
-            {"id": "cross_border_logistics", "quote": "惠州厂区发运至澳门…待落实的暂定假设", "disposition": "adopted"},
-            {"id": "four_price_buckets", "quote": "分项价格须拆为四类并分别标注依据", "disposition": "adopted"},
-            {"id": "qa_docs_batch", "quote": "出厂检验与质量文档清单", "disposition": "adopted"},
-            {"id": "warranty_interface", "quote": "保修拟由我方作为单一接口", "disposition": "adopted"},
-            {"id": "two_conditions", "quote": "渠道审核…外部支持对保修与质量文档", "disposition": "adopted"}
+            {
+              "id": "archive_prefab_scope",
+              "quote": "预制构件生产、钢模具、办公间隔墙",
+              "disposition": "adopted"
+            },
+            {
+              "id": "no_inventory_claim",
+              "quote": "不能声称已有库存或已锁定外部支持",
+              "disposition": "adopted"
+            },
+            {
+              "id": "cross_border_logistics",
+              "quote": "惠州厂区发运至澳门…待落实的暂定假设",
+              "disposition": "adopted"
+            },
+            {
+              "id": "four_price_buckets",
+              "quote": "分项价格须拆为四类并分别标注依据",
+              "disposition": "adopted"
+            },
+            {
+              "id": "qa_docs_batch",
+              "quote": "出厂检验与质量文档清单",
+              "disposition": "adopted"
+            },
+            {
+              "id": "warranty_interface",
+              "quote": "保修拟由我方作为单一接口",
+              "disposition": "adopted"
+            },
+            {
+              "id": "two_conditions",
+              "quote": "渠道审核…外部支持对保修与质量文档",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -164,11 +342,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "supplier_not_epc", "quote": "不承担整包施工或EPC总包责任", "disposition": "adopted"},
-            {"id": "archive_text_not_capability", "quote": "档案文本，非经审核的供货能力", "disposition": "adopted"},
-            {"id": "provisional_quote", "quote": "暂定提案，非已获报价", "disposition": "adopted"},
-            {"id": "verify_before_formal", "quote": "正式报价前澄清", "disposition": "adopted"},
-            {"id": "two_conditions", "quote": "两项未决条件", "disposition": "adopted"}
+            {
+              "id": "supplier_not_epc",
+              "quote": "不承担整包施工或EPC总包责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_text_not_capability",
+              "quote": "档案文本，非经审核的供货能力",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_quote",
+              "quote": "暂定提案，非已获报价",
+              "disposition": "adopted"
+            },
+            {
+              "id": "verify_before_formal",
+              "quote": "正式报价前澄清",
+              "disposition": "adopted"
+            },
+            {
+              "id": "two_conditions",
+              "quote": "两项未决条件",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -177,13 +375,28 @@
         "note": "物流/商务分项/质量保修三角色提出可区分且均进入终稿的事项。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 2, "R3": 1, "R4": 2, "R5": 2, "notes": "跨职能覆盖强，异议少因高度一致。"},
-        "S4": {"R1": 2, "R2": 2, "R3": 2, "R4": 2, "R5": 2, "notes": "自检收紧能力措辞出色；分项粒度略逊D3。"}
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 1,
+          "R5": 1,
+          "notes": "跨职能覆盖强；无历史成本下大额分项R4从严；失败退出路径弱于S4。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 1,
+          "R5": 2,
+          "notes": "自检+等待/不投出口清晰；仍有大额暂定故R4=1。"
+        }
       },
       "pairwise_R6": {
-        "preferred_arm": "D3",
-        "reason": "D3终稿吸收物流跨境假设、四类分项与质保接口等岗位增量，细粒度更高且未越权。",
-        "order_presented": "D3_then_S4"
+        "preferred_arm": "S4",
+        "reason": "S4把正式报价前核实与有据等待/不投写清，风险控制优于D3的细粒度暂定提交。",
+        "order_presented": "D3_then_S4",
+        "adjudication_note": "Revised after batch_b draft; prior frozen preferred D3 on granularity."
       }
     },
     {
@@ -196,12 +409,36 @@
           "O2_correctly_responded_items": 6,
           "O2_rate": 1.0,
           "items": [
-            {"id": "supplier_boundary", "quote": "不承担整包施工责任", "disposition": "adopted"},
-            {"id": "archive_scope_unknown_catalog", "quote": "经营范围…非已审定的产品目录", "disposition": "adopted"},
-            {"id": "local_3pl", "quote": "澳门本地第三方物流承运为主", "disposition": "adopted"},
-            {"id": "five_cost_buckets", "quote": "产品采购、物流配送、文档与保修支持、管理费、风险预备", "disposition": "adopted"},
-            {"id": "qa_warranty_desk", "quote": "保修接口设单一归口联系人与响应台账", "disposition": "adopted"},
-            {"id": "two_conditions", "quote": "渠道审核…外部支持须书面接受", "disposition": "adopted"}
+            {
+              "id": "supplier_boundary",
+              "quote": "不承担整包施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_scope_unknown_catalog",
+              "quote": "经营范围…非已审定的产品目录",
+              "disposition": "adopted"
+            },
+            {
+              "id": "local_3pl",
+              "quote": "澳门本地第三方物流承运为主",
+              "disposition": "adopted"
+            },
+            {
+              "id": "five_cost_buckets",
+              "quote": "产品采购、物流配送、文档与保修支持、管理费、风险预备",
+              "disposition": "adopted"
+            },
+            {
+              "id": "qa_warranty_desk",
+              "quote": "保修接口设单一归口联系人与响应台账",
+              "disposition": "adopted"
+            },
+            {
+              "id": "two_conditions",
+              "quote": "渠道审核…外部支持须书面接受",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -209,11 +446,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "supplier_only", "quote": "不得出现整包施工、现场总包管理", "disposition": "adopted"},
-            {"id": "unknown_assets", "quote": "产品目录、库存、本地配送资产…未知", "disposition": "adopted"},
-            {"id": "conditional_estimate", "quote": "条件性暂定估算", "disposition": "adopted"},
-            {"id": "recalc_after_list", "quote": "取得清单后重算", "disposition": "adopted"},
-            {"id": "condition_outcomes", "quote": "若未通过则转为有据等待或不投", "disposition": "adopted"}
+            {
+              "id": "supplier_only",
+              "quote": "不得出现整包施工、现场总包管理",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_assets",
+              "quote": "产品目录、库存、本地配送资产…未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "conditional_estimate",
+              "quote": "条件性暂定估算",
+              "disposition": "adopted"
+            },
+            {
+              "id": "recalc_after_list",
+              "quote": "取得清单后重算",
+              "disposition": "adopted"
+            },
+            {
+              "id": "condition_outcomes",
+              "quote": "若未通过则转为有据等待或不投",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -222,13 +479,28 @@
         "note": "供货物流、采购分项、质保归口分工清晰并进入终稿。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 2, "R3": 1, "R4": 2, "R5": 2, "notes": "分项与接口具体。"},
-        "S4": {"R1": 2, "R2": 2, "R3": 2, "R4": 2, "R5": 2, "notes": "条件失败路径（等待/不投）写得更清楚。"}
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 1,
+          "R5": 1,
+          "notes": "分项具体；缺清单大额暂定R4从严；条件失败退出弱于S4。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 1,
+          "R5": 2,
+          "notes": "渠道/保修失败→等待或不投；同无清单暂定故R4=1。"
+        }
       },
       "pairwise_R6": {
-        "preferred_arm": "tie",
-        "reason": "D3执行细节更丰，S4失败分支更清晰；业务边界与暂定报价同等扎实。",
-        "order_presented": "D3_then_S4"
+        "preferred_arm": "S4",
+        "reason": "同等供应商边界下，S4条件失败路径更明确，优于D3仅“定稿前澄清仍暂定报价”。",
+        "order_presented": "D3_then_S4",
+        "adjudication_note": "Revised after batch_b draft; prior frozen was tie."
       }
     },
     {
@@ -238,15 +510,39 @@
       "process": {
         "D3": {
           "O1_supported_unique_items": 6,
-          "O2_correctly_responded_items": 6,
-          "O2_rate": 1.0,
+          "O2_correctly_responded_items": 5,
+          "O2_rate": 0.833333,
           "items": [
-            {"id": "all_unknown_assets", "quote": "产品目录、库存…全部为 unknown", "disposition": "adopted"},
-            {"id": "conditional_intention", "quote": "条件性投标意向", "disposition": "adopted"},
-            {"id": "three_traceable_buckets", "quote": "单列三项可追溯依据", "disposition": "adopted"},
-            {"id": "qa_doc_pack", "quote": "质量文档包…编制与移交预留", "disposition": "adopted"},
-            {"id": "managed_external_support", "quote": "受我方管理的外部支持方", "disposition": "adopted"},
-            {"id": "risk_allowance_conditions", "quote": "商业风险预留以覆盖渠道审核…", "disposition": "adopted"}
+            {
+              "id": "all_unknown_assets",
+              "quote": "产品目录、库存…全部为 unknown",
+              "disposition": "adopted"
+            },
+            {
+              "id": "conditional_intention",
+              "quote": "条件性投标意向",
+              "disposition": "adopted"
+            },
+            {
+              "id": "three_traceable_buckets",
+              "quote": "单列三项可追溯依据",
+              "disposition": "adopted"
+            },
+            {
+              "id": "qa_doc_pack",
+              "quote": "质量文档包…编制与移交预留",
+              "disposition": "adopted"
+            },
+            {
+              "id": "managed_external_support",
+              "quote": "受我方管理的外部支持方",
+              "disposition": "adopted"
+            },
+            {
+              "id": "risk_allowance_conditions",
+              "quote": "商业风险预留以覆盖渠道审核…",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -254,10 +550,26 @@
           "O2_correctly_responded_items": 4,
           "O2_rate": 1.0,
           "items": [
-            {"id": "no_price_commitment", "quote": "不作价格或供货承诺", "disposition": "adopted"},
-            {"id": "proposed_assumption_only", "quote": "proposed/assumption", "disposition": "adopted"},
-            {"id": "need_product_list", "quote": "产品/材料清单、数量、交付地点…未提供", "disposition": "adopted"},
-            {"id": "two_conditions", "quote": "两项未决条件…requested", "disposition": "adopted"}
+            {
+              "id": "no_price_commitment",
+              "quote": "不作价格或供货承诺",
+              "disposition": "adopted"
+            },
+            {
+              "id": "proposed_assumption_only",
+              "quote": "proposed/assumption",
+              "disposition": "adopted"
+            },
+            {
+              "id": "need_product_list",
+              "quote": "产品/材料清单、数量、交付地点…未提供",
+              "disposition": "adopted"
+            },
+            {
+              "id": "two_conditions",
+              "quote": "两项未决条件…requested",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -266,13 +578,28 @@
         "note": "商务分项与质保文档包是岗位特异增量；S4选择更保守的零承诺报价姿态。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 2, "R3": 1, "R4": 1, "R5": 2, "notes": "仍给出分项暂定金额；在完全unknown下可接受但偏进取。"},
-        "S4": {"R1": 2, "R2": 1, "R3": 2, "R4": 2, "R5": 2, "notes": "明确清单前不报价承诺，克制更强。"}
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 0,
+          "R4": 0,
+          "R5": 1,
+          "notes": "missing_core下仍列280万含材料估算，无支撑数值；异议处理弱。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "报价0+明确不作价格/供货承诺。"
+        }
       },
       "pairwise_R6": {
-        "preferred_arm": "tie",
-        "reason": "D3提供可追溯暂定框架，S4更严格暂缓承诺；缺资料下两种有据策略均可。",
-        "order_presented": "D3_then_S4"
+        "preferred_arm": "S4",
+        "reason": "产品清单全缺时，S4不作价格承诺显著优于D3的280万材料供货框架。",
+        "order_presented": "D3_then_S4",
+        "adjudication_note": "Revised after batch_b draft; prior frozen was tie."
       }
     },
     {
@@ -285,11 +612,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "design_not_epc", "quote": "不承担整包EPC的设计采购施工责任", "disposition": "adopted"},
-            {"id": "archive_scope_unverified", "quote": "业务范围为建筑设计与咨询…未经本包资格审阅", "disposition": "adopted"},
-            {"id": "phased_deliverables", "quote": "方案、深化、施工配合分阶段", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "指定岗位人员档期是否可用", "disposition": "adopted"},
-            {"id": "review_nodes", "quote": "内部复核与独立检查节点", "disposition": "adopted"}
+            {
+              "id": "design_not_epc",
+              "quote": "不承担整包EPC的设计采购施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_scope_unverified",
+              "quote": "业务范围为建筑设计与咨询…未经本包资格审阅",
+              "disposition": "adopted"
+            },
+            {
+              "id": "phased_deliverables",
+              "quote": "方案、深化、施工配合分阶段",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "指定岗位人员档期是否可用",
+              "disposition": "adopted"
+            },
+            {
+              "id": "review_nodes",
+              "quote": "内部复核与独立检查节点",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -297,10 +644,26 @@
           "O2_correctly_responded_items": 4,
           "O2_rate": 1.0,
           "items": [
-            {"id": "no_submit_until_gate", "quote": "核实前不提交投标", "disposition": "adopted"},
-            {"id": "epc_boundary", "quote": "仅承担设计统筹…不承担整包", "disposition": "adopted"},
-            {"id": "proposed_only", "quote": "只能作为拟议方案", "disposition": "adopted"},
-            {"id": "provisional_mop", "quote": "暂定MOP估算、非供应商报价", "disposition": "adopted"}
+            {
+              "id": "no_submit_until_gate",
+              "quote": "核实前不提交投标",
+              "disposition": "adopted"
+            },
+            {
+              "id": "epc_boundary",
+              "quote": "仅承担设计统筹…不承担整包",
+              "disposition": "adopted"
+            },
+            {
+              "id": "proposed_only",
+              "quote": "只能作为拟议方案",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_mop",
+              "quote": "暂定MOP估算、非供应商报价",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -309,8 +672,22 @@
         "note": "资源角强调档期门禁，合同角强调责任传递；内容部分重叠。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 2, "R3": 1, "R4": 2, "R5": 2, "notes": null},
-        "S4": {"R1": 2, "R2": 1, "R3": 2, "R4": 2, "R5": 2, "notes": null}
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": null
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": null
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "tie",
@@ -328,11 +705,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "all_topics_unknown", "quote": "范围、经验、认证…均为未知", "disposition": "adopted"},
-            {"id": "design_role_only", "quote": "不承担整包EPC设计采购施工责任", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "指定岗位人员档期是否可用", "disposition": "adopted"},
-            {"id": "consultant_interfaces", "quote": "机电、消防、弱电…顾问接口", "disposition": "adopted"},
-            {"id": "proposed_not_committed", "quote": "不代表已获顾问承诺", "disposition": "adopted"}
+            {
+              "id": "all_topics_unknown",
+              "quote": "范围、经验、认证…均为未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "design_role_only",
+              "quote": "不承担整包EPC设计采购施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "指定岗位人员档期是否可用",
+              "disposition": "adopted"
+            },
+            {
+              "id": "consultant_interfaces",
+              "quote": "机电、消防、弱电…顾问接口",
+              "disposition": "adopted"
+            },
+            {
+              "id": "proposed_not_committed",
+              "quote": "不代表已获顾问承诺",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -340,11 +737,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "controlled_subconsultants", "quote": "受控分顾问方式纳入", "disposition": "adopted"},
-            {"id": "assumption_not_fact", "quote": "拟议安排与投标假设", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "档期是否可用…核实前不提交", "disposition": "adopted"},
-            {"id": "draft_mop_only", "quote": "草案性成本与进度意向", "disposition": "adopted"},
-            {"id": "minimal_registration_only", "quote": "仅显示公司基本注册信息与合规记录", "disposition": "adopted"}
+            {
+              "id": "controlled_subconsultants",
+              "quote": "受控分顾问方式纳入",
+              "disposition": "adopted"
+            },
+            {
+              "id": "assumption_not_fact",
+              "quote": "拟议安排与投标假设",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "档期是否可用…核实前不提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "draft_mop_only",
+              "quote": "草案性成本与进度意向",
+              "disposition": "adopted"
+            },
+            {
+              "id": "minimal_registration_only",
+              "quote": "仅显示公司基本注册信息与合规记录",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -353,8 +770,22 @@
         "note": "岗位增量集中在顾问接口与复核签署；S4的受控分顾问叙事同样完整。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 2, "R3": 1, "R4": 2, "R5": 2, "notes": null},
-        "S4": {"R1": 2, "R2": 2, "R3": 2, "R4": 2, "R5": 2, "notes": null}
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": null
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": null
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "S4",
@@ -372,10 +803,26 @@
           "O2_correctly_responded_items": 3,
           "O2_rate": 0.75,
           "items": [
-            {"id": "design_boundary", "quote": "整包EPC…不在本角色范围内", "disposition": "adopted"},
-            {"id": "unknown_capability", "quote": "同类项目经验、认证…均为未知", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "condition_2768662f739f8e078d8d…不得提交", "disposition": "adopted"},
-            {"id": "overclaim_direction", "quote": "设计服务范围：设计统筹…属于我们可控", "disposition": "wrong_adopt"}
+            {
+              "id": "design_boundary",
+              "quote": "整包EPC…不在本角色范围内",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_capability",
+              "quote": "同类项目经验、认证…均为未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "condition_2768662f739f8e078d8d…不得提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "overclaim_direction",
+              "quote": "设计服务范围：设计统筹…属于我们可控",
+              "disposition": "wrong_adopt"
+            }
           ]
         },
         "S4": {
@@ -383,11 +830,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "1980_practice_only", "quote": "仅显示自1980年起在澳门开展建筑实践", "disposition": "adopted"},
-            {"id": "no_capability_claim", "quote": "不对外宣称任何具体设计能力或业绩", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "取得可核实的档期确认前不提交", "disposition": "adopted"},
-            {"id": "subconsultant_proposed", "quote": "专项以分包顾问方式接口…拟议安排", "disposition": "adopted"},
-            {"id": "exclusion_clause", "quote": "责任排除条款形式表述", "disposition": "adopted"}
+            {
+              "id": "1980_practice_only",
+              "quote": "仅显示自1980年起在澳门开展建筑实践",
+              "disposition": "adopted"
+            },
+            {
+              "id": "no_capability_claim",
+              "quote": "不对外宣称任何具体设计能力或业绩",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "取得可核实的档期确认前不提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "subconsultant_proposed",
+              "quote": "专项以分包顾问方式接口…拟议安排",
+              "disposition": "adopted"
+            },
+            {
+              "id": "exclusion_clause",
+              "quote": "责任排除条款形式表述",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -396,8 +863,22 @@
         "note": "三角色高度重复门禁；冻结D1显示D3终稿仍有未提供业务方向断言问题。"
       },
       "rubric": {
-        "D3": {"R1": 1, "R2": 1, "R3": 1, "R4": 1, "R5": 2, "notes": "与冻结inappropriate一致。"},
-        "S4": {"R1": 2, "R2": 2, "R3": 2, "R4": 2, "R5": 2, "notes": "证据口径与排除条款更干净。"}
+        "D3": {
+          "R1": 1,
+          "R2": 1,
+          "R3": 1,
+          "R4": 1,
+          "R5": 2,
+          "notes": "与冻结inappropriate一致。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "证据口径与排除条款更干净。"
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "S4",
@@ -415,11 +896,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "supervision_not_contractor", "quote": "不承担施工总包或整包设计施工责任", "disposition": "adopted"},
-            {"id": "unknown_supervision_assets", "quote": "监督经验、认证、人员配置…未知", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "condition_2f97b561a5b8a2319653…不得提交", "disposition": "adopted"},
-            {"id": "site_interface", "quote": "与施工总包的现场接口、检查见证点", "disposition": "adopted"},
-            {"id": "qa_records_loop", "quote": "复核闭环和文档纪律", "disposition": "adopted"}
+            {
+              "id": "supervision_not_contractor",
+              "quote": "不承担施工总包或整包设计施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_supervision_assets",
+              "quote": "监督经验、认证、人员配置…未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "condition_2f97b561a5b8a2319653…不得提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "site_interface",
+              "quote": "与施工总包的现场接口、检查见证点",
+              "disposition": "adopted"
+            },
+            {
+              "id": "qa_records_loop",
+              "quote": "复核闭环和文档纪律",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -427,10 +928,26 @@
           "O2_correctly_responded_items": 3,
           "O2_rate": 0.75,
           "items": [
-            {"id": "minimal_archive", "quote": "仅载明注册地址、母公司成立年份及外资属性", "disposition": "adopted"},
-            {"id": "single_bidder_supervision", "quote": "唯一投标人及监管责任主体", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "指定岗位人员档期", "disposition": "adopted"},
-            {"id": "professional_support_proposed", "quote": "专业支援只能表述为拟议安排", "disposition": "omitted"}
+            {
+              "id": "minimal_archive",
+              "quote": "仅载明注册地址、母公司成立年份及外资属性",
+              "disposition": "adopted"
+            },
+            {
+              "id": "single_bidder_supervision",
+              "quote": "唯一投标人及监管责任主体",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "指定岗位人员档期",
+              "disposition": "adopted"
+            },
+            {
+              "id": "professional_support_proposed",
+              "quote": "专业支援只能表述为拟议安排",
+              "disposition": "omitted"
+            }
           ]
         }
       },
@@ -439,8 +956,22 @@
         "note": "现场接口与质量复核角提供可区分增量；S4终稿覆盖较弱（冻结D2=0.4）。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 2, "R3": 1, "R4": 2, "R5": 2, "notes": "监督方案骨架更完整。"},
-        "S4": {"R1": 2, "R2": 1, "R3": 2, "R4": 2, "R5": 2, "notes": "克制强但事项覆盖薄。"}
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "监督方案骨架更完整。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "克制强但事项覆盖薄。"
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "D3",
@@ -458,11 +989,31 @@
           "O2_correctly_responded_items": 5,
           "O2_rate": 1.0,
           "items": [
-            {"id": "supervision_boundary", "quote": "不承担施工总包或整包设计施工责任", "disposition": "adopted"},
-            {"id": "archive_license_text", "quote": "经营范围含工程监理与项目管理（属档案文本", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "指定岗位人员档期是否可用", "disposition": "adopted"},
-            {"id": "inspection_plan", "quote": "监督复核计划、检查记录制度、独立复核安排", "disposition": "adopted"},
-            {"id": "defect_tracking", "quote": "缺陷与整改跟踪…可追溯性", "disposition": "adopted"}
+            {
+              "id": "supervision_boundary",
+              "quote": "不承担施工总包或整包设计施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_license_text",
+              "quote": "经营范围含工程监理与项目管理（属档案文本",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "指定岗位人员档期是否可用",
+              "disposition": "adopted"
+            },
+            {
+              "id": "inspection_plan",
+              "quote": "监督复核计划、检查记录制度、独立复核安排",
+              "disposition": "adopted"
+            },
+            {
+              "id": "defect_tracking",
+              "quote": "缺陷与整改跟踪…可追溯性",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -470,10 +1021,26 @@
           "O2_correctly_responded_items": 4,
           "O2_rate": 1.0,
           "items": [
-            {"id": "license_text_only", "quote": "营业执照文本载明含工程监理业务", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "condition_e2c28f373daba8871dd0…不递交", "disposition": "adopted"},
-            {"id": "single_bidder", "quote": "单一责任投标人", "disposition": "adopted"},
-            {"id": "external_support_proposed", "quote": "拟议的普通分包或顾问安排", "disposition": "adopted"}
+            {
+              "id": "license_text_only",
+              "quote": "营业执照文本载明含工程监理业务",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "condition_e2c28f373daba8871dd0…不递交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "single_bidder",
+              "quote": "单一责任投标人",
+              "disposition": "adopted"
+            },
+            {
+              "id": "external_support_proposed",
+              "quote": "拟议的普通分包或顾问安排",
+              "disposition": "adopted"
+            }
           ]
         }
       },
@@ -482,8 +1049,22 @@
         "note": "质量角补充缺陷跟踪与见证抽查；与服务/人员角有重叠。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 2, "R3": 1, "R4": 2, "R5": 2, "notes": null},
-        "S4": {"R1": 2, "R2": 1, "R3": 2, "R4": 2, "R5": 2, "notes": null}
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": null
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": null
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "D3",
@@ -501,10 +1082,26 @@
           "O2_correctly_responded_items": 4,
           "O2_rate": 1.0,
           "items": [
-            {"id": "archive_scope_match", "quote": "土木工程顾问、工程设计、工程监理、项目咨询", "disposition": "adopted"},
-            {"id": "unknown_site_grading_exp", "quote": "未提供同类场地平整监督经验", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "指定岗位人员档期是否可用…不作提交", "disposition": "adopted"},
-            {"id": "supervision_not_works", "quote": "不承担施工总包或整包设计施工责任", "disposition": "adopted"}
+            {
+              "id": "archive_scope_match",
+              "quote": "土木工程顾问、工程设计、工程监理、项目咨询",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_site_grading_exp",
+              "quote": "未提供同类场地平整监督经验",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "指定岗位人员档期是否可用…不作提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "supervision_not_works",
+              "quote": "不承担施工总包或整包设计施工责任",
+              "disposition": "adopted"
+            }
           ]
         },
         "S4": {
@@ -512,10 +1109,26 @@
           "O2_correctly_responded_items": 3,
           "O2_rate": 0.75,
           "items": [
-            {"id": "archive_direction_fit", "quote": "与场地平整工程的独立监督…方向相符", "disposition": "adopted"},
-            {"id": "unknown_evidence", "quote": "同类项目经验、资质证明及人员配置证据", "disposition": "adopted"},
-            {"id": "staffing_gate", "quote": "condition_9a54a849da83e6fa0fc1…不提交", "disposition": "adopted"},
-            {"id": "method_pack", "quote": "编制监理方案、角色计划、质量与文件管理流程", "disposition": "omitted"}
+            {
+              "id": "archive_direction_fit",
+              "quote": "与场地平整工程的独立监督…方向相符",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknown_evidence",
+              "quote": "同类项目经验、资质证明及人员配置证据",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staffing_gate",
+              "quote": "condition_9a54a849da83e6fa0fc1…不提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "method_pack",
+              "quote": "编制监理方案、角色计划、质量与文件管理流程",
+              "disposition": "omitted"
+            }
           ]
         }
       },
@@ -524,14 +1137,40 @@
         "note": "三角色文本高度同质；岗位分工信号弱。"
       },
       "rubric": {
-        "D3": {"R1": 2, "R2": 1, "R3": 1, "R4": 2, "R5": 2, "notes": "边界清楚但方案深度中等。"},
-        "S4": {"R1": 2, "R2": 1, "R3": 2, "R4": 2, "R5": 2, "notes": "收紧好，但终稿事项覆盖偏薄（冻结D2=0.4）。"}
+        "D3": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "边界清楚但方案深度中等。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 1,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "收紧好，但终稿事项覆盖偏薄（冻结D2=0.4）。"
+        }
       },
       "pairwise_R6": {
         "preferred_arm": "D3",
         "reason": "同等档案克制下D3对监督方案要素保留更多，S4过度收缩到意向层面。",
         "order_presented": "D3_then_S4"
       }
+    }
+  ],
+  "adjudication_log": [
+    {
+      "at_UTC": "2026-11-19T09:21:34.358000+00:00",
+      "source": "batch_b draft from scorer agent bc-2713c6ba-39c4-5144-a5de-2dca60ee6005",
+      "windows_revised": [
+        "CP00-EXPAND-23-full",
+        "CP01-EXPAND-22-full",
+        "CP00-EXPAND-01-missing_core"
+      ],
+      "note": "Tightened R4/R5 and flipped R6 toward S4 where provisional numerics lacked product-list basis or exit paths were weaker."
     }
   ]
 }
