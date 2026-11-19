@@ -952,8 +952,8 @@
         }
       },
       "role_specialization_notes": {
-        "level": "medium",
-        "note": "现场接口与质量复核角提供可区分增量；S4终稿覆盖较弱（冻结D2=0.4）。"
+        "level": "low",
+        "note": "三岗高度复述同一边界/未知/档期；独特贡献薄（batch_d corroboration）。"
       },
       "rubric": {
         "D3": {
@@ -961,22 +961,23 @@
           "R2": 2,
           "R3": 1,
           "R4": 2,
-          "R5": 2,
-          "notes": "监督方案骨架更完整。"
+          "R5": 1,
+          "notes": "检查/见证安排完整；负向分支（档期不可用→不投、反规避）弱于S4。"
         },
         "S4": {
           "R1": 2,
-          "R2": 1,
+          "R2": 2,
           "R3": 2,
           "R4": 2,
           "R5": 2,
-          "notes": "克制强但事项覆盖薄。"
+          "notes": "写明核实不可用则不投、不以临时外部支援掩盖岗位缺口；事项覆盖仍偏薄（冻结D2低）。"
         }
       },
       "pairwise_R6": {
-        "preferred_arm": "D3",
-        "reason": "在同等门禁克制下，D3把检查/见证/复核安排写进可执行提案，覆盖明显更高。",
-        "order_presented": "D3_then_S4"
+        "preferred_arm": "tie",
+        "reason": "D3覆盖检查/见证/复核更全；S4负向退出与反规避更完整。两者在缺资料监督任务上各占一边。",
+        "order_presented": "D3_then_S4",
+        "adjudication_note": "Revised after batch_d; prior frozen preferred D3 on coverage alone."
       }
     },
     {
@@ -1134,7 +1135,7 @@
       },
       "role_specialization_notes": {
         "level": "low",
-        "note": "三角色文本高度同质；岗位分工信号弱。"
+        "note": "三岗同构复述；分化低（batch_d corroboration）。"
       },
       "rubric": {
         "D3": {
@@ -1143,21 +1144,22 @@
           "R3": 1,
           "R4": 2,
           "R5": 2,
-          "notes": "边界清楚但方案深度中等。"
+          "notes": "附条件意向正确但门槛与其他未知未分清。"
         },
         "S4": {
           "R1": 2,
-          "R2": 1,
+          "R2": 2,
           "R3": 2,
           "R4": 2,
           "R5": 2,
-          "notes": "收紧好，但终稿事项覆盖偏薄（冻结D2=0.4）。"
+          "notes": "明确其余未知作待补资料、不升为额外提交门槛或放弃依据。"
         }
       },
       "pairwise_R6": {
-        "preferred_arm": "D3",
-        "reason": "同等档案克制下D3对监督方案要素保留更多，S4过度收缩到意向层面。",
-        "order_presented": "D3_then_S4"
+        "preferred_arm": "S4",
+        "reason": "S4把唯一提交门禁与其他未知分开，门槛卫生优于D3笼统附条件意向。",
+        "order_presented": "D3_then_S4",
+        "adjudication_note": "Revised after batch_d; prior frozen preferred D3 on scheme richness despite low specialization."
       }
     }
   ],
@@ -1171,6 +1173,15 @@
         "CP00-EXPAND-01-missing_core"
       ],
       "note": "Tightened R4/R5 and flipped R6 toward S4 where provisional numerics lacked product-list basis or exit paths were weaker."
+    },
+    {
+      "at_UTC": "2026-11-19T09:23:21.489693+00:00",
+      "source": "batch_c agree-no-change; batch_d draft from bc-b4b314b4-b049-5c18-bf05-c923093c8abf",
+      "windows_revised": [
+        "CP00-EXPAND-10-missing_core",
+        "CP00-EXPAND-24-full"
+      ],
+      "note": "EXPAND-10 → tie (coverage vs exit); EXPAND-24 → S4 (gate hygiene). batch_c R6 already agreed."
     }
   ]
 }

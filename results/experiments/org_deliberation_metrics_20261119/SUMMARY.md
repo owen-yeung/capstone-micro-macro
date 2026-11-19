@@ -2,7 +2,7 @@
 
 Offline re-analysis of frozen CP07 grades/process traces and the macro first fixed block. **No new external data. No overwrite of frozen business_review scores. new_model_calls=0.**
 
-Generated at (UTC): 2026-11-19T09:21:36.323891+00:00
+Generated at (UTC): 2026-11-19T09:23:23.442906+00:00
 
 ## Scope
 
@@ -67,8 +67,8 @@ Windows scored: 12.
 
 O1 means: {'D3': 5.083333333333333, 'S4': 4.416666666666667}
 O2 means: {'D3': 0.9236110833333333, 'S4': 0.9583333333333334}
-Rubric means: {"D3": {"R1": 1.75, "R2": 1.6666666666666667, "R3": 0.9166666666666666, "R4": 1.4166666666666667, "R5": 1.75}, "S4": {"R1": 2, "R2": 1.4166666666666667, "R3": 2, "R4": 1.8333333333333333, "R5": 2}}
-R6 preference counts: {'tie': 2, 'S4': 7, 'D3': 3} (D3 win rate excl. ties: 0.3)
+Rubric means: {"D3": {"R1": 1.75, "R2": 1.6666666666666667, "R3": 0.9166666666666666, "R4": 1.4166666666666667, "R5": 1.6666666666666667}, "S4": {"R1": 2, "R2": 1.5833333333333333, "R3": 2, "R4": 1.8333333333333333, "R5": 2}}
+R6 preference counts: {'tie': 3, 'S4': 8, 'D3': 1} (D3 win rate excl. ties: 0.1111111111111111)
 
 Scorer identity: Cursor agent acting as researcher-assisting LLM judge on blinded arm labels where noted in the score file; not an external human expert.
 

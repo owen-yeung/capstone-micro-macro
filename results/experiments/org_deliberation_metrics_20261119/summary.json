@@ -1,6 +1,6 @@
 {
   "experiment_id": "org_deliberation_metrics_20261119",
-  "at_UTC": "2026-11-19T09:21:36.323891+00:00",
+  "at_UTC": "2026-11-19T09:23:23.442906+00:00",
   "new_model_calls": 0,
   "overwrites_frozen_grades": false,
   "n_grade_files": 286,
@@ -1246,24 +1246,24 @@
           "R2": 1.6666666666666667,
           "R3": 0.9166666666666666,
           "R4": 1.4166666666666667,
-          "R5": 1.75
+          "R5": 1.6666666666666667
         },
         "S4": {
           "R1": 2,
-          "R2": 1.4166666666666667,
+          "R2": 1.5833333333333333,
           "R3": 2,
           "R4": 1.8333333333333333,
           "R5": 2
         }
       },
       "R6_preference_counts": {
-        "tie": 2,
-        "S4": 7,
-        "D3": 3
+        "tie": 3,
+        "S4": 8,
+        "D3": 1
       },
-      "R6_D3_win_rate_excluding_ties": 0.3
+      "R6_D3_win_rate_excluding_ties": 0.1111111111111111
     },
-    "scores_sha256": "e68bd40f8560c78200b7460f702461b40b236001d237fbccea7c7ea25f329fd9"
+    "scores_sha256": "b3f83e2e0303a4f30c198a0e42e6b7b559f88cb9416ad5055b8106b9b4438eda"
   },
   "provenance": {
     "grade_sha256": {

@@ -1,0 +1,315 @@
+{
+  "batch": "D",
+  "scorer": "Cursor agent LLM judge; researcher-assisting; not external human expert",
+  "new_model_calls": 0,
+  "windows": [
+    {
+      "window_id": "CP00-EXPAND-10-missing_core",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 5,
+          "O2_correctly_responded_items": 5,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "scope_boundary_no_gc_designbuild",
+              "quote": "不承担施工总包或整包设计施工责任，这一点须在投标文件中明确区分",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_unknowns_no_capability_claim",
+              "quote": "监督经验、认证、人员配置与历史成本依据均为未知，不能据此推断能力或缺失",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staff_schedule_submission_gate",
+              "quote": "condition_2f97b561a5b8a2319653）仍为未解决的前置条件，在获得确认前不得提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_org_process_pricing",
+              "quote": "人员配置与报价仅作暂定假设并标注为提案",
+              "disposition": "adopted"
+            },
+            {
+              "id": "gc_site_interface_witness_points",
+              "quote": "与施工总包的现场接口、检查见证点、进度与质量审查记录流程提出拟议分工",
+              "disposition": "adopted"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "sole_bidder_no_consortium",
+              "quote": "由本公司担任唯一投标人及监管责任主体",
+              "disposition": "adopted"
+            },
+            {
+              "id": "archive_unknowns_no_capability_claim",
+              "quote": "未提供监管业绩、人员配置、认证或本地团队记录，故本包所需监管能力与人员档期均属未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "scope_boundary_no_gc_designbuild",
+              "quote": "责任边界明确：不承担施工总包或整包设计施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_mop_support_proposed_only",
+              "quote": "报价以MOP暂定口径列示……专业支援仅作为拟议安排，不构成已落实承诺",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staff_schedule_submission_gate",
+              "quote": "condition_2f97b561a5b8a2319653）仍为未决且属提交前必须核实事项",
+              "disposition": "adopted"
+            },
+            {
+              "id": "decline_if_unavailable_no_temp_cover",
+              "quote": "若核实结果为档期不可用，则转为不投标，不以临时外部支援掩盖岗位缺口",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "low",
+        "note": "三岗标题不同，但步骤1–3高度复述同一边界/未知/档期门槛；仅步骤2新增施工总包现场接口与见证点，独特贡献很薄。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 1,
+          "notes": "最终明确绑定 condition_2f97… 与档案未知；覆盖职责边界、拟议流程、总包接口与暂定报价。异议处理弱（成员同向，仅否定组合体/提前提交）。条件清晰但缺少档期不可用则不投的负向分支。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 2,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检明确否决能力暗示、已落实支援表述与提前提交；负向路径（不可用→不投标、禁止临时支援掩盖缺口）写清。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "S4 final 写明“核实不可用则转为不投标，不以临时外部支援掩盖岗位缺口”，同门槛下负向分支与反规避更完整；D3 仅停在核实前不提交。",
+        "order_presented": "D3_then_S4"
+      }
+    },
+    {
+      "window_id": "CP01-EXPAND-06-full",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "scope_boundary_supervision_only",
+              "quote": "职责限于独立监督、检查、进度与质量审查及记录，不承担施工总包或整包设计施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "business_scope_archive_not_verified_cred",
+              "quote": "经营范围含工程监理与项目管理（属档案文本，非已核验的资质或本包接受）",
+              "disposition": "adopted"
+            },
+            {
+              "id": "unknowns_no_capability_claim",
+              "quote": "具体监理经验、认证与人员配置均属未知，不能据此宣称能力或不足",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staff_schedule_submission_gate",
+              "quote": "本包指定岗位人员档期是否可用，尚未取得任何回执，故现阶段只能形成附条件的投标意向，不能提交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "proposed_vs_completed_inspection_distinction",
+              "quote": "监督复核计划、检查记录制度、独立复核安排作为拟议方案表述，与已完成的检查严格区分",
+              "disposition": "adopted"
+            },
+            {
+              "id": "quality_witness_defect_traceability",
+              "quote": "检查计划、见证与抽查安排、缺陷与整改跟踪、进度与质量审查记录的可追溯性",
+              "disposition": "adopted"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "license_scope_archive_not_pack_qualification",
+              "quote": "营业执照文本载明含工程监理业务……仅为档案摘录，不构成对本包的具体资格、经验或人员可用性的确认",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staff_schedule_submission_gate",
+              "quote": "condition_e2c28f373daba8871dd0），在取得可核实的档期确认前不递交",
+              "disposition": "adopted"
+            },
+            {
+              "id": "sole_bidder_external_as_sub_advisor",
+              "quote": "单一责任投标人……如需外部专项支持，按普通分包或顾问安排处理……不构成组合体",
+              "disposition": "adopted"
+            },
+            {
+              "id": "scope_boundary_no_gc",
+              "quote": "不承担施工总包或整包设计施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_mop_price_and_duration",
+              "quote": "报价与工期仅作暂定，以MOP计，待人员档期与工作范围澄清后细化",
+              "disposition": "adopted"
+            },
+            {
+              "id": "pending_supplement_list",
+              "quote": "指定岗位人员档期确认、本包监理服务范围与审查频次说明、以及评标所需的类似项目经验与资质证明",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "low",
+        "note": "三岗评论几乎同文复述边界/档案文本/档期门槛；步骤3仅把质量监督拆成见证抽查与缺陷跟踪，角色分化仍低。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "硬绑定档期回执与档案文本非资质；方案含派驻/复核/见证/缺陷跟踪。否定组合体与未支持金额，但成员间无真实异议记录。条件意向与触发清楚。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检收紧资格暗示与已落实支援；待补清单清楚。异议主要是自我修正而非对立取舍。条件与门槛完整。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "D3",
+        "reason": "同为附条件意向且同档期门槛下，D3 final 把见证/抽查、缺陷整改跟踪与记录可追溯性写入拟议监督方案，监理可执行性更完整。",
+        "order_presented": "D3_then_S4"
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-24-full",
+      "process": {
+        "D3": {
+          "O1_supported_unique_items": 5,
+          "O2_correctly_responded_items": 4,
+          "O2_rate": 0.8,
+          "items": [
+            {
+              "id": "scope_boundary_no_gc",
+              "quote": "职责限于独立监督、检查、进度与质量审查及记录，不承担施工总包或整包设计施工责任",
+              "disposition": "adopted"
+            },
+            {
+              "id": "scope_aligned_siteleveling_experience_unknown",
+              "quote": "业务范围载明……与监督角色方向一致，但现有资料未提供同类场地平整监督经验、人员配置及认证情况，均属未知",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staff_schedule_submission_gate",
+              "quote": "指定岗位人员档期是否可用，状态为已提出、尚无证据，在取得确认前不具备提交条件",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_plan_and_staff_cost_basis",
+              "quote": "以暂定金额列示监督人员投入的报价基础；上述均为计划，非已落实资源或已获报价",
+              "disposition": "adopted"
+            },
+            {
+              "id": "site_contractor_interface_pending",
+              "quote": "现场条件、施工方接口安排及派驻人员档期均待确认",
+              "disposition": "omitted"
+            }
+          ]
+        },
+        "S4": {
+          "O1_supported_unique_items": 6,
+          "O2_correctly_responded_items": 6,
+          "O2_rate": 1.0,
+          "items": [
+            {
+              "id": "business_scope_archive_not_verified_capability",
+              "quote": "业务范围载有……与……方向相符；但档案未提供同类项目经验、资质证明及人员配置证据，故不据此断言已具备承接能力",
+              "disposition": "adopted"
+            },
+            {
+              "id": "provisional_supervision_mop_no_supplier_quotes",
+              "quote": "所有费用仅为MOP暂定估算，未取得任何供应商或分包报价",
+              "disposition": "adopted"
+            },
+            {
+              "id": "staff_schedule_submission_gate",
+              "quote": "condition_9a54a849da83e6fa0fc1）仍为未解决且属提交前必备条件，在该条件核实前不提交投标",
+              "disposition": "adopted"
+            },
+            {
+              "id": "scope_boundary_no_gc",
+              "quote": "本公司不承担施工总包或整包设计施工责任，施工方责任不在本公司范围内",
+              "disposition": "adopted"
+            },
+            {
+              "id": "supplement_experience_certs",
+              "quote": "请补充人员档期与经验、资质资料后再作最终决定",
+              "disposition": "adopted"
+            },
+            {
+              "id": "other_unknowns_not_extra_gate_or_abandon",
+              "quote": "其余未知项按待补资料处理，不作为额外提交门槛，也不据此转为放弃",
+              "disposition": "adopted"
+            }
+          ]
+        }
+      },
+      "role_specialization_notes": {
+        "level": "low",
+        "note": "三岗再次同构复述范围/未知/档期/暂定报价；步骤2补现场与施工方接口待确认，最终未单独回应该待确认点，分化仍属低。"
+      },
+      "rubric": {
+        "D3": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "档案业务范围与未知经验分开；档期门槛硬绑定；拟议检查/界面/暂定人员投入。否决组合体，但过程无对立异议。附条件意向清晰。步骤2现场条件待确认未在终稿单列。"
+        },
+        "S4": {
+          "R1": 2,
+          "R2": 2,
+          "R3": 1,
+          "R4": 2,
+          "R5": 2,
+          "notes": "自检区分唯一提交门槛与待补未知，并明确不因未知放弃；无虚构供应商报价。异议主要是表述收紧。"
+        }
+      },
+      "pairwise_R6": {
+        "preferred_arm": "S4",
+        "reason": "S4 final 明确“其余未知项按待补资料处理，不作为额外提交门槛，也不据此转为放弃”，门槛卫生优于 D3 的笼统附条件意向。",
+        "order_presented": "D3_then_S4"
+      }
+    }
+  ]
+}

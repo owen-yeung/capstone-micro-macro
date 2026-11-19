@@ -39,5 +39,5 @@ Requires frozen paths under `Capstone报告/验证体系/实验/…` and optiona
 
 - **D2 / eval-D3**: small project-equal edge for D3 over S4.
 - **D1 / D4**: S4 ahead; D3 more abs-sensitive to `missing_core`.
-- **Process**: D3 subset O1 slightly higher; O2 similar; R2 favors D3, R3/R4 favor S4; R6 prefs D3 3 / S4 7 / tie 2 after batch_b adjudication.
+- **Process**: D3 subset O1 slightly higher; O2 similar; R2 favors D3, R3/R4 favor S4; R6 prefs D3 1 / S4 8 / tie 3 after batch_b/d adjudication.
 - **Macro first block**: no D3−S4 commercial or state divergence.
