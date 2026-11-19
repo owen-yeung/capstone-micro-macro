@@ -1,0 +1,675 @@
+{
+  "experiment_id": "org_ablation_sensitivity_20261119",
+  "seed_string": "org-ablation-20261119",
+  "created_at_UTC": "2026-11-19T09:56:11.935325+00:00",
+  "model": "deepseek-flash",
+  "temperature": 0.2,
+  "max_completion_tokens": 4096,
+  "concurrency": 2,
+  "design": {
+    "n_windows": 8,
+    "n_per_role": 2,
+    "ablation_kinds": [
+      "dropout_step1",
+      "dropout_step2",
+      "dropout_step3",
+      "order_perm_021",
+      "order_perm_102",
+      "bitflip_gate_D3",
+      "bitflip_gate_S4"
+    ],
+    "call_pattern": "final_only_on_frozen_CP07_request_step_4_with_mutated_history_or_bitflip",
+    "primary_endpoints": [
+      "annotated_action_or_structural_flip_vs_frozen_final",
+      "dropout_quality_delta_proxy",
+      "order_agreement_across_permutations",
+      "bitflip_directed_change_rate_D3_vs_S4"
+    ],
+    "does_not_overwrite_frozen_grades": true,
+    "historical_cp07_auth_is_not_launch_credential": true
+  },
+  "windows": [
+    {
+      "window_id": "CP00-EXPAND-04-full",
+      "role": "contractor",
+      "info": "full",
+      "selection_key": "org-ablation-20261119|CP00-EXPAND-04-full",
+      "selection_sha256": "003400ec6213850d48ae3430ee6e6145e2c514f4b17ebd8eaf6d6b44e37d1f61",
+      "d3_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-04-full-D3-r1",
+      "s4_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-04-full-S4-r1",
+      "frozen_grades": {
+        "D3": {
+          "role": "contractor",
+          "project_group": "fb97692fc5fbc8f4",
+          "annotated_action": "conditional_pile_bid_with_specialty_subcontract_interfaces",
+          "D1": "appropriate",
+          "D2": 0.8,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-04-full-D3-r1-a1.json"
+        },
+        "S4": {
+          "role": "contractor",
+          "project_group": "fb97692fc5fbc8f4",
+          "annotated_action": "conditional_single_contractor_pile_plan_with_provisional_mop",
+          "D1": "appropriate",
+          "D2": 0.8,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-04-full-S4-r1-a1.json"
+        }
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-19-full",
+      "role": "contractor",
+      "info": "full",
+      "selection_key": "org-ablation-20261119|CP00-EXPAND-19-full",
+      "selection_sha256": "06db6c5f30d0a0ccce4e6a668c78f880504388a0630e224663897ddecb9ec58a",
+      "d3_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-19-full-D3-r1",
+      "s4_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-19-full-S4-r1",
+      "frozen_grades": {
+        "D3": {
+          "role": "contractor",
+          "project_group": "dca3954f9affa626",
+          "annotated_action": "conditional_single_contractor_with_quality_and_subcontract_controls",
+          "D1": "appropriate",
+          "D2": 1.0,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-19-full-D3-r1-a1.json"
+        },
+        "S4": {
+          "role": "contractor",
+          "project_group": "dca3954f9affa626",
+          "annotated_action": "conditional_single_contractor_bid_preserving_unknowns",
+          "D1": "appropriate",
+          "D2": 0.6,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-19-full-S4-r1-a1.json"
+        }
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "role": "supplier",
+      "info": "missing_core",
+      "selection_key": "org-ablation-20261119|CP00-EXPAND-20-missing_core",
+      "selection_sha256": "101a73f8354bb361f0e58ee12472b51ac36c47b389b6409e68a95a4b71d1540e",
+      "d3_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-20-missing_core-D3-r1",
+      "s4_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-20-missing_core-S4-r1",
+      "frozen_grades": {
+        "D3": {
+          "role": "supplier",
+          "project_group": "ed9e538c0a68d8f4",
+          "annotated_action": "bounded_elderly_center_materials_allowance_draft",
+          "D1": "appropriate",
+          "D2": 1.0,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-20-missing_core-D3-r1-a1.json"
+        },
+        "S4": {
+          "role": "supplier",
+          "project_group": "ed9e538c0a68d8f4",
+          "annotated_action": "conditional_renovation_materials_supply_intention",
+          "D1": "appropriate",
+          "D2": 1.0,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-20-missing_core-S4-r1-a1.json"
+        }
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-23-full",
+      "role": "supplier",
+      "info": "full",
+      "selection_key": "org-ablation-20261119|CP00-EXPAND-23-full",
+      "selection_sha256": "26a446c309ffdf4eb7e3c0f87c806674fe3a6f8e23a17cf2718dd65becdcb5be",
+      "d3_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-23-full-D3-r1",
+      "s4_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-23-full-S4-r1",
+      "frozen_grades": {
+        "D3": {
+          "role": "supplier",
+          "project_group": "7c7795cf1fd9f0c4",
+          "annotated_action": "provisional_prefab_supply_from_archive_scope",
+          "D1": "appropriate",
+          "D2": 1.0,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-23-full-D3-r1-a1.json"
+        },
+        "S4": {
+          "role": "supplier",
+          "project_group": "7c7795cf1fd9f0c4",
+          "annotated_action": "conditional_prefab_supply_intention_with_verify_before_quote",
+          "D1": "appropriate",
+          "D2": 1.0,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-23-full-S4-r1-a1.json"
+        }
+      }
+    },
+    {
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "role": "designer",
+      "info": "missing_core",
+      "selection_key": "org-ablation-20261119|CP00-EXPAND-17-missing_core",
+      "selection_sha256": "022825927ddae06ae44d97697419bef19fa0c2d81590abceb1ddfad39872585b",
+      "d3_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-17-missing_core-D3-r1",
+      "s4_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP00-EXPAND-17-missing_core-S4-r1",
+      "frozen_grades": {
+        "D3": {
+          "role": "designer",
+          "project_group": "f67a07e55f546a92",
+          "annotated_action": "conditional_design_lead_unknown_scope_staffing_gate",
+          "D1": "appropriate",
+          "D2": 1.0,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-17-missing_core-D3-r1-a1.json"
+        },
+        "S4": {
+          "role": "designer",
+          "project_group": "f67a07e55f546a92",
+          "annotated_action": "conditional_design_lead_unknown_scope_staffing_gate",
+          "D1": "appropriate",
+          "D2": 1.0,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP00-EXPAND-17-missing_core-S4-r1-a1.json"
+        }
+      }
+    },
+    {
+      "window_id": "CP01-EXPAND-08-full",
+      "role": "designer",
+      "info": "full",
+      "selection_key": "org-ablation-20261119|CP01-EXPAND-08-full",
+      "selection_sha256": "0b5ebae5465caac620defc90e7219d792c9f9e2e4ac881e297dafc776f8e827a",
+      "d3_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP01-EXPAND-08-full-D3-r1",
+      "s4_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP01-EXPAND-08-full-S4-r1",
+      "frozen_grades": {
+        "D3": {
+          "role": "designer",
+          "project_group": "db5404956eadc9f2",
+          "annotated_action": "conditional_design_lead_bid_with_controlled_advisors",
+          "D1": "appropriate",
+          "D2": 0.8,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-08-full-D3-r1-a1.json"
+        },
+        "S4": {
+          "role": "designer",
+          "project_group": "db5404956eadc9f2",
+          "annotated_action": "conditional_design_bid_archive_fit_staffing_gate",
+          "D1": "appropriate",
+          "D2": 0.8,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-08-full-S4-r1-a1.json"
+        }
+      }
+    },
+    {
+      "window_id": "CP01-EXPAND-21-full",
+      "role": "supervisor",
+      "info": "full",
+      "selection_key": "org-ablation-20261119|CP01-EXPAND-21-full",
+      "selection_sha256": "054925ab5cddfedbc928c3770821d7c0646f63996e245026e907e1eed641741e",
+      "d3_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP01-EXPAND-21-full-D3-r1",
+      "s4_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP01-EXPAND-21-full-S4-r1",
+      "frozen_grades": {
+        "D3": {
+          "role": "supervisor",
+          "project_group": "7f2cb6dcad593d89",
+          "annotated_action": "conditional_supervision_bid_with_gates_missing_project_link",
+          "D1": "appropriate",
+          "D2": 0.8,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-21-full-D3-r1-a1.json"
+        },
+        "S4": {
+          "role": "supervisor",
+          "project_group": "7f2cb6dcad593d89",
+          "annotated_action": "conditional_macau_supervision_bid_role_framework",
+          "D1": "appropriate",
+          "D2": 0.4,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-21-full-S4-r1-a1.json"
+        }
+      }
+    },
+    {
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "role": "supervisor",
+      "info": "missing_core",
+      "selection_key": "org-ablation-20261119|CP01-EXPAND-06-missing_core",
+      "selection_sha256": "0b851bb44e9c7980cdf5a886754e03ad48711e91d9fce4736049bce4e99a903f",
+      "d3_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP01-EXPAND-06-missing_core-D3-r1",
+      "s4_job": "Capstone报告/验证体系/实验/2026-11-13_CP07组织质量对照/continuation-002/run/jobs/CP01-EXPAND-06-missing_core-S4-r1",
+      "frozen_grades": {
+        "D3": {
+          "role": "supervisor",
+          "project_group": "ed8c08f1d79077f2",
+          "annotated_action": "conditional_supervision_bid_schedule_gate_missing_core",
+          "D1": "appropriate",
+          "D2": 0.6,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-06-missing_core-D3-r1-a1.json"
+        },
+        "S4": {
+          "role": "supervisor",
+          "project_group": "ed8c08f1d79077f2",
+          "annotated_action": "grounded_no_bid_unknown_capability_and_staffing",
+          "D1": "appropriate",
+          "D2": 1.0,
+          "grade_path": "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07/CP01-EXPAND-06-missing_core-S4-r1-a1.json"
+        }
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": "CP00-EXPAND-04-full__dropout_step1",
+      "window_id": "CP00-EXPAND-04-full",
+      "ablation_kind": "dropout_step1",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-04-full__dropout_step2",
+      "window_id": "CP00-EXPAND-04-full",
+      "ablation_kind": "dropout_step2",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-04-full__dropout_step3",
+      "window_id": "CP00-EXPAND-04-full",
+      "ablation_kind": "dropout_step3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-04-full__order_perm_021",
+      "window_id": "CP00-EXPAND-04-full",
+      "ablation_kind": "order_perm_021",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-04-full__order_perm_102",
+      "window_id": "CP00-EXPAND-04-full",
+      "ablation_kind": "order_perm_102",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-04-full__bitflip_gate_D3",
+      "window_id": "CP00-EXPAND-04-full",
+      "ablation_kind": "bitflip_gate_D3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-04-full__bitflip_gate_S4",
+      "window_id": "CP00-EXPAND-04-full",
+      "ablation_kind": "bitflip_gate_S4",
+      "calls": 1,
+      "arm": "S4"
+    },
+    {
+      "job_id": "CP00-EXPAND-19-full__dropout_step1",
+      "window_id": "CP00-EXPAND-19-full",
+      "ablation_kind": "dropout_step1",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-19-full__dropout_step2",
+      "window_id": "CP00-EXPAND-19-full",
+      "ablation_kind": "dropout_step2",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-19-full__dropout_step3",
+      "window_id": "CP00-EXPAND-19-full",
+      "ablation_kind": "dropout_step3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-19-full__order_perm_021",
+      "window_id": "CP00-EXPAND-19-full",
+      "ablation_kind": "order_perm_021",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-19-full__order_perm_102",
+      "window_id": "CP00-EXPAND-19-full",
+      "ablation_kind": "order_perm_102",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-19-full__bitflip_gate_D3",
+      "window_id": "CP00-EXPAND-19-full",
+      "ablation_kind": "bitflip_gate_D3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-19-full__bitflip_gate_S4",
+      "window_id": "CP00-EXPAND-19-full",
+      "ablation_kind": "bitflip_gate_S4",
+      "calls": 1,
+      "arm": "S4"
+    },
+    {
+      "job_id": "CP00-EXPAND-20-missing_core__dropout_step1",
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "ablation_kind": "dropout_step1",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-20-missing_core__dropout_step2",
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "ablation_kind": "dropout_step2",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-20-missing_core__dropout_step3",
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "ablation_kind": "dropout_step3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-20-missing_core__order_perm_021",
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "ablation_kind": "order_perm_021",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-20-missing_core__order_perm_102",
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "ablation_kind": "order_perm_102",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-20-missing_core__bitflip_gate_D3",
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "ablation_kind": "bitflip_gate_D3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-20-missing_core__bitflip_gate_S4",
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "ablation_kind": "bitflip_gate_S4",
+      "calls": 1,
+      "arm": "S4"
+    },
+    {
+      "job_id": "CP00-EXPAND-23-full__dropout_step1",
+      "window_id": "CP00-EXPAND-23-full",
+      "ablation_kind": "dropout_step1",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-23-full__dropout_step2",
+      "window_id": "CP00-EXPAND-23-full",
+      "ablation_kind": "dropout_step2",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-23-full__dropout_step3",
+      "window_id": "CP00-EXPAND-23-full",
+      "ablation_kind": "dropout_step3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-23-full__order_perm_021",
+      "window_id": "CP00-EXPAND-23-full",
+      "ablation_kind": "order_perm_021",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-23-full__order_perm_102",
+      "window_id": "CP00-EXPAND-23-full",
+      "ablation_kind": "order_perm_102",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-23-full__bitflip_gate_D3",
+      "window_id": "CP00-EXPAND-23-full",
+      "ablation_kind": "bitflip_gate_D3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-23-full__bitflip_gate_S4",
+      "window_id": "CP00-EXPAND-23-full",
+      "ablation_kind": "bitflip_gate_S4",
+      "calls": 1,
+      "arm": "S4"
+    },
+    {
+      "job_id": "CP00-EXPAND-17-missing_core__dropout_step1",
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "ablation_kind": "dropout_step1",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-17-missing_core__dropout_step2",
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "ablation_kind": "dropout_step2",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-17-missing_core__dropout_step3",
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "ablation_kind": "dropout_step3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-17-missing_core__order_perm_021",
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "ablation_kind": "order_perm_021",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-17-missing_core__order_perm_102",
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "ablation_kind": "order_perm_102",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-17-missing_core__bitflip_gate_D3",
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "ablation_kind": "bitflip_gate_D3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP00-EXPAND-17-missing_core__bitflip_gate_S4",
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "ablation_kind": "bitflip_gate_S4",
+      "calls": 1,
+      "arm": "S4"
+    },
+    {
+      "job_id": "CP01-EXPAND-08-full__dropout_step1",
+      "window_id": "CP01-EXPAND-08-full",
+      "ablation_kind": "dropout_step1",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-08-full__dropout_step2",
+      "window_id": "CP01-EXPAND-08-full",
+      "ablation_kind": "dropout_step2",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-08-full__dropout_step3",
+      "window_id": "CP01-EXPAND-08-full",
+      "ablation_kind": "dropout_step3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-08-full__order_perm_021",
+      "window_id": "CP01-EXPAND-08-full",
+      "ablation_kind": "order_perm_021",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-08-full__order_perm_102",
+      "window_id": "CP01-EXPAND-08-full",
+      "ablation_kind": "order_perm_102",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-08-full__bitflip_gate_D3",
+      "window_id": "CP01-EXPAND-08-full",
+      "ablation_kind": "bitflip_gate_D3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-08-full__bitflip_gate_S4",
+      "window_id": "CP01-EXPAND-08-full",
+      "ablation_kind": "bitflip_gate_S4",
+      "calls": 1,
+      "arm": "S4"
+    },
+    {
+      "job_id": "CP01-EXPAND-21-full__dropout_step1",
+      "window_id": "CP01-EXPAND-21-full",
+      "ablation_kind": "dropout_step1",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-21-full__dropout_step2",
+      "window_id": "CP01-EXPAND-21-full",
+      "ablation_kind": "dropout_step2",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-21-full__dropout_step3",
+      "window_id": "CP01-EXPAND-21-full",
+      "ablation_kind": "dropout_step3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-21-full__order_perm_021",
+      "window_id": "CP01-EXPAND-21-full",
+      "ablation_kind": "order_perm_021",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-21-full__order_perm_102",
+      "window_id": "CP01-EXPAND-21-full",
+      "ablation_kind": "order_perm_102",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-21-full__bitflip_gate_D3",
+      "window_id": "CP01-EXPAND-21-full",
+      "ablation_kind": "bitflip_gate_D3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-21-full__bitflip_gate_S4",
+      "window_id": "CP01-EXPAND-21-full",
+      "ablation_kind": "bitflip_gate_S4",
+      "calls": 1,
+      "arm": "S4"
+    },
+    {
+      "job_id": "CP01-EXPAND-06-missing_core__dropout_step1",
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "ablation_kind": "dropout_step1",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-06-missing_core__dropout_step2",
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "ablation_kind": "dropout_step2",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-06-missing_core__dropout_step3",
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "ablation_kind": "dropout_step3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-06-missing_core__order_perm_021",
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "ablation_kind": "order_perm_021",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-06-missing_core__order_perm_102",
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "ablation_kind": "order_perm_102",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-06-missing_core__bitflip_gate_D3",
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "ablation_kind": "bitflip_gate_D3",
+      "calls": 1,
+      "arm": "D3"
+    },
+    {
+      "job_id": "CP01-EXPAND-06-missing_core__bitflip_gate_S4",
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "ablation_kind": "bitflip_gate_S4",
+      "calls": 1,
+      "arm": "S4"
+    }
+  ],
+  "max_calls": 56,
+  "cost_estimate": {
+    "n_jobs": 56,
+    "calls_per_job": 1,
+    "total_calls": 56,
+    "hist_basis": {
+      "cp07_step4_mean_total_tokens": 5675,
+      "cp07_step4_median_seconds": 6.35,
+      "note": "Estimated from frozen CP07 step-4 usage_metadata across ~317 finals."
+    },
+    "estimated_total_tokens": 317800,
+    "estimated_wall_clock_minutes_concurrency_2": 3.0,
+    "estimated_wall_clock_minutes_with_overhead": {
+      "optimistic": 4.4,
+      "likely": 15.0,
+      "pessimistic_rate_limits": 30.0
+    },
+    "relative_to_cp07": {
+      "cp07_planned_calls": 864,
+      "this_experiment_calls": 56,
+      "call_fraction_of_cp07": 0.065,
+      "approx_d3_job_equivalents_by_tokens": 16.6
+    },
+    "money": {
+      "currency_note": "DeepSeek flash list prices change; PIC should price from current provider dashboard.",
+      "inputs_for_quote": {
+        "estimated_total_tokens": 317800,
+        "model": "deepseek-flash",
+        "approx_split": "historically ~77% input / ~23% output on CP07 finals"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "n_jobs": 56,
+  "calls_per_job": 1,
+  "total_calls": 56,
+  "hist_basis": {
+    "cp07_step4_mean_total_tokens": 5675,
+    "cp07_step4_median_seconds": 6.35,
+    "note": "Estimated from frozen CP07 step-4 usage_metadata across ~317 finals."
+  },
+  "estimated_total_tokens": 317800,
+  "estimated_wall_clock_minutes_concurrency_2": 3.0,
+  "estimated_wall_clock_minutes_with_overhead": {
+    "optimistic": 4.4,
+    "likely": 15.0,
+    "pessimistic_rate_limits": 30.0
+  },
+  "relative_to_cp07": {
+    "cp07_planned_calls": 864,
+    "this_experiment_calls": 56,
+    "call_fraction_of_cp07": 0.065,
+    "approx_d3_job_equivalents_by_tokens": 16.6
+  },
+  "money": {
+    "currency_note": "DeepSeek flash list prices change; PIC should price from current provider dashboard.",
+    "inputs_for_quote": {
+      "estimated_total_tokens": 317800,
+      "model": "deepseek-flash",
+      "approx_split": "historically ~77% input / ~23% output on CP07 finals"
+    }
+  }
+}

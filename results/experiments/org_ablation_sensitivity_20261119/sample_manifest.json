@@ -1,0 +1,14 @@
+{
+  "seed": "org-ablation-20261119",
+  "windows": [
+    "CP00-EXPAND-04-full",
+    "CP00-EXPAND-19-full",
+    "CP00-EXPAND-20-missing_core",
+    "CP00-EXPAND-23-full",
+    "CP00-EXPAND-17-missing_core",
+    "CP01-EXPAND-08-full",
+    "CP01-EXPAND-21-full",
+    "CP01-EXPAND-06-missing_core"
+  ],
+  "jobs": 56
+}
