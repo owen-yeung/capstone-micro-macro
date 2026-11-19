@@ -1,0 +1,1508 @@
+{
+  "windows": [
+    {
+      "window_id": "CP00-EXPAND-01-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.27672192245859634,
+      "mean_unique_token_fraction": 0.5006825006825006,
+      "mean_unique_token_final_coverage": 0.13992673992673993,
+      "per_member_unique_final_coverage": [
+        0.14285714285714285,
+        0.07692307692307693,
+        0.2
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-01-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.11095669036845507,
+      "mean_unique_token_fraction": 0.611406333870102,
+      "mean_unique_token_final_coverage": 0.14363636363636365,
+      "per_member_unique_final_coverage": [
+        0.09090909090909091,
+        0.1,
+        0.24
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-02-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2810846560846561,
+      "mean_unique_token_fraction": 0.4878324844368987,
+      "mean_unique_token_final_coverage": 0.29553663570691435,
+      "per_member_unique_final_coverage": [
+        0.125,
+        0.23529411764705882,
+        0.5263157894736842
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-02-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.11862899005756149,
+      "mean_unique_token_fraction": 0.6361111111111111,
+      "mean_unique_token_final_coverage": 0.20405982905982906,
+      "per_member_unique_final_coverage": [
+        0.125,
+        0.15384615384615385,
+        0.3333333333333333
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-03-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.22250472532162674,
+      "mean_unique_token_fraction": 0.4823035850495805,
+      "mean_unique_token_final_coverage": 0.2015873015873016,
+      "per_member_unique_final_coverage": [
+        0.06666666666666667,
+        0.07142857142857142,
+        0.4666666666666667
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-03-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2777689454160042,
+      "mean_unique_token_fraction": 0.3769063180827887,
+      "mean_unique_token_final_coverage": 0.09259259259259259,
+      "per_member_unique_final_coverage": [
+        0.16666666666666666,
+        0.0,
+        0.1111111111111111
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-04-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.10117380829394532,
+      "mean_unique_token_fraction": 0.7552615942708822,
+      "mean_unique_token_final_coverage": 0.20821070946008477,
+      "per_member_unique_final_coverage": [
+        0.2413793103448276,
+        0.08695652173913043,
+        0.2962962962962963
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-04-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.17051788790919226,
+      "mean_unique_token_fraction": 0.6258648758648758,
+      "mean_unique_token_final_coverage": 0.21832167832167831,
+      "per_member_unique_final_coverage": [
+        0.12,
+        0.22727272727272727,
+        0.3076923076923077
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-05-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.13541666666666666,
+      "mean_unique_token_fraction": 0.6438034188034188,
+      "mean_unique_token_final_coverage": 0.18840579710144928,
+      "per_member_unique_final_coverage": [
+        0.13043478260869565,
+        0.2608695652173913,
+        0.17391304347826086
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-05-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.19971426423039326,
+      "mean_unique_token_fraction": 0.6372153591665787,
+      "mean_unique_token_final_coverage": 0.19974701644393114,
+      "per_member_unique_final_coverage": [
+        0.18181818181818182,
+        0.21052631578947367,
+        0.20689655172413793
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-06-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2521523716699155,
+      "mean_unique_token_fraction": 0.48660714285714285,
+      "mean_unique_token_final_coverage": 0.21984126984126984,
+      "per_member_unique_final_coverage": [
+        0.14285714285714285,
+        0.25,
+        0.26666666666666666
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-06-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.21215483829465592,
+      "mean_unique_token_fraction": 0.5265734700217458,
+      "mean_unique_token_final_coverage": 0.3196594427244582,
+      "per_member_unique_final_coverage": [
+        0.25,
+        0.23529411764705882,
+        0.47368421052631576
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-07-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.13214285714285715,
+      "mean_unique_token_fraction": 0.690998329156224,
+      "mean_unique_token_final_coverage": 0.235986235986236,
+      "per_member_unique_final_coverage": [
+        0.19047619047619047,
+        0.36363636363636365,
+        0.15384615384615385
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-07-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.5159373659373659,
+      "mean_unique_token_fraction": 0.21011904761904762,
+      "mean_unique_token_final_coverage": 0.25,
+      "per_member_unique_final_coverage": [
+        0.3333333333333333,
+        0.16666666666666666,
+        0.25
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-08-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.39224489795918366,
+      "mean_unique_token_fraction": 0.28599516031457956,
+      "mean_unique_token_final_coverage": 0.13333333333333333,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.0,
+        0.4
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-08-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.1688096519301028,
+      "mean_unique_token_fraction": 0.5820512820512821,
+      "mean_unique_token_final_coverage": 0.23528693528693528,
+      "per_member_unique_final_coverage": [
+        0.11538461538461539,
+        0.19047619047619047,
+        0.4
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-09-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.34184704184704184,
+      "mean_unique_token_fraction": 0.35333333333333333,
+      "mean_unique_token_final_coverage": 0.337037037037037,
+      "per_member_unique_final_coverage": [
+        0.4,
+        0.1111111111111111,
+        0.5
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-09-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.18461142373754091,
+      "mean_unique_token_fraction": 0.5384168482207699,
+      "mean_unique_token_final_coverage": 0.2670180061484409,
+      "per_member_unique_final_coverage": [
+        0.09090909090909091,
+        0.043478260869565216,
+        0.6666666666666666
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-10-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.22863941163746485,
+      "mean_unique_token_fraction": 0.5165831244778614,
+      "mean_unique_token_final_coverage": 0.2315630705723585,
+      "per_member_unique_final_coverage": [
+        0.3076923076923077,
+        0.17647058823529413,
+        0.21052631578947367
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-10-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.21296296296296297,
+      "mean_unique_token_fraction": 0.5362318840579711,
+      "mean_unique_token_final_coverage": 0.14761904761904762,
+      "per_member_unique_final_coverage": [
+        0.2,
+        0.1,
+        0.14285714285714285
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-11-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.41033643635211703,
+      "mean_unique_token_fraction": 0.3600837044367475,
+      "mean_unique_token_final_coverage": 0.15163308913308912,
+      "per_member_unique_final_coverage": [
+        0.07692307692307693,
+        0.19047619047619047,
+        0.1875
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-11-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.0834505579297246,
+      "mean_unique_token_fraction": 0.7589780367106327,
+      "mean_unique_token_final_coverage": 0.23707941350961945,
+      "per_member_unique_final_coverage": [
+        0.3188405797101449,
+        0.23684210526315788,
+        0.15555555555555556
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-12-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2985399192295744,
+      "mean_unique_token_fraction": 0.4166666666666667,
+      "mean_unique_token_final_coverage": 0.25994694960212206,
+      "per_member_unique_final_coverage": [
+        0.2413793103448276,
+        0.23076923076923078,
+        0.3076923076923077
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-12-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.14554843304843304,
+      "mean_unique_token_fraction": 0.6514491318412887,
+      "mean_unique_token_final_coverage": 0.2830687830687831,
+      "per_member_unique_final_coverage": [
+        0.2777777777777778,
+        0.14285714285714285,
+        0.42857142857142855
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-13-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2507498790517658,
+      "mean_unique_token_fraction": 0.5306372549019608,
+      "mean_unique_token_final_coverage": 0.33284600389863545,
+      "per_member_unique_final_coverage": [
+        0.5263157894736842,
+        0.2222222222222222,
+        0.25
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-13-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.20244200244200244,
+      "mean_unique_token_fraction": 0.5431216931216931,
+      "mean_unique_token_final_coverage": 0.08282828282828283,
+      "per_member_unique_final_coverage": [
+        0.09090909090909091,
+        0.09090909090909091,
+        0.06666666666666667
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-14-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2207631874298541,
+      "mean_unique_token_fraction": 0.5857786357786358,
+      "mean_unique_token_final_coverage": 0.18514492753623188,
+      "per_member_unique_final_coverage": [
+        0.13333333333333333,
+        0.2916666666666667,
+        0.13043478260869565
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-14-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.3493602215116705,
+      "mean_unique_token_fraction": 0.4321071071071071,
+      "mean_unique_token_final_coverage": 0.25315656565656564,
+      "per_member_unique_final_coverage": [
+        0.08333333333333333,
+        0.3125,
+        0.36363636363636365
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-15-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2895935848368872,
+      "mean_unique_token_fraction": 0.4588463027487418,
+      "mean_unique_token_final_coverage": 0.3323529411764706,
+      "per_member_unique_final_coverage": [
+        0.35,
+        0.11764705882352941,
+        0.5294117647058824
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-15-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.25676196317088895,
+      "mean_unique_token_fraction": 0.5039821289821289,
+      "mean_unique_token_final_coverage": 0.20397249809014514,
+      "per_member_unique_final_coverage": [
+        0.2857142857142857,
+        0.09090909090909091,
+        0.23529411764705882
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-16-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.27114121510673234,
+      "mean_unique_token_fraction": 0.4838570628044312,
+      "mean_unique_token_final_coverage": 0.12962962962962962,
+      "per_member_unique_final_coverage": [
+        0.1111111111111111,
+        0.0,
+        0.2777777777777778
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-16-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.7256421948624411,
+      "mean_unique_token_fraction": 0.11896929824561403,
+      "mean_unique_token_final_coverage": 0.26666666666666666,
+      "per_member_unique_final_coverage": [
+        0.5,
+        0.0,
+        0.3
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-17-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.43505112689182623,
+      "mean_unique_token_fraction": 0.25742389154243256,
+      "mean_unique_token_final_coverage": 0.08585858585858586,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.09090909090909091,
+        0.16666666666666666
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2968472826963393,
+      "mean_unique_token_fraction": 0.3561155913978495,
+      "mean_unique_token_final_coverage": 0.3424630924630925,
+      "per_member_unique_final_coverage": [
+        0.3076923076923077,
+        0.08333333333333333,
+        0.6363636363636364
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-18-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.28068679288191484,
+      "mean_unique_token_fraction": 0.4252645502645503,
+      "mean_unique_token_final_coverage": 0.2582010582010582,
+      "per_member_unique_final_coverage": [
+        0.26666666666666666,
+        0.2222222222222222,
+        0.2857142857142857
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-18-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.40062406729073397,
+      "mean_unique_token_fraction": 0.29900214727800933,
+      "mean_unique_token_final_coverage": 0.1851851851851852,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.0,
+        0.5555555555555556
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-19-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.35726950354609927,
+      "mean_unique_token_fraction": 0.38492312285415736,
+      "mean_unique_token_final_coverage": 0.32905982905982906,
+      "per_member_unique_final_coverage": [
+        0.15384615384615385,
+        0.4166666666666667,
+        0.4166666666666667
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-19-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2248414376321353,
+      "mean_unique_token_fraction": 0.5201268265784396,
+      "mean_unique_token_final_coverage": 0.345042735042735,
+      "per_member_unique_final_coverage": [
+        0.08,
+        0.4166666666666667,
+        0.5384615384615384
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-20-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.16287923550714617,
+      "mean_unique_token_fraction": 0.6439775013718676,
+      "mean_unique_token_final_coverage": 0.18701037693285755,
+      "per_member_unique_final_coverage": [
+        0.09259259259259259,
+        0.32558139534883723,
+        0.14285714285714285
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.250708842814106,
+      "mean_unique_token_fraction": 0.5158515065133239,
+      "mean_unique_token_final_coverage": 0.10445764714057397,
+      "per_member_unique_final_coverage": [
+        0.0975609756097561,
+        0.07692307692307693,
+        0.1388888888888889
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-21-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.3933855379664945,
+      "mean_unique_token_fraction": 0.3197848583877996,
+      "mean_unique_token_final_coverage": 0.30637254901960786,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.29411764705882354,
+        0.625
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-21-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.3407637451115712,
+      "mean_unique_token_fraction": 0.39425287356321836,
+      "mean_unique_token_final_coverage": 0.2623376623376623,
+      "per_member_unique_final_coverage": [
+        0.21428571428571427,
+        0.3,
+        0.2727272727272727
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-22-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.19564120673998586,
+      "mean_unique_token_fraction": 0.5995580808080808,
+      "mean_unique_token_final_coverage": 0.1883630645240552,
+      "per_member_unique_final_coverage": [
+        0.19047619047619047,
+        0.058823529411764705,
+        0.3157894736842105
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-22-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.21384408602150537,
+      "mean_unique_token_fraction": 0.5354166666666667,
+      "mean_unique_token_final_coverage": 0.15992402659069327,
+      "per_member_unique_final_coverage": [
+        0.25925925925925924,
+        0.15384615384615385,
+        0.06666666666666667
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-23-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.11202039969163256,
+      "mean_unique_token_fraction": 0.7198131197559116,
+      "mean_unique_token_final_coverage": 0.12465153325368379,
+      "per_member_unique_final_coverage": [
+        0.14814814814814814,
+        0.12903225806451613,
+        0.0967741935483871
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-23-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.17663025488248923,
+      "mean_unique_token_fraction": 0.6120965959328029,
+      "mean_unique_token_final_coverage": 0.2392156862745098,
+      "per_member_unique_final_coverage": [
+        0.11764705882352941,
+        0.25,
+        0.35
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-24-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.583371126228269,
+      "mean_unique_token_fraction": 0.16886116886116886,
+      "mean_unique_token_final_coverage": 0.17777777777777778,
+      "per_member_unique_final_coverage": [
+        0.3333333333333333,
+        0.0,
+        0.2
+      ]
+    },
+    {
+      "window_id": "CP00-EXPAND-24-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.34992477971201374,
+      "mean_unique_token_fraction": 0.38088676912206326,
+      "mean_unique_token_final_coverage": 0.19027777777777777,
+      "per_member_unique_final_coverage": [
+        0.1875,
+        0.13333333333333333,
+        0.25
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-01-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.19828702251843988,
+      "mean_unique_token_fraction": 0.5925585693027553,
+      "mean_unique_token_final_coverage": 0.24663983797574898,
+      "per_member_unique_final_coverage": [
+        0.2631578947368421,
+        0.30434782608695654,
+        0.1724137931034483
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-01-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.11880246416262823,
+      "mean_unique_token_fraction": 0.7167490302354004,
+      "mean_unique_token_final_coverage": 0.19852515905147483,
+      "per_member_unique_final_coverage": [
+        0.2631578947368421,
+        0.17857142857142858,
+        0.15384615384615385
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-02-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.21476997578692494,
+      "mean_unique_token_fraction": 0.46917344173441733,
+      "mean_unique_token_final_coverage": 0.35042735042735046,
+      "per_member_unique_final_coverage": [
+        0.38461538461538464,
+        0.2,
+        0.4666666666666667
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-02-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.32065527065527066,
+      "mean_unique_token_fraction": 0.40714285714285714,
+      "mean_unique_token_final_coverage": 0.1388888888888889,
+      "per_member_unique_final_coverage": [
+        0.3333333333333333,
+        0.0,
+        0.08333333333333333
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-03-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.26506156199522907,
+      "mean_unique_token_fraction": 0.45085470085470086,
+      "mean_unique_token_final_coverage": 0.10897435897435898,
+      "per_member_unique_final_coverage": [
+        0.25,
+        0.07692307692307693,
+        0.0
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-04-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.37188489894317833,
+      "mean_unique_token_fraction": 0.39348659003831415,
+      "mean_unique_token_final_coverage": 0.18903318903318903,
+      "per_member_unique_final_coverage": [
+        0.14285714285714285,
+        0.3333333333333333,
+        0.09090909090909091
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-04-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.1389688790202269,
+      "mean_unique_token_fraction": 0.6964285714285714,
+      "mean_unique_token_final_coverage": 0.22746983408748114,
+      "per_member_unique_final_coverage": [
+        0.23529411764705882,
+        0.0625,
+        0.38461538461538464
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-05-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.18081166272655633,
+      "mean_unique_token_fraction": 0.5353260869565217,
+      "mean_unique_token_final_coverage": 0.14814814814814814,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.0,
+        0.4444444444444444
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-05-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.1737179487179487,
+      "mean_unique_token_fraction": 0.6296671925475171,
+      "mean_unique_token_final_coverage": 0.21515151515151515,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.5454545454545454,
+        0.1
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-06-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.38725682203943074,
+      "mean_unique_token_fraction": 0.3261904761904762,
+      "mean_unique_token_final_coverage": 0.4624338624338624,
+      "per_member_unique_final_coverage": [
+        0.14285714285714285,
+        0.8,
+        0.4444444444444444
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.19262477718360071,
+      "mean_unique_token_fraction": 0.5648926237161531,
+      "mean_unique_token_final_coverage": 0.25555555555555554,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.16666666666666666,
+        0.6
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-07-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.5707850707850708,
+      "mean_unique_token_fraction": 0.16074577979339885,
+      "mean_unique_token_final_coverage": 0.06666666666666667,
+      "per_member_unique_final_coverage": [
+        0.2,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-07-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.30698207228363594,
+      "mean_unique_token_fraction": 0.4613678804855275,
+      "mean_unique_token_final_coverage": 0.283713200379867,
+      "per_member_unique_final_coverage": [
+        0.23076923076923078,
+        0.25,
+        0.37037037037037035
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-08-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.13511390416339356,
+      "mean_unique_token_fraction": 0.6847962382445141,
+      "mean_unique_token_final_coverage": 0.20873135579017932,
+      "per_member_unique_final_coverage": [
+        0.2777777777777778,
+        0.11764705882352941,
+        0.23076923076923078
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-08-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.16658249158249158,
+      "mean_unique_token_fraction": 0.6155461424278629,
+      "mean_unique_token_final_coverage": 0.29053843759726117,
+      "per_member_unique_final_coverage": [
+        0.11764705882352941,
+        0.14285714285714285,
+        0.6111111111111112
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-09-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.3238095238095238,
+      "mean_unique_token_fraction": 0.4189925219336984,
+      "mean_unique_token_final_coverage": 0.39541160593792174,
+      "per_member_unique_final_coverage": [
+        0.2631578947368421,
+        0.07692307692307693,
+        0.8461538461538461
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-09-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.13028508252388848,
+      "mean_unique_token_fraction": 0.6967418546365916,
+      "mean_unique_token_final_coverage": 0.23925925925925925,
+      "per_member_unique_final_coverage": [
+        0.23333333333333334,
+        0.04,
+        0.4444444444444444
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-10-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.08557486753463392,
+      "mean_unique_token_fraction": 0.7899951935519651,
+      "mean_unique_token_final_coverage": 0.33728099857132116,
+      "per_member_unique_final_coverage": [
+        0.4838709677419355,
+        0.34615384615384615,
+        0.18181818181818182
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-10-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.20375395748530079,
+      "mean_unique_token_fraction": 0.540073775989269,
+      "mean_unique_token_final_coverage": 0.1571759259259259,
+      "per_member_unique_final_coverage": [
+        0.28888888888888886,
+        0.09375,
+        0.08888888888888889
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-11-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.5240706383563526,
+      "mean_unique_token_fraction": 0.2273449920508744,
+      "mean_unique_token_final_coverage": 0.23333333333333334,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.2,
+        0.5
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-11-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.24307812688094377,
+      "mean_unique_token_fraction": 0.5019047619047619,
+      "mean_unique_token_final_coverage": 0.15495642701525053,
+      "per_member_unique_final_coverage": [
+        0.2222222222222222,
+        0.11764705882352941,
+        0.125
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-12-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.5969802555168409,
+      "mean_unique_token_fraction": 0.20215017825311943,
+      "mean_unique_token_final_coverage": 0.30158730158730157,
+      "per_member_unique_final_coverage": [
+        0.14285714285714285,
+        0.42857142857142855,
+        0.3333333333333333
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-12-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.4736516173672375,
+      "mean_unique_token_fraction": 0.23737373737373738,
+      "mean_unique_token_final_coverage": 0.14652014652014653,
+      "per_member_unique_final_coverage": [
+        0.15384615384615385,
+        0.2857142857142857,
+        0.0
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-13-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.45185185185185184,
+      "mean_unique_token_fraction": 0.3368055555555555,
+      "mean_unique_token_final_coverage": 0.2727272727272727,
+      "per_member_unique_final_coverage": [
+        0.36363636363636365,
+        0.18181818181818182,
+        0.2727272727272727
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-13-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.45696592285071785,
+      "mean_unique_token_fraction": 0.2662247474747475,
+      "mean_unique_token_final_coverage": 0.20357142857142857,
+      "per_member_unique_final_coverage": [
+        0.125,
+        0.2857142857142857,
+        0.2
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-14-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.11075902538589105,
+      "mean_unique_token_fraction": 0.7036231884057971,
+      "mean_unique_token_final_coverage": 0.2968694885361552,
+      "per_member_unique_final_coverage": [
+        0.22857142857142856,
+        0.37037037037037035,
+        0.2916666666666667
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-14-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.33893642151355396,
+      "mean_unique_token_fraction": 0.39402994666152563,
+      "mean_unique_token_final_coverage": 0.23583877995642702,
+      "per_member_unique_final_coverage": [
+        0.3888888888888889,
+        0.08333333333333333,
+        0.23529411764705882
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-15-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.5422543059777103,
+      "mean_unique_token_fraction": 0.24476873186550607,
+      "mean_unique_token_final_coverage": 0.2445887445887446,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.09090909090909091,
+        0.6428571428571429
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-15-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2525489350616685,
+      "mean_unique_token_fraction": 0.5068660022148395,
+      "mean_unique_token_final_coverage": 0.2421142369991475,
+      "per_member_unique_final_coverage": [
+        0.11764705882352941,
+        0.0,
+        0.6086956521739131
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-16-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.19692460317460317,
+      "mean_unique_token_fraction": 0.5715271502505546,
+      "mean_unique_token_final_coverage": 0.2024132730015083,
+      "per_member_unique_final_coverage": [
+        0.2,
+        0.17647058823529413,
+        0.23076923076923078
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-16-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.10478464890229595,
+      "mean_unique_token_fraction": 0.6921773031612849,
+      "mean_unique_token_final_coverage": 0.2600108225108225,
+      "per_member_unique_final_coverage": [
+        0.3125,
+        0.18181818181818182,
+        0.2857142857142857
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-17-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.08861666308474819,
+      "mean_unique_token_fraction": 0.7052670608668501,
+      "mean_unique_token_final_coverage": 0.2693979933110368,
+      "per_member_unique_final_coverage": [
+        0.30434782608695654,
+        0.15384615384615385,
+        0.35
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-17-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.4696969696969697,
+      "mean_unique_token_fraction": 0.2794642857142857,
+      "mean_unique_token_final_coverage": 0.14814814814814814,
+      "per_member_unique_final_coverage": [
+        0.0,
+        0.1111111111111111,
+        0.3333333333333333
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-18-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.073992673992674,
+      "mean_unique_token_fraction": 0.782249742002064,
+      "mean_unique_token_final_coverage": 0.21450617283950615,
+      "per_member_unique_final_coverage": [
+        0.125,
+        0.2962962962962963,
+        0.2222222222222222
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-19-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.28577700237182996,
+      "mean_unique_token_fraction": 0.43545719632676155,
+      "mean_unique_token_final_coverage": 0.1986111111111111,
+      "per_member_unique_final_coverage": [
+        0.0625,
+        0.2,
+        0.3333333333333333
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-19-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.2593472530521643,
+      "mean_unique_token_fraction": 0.514494301994302,
+      "mean_unique_token_final_coverage": 0.2372742200328407,
+      "per_member_unique_final_coverage": [
+        0.06896551724137931,
+        0.14285714285714285,
+        0.5
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-20-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.591199721153401,
+      "mean_unique_token_fraction": 0.1889281353567068,
+      "mean_unique_token_final_coverage": 0.2015873015873016,
+      "per_member_unique_final_coverage": [
+        0.07142857142857142,
+        0.2,
+        0.3333333333333333
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-20-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.11793209876543209,
+      "mean_unique_token_fraction": 0.717073754789272,
+      "mean_unique_token_final_coverage": 0.27000365363536716,
+      "per_member_unique_final_coverage": [
+        0.2857142857142857,
+        0.17647058823529413,
+        0.34782608695652173
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-21-full",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.3005315822388993,
+      "mean_unique_token_fraction": 0.46296296296296297,
+      "mean_unique_token_final_coverage": 0.20027195027195027,
+      "per_member_unique_final_coverage": [
+        0.08333333333333333,
+        0.15384615384615385,
+        0.36363636363636365
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-21-missing_core",
+      "positions": [
+        "监督服务负责人",
+        "人员与现场接口负责人",
+        "质量与责任复核负责人"
+      ],
+      "mean_pairwise_jaccard": 0.34212149244526674,
+      "mean_unique_token_fraction": 0.273000273000273,
+      "mean_unique_token_final_coverage": 0.1574074074074074,
+      "per_member_unique_final_coverage": [
+        0.125,
+        0.125,
+        0.2222222222222222
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-22-full",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.31784174876847293,
+      "mean_unique_token_fraction": 0.3761677598886901,
+      "mean_unique_token_final_coverage": 0.25606060606060604,
+      "per_member_unique_final_coverage": [
+        0.3181818181818182,
+        0.2,
+        0.25
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-22-missing_core",
+      "positions": [
+        "供货与物流负责人",
+        "采购与商务负责人",
+        "质量与保修负责人"
+      ],
+      "mean_pairwise_jaccard": 0.1935449027149161,
+      "mean_unique_token_fraction": 0.5945292727019885,
+      "mean_unique_token_final_coverage": 0.23053392658509456,
+      "per_member_unique_final_coverage": [
+        0.0967741935483871,
+        0.25,
+        0.3448275862068966
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-23-full",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.19360306178239475,
+      "mean_unique_token_fraction": 0.5782899698340875,
+      "mean_unique_token_final_coverage": 0.23398692810457516,
+      "per_member_unique_final_coverage": [
+        0.05,
+        0.23529411764705882,
+        0.4166666666666667
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-23-missing_core",
+      "positions": [
+        "设计负责人",
+        "项目与资源负责人",
+        "设计复核与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.27170490328385066,
+      "mean_unique_token_fraction": 0.3717578259373925,
+      "mean_unique_token_final_coverage": 0.23015873015873015,
+      "per_member_unique_final_coverage": [
+        0.2857142857142857,
+        0.07142857142857142,
+        0.3333333333333333
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-24-full",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.3320754716981132,
+      "mean_unique_token_fraction": 0.35483193277310926,
+      "mean_unique_token_final_coverage": 0.12820512820512822,
+      "per_member_unique_final_coverage": [
+        0.15384615384615385,
+        0.0,
+        0.23076923076923078
+      ]
+    },
+    {
+      "window_id": "CP01-EXPAND-24-missing_core",
+      "positions": [
+        "施工负责人",
+        "资源与商务负责人",
+        "质量与合同负责人"
+      ],
+      "mean_pairwise_jaccard": 0.28048172757475087,
+      "mean_unique_token_fraction": 0.42789319625901334,
+      "mean_unique_token_final_coverage": 0.14825174825174825,
+      "per_member_unique_final_coverage": [
+        0.09090909090909091,
+        0.2,
+        0.15384615384615385
+      ]
+    }
+  ]
+}

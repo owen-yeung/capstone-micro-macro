@@ -1,0 +1,26 @@
+{
+  "experiment": "org_deliberation_metrics_20261119",
+  "subset_rule": "sha256(org-metrics-20261119|{window}) ranked; 3 windows per role among complete D3/S4 with job traces",
+  "seed_string": "org-metrics-20261119",
+  "n_windows": 12,
+  "windows": [
+    "CP01-EXPAND-20-full",
+    "CP01-EXPAND-16-missing_core",
+    "CP00-EXPAND-13-missing_core",
+    "CP00-EXPAND-23-full",
+    "CP01-EXPAND-22-full",
+    "CP00-EXPAND-01-missing_core",
+    "CP00-EXPAND-08-full",
+    "CP00-EXPAND-08-missing_core",
+    "CP00-EXPAND-15-missing_core",
+    "CP00-EXPAND-10-missing_core",
+    "CP01-EXPAND-06-full",
+    "CP00-EXPAND-24-full"
+  ],
+  "roles": {
+    "contractor": 3,
+    "supplier": 3,
+    "designer": 3,
+    "supervisor": 3
+  }
+}

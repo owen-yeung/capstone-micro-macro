@@ -11,6 +11,7 @@
 - [确定性反馈对照](../output/integration/capstone_validation_20261105/feedback/summary.json)：6个窗口、18次条件运行；说明规则应变，不表述为模型学会盈利。
 - [生成校验增强（门禁／评分表／锚点／去标识／覆盖／专家切片）](experiments/generation_validation_enhancement_20261117/index.json)：前向评阅流程与离线演示产物；0次新模型调用；不改写既有冻结评分。
 - [2026-11-17线程摘要](experiments/generation_validation_enhancement_20261117/THREAD_SUMMARY.md)；[裁决批次](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117.json)／[wave2](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117_wave2.json)／[wave3](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117_wave3.json)／[wave4](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117_wave4.json)／[wave5](experiments/generation_validation_enhancement_20261117/adjudication_progress_20261117_wave5.json)：累计新增1036份有引文业务评阅；可读且门禁通过的待评积压已清零；评阅身份为独立第二LLM提供方（[身份更正记录](experiments/generation_validation_enhancement_20261117/reviewer_identity_correction_20261118.json)）；[专家切片](experiments/generation_validation_enhancement_20261117/expert_slice_reviews/summary.json)同身份填槽，非人类外部专家。
+- [组织审议对照指标（D3 vs S/S4）](experiments/org_deliberation_metrics_20261119/index.json)：冻结CP07与宏观首块的离线指标电池（配对质量、缺资料敏感性、过程代理、12窗LLM评阅）；0次新模型调用；不改写既有业务评分。见[SUMMARY](experiments/org_deliberation_metrics_20261119/SUMMARY.md)。
 
 ## 当前完成度
 

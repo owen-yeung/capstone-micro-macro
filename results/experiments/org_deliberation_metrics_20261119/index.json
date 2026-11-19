@@ -1,0 +1,15 @@
+{
+  "experiment_id": "org_deliberation_metrics_20261119",
+  "title": "Multi-agent intra-firm deliberation metrics vs S/S4 baseline",
+  "new_model_calls": 0,
+  "primary_artifacts": [
+    "SUMMARY.md",
+    "summary.json",
+    "scores/subset_llm_scores.json",
+    "derived/window_pairs.json",
+    "packets/manifest.json"
+  ],
+  "does_not_overwrite": [
+    "Capstone报告/验证体系/实验/2026-11-13_总实验收尾/business_review/CP07"
+  ]
+}

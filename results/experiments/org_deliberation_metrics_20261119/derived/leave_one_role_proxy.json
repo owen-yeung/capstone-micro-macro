@@ -1,0 +1,568 @@
+{
+  "windows": [
+    {
+      "window_id": "CP00-EXPAND-01-full",
+      "mean_unique_coverage_in_final": 0.13992673992673993,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-01-missing_core",
+      "mean_unique_coverage_in_final": 0.14363636363636365,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-02-full",
+      "mean_unique_coverage_in_final": 0.29553663570691435,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-02-missing_core",
+      "mean_unique_coverage_in_final": 0.20405982905982906,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-03-full",
+      "mean_unique_coverage_in_final": 0.2015873015873016,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-03-missing_core",
+      "mean_unique_coverage_in_final": 0.09259259259259259,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-04-full",
+      "mean_unique_coverage_in_final": 0.20821070946008477,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-04-missing_core",
+      "mean_unique_coverage_in_final": 0.21832167832167831,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-05-full",
+      "mean_unique_coverage_in_final": 0.18840579710144928,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-05-missing_core",
+      "mean_unique_coverage_in_final": 0.19974701644393114,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-06-full",
+      "mean_unique_coverage_in_final": 0.21984126984126984,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-06-missing_core",
+      "mean_unique_coverage_in_final": 0.3196594427244582,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-07-full",
+      "mean_unique_coverage_in_final": 0.235986235986236,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-07-missing_core",
+      "mean_unique_coverage_in_final": 0.25,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-08-full",
+      "mean_unique_coverage_in_final": 0.13333333333333333,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-08-missing_core",
+      "mean_unique_coverage_in_final": 0.23528693528693528,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-09-full",
+      "mean_unique_coverage_in_final": 0.337037037037037,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-09-missing_core",
+      "mean_unique_coverage_in_final": 0.2670180061484409,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-10-full",
+      "mean_unique_coverage_in_final": 0.2315630705723585,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-10-missing_core",
+      "mean_unique_coverage_in_final": 0.14761904761904762,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-11-full",
+      "mean_unique_coverage_in_final": 0.15163308913308912,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-11-missing_core",
+      "mean_unique_coverage_in_final": 0.23707941350961945,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-12-full",
+      "mean_unique_coverage_in_final": 0.25994694960212206,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-12-missing_core",
+      "mean_unique_coverage_in_final": 0.2830687830687831,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-13-full",
+      "mean_unique_coverage_in_final": 0.33284600389863545,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-13-missing_core",
+      "mean_unique_coverage_in_final": 0.08282828282828283,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-14-full",
+      "mean_unique_coverage_in_final": 0.18514492753623188,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-14-missing_core",
+      "mean_unique_coverage_in_final": 0.25315656565656564,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-15-full",
+      "mean_unique_coverage_in_final": 0.3323529411764706,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-15-missing_core",
+      "mean_unique_coverage_in_final": 0.20397249809014514,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-16-full",
+      "mean_unique_coverage_in_final": 0.12962962962962962,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-16-missing_core",
+      "mean_unique_coverage_in_final": 0.26666666666666666,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-17-full",
+      "mean_unique_coverage_in_final": 0.08585858585858586,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-17-missing_core",
+      "mean_unique_coverage_in_final": 0.3424630924630925,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-18-full",
+      "mean_unique_coverage_in_final": 0.2582010582010582,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-18-missing_core",
+      "mean_unique_coverage_in_final": 0.1851851851851852,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-19-full",
+      "mean_unique_coverage_in_final": 0.32905982905982906,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-19-missing_core",
+      "mean_unique_coverage_in_final": 0.345042735042735,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-20-full",
+      "mean_unique_coverage_in_final": 0.18701037693285755,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-20-missing_core",
+      "mean_unique_coverage_in_final": 0.10445764714057397,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-21-full",
+      "mean_unique_coverage_in_final": 0.30637254901960786,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-21-missing_core",
+      "mean_unique_coverage_in_final": 0.2623376623376623,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-22-full",
+      "mean_unique_coverage_in_final": 0.1883630645240552,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-22-missing_core",
+      "mean_unique_coverage_in_final": 0.15992402659069327,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-23-full",
+      "mean_unique_coverage_in_final": 0.12465153325368379,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-23-missing_core",
+      "mean_unique_coverage_in_final": 0.2392156862745098,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-24-full",
+      "mean_unique_coverage_in_final": 0.17777777777777778,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP00-EXPAND-24-missing_core",
+      "mean_unique_coverage_in_final": 0.19027777777777777,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-01-full",
+      "mean_unique_coverage_in_final": 0.24663983797574898,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-01-missing_core",
+      "mean_unique_coverage_in_final": 0.19852515905147483,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-02-full",
+      "mean_unique_coverage_in_final": 0.35042735042735046,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-02-missing_core",
+      "mean_unique_coverage_in_final": 0.1388888888888889,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-03-full",
+      "mean_unique_coverage_in_final": 0.10897435897435898,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-04-full",
+      "mean_unique_coverage_in_final": 0.18903318903318903,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-04-missing_core",
+      "mean_unique_coverage_in_final": 0.22746983408748114,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-05-full",
+      "mean_unique_coverage_in_final": 0.14814814814814814,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-05-missing_core",
+      "mean_unique_coverage_in_final": 0.21515151515151515,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-06-full",
+      "mean_unique_coverage_in_final": 0.4624338624338624,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-06-missing_core",
+      "mean_unique_coverage_in_final": 0.25555555555555554,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-07-full",
+      "mean_unique_coverage_in_final": 0.06666666666666667,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-07-missing_core",
+      "mean_unique_coverage_in_final": 0.283713200379867,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-08-full",
+      "mean_unique_coverage_in_final": 0.20873135579017932,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-08-missing_core",
+      "mean_unique_coverage_in_final": 0.29053843759726117,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-09-full",
+      "mean_unique_coverage_in_final": 0.39541160593792174,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-09-missing_core",
+      "mean_unique_coverage_in_final": 0.23925925925925925,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-10-full",
+      "mean_unique_coverage_in_final": 0.33728099857132116,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-10-missing_core",
+      "mean_unique_coverage_in_final": 0.1571759259259259,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-11-full",
+      "mean_unique_coverage_in_final": 0.23333333333333334,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-11-missing_core",
+      "mean_unique_coverage_in_final": 0.15495642701525053,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-12-full",
+      "mean_unique_coverage_in_final": 0.30158730158730157,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-12-missing_core",
+      "mean_unique_coverage_in_final": 0.14652014652014653,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-13-full",
+      "mean_unique_coverage_in_final": 0.2727272727272727,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-13-missing_core",
+      "mean_unique_coverage_in_final": 0.20357142857142857,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-14-full",
+      "mean_unique_coverage_in_final": 0.2968694885361552,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-14-missing_core",
+      "mean_unique_coverage_in_final": 0.23583877995642702,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-15-full",
+      "mean_unique_coverage_in_final": 0.2445887445887446,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-15-missing_core",
+      "mean_unique_coverage_in_final": 0.2421142369991475,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-16-full",
+      "mean_unique_coverage_in_final": 0.2024132730015083,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-16-missing_core",
+      "mean_unique_coverage_in_final": 0.2600108225108225,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-17-full",
+      "mean_unique_coverage_in_final": 0.2693979933110368,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-17-missing_core",
+      "mean_unique_coverage_in_final": 0.14814814814814814,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-18-missing_core",
+      "mean_unique_coverage_in_final": 0.21450617283950615,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-19-full",
+      "mean_unique_coverage_in_final": 0.1986111111111111,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-19-missing_core",
+      "mean_unique_coverage_in_final": 0.2372742200328407,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-20-full",
+      "mean_unique_coverage_in_final": 0.2015873015873016,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-20-missing_core",
+      "mean_unique_coverage_in_final": 0.27000365363536716,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-21-full",
+      "mean_unique_coverage_in_final": 0.20027195027195027,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-21-missing_core",
+      "mean_unique_coverage_in_final": 0.1574074074074074,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-22-full",
+      "mean_unique_coverage_in_final": 0.25606060606060604,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-22-missing_core",
+      "mean_unique_coverage_in_final": 0.23053392658509456,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-23-full",
+      "mean_unique_coverage_in_final": 0.23398692810457516,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-23-missing_core",
+      "mean_unique_coverage_in_final": 0.23015873015873015,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-24-full",
+      "mean_unique_coverage_in_final": 0.12820512820512822,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    },
+    {
+      "window_id": "CP01-EXPAND-24-missing_core",
+      "mean_unique_coverage_in_final": 0.14825174825174825,
+      "n_members_with_unique_tokens": 3,
+      "interpretation": "Higher coverage means finals absorb role-unique content; dropout of that role would remove content the final currently uses."
+    }
+  ]
+}
