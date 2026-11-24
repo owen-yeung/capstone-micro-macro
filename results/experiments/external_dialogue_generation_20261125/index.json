@@ -1,0 +1,15 @@
+{
+  "experiment_id": "external_dialogue_generation_20261125",
+  "status": "prepared",
+  "commands": {
+    "prepare": "python3 scripts/run_external_dialogue_generation_20261125.py prepare",
+    "dry_run": "python3 scripts/run_external_dialogue_generation_20261125.py dry-run",
+    "status": "python3 scripts/run_external_dialogue_generation_20261125.py status",
+    "run": "EXTERNAL_DIALOGUE_ALLOW_LIVE=1 python3 scripts/run_external_dialogue_generation_20261125.py run --i-authorize-live-calls",
+    "one_command": "EXTERNAL_DIALOGUE_ALLOW_LIVE=1 bash scripts/external_dialogue_generation.sh all",
+    "pack": "python3 scripts/run_external_dialogue_generation_20261125.py pack",
+    "reclaim": "python3 scripts/run_external_dialogue_generation_20261125.py reclaim --zip <zip>"
+  },
+  "pic_guide": "experiment4/external_dialogue_pic_20261125/README.md",
+  "offline_baseline": "results/experiments/external_baseline_comparison_20261123/SUMMARY.md"
+}

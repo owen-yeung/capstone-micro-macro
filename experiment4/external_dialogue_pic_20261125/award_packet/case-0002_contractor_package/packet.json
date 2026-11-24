@@ -1,0 +1,299 @@
+{
+  "case_id": "case-0002",
+  "package_id": "contractor_package",
+  "owner": {
+    "company_id": "owner_001",
+    "company_name": "澳门特别行政区政府公共建设局",
+    "company_role": "owner",
+    "profile": "澳门特别行政区政府公共建设局 是本案例的业主方，负责项目招标策略、评标组织和模拟判给决策。",
+    "strengths": [
+      "掌握项目目标",
+      "熟悉澳门公共工程管理要求"
+    ],
+    "weaknesses": [
+      "需要在有限基础信息下细化招标包和评标重点"
+    ],
+    "qualifications": [
+      "业主管理",
+      "招标组织",
+      "项目约束控制",
+      "评标决策"
+    ],
+    "past_project_experience": [
+      "轻轨东线西延青茂口岸"
+    ],
+    "capacity": "项目业主组织",
+    "risk_signals": [
+      "公共项目透明度要求高",
+      "跨区域协作和接口协调要求高"
+    ],
+    "eligible_packages": [
+      "design_package",
+      "supplier_package",
+      "contractor_package",
+      "supervision_package"
+    ]
+  },
+  "owner_roster": [
+    {
+      "agent_id": "owner_001_01_technical_lead",
+      "agent_name": "Technical Lead",
+      "company_id": "owner_001",
+      "company_role": "owner",
+      "department": "Technical",
+      "position": "Technical Lead",
+      "personal_profile": "Deterministic fallback member for 澳门特别行政区政府公共建设局.",
+      "responsibilities": [
+        "Review technical fit"
+      ],
+      "decision_authority": "review",
+      "communication_style": "Direct and role-focused."
+    },
+    {
+      "agent_id": "owner_001_02_commercial_lead",
+      "agent_name": "Commercial Lead",
+      "company_id": "owner_001",
+      "company_role": "owner",
+      "department": "Commercial",
+      "position": "Commercial Lead",
+      "personal_profile": "Deterministic fallback member for 澳门特别行政区政府公共建设局.",
+      "responsibilities": [
+        "Review cost and contract risk"
+      ],
+      "decision_authority": "review",
+      "communication_style": "Direct and role-focused."
+    },
+    {
+      "agent_id": "owner_001_03_general_manager",
+      "agent_name": "General Manager",
+      "company_id": "owner_001",
+      "company_role": "owner",
+      "department": "Management",
+      "position": "General Manager",
+      "personal_profile": "Deterministic fallback member for 澳门特别行政区政府公共建设局.",
+      "responsibilities": [
+        "Make the final company decision"
+      ],
+      "decision_authority": "final",
+      "communication_style": "Direct and role-focused."
+    }
+  ],
+  "bids": [
+    {
+      "bid_id": "bid_contractor_package_001",
+      "package_id": "contractor_package",
+      "bidder_type": "consortium",
+      "bidder_id": "consortium_contractor_package_001",
+      "bidder_name": "得宝国际-得宝建筑-葛洲壩联合体",
+      "technical_proposal": "本联合体针对承包商包提出完整施工交付方案。得宝国际作为牵头方，负责总体协调、土建施工、本地物流和业主接口；得宝建筑负责轨道铺设、结构施工和现场统筹；葛洲壩澳门负责跨境施工协调、机电安装接口和总体进度控制。三方依据联合体协议设立联合体管理委员会，每周审查进度、质量和安全，按里程碑分账，违约赔偿写入协议。\n\n施工方法上，采用分区段流水作业，土建、轨道、机电按界面划分责任，设置交接节点和缓冲期。土建施工由得宝国际主导，轨道铺设由得宝建筑实施，机电安装由葛洲壩统筹，跨境施工协调由葛洲壩负责。现场设置独立质量审核节点，引用三方过往项目质量记录，确保整体管控能力。安全措施细化到关键工序，承诺定期巡查和整改闭环。\n\n团队可用性摘要：三方均提供项目团队名单和可用性承诺，关键岗位如项目经理、施工经理、质量安全经理、机电协调经理等已明确到人。角色计划详见联合体协议责任矩阵。交付方法强调设计协调和施工衔接，图纸会审和设计交底责任明确，变更流程提前制定。质量方法遵循ISO 9001、ISO 14001、ISO 45001体系，并满足业主审查和独立监测要求。",
+      "implementation_plan": "实施计划分四个阶段：\n1. 施工准备（第1-2个月）：完成临时设施、交通疏导方案、材料进场计划、联合体管理委员会成立、图纸会审和设计交底。\n2. 土建与结构施工（第3-10个月）：得宝国际主导土建，得宝建筑负责结构施工，按区段推进，同步进行轨道铺设准备。\n3. 轨道铺设与机电安装（第8-16个月）：得宝建筑实施轨道铺设，葛洲壩统筹机电安装接口，交叉作业按界面计划执行，设置缓冲期。\n4. 调试、验收与移交（第17-20个月）：完成系统调试、质量验收、文档移交，配合业主审查和独立监测。\n\n关键里程碑：第2个月完成施工准备，第10个月完成土建结构，第16个月完成轨道和机电安装，第20个月完成验收移交。每周联合体管理委员会审查进度，偏差超过一周即启动纠偏措施。",
+      "quotation": 46000000.0,
+      "schedule_commitment": "总工期20个月，自开工令发出之日起计算。关键里程碑：第2个月完成施工准备，第10个月完成土建结构，第16个月完成轨道和机电安装，第20个月完成验收移交。若因业主原因或不可抗力延误，按合同条款申请工期延长。",
+      "compliance_statement": "我方完全配合业主审查和独立监测。每周提交进度报告、质量记录和安全报告，接受独立监测单位的现场检查和文档审核。关键工序如轨道铺设、机电调试提前48小时通知业主和监测单位。变更流程按合同执行，所有变更经业主批准后实施。",
+      "risk_response": "主要风险包括：跨境施工协调风险、机电接口风险、工期延误风险、质量文档风险。应对措施：\n- 跨境协调：由葛洲壩设立专门协调小组，提前办理跨境手续，与澳门及内地相关部门对接。\n- 机电接口：采用BIM协调，每周召开接口会议，明确责任方和交接节点。\n- 工期延误：关键路径设置缓冲期，每周进度审查，偏差超一周即启动赶工措施。\n- 质量文档：建立统一文档管理系统，三方按责任矩阵提交质量记录，独立质量审核节点把关。",
+      "submission_summary": "本联合体报价为MOP 46,000,000，基于工程量清单和设计图纸，采用固定总价。报价构成：土建工程MOP 18,500,000，轨道铺设MOP 9,200,000，机电安装MOP 7,800,000，运输接口及公共通道MOP 3,500,000，联合体协调及管理MOP 2,800,000，临时工程及安全措施MOP 1,900,000，风险预备金及利润MOP 2,300,000。\n\n联合体协调及管理费反映三方联合体管理委员会、每周审查、责任矩阵执行、文档管理和界面协调成本，以及联合体保险和违约赔偿分摊。风险预备金按5%计，用于不可预见费用。\n\n报价已考虑联合体各方能力互补和风险分摊，价格合理且具有竞争力。",
+      "quotation_breakdown": [
+        {
+          "item": "土建工程",
+          "amount": 18500000,
+          "basis": "土方、地基、主体结构、公共通道等，按工程量清单和设计图纸估算，含材料、人工、机械及现场管理"
+        },
+        {
+          "item": "轨道铺设",
+          "amount": 9200000,
+          "basis": "轨道材料、铺设施工、轨道调整及测试，由得宝建筑实施，含专业分包协调"
+        },
+        {
+          "item": "机电安装",
+          "amount": 7800000,
+          "basis": "机电设备安装、管线敷设、系统调试，由葛洲壩统筹，含MEP协调和接口管理"
+        },
+        {
+          "item": "运输接口及公共通道施工",
+          "amount": 3500000,
+          "basis": "运输接口结构、公共通道施工，含与设计、供应商协调"
+        },
+        {
+          "item": "联合体协调及管理",
+          "amount": 2800000,
+          "basis": "联合体管理委员会、每周审查、责任矩阵执行、文档管理、界面协调及联合体保险"
+        },
+        {
+          "item": "临时工程及安全措施",
+          "amount": 1900000,
+          "basis": "临时设施、交通疏导、安全防护、环保措施，按施工方案估算"
+        },
+        {
+          "item": "风险预备金及利润",
+          "amount": 2300000,
+          "basis": "风险预备金约5%用于不可预见费用，利润约5%，按联合体风险分摊"
+        }
+      ]
+    },
+    {
+      "bid_id": "bid_contractor_package_002",
+      "package_id": "contractor_package",
+      "bidder_type": "company",
+      "bidder_id": "COMP-0300",
+      "bidder_name": "浙江省一建建设集团有限公司",
+      "technical_proposal": "本投标书由浙江省一建建设集团有限公司作为单一责任承包商提交。我司具备房屋建筑、市政公用、机电安装、地基基础、钢结构等多项施工总承包及专业承包资质，拥有1586名在册员工，施工组织、安全管理和进度控制能力突出。针对本承包商包涵盖的土建工程、轨道铺设、机电安装、结构施工、运输接口及公共通道施工，我司将采用‘总承包管理+专业分包执行’的模式：土建、结构及部分机电工程由我司自有团队实施，轨道铺设、精密机电安装及跨境施工协调通过经严格资格审查的专业分包商完成。我司将建立统一的项目管理部，设置施工经理、质量安全总监、商务经理、物资设备主管及文档控制主管，对分包商实施全过程管控，确保接口质量、文档完整性和工期可控。\n\n针对城市施工物流、MEP协调、跨境施工协调等关键能力，我司将利用杭州总部资源及澳门本地分包网络，制定专项物流方案，包括材料进场计划、临时交通组织、跨境运输清关协调；MEP协调由我司机电专业工程师牵头，组织分包商进行综合管线深化设计，并配合设计单位完成接口校核。质量方面，我司执行ISO9001质量管理体系，制定项目质量计划，明确检查频次、整改闭环和文档责任，并全力配合业主审查和独立监测。",
+      "implementation_plan": "施工总体计划分为四个阶段：\n1. 施工准备（第1-2个月）：完成临时设施搭建、施工方案报审、分包商进场、材料采购及物流计划确认。\n2. 土建与结构施工（第3-8个月）：进行基坑开挖、基础施工、主体结构施工，同步开展预埋件及预留孔洞施工，为轨道和机电安装创造条件。\n3. 轨道铺设与机电安装（第6-12个月）：轨道铺设分包商进场，按分段移交原则施工；机电安装与土建穿插进行，利用BIM模型进行管线综合，减少碰撞。\n4. 接口施工、调试与竣工（第11-14个月）：完成运输接口、公共通道施工，进行系统联调、功能测试、缺陷整改，整理竣工文档并移交。\n\n关键节点：第4个月完成基础工程，第8个月主体结构封顶，第12个月轨道铺设完成，第14个月竣工移交。我司将采用周例会、月度进度审查及关键路径监控，确保工期。",
+      "quotation": 63000000.0,
+      "schedule_commitment": "总工期14个月，自开工令下达之日起计算。关键节点：第4个月完成基础工程，第8个月主体结构封顶，第12个月轨道铺设完成，第14个月竣工移交。我司承诺按此进度执行，并设置7天应急缓冲期以应对不可预见因素。",
+      "compliance_statement": "我司完全配合业主审查和独立监测。将建立文档控制体系，所有施工记录、检验报告、材料证明等按规范归档，并定期提交进度报告和质量报告。对于业主及独立监测提出的整改要求，我司将在规定时限内闭环，并保留整改记录。",
+      "risk_response": "主要风险包括：分包商接口协调风险、跨境物流延误风险、材料价格波动风险。应对措施：1）分包合同明确接口责任和奖惩条款，项目管理部设专人协调；2）物资供应采用备选供应商名单，预留应急物流成本；3）报价中已包含风险预备金，并采用固定总价合同，但若业主原因导致工期延误或重大设计变更，将按合同条款申请调整。",
+      "submission_summary": "我司作为单一责任承包商，报价总额为MOP 63,000,000，基于工程量清单和设计图纸，采用固定总价。报价构成：土建及结构工程MOP 28,500,000，轨道及机电分包MOP 16,800,000（含8%总包管理费），运输接口及公共通道MOP 5,200,000，施工物流与跨境协调MOP 2,600,000，项目管理及质量安全MOP 3,900,000，风险预备金MOP 1,800,000，企业管理费及利润MOP 4,200,000。该报价反映了我司自有施工能力、分包管理成本及风险预留，具有竞争力。",
+      "quotation_breakdown": [
+        {
+          "item": "土建及结构工程",
+          "amount": 28500000,
+          "basis": "包含基坑、基础、主体结构、预埋件等，按工程量清单及我司自有施工队伍成本测算，含材料、人工、机械及临建摊销。"
+        },
+        {
+          "item": "轨道铺设及机电安装分包",
+          "amount": 16800000,
+          "basis": "专业分包商报价及管理费，含轨道材料、机电设备安装、调试及分包商利润，我司加收8%总包管理协调费。"
+        },
+        {
+          "item": "运输接口及公共通道施工",
+          "amount": 5200000,
+          "basis": "接口施工、通道结构、装饰及附属设施，含与既有设施接驳的专项措施费。"
+        },
+        {
+          "item": "施工物流与跨境协调",
+          "amount": 2600000,
+          "basis": "材料运输、临时交通组织、跨境清关协调、应急物流缓冲费用，按物资设备主管估算。"
+        },
+        {
+          "item": "项目管理及质量安全",
+          "amount": 3900000,
+          "basis": "项目管理团队薪酬、办公费用、质量安全检测、培训及文档管理，按14个月工期配置。"
+        },
+        {
+          "item": "风险预备金",
+          "amount": 1800000,
+          "basis": "针对分包接口风险、材料价格波动、工期延误等预留，按合同额3%计取。"
+        },
+        {
+          "item": "企业管理费及利润",
+          "amount": 4200000,
+          "basis": "公司总部管理费分摊及合理利润，按直接费及间接费合计的8%计取。"
+        }
+      ]
+    }
+  ],
+  "evaluation_report": {
+    "package_id": "contractor_package",
+    "evaluators": [
+      "owner_001_01_technical_lead",
+      "owner_001_02_commercial_lead",
+      "owner_001_03_general_manager"
+    ],
+    "bid_evaluations": [
+      {
+        "bid_id": "bid_contractor_package_001",
+        "bidder_id": "consortium_contractor_package_001",
+        "bidder_name": "得宝国际-得宝建筑-葛洲壩联合体",
+        "technical_view": "联合体方案覆盖土建、轨道、机电及跨境协调，分工明确，但三方协调和跨境接口管理复杂度高，管理费MOP 2,800,000可能不足以支撑实际投入。",
+        "cost_view": "报价MOP 46,000,000显著低于另一投标，但风险预备金及利润合计MOP 2,300,000占比偏低，协调费是否充足存疑，低价可能隐含履约风险。",
+        "owner_control_view": "承诺每周报告和关键工序提前通知，配合业主审查，但联合体内部文档统一和独立审核节点需进一步验证。",
+        "strengths": [
+          "联合体能力互补，覆盖土建、轨道、机电和跨境协调。",
+          "实施计划分阶段清晰，设置缓冲期和纠偏措施。",
+          "风险应对措施具体，包括跨境协调和BIM接口管理。"
+        ],
+        "concerns": [
+          "协调及管理费MOP 2,800,000可能不足以覆盖三方协调和跨境接口管理。",
+          "风险预备金及利润合计MOP 2,300,000偏低，可能影响不可预见费用应对。",
+          "联合体内部责任矩阵和文档管理需进一步核实。"
+        ]
+      },
+      {
+        "bid_id": "bid_contractor_package_002",
+        "bidder_id": "COMP-0300",
+        "bidder_name": "浙江省一建建设集团有限公司",
+        "technical_view": "单一责任承包商模式明确，自有团队实施土建和结构，分包管理费8%合理，但跨境施工协调依赖分包商，能力需验证。",
+        "cost_view": "报价MOP 63,000,000显著高于联合体，风险预备金MOP 1,800,000较低，但企业管理费及利润MOP 4,200,000较高，价格合理性需结合分包管理评估。",
+        "owner_control_view": "承诺文档控制体系和整改闭环，配合业主审查，但分包商管控和跨境协调能力需进一步确认。",
+        "strengths": [
+          "单一责任主体，管理界面清晰。",
+          "自有施工队伍和分包管理经验丰富。",
+          "工期承诺14个月，较联合体短。"
+        ],
+        "concerns": [
+          "跨境施工协调依赖分包商，能力需验证。",
+          "风险预备金MOP 1,800,000较低，可能不足以覆盖接口风险。",
+          "报价较高，但分包管理费8%需确认分包商能力。"
+        ]
+      }
+    ],
+    "comparison_summary": "得宝联合体报价MOP 46,000,000显著低于浙江一建MOP 63,000,000，但联合体协调费及风险预备金偏低，可能隐含履约风险。浙江一建报价较高，但单一责任主体和14个月工期提供更强交付信心，价格合理性需结合分包管理评估。",
+    "recommended_winner": "consortium_contractor_package_001",
+    "owner_review_notes": "建议优先与得宝联合体进行谈判，重点核实协调费及风险预备金的充足性，并要求补充联合体管理细节。若谈判无法解决风险担忧，可考虑浙江一建，但其报价较高，需评估预算承受力。"
+  },
+  "historical_award": {
+    "package_id": "contractor_package",
+    "selected_bidder_id": "consortium_contractor_package_001",
+    "selected_bidder_name": "得宝国际-得宝建筑-葛洲壩联合体",
+    "bidder_type": "consortium",
+    "decision_reason": "得宝联合体报价MOP 46,000,000显著低于浙江一建，且联合体三方能力互补，覆盖土建、轨道、机电和跨境协调，技术方案完整，风险应对措施具体。尽管协调费和风险预备金偏低，但通过判给前澄清可要求其补充管理细节和风险预备金依据，以降低履约风险。浙江一建报价较高，且跨境协调依赖分包商，能力需验证。综合评估，得宝联合体在价格和方案上更具优势，符合业主预算和项目需求。"
+  },
+  "topsis_baseline": {
+    "case_id": "case-0002",
+    "package_id": "contractor_package",
+    "declared_weights_percent": {
+      "price": 48.0,
+      "duration": 12.0,
+      "work_plan": 18.0,
+      "experience_quality": 22.0
+    },
+    "applied_criteria": [
+      "price",
+      "duration"
+    ],
+    "applied_weights": {
+      "price": 0.8,
+      "duration": 0.2
+    },
+    "unused_declared_weights_percent": {
+      "work_plan": 18.0,
+      "experience_quality": 22.0
+    },
+    "duration_note": null,
+    "bidders": [
+      {
+        "bid_id": "bid_contractor_package_001",
+        "bidder_id": "consortium_contractor_package_001",
+        "bidder_name": "得宝国际-得宝建筑-葛洲壩联合体",
+        "price": 46000000.0,
+        "duration": {
+          "value": 20.0,
+          "unit": "月"
+        }
+      },
+      {
+        "bid_id": "bid_contractor_package_002",
+        "bidder_id": "COMP-0300",
+        "bidder_name": "浙江省一建建设集团有限公司",
+        "price": 63000000.0,
+        "duration": {
+          "value": 14.0,
+          "unit": "月"
+        }
+      }
+    ],
+    "topsis_ranking_high_to_low": [
+      [
+        "consortium_contractor_package_001"
+      ],
+      [
+        "COMP-0300"
+      ]
+    ],
+    "award_winner": "consortium_contractor_package_001",
+    "evaluation_recommended_winner": "consortium_contractor_package_001",
+    "winner_in_matrix": true,
+    "winner_in_top_group": true,
+    "top_group_is_unique": true
+  }
+}

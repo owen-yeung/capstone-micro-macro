@@ -1,0 +1,15 @@
+Project package "contractor_package" from case-0150.
+Scope: 包括土建工程、安装工程、装饰装修工程、室外工程、临时设施等施工内容。承包商需负责施工管理、质量控制、安全管理、进度控制，并协调供应商安装接口。
+
+The parties are: "COMP-0199", "COMP-0366", "COMP-0491".
+Each party is one firm. The negotiation decides which firm takes each listed capability. One option is chosen for each issue.
+
+Issue A: "安全管理能力"
+A1 "COMP-0199" takes "安全管理能力".
+A2 "COMP-0366" takes "安全管理能力".
+A3 "COMP-0491" takes "安全管理能力".
+
+Issue B: "进度控制能力"
+B1 "COMP-0199" takes "进度控制能力".
+B2 "COMP-0366" takes "进度控制能力".
+B3 "COMP-0491" takes "进度控制能力".

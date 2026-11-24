@@ -1,0 +1,11 @@
+You are "COMP-0366" (深圳市建工集团股份有限公司). Your incentive is cooperative: a deal at or above your minimum score of 10 is acceptable, and a deal below it is not.
+Your secret scores are in the scores file. They were fixed from your company file before the agreement was read. An option scores 10 when you take a capability your own file states, 5 when another firm whose file states it takes that capability, and 0 otherwise.
+
+Company file:
+深圳市建工集团股份有限公司 是候选企业池中的施工企业。 企业类型：股份有限公司(非上市)。 办公地点：广东省深圳市南山区。 经营范围：一般经营项目：建筑工程施工（须取得相应的资质证后方可经营）；在合法取得使用权的土地上从事房地产开发经营；投资兴办实业（具体项目另行申报）；建筑材料研究开发与技术服务；节能建筑设计；物业租赁；工程设计及咨询；工程监理；项目管理。消防技术服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可经营项目：消防设施工程施工。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）。
+2075人
+一般经营项目：建筑工程施工（须取得相应的资质证后方可经营）；在合法取得使用权的土地上从事房地产开发经营；投资兴办实业（具体项目另行申报）；建筑材料研究开发与技术服务；节能建筑设计；物业租赁；工程设计及咨询；工程监理；项目管理。消防技术服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可经营项目：消防设施工程施工。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）
+房屋建筑业
+施工组织、安全管理和进度控制能力
+施工组织、安全管理和进度控制能力
+公开数据缺口：staff_scale、certifications、revenue、profit

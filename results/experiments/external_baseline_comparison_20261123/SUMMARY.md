@@ -57,3 +57,7 @@ The paired contrast is the mean, on the shared tender packet, of the framework r
 ### Consortium: one deal under LLM-Deliberation scores
 
 Supported issues named by the role text: 0.500 (2 issues). Parties at or above the pre-written minimum: 0.000. Mean utility divided by that minimum: 0.667. Lowest utility divided by that minimum: 0.500. Deal success: False.
+
+## Follow-on dialogue package
+
+To generate the missing LLM-Deliberation dialogue and paired Capstone decision dialogues, use the PIC package at `experiment4/external_dialogue_pic_20261125/` (`bash scripts/external_dialogue_generation.sh all`). That live experiment does not rewrite this offline summary.
