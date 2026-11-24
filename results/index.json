@@ -124,5 +124,19 @@
     "title": "十二例微观采购评分对照",
     "purpose": "补充两地三类项目。比较新增三例及十二例中多岗位协作与两种单智能体基线的差异。",
     "available": true
+  },
+  {
+    "id": "external_baseline_comparison_20261123",
+    "path": "results/experiments/external_baseline_comparison_20261123/SUMMARY.md",
+    "title": "外部基线对照（离线）",
+    "purpose": "pymcdm 定标、投标文件清单、联合体合意；0 次新模型调用；三项分开报告。",
+    "available": true
+  },
+  {
+    "id": "external_dialogue_generation_20261125",
+    "path": "results/experiments/external_dialogue_generation_20261125/README.md",
+    "title": "外部对话生成（PIC 包）",
+    "purpose": "补齐 LLM-Deliberation 联合体对话、Capstone 配对审议与定标决策对话；双门禁；大体积输出走 pack/reclaim。",
+    "available": true
   }
 ]

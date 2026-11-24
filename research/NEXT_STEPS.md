@@ -17,3 +17,5 @@
 9. 更新论文主表、图、敏感性分析和典型样本专业复核。完整保留未知请求、失败和不适配原因。
 
 真实模型请求与宏观扩展执行属于后续独立任务。本次迁移只复制和离线检查，不新建API调用、不解除旧停止。生成校验增强命令本身也不发起付费请求。
+
+10. 外部基线对话补齐：离线对照见 `results/experiments/external_baseline_comparison_20261123/`。PIC 实跑包已就绪于 `experiment4/external_dialogue_pic_20261125/`（命令 `bash scripts/external_dialogue_generation.sh all`）；须双门禁后才可调用模型。大体积 live 输出用 `pack`/`reclaim`，勿直接提交 `runs/`。

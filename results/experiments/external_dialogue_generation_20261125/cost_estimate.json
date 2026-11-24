@@ -1,0 +1,14 @@
+{
+  "planned_calls": 27,
+  "model": "deepseek-flash",
+  "assumed_tokens_per_call": 3500,
+  "expected_tokens": 94500,
+  "assumed_seconds_per_call": 8.0,
+  "ideal_wall_clock_minutes_serial": 3.6,
+  "by_arm": {
+    "llm_deliberation": 13,
+    "capstone_consortium_decision": 7,
+    "capstone_award_decision": 7
+  },
+  "money_note": "Quote from the current provider dashboard; repo does not pin a unit price."
+}

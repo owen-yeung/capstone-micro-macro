@@ -53,3 +53,4 @@
 - [十二例微观采购评分对照](experiments/micro-org-extension12-20261119/十二例评分汇总_核定.md)
 - [352-case DBB 初始输入清单](experiments/full352-dbb-inputs-20261119/manifest.csv)
 - [外部基线对照（pymcdm 定标、投标文件清单、联合体合意）](experiments/external_baseline_comparison_20261123/SUMMARY.md)：对冻结的 28 例离线计算，0 次新模型调用，不改历史评分。三项结果分开报告。
+- [外部对话生成（PIC 包，待实跑）](experiments/external_dialogue_generation_20261125/README.md)：为补齐联合体审议对话与定标决策对话；一键入口见[PIC 说明](../experiment4/external_dialogue_pic_20261125/README.md)；不自动启动。

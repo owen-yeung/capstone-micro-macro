@@ -1,0 +1,265 @@
+{
+  "experiment_id": "external_dialogue_generation_20261125",
+  "created_at": "2026-11-24T23:38:52Z",
+  "model": "deepseek-flash",
+  "temperature": 0.2,
+  "allow_env": "EXTERNAL_DIALOGUE_ALLOW_LIVE",
+  "game": {
+    "path": "experiment4/external_dialogue_pic_20261125/game/case-0150_contractor_package",
+    "case_id": "case-0150",
+    "package_id": "contractor_package",
+    "agents": [
+      {
+        "name": "COMP-0199",
+        "file": "COMP-0199",
+        "role": "p1",
+        "incentive": "cooperative",
+        "model": "not-executed"
+      },
+      {
+        "name": "COMP-0366",
+        "file": "COMP-0366",
+        "role": "p2",
+        "incentive": "cooperative",
+        "model": "not-executed"
+      },
+      {
+        "name": "COMP-0491",
+        "file": "COMP-0491",
+        "role": "player",
+        "incentive": "cooperative",
+        "model": "not-executed"
+      }
+    ],
+    "issues_num": 2,
+    "agents_num": 3,
+    "rounds_num": 12,
+    "window_size": 6,
+    "initial_deal": "A1,B1",
+    "sha256": {
+      "config.live.txt": "4a1d0357a5a447546747534e432f760e3f63e71e07267d9f6634af1a7826c0b3",
+      "config.txt": "760f9d81b6555cf999d9ae4da50350795efb4a94c64a7f5afa4278fb7b1e625a",
+      "global_instructions.txt": "d04c7b726a82e44efccc6456ba87903498e42664153ae761a9ef237dfd2b3a9d",
+      "individual_instructions/cooperative/COMP-0199.txt": "3483c543266bfa810fb4c0c3507506aac37bcab540af5bd0701f6cbd3c4b99a7",
+      "individual_instructions/cooperative/COMP-0366.txt": "b80f3839a131676e0603f5fb1b8c6b14cac50ad96d2466456606a2f7a38521cc",
+      "individual_instructions/cooperative/COMP-0491.txt": "5fcce9958eb3600e7c6914d4704cf9442d06ccf14412a37b539c22118493ba32",
+      "initial_deal.txt": "8bdede433865539d57b0deca6f5171173137f4ae8c3f4f14c4f59fa0bafa2dcf",
+      "scores_files/COMP-0199.txt": "ce8861cc435c0a530e38657fabdd3db04807bf328a9fcf59e4e3068eaf01dac9",
+      "scores_files/COMP-0366.txt": "9bd2af154427bd9db2a8d6da3fe64decdca336988a001f049a8985221f97aa7c",
+      "scores_files/COMP-0491.txt": "796984dff619a39c797d9ec6c06889b149563a1943081437c4af4975e5dfc07c"
+    }
+  },
+  "award_packet": {
+    "path": "experiment4/external_dialogue_pic_20261125/award_packet/case-0002_contractor_package/packet.json",
+    "case_id": "case-0002",
+    "package_id": "contractor_package",
+    "sha256": "dc2f48700beeaf54e7d25584cfdc5b27d4d53700d3ec4ea93172870a59b77448",
+    "discussant_count": 3
+  },
+  "arms": [
+    {
+      "id": "llm_deliberation",
+      "title": "External LLM-Deliberation consortium dialogue",
+      "baseline": "S-Abdelnabi/LLM-Deliberation cooperative game on frozen case-0150 contractor package",
+      "jobs": [
+        {
+          "job_id": "llm_deliberation-round-01-COMP-0199",
+          "kind": "negotiation_turn",
+          "round": 1,
+          "agent": "COMP-0199",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-02-COMP-0366",
+          "kind": "negotiation_turn",
+          "round": 2,
+          "agent": "COMP-0366",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-03-COMP-0491",
+          "kind": "negotiation_turn",
+          "round": 3,
+          "agent": "COMP-0491",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-04-COMP-0199",
+          "kind": "negotiation_turn",
+          "round": 4,
+          "agent": "COMP-0199",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-05-COMP-0366",
+          "kind": "negotiation_turn",
+          "round": 5,
+          "agent": "COMP-0366",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-06-COMP-0491",
+          "kind": "negotiation_turn",
+          "round": 6,
+          "agent": "COMP-0491",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-07-COMP-0199",
+          "kind": "negotiation_turn",
+          "round": 7,
+          "agent": "COMP-0199",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-08-COMP-0366",
+          "kind": "negotiation_turn",
+          "round": 8,
+          "agent": "COMP-0366",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-09-COMP-0491",
+          "kind": "negotiation_turn",
+          "round": 9,
+          "agent": "COMP-0491",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-10-COMP-0199",
+          "kind": "negotiation_turn",
+          "round": 10,
+          "agent": "COMP-0199",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-11-COMP-0366",
+          "kind": "negotiation_turn",
+          "round": 11,
+          "agent": "COMP-0366",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-round-12-COMP-0491",
+          "kind": "negotiation_turn",
+          "round": 12,
+          "agent": "COMP-0491",
+          "final": false
+        },
+        {
+          "job_id": "llm_deliberation-final-COMP-0199",
+          "kind": "final_deal",
+          "round": 13,
+          "agent": "COMP-0199",
+          "final": true
+        }
+      ],
+      "calls": 13
+    },
+    {
+      "id": "capstone_consortium_decision",
+      "title": "Capstone paired consortium deliberation + decision",
+      "baseline": "Same firms/issues as the external game; Capstone external-negotiation style",
+      "jobs": [
+        {
+          "job_id": "capstone_consortium-turn1-COMP-0199",
+          "kind": "capstone_negotiation_turn",
+          "turn": 1,
+          "agent": "COMP-0199"
+        },
+        {
+          "job_id": "capstone_consortium-turn1-COMP-0366",
+          "kind": "capstone_negotiation_turn",
+          "turn": 1,
+          "agent": "COMP-0366"
+        },
+        {
+          "job_id": "capstone_consortium-turn1-COMP-0491",
+          "kind": "capstone_negotiation_turn",
+          "turn": 1,
+          "agent": "COMP-0491"
+        },
+        {
+          "job_id": "capstone_consortium-turn2-COMP-0199",
+          "kind": "capstone_negotiation_turn",
+          "turn": 2,
+          "agent": "COMP-0199"
+        },
+        {
+          "job_id": "capstone_consortium-turn2-COMP-0366",
+          "kind": "capstone_negotiation_turn",
+          "turn": 2,
+          "agent": "COMP-0366"
+        },
+        {
+          "job_id": "capstone_consortium-turn2-COMP-0491",
+          "kind": "capstone_negotiation_turn",
+          "turn": 2,
+          "agent": "COMP-0491"
+        },
+        {
+          "job_id": "capstone_consortium-decision-COMP-0199",
+          "kind": "capstone_consortium_decision",
+          "agent": "COMP-0199"
+        }
+      ],
+      "calls": 7
+    },
+    {
+      "id": "capstone_award_decision",
+      "title": "Capstone owner award decision dialogue",
+      "baseline": "Frozen case-0002 contractor_package bids vs silent pymcdm TOPSIS ranking",
+      "jobs": [
+        {
+          "job_id": "capstone_award-award_risk_review-owner_001_01_technical_lead",
+          "kind": "award_discussion",
+          "stage": "award_risk_review",
+          "member_id": "owner_001_01_technical_lead"
+        },
+        {
+          "job_id": "capstone_award-award_risk_review-owner_001_02_commercial_lead",
+          "kind": "award_discussion",
+          "stage": "award_risk_review",
+          "member_id": "owner_001_02_commercial_lead"
+        },
+        {
+          "job_id": "capstone_award-award_risk_review-owner_001_03_general_manager",
+          "kind": "award_discussion",
+          "stage": "award_risk_review",
+          "member_id": "owner_001_03_general_manager"
+        },
+        {
+          "job_id": "capstone_award-final_award_alignment-owner_001_01_technical_lead",
+          "kind": "award_discussion",
+          "stage": "final_award_alignment",
+          "member_id": "owner_001_01_technical_lead"
+        },
+        {
+          "job_id": "capstone_award-final_award_alignment-owner_001_02_commercial_lead",
+          "kind": "award_discussion",
+          "stage": "final_award_alignment",
+          "member_id": "owner_001_02_commercial_lead"
+        },
+        {
+          "job_id": "capstone_award-final_award_alignment-owner_001_03_general_manager",
+          "kind": "award_discussion",
+          "stage": "final_award_alignment",
+          "member_id": "owner_001_03_general_manager"
+        },
+        {
+          "job_id": "capstone_award-final-decision",
+          "kind": "award_decision",
+          "stage": "final",
+          "member_id": "owner_001"
+        }
+      ],
+      "calls": 7
+    }
+  ],
+  "planned_calls": 27,
+  "notes": [
+    "Does not auto-start. Dual gate required for live calls.",
+    "Does not modify frozen offline baseline scores under external_baseline_comparison_20261123.",
+    "Outputs go under runs/external_dialogue_generation_20261125/ (gitignored)."
+  ]
+}

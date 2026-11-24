@@ -1,0 +1,141 @@
+{
+  "created_at": "2026-11-24T23:38:52Z",
+  "jobs": [
+    {
+      "job_id": "llm_deliberation-round-01-COMP-0199",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-01-COMP-0199/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-02-COMP-0366",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-02-COMP-0366/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-03-COMP-0491",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-03-COMP-0491/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-04-COMP-0199",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-04-COMP-0199/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-05-COMP-0366",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-05-COMP-0366/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-06-COMP-0491",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-06-COMP-0491/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-07-COMP-0199",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-07-COMP-0199/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-08-COMP-0366",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-08-COMP-0366/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-09-COMP-0491",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-09-COMP-0491/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-10-COMP-0199",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-10-COMP-0199/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-11-COMP-0366",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-11-COMP-0366/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-round-12-COMP-0491",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-round-12-COMP-0491/request.json"
+    },
+    {
+      "job_id": "llm_deliberation-final-COMP-0199",
+      "arm": "llm_deliberation",
+      "request": "runs/external_dialogue_generation_20261125/dry/llm_deliberation/llm_deliberation-final-COMP-0199/request.json"
+    },
+    {
+      "job_id": "capstone_consortium-turn1-COMP-0199",
+      "arm": "capstone_consortium_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_consortium_decision/capstone_consortium-turn1-COMP-0199/request.json"
+    },
+    {
+      "job_id": "capstone_consortium-turn1-COMP-0366",
+      "arm": "capstone_consortium_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_consortium_decision/capstone_consortium-turn1-COMP-0366/request.json"
+    },
+    {
+      "job_id": "capstone_consortium-turn1-COMP-0491",
+      "arm": "capstone_consortium_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_consortium_decision/capstone_consortium-turn1-COMP-0491/request.json"
+    },
+    {
+      "job_id": "capstone_consortium-turn2-COMP-0199",
+      "arm": "capstone_consortium_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_consortium_decision/capstone_consortium-turn2-COMP-0199/request.json"
+    },
+    {
+      "job_id": "capstone_consortium-turn2-COMP-0366",
+      "arm": "capstone_consortium_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_consortium_decision/capstone_consortium-turn2-COMP-0366/request.json"
+    },
+    {
+      "job_id": "capstone_consortium-turn2-COMP-0491",
+      "arm": "capstone_consortium_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_consortium_decision/capstone_consortium-turn2-COMP-0491/request.json"
+    },
+    {
+      "job_id": "capstone_consortium-decision-COMP-0199",
+      "arm": "capstone_consortium_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_consortium_decision/capstone_consortium-decision-COMP-0199/request.json"
+    },
+    {
+      "job_id": "capstone_award-award_risk_review-owner_001_01_technical_lead",
+      "arm": "capstone_award_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_award_decision/capstone_award-award_risk_review-owner_001_01_technical_lead/request.json"
+    },
+    {
+      "job_id": "capstone_award-award_risk_review-owner_001_02_commercial_lead",
+      "arm": "capstone_award_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_award_decision/capstone_award-award_risk_review-owner_001_02_commercial_lead/request.json"
+    },
+    {
+      "job_id": "capstone_award-award_risk_review-owner_001_03_general_manager",
+      "arm": "capstone_award_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_award_decision/capstone_award-award_risk_review-owner_001_03_general_manager/request.json"
+    },
+    {
+      "job_id": "capstone_award-final_award_alignment-owner_001_01_technical_lead",
+      "arm": "capstone_award_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_award_decision/capstone_award-final_award_alignment-owner_001_01_technical_lead/request.json"
+    },
+    {
+      "job_id": "capstone_award-final_award_alignment-owner_001_02_commercial_lead",
+      "arm": "capstone_award_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_award_decision/capstone_award-final_award_alignment-owner_001_02_commercial_lead/request.json"
+    },
+    {
+      "job_id": "capstone_award-final_award_alignment-owner_001_03_general_manager",
+      "arm": "capstone_award_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_award_decision/capstone_award-final_award_alignment-owner_001_03_general_manager/request.json"
+    },
+    {
+      "job_id": "capstone_award-final-decision",
+      "arm": "capstone_award_decision",
+      "request": "runs/external_dialogue_generation_20261125/dry/capstone_award_decision/capstone_award-final-decision/request.json"
+    }
+  ],
+  "note": "paths under runs/ are gitignored live work"
+}
