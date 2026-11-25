@@ -1,0 +1,7 @@
+{
+  "experiment_id": "baseline_slice_comparisons_20261125",
+  "status": "protocol_frozen; live engines other than award/topsis not yet implemented",
+  "readme": "README.md",
+  "spec": "research/references/baseline_comparison_implementation_spec.md",
+  "paper": "research/paper/external_comparison_experiments.md"
+}

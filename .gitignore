@@ -26,6 +26,10 @@ Thumbs.db
 credentials.json
 /vendor/gba/data/processed/agent_database.setup.lock
 
+# External baseline checkouts (clone locally; do not push)
+vendor/baselines/*
+!vendor/baselines/README.md
+
 # 21 nov updates: keep summaries local-friendly; omit bulk PIC payloads / oversized zips
 21 nov updates/*.zip
 21 nov updates/.venv_docx/

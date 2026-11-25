@@ -17,3 +17,5 @@
 9. 更新论文主表、图、敏感性分析和典型样本专业复核。完整保留未知请求、失败和不适配原因。
 
 真实模型请求与宏观扩展执行属于后续独立任务。本次迁移只复制和离线检查，不新建API调用、不解除旧停止。生成校验增强命令本身也不发起付费请求。
+
+10. 外部阶段对照 `baseline_slice_comparisons_20261125`（见 [PIC 说明](../results/experiments/baseline_slice_comparisons_20261125/README.md) 与 [实现规格](references/baseline_comparison_implementation_spec.md)）：先 `unpack` Experiment 1 的 LFS `full_run.zip`，再跑零调用授标 TOPSIS；联合体 / 厂内沟通 / 标书引擎未接线前不要开 `BASELINE_SLICE_ALLOW_LIVE` 付费。跑完后把 `runs/` 打成 `results/experiments/<id>/full_run.zip`（已 LFS），摘要留在目录内不要只存在被忽略的临时目录。
