@@ -3,6 +3,7 @@
 Run:  python -m scripts.freeze_experiment --run runs/<run> --id <experiment-id> --keep judge/REPORT.md,judge/summary.json
 
 Writes  full_run.zip   every file of the run: inputs, raw model responses, audits, scores, logs
+        (already Git LFS via results/experiments/*/full_run.zip; use this when the archive is 100MB+)
         the --keep files, unpacked, for reading without unzipping
         manifest.json  sha256 of the archive, of kept files and of the code and rubric that produced them
 A target directory that already exists is refused; frozen evidence is never overwritten.
@@ -19,7 +20,9 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 CODE = ["src/agent_runtime.py", "src/condition_review.py", "src/verification.py", "src/stages/bid_documents.py",
         "integration/sessions.py", "integration/planning.py", "scripts/micro_org_experiment.py",
-        "scripts/micro_org_judge.py", "scripts/run_e2e_case.py", "config/micro_org_rubric.json"]
+        "scripts/micro_org_judge.py", "scripts/run_e2e_case.py", "config/micro_org_rubric.json",
+        "scripts/run_baseline_slice_comparisons_20261125.py", "src/baselines/award_topsis.py",
+        "src/baselines/contracts.py"]
 
 
 def sha256(path: Path) -> str:

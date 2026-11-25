@@ -1,0 +1,74 @@
+{
+  "experiment_id": "baseline_slice_comparisons_20261125",
+  "basis": {
+    "source": "Frozen Experiment 1 multi arm (micro-org-1118 + replication + extension12)",
+    "multi_requests": 3308,
+    "mean_input_tokens_per_call": 6073,
+    "mean_output_tokens_per_call": 644,
+    "note": "OrgBid multi artifacts are reused, not regenerated. Estimates are for the swapped engines plus new judging only."
+  },
+  "slices": {
+    "award": {
+      "generation_calls": 0,
+      "generation_input_tokens": 0,
+      "generation_output_tokens": 0,
+      "judge_calls": 0,
+      "wall_clock": "minutes after unpack",
+      "note": "TOPSIS / weighted sum are local. Historical winner column is post-hoc CSV, not a model call."
+    },
+    "consortium": {
+      "assumed_floors": 20,
+      "generation_calls": {
+        "llm_delib": 480,
+        "negmas": 0
+      },
+      "generation_input_tokens": {
+        "llm_delib": 2914947,
+        "negmas": 0
+      },
+      "generation_output_tokens": {
+        "llm_delib": 309348,
+        "negmas": 0
+      },
+      "note": "Floor count is an assumption until unpack+dry-run recounts bid_with_consortium rows. Recount replaces this row."
+    },
+    "intra": {
+      "tasks": 96,
+      "topologies": 3,
+      "calls_per_task_matched_to_orgbid_multi": 12,
+      "generation_calls": 3456,
+      "generation_input_tokens": 20987619,
+      "generation_output_tokens": 2227307,
+      "judge_calls": 1178,
+      "judge_input_tokens": 5578762,
+      "judge_output_tokens": 646860
+    },
+    "biddoc": {
+      "submitted_bids_in_frozen_multi": 76,
+      "calls_per_document": 6,
+      "generation_calls": 456,
+      "generation_input_tokens": 2769200,
+      "generation_output_tokens": 293881,
+      "judge_calls": 311,
+      "judge_input_tokens": 1472173,
+      "judge_output_tokens": 170699
+    }
+  },
+  "recommended_first_spend": {
+    "slice": "award",
+    "generation_calls": 0,
+    "purpose": "Prove the harness on frozen opened bids before any paid engine."
+  },
+  "smoke": {
+    "case": "CASE-0014",
+    "award_calls": 0,
+    "intra_marble_star_calls": 96,
+    "intra_input_tokens": 582989,
+    "intra_output_tokens": 61870
+  },
+  "money": {
+    "currency_note": "Do not use this file as a quote. Price from the current DeepSeek / provider dashboard using the token counts above.",
+    "model": "deepseek-flash",
+    "scale_from_experiment_1": "Experiment 1 reported at most about CNY 83 list-price for all three OrgBid arms on 12 projects. New LLM slices are additional and are not covered by that figure."
+  }
+}

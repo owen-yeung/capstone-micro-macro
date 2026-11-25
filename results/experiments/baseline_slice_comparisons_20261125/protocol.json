@@ -1,0 +1,1043 @@
+{
+  "experiment_id": "baseline_slice_comparisons_20261125",
+  "created_at_UTC": "2026-11-25T00:00:00+00:00",
+  "design": {
+    "stage_isolated": true,
+    "reference_arm": "multi",
+    "hidden_labels_withheld_from_engines": true,
+    "historical_auth_is_not_launch_credential": true,
+    "do_not_overwrite_frozen_micro_org": true,
+    "one_engine_per_run": true
+  },
+  "cases": {
+    "micro-org-1118": [
+      "CASE-0014",
+      "CASE-0001",
+      "CASE-0002",
+      "CASE-0004",
+      "CASE-0008",
+      "CASE-0050"
+    ],
+    "micro-org-replication-20261119": [
+      "CASE-0253",
+      "CASE-0271",
+      "CASE-0319"
+    ],
+    "micro-org-extension12-20261119": [
+      "CASE-0145",
+      "CASE-0089",
+      "CASE-0202"
+    ]
+  },
+  "slices": {
+    "award": {
+      "engines": [
+        "topsis",
+        "weighted_sum"
+      ],
+      "stage_file": "stage_award.json",
+      "llm": false,
+      "experiment": 4
+    },
+    "consortium": {
+      "engines": [
+        "llm_delib",
+        "negmas"
+      ],
+      "stage_file": "stage_bidders.json",
+      "llm": true,
+      "experiment": 5
+    },
+    "intra": {
+      "engines": [
+        "marble_star",
+        "marble_chain",
+        "marble_graph"
+      ],
+      "stage_file": "stage_bidders.json",
+      "llm": true,
+      "experiment": 6
+    },
+    "biddoc": {
+      "engines": [
+        "bidgen"
+      ],
+      "stage_file": "stage_bidders.json",
+      "llm": true,
+      "experiment": 7
+    }
+  },
+  "jobs": [
+    {
+      "job_id": "award__topsis__micro-org-1118__CASE-0014",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0014",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-1118__CASE-0001",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0001",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-1118__CASE-0002",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0002",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-1118__CASE-0004",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0004",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-1118__CASE-0008",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0008",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-1118__CASE-0050",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0050",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-replication-20261119__CASE-0253",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0253",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-replication-20261119__CASE-0271",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0271",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-replication-20261119__CASE-0319",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0319",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-extension12-20261119__CASE-0145",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0145",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-extension12-20261119__CASE-0089",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0089",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__topsis__micro-org-extension12-20261119__CASE-0202",
+      "slice": "award",
+      "engine": "topsis",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0202",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-1118__CASE-0014",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0014",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-1118__CASE-0001",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0001",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-1118__CASE-0002",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0002",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-1118__CASE-0004",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0004",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-1118__CASE-0008",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0008",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-1118__CASE-0050",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0050",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-replication-20261119__CASE-0253",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0253",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-replication-20261119__CASE-0271",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0271",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-replication-20261119__CASE-0319",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0319",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-extension12-20261119__CASE-0145",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0145",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-extension12-20261119__CASE-0089",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0089",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "award__weighted_sum__micro-org-extension12-20261119__CASE-0202",
+      "slice": "award",
+      "engine": "weighted_sum",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0202",
+      "stage_file": "stage_award.json",
+      "uses_llm": false,
+      "experiment": 4
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-1118__CASE-0014",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0014",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-1118__CASE-0001",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0001",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-1118__CASE-0002",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0002",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-1118__CASE-0004",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0004",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-1118__CASE-0008",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0008",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-1118__CASE-0050",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0050",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-replication-20261119__CASE-0253",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0253",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-replication-20261119__CASE-0271",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0271",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-replication-20261119__CASE-0319",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0319",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-extension12-20261119__CASE-0145",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0145",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-extension12-20261119__CASE-0089",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0089",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__llm_delib__micro-org-extension12-20261119__CASE-0202",
+      "slice": "consortium",
+      "engine": "llm_delib",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0202",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-1118__CASE-0014",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0014",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-1118__CASE-0001",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0001",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-1118__CASE-0002",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0002",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-1118__CASE-0004",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0004",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-1118__CASE-0008",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0008",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-1118__CASE-0050",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0050",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-replication-20261119__CASE-0253",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0253",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-replication-20261119__CASE-0271",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0271",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-replication-20261119__CASE-0319",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0319",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-extension12-20261119__CASE-0145",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0145",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-extension12-20261119__CASE-0089",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0089",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "consortium__negmas__micro-org-extension12-20261119__CASE-0202",
+      "slice": "consortium",
+      "engine": "negmas",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0202",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": false,
+      "experiment": 5
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-1118__CASE-0014",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0014",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-1118__CASE-0001",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0001",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-1118__CASE-0002",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0002",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-1118__CASE-0004",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0004",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-1118__CASE-0008",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0008",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-1118__CASE-0050",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0050",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-replication-20261119__CASE-0253",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0253",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-replication-20261119__CASE-0271",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0271",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-replication-20261119__CASE-0319",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0319",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-extension12-20261119__CASE-0145",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0145",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-extension12-20261119__CASE-0089",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0089",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_star__micro-org-extension12-20261119__CASE-0202",
+      "slice": "intra",
+      "engine": "marble_star",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0202",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-1118__CASE-0014",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0014",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-1118__CASE-0001",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0001",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-1118__CASE-0002",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0002",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-1118__CASE-0004",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0004",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-1118__CASE-0008",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0008",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-1118__CASE-0050",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0050",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-replication-20261119__CASE-0253",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0253",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-replication-20261119__CASE-0271",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0271",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-replication-20261119__CASE-0319",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0319",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-extension12-20261119__CASE-0145",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0145",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-extension12-20261119__CASE-0089",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0089",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_chain__micro-org-extension12-20261119__CASE-0202",
+      "slice": "intra",
+      "engine": "marble_chain",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0202",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-1118__CASE-0014",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0014",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-1118__CASE-0001",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0001",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-1118__CASE-0002",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0002",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-1118__CASE-0004",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0004",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-1118__CASE-0008",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0008",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-1118__CASE-0050",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0050",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-replication-20261119__CASE-0253",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0253",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-replication-20261119__CASE-0271",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0271",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-replication-20261119__CASE-0319",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0319",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-extension12-20261119__CASE-0145",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0145",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-extension12-20261119__CASE-0089",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0089",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "intra__marble_graph__micro-org-extension12-20261119__CASE-0202",
+      "slice": "intra",
+      "engine": "marble_graph",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0202",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 6
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-1118__CASE-0014",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0014",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-1118__CASE-0001",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0001",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-1118__CASE-0002",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0002",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-1118__CASE-0004",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0004",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-1118__CASE-0008",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0008",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-1118__CASE-0050",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-1118",
+      "case_id": "CASE-0050",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-replication-20261119__CASE-0253",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0253",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-replication-20261119__CASE-0271",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0271",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-replication-20261119__CASE-0319",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-replication-20261119",
+      "case_id": "CASE-0319",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-extension12-20261119__CASE-0145",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0145",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-extension12-20261119__CASE-0089",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0089",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    },
+    {
+      "job_id": "biddoc__bidgen__micro-org-extension12-20261119__CASE-0202",
+      "slice": "biddoc",
+      "engine": "bidgen",
+      "source": "micro-org-extension12-20261119",
+      "case_id": "CASE-0202",
+      "stage_file": "stage_bidders.json",
+      "uses_llm": true,
+      "experiment": 7
+    }
+  ],
+  "n_jobs": 96,
+  "live_gate": {
+    "env": "BASELINE_SLICE_ALLOW_LIVE",
+    "flag": "--i-authorize-live-calls"
+  },
+  "paths": {
+    "checkpoints": "runs/baseline-checkpoints",
+    "runs": "runs/baseline_slice_comparisons_20261125",
+    "hidden_benchmark": "data/test_sources/casebank_enterprise_matched/hidden_benchmark_project_enterprises.csv",
+    "full_run_zip": "results/experiments/baseline_slice_comparisons_20261125/full_run.zip"
+  }
+}
