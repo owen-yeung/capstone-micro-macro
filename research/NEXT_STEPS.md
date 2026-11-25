@@ -18,4 +18,4 @@
 
 真实模型请求与宏观扩展执行属于后续独立任务。本次迁移只复制和离线检查，不新建API调用、不解除旧停止。生成校验增强命令本身也不发起付费请求。
 
-10. 外部阶段对照 `baseline_slice_comparisons_20261125`（见 [PIC 说明](../results/experiments/baseline_slice_comparisons_20261125/README.md) 与 [实现规格](references/baseline_comparison_implementation_spec.md)）：先 `unpack` Experiment 1 的 LFS `full_run.zip`，再跑零调用授标 TOPSIS；联合体 / 厂内沟通 / 标书引擎未接线前不要开 `BASELINE_SLICE_ALLOW_LIVE` 付费。跑完后把 `runs/` 打成 `results/experiments/<id>/full_run.zip`（已 LFS），摘要留在目录内不要只存在被忽略的临时目录。
+10. 外部阶段对照 `baseline_slice_comparisons_20261125`（见 [PIC 说明](../results/experiments/baseline_slice_comparisons_20261125/README.md)、[实现规格](references/baseline_comparison_implementation_spec.md)、[论文↔仓库对照](references/paper_repo_component_map.md)、[基线短名单](references/external_baseline_shortlist.md)）：先 `unpack` Experiment 1 的 LFS `full_run.zip`，再跑零调用授标 TOPSIS；联合体 / 厂内沟通 / 标书引擎未接线前不要开 `BASELINE_SLICE_ALLOW_LIVE` 付费。跑完后把 `runs/` 打成 `results/experiments/<id>/full_run.zip`（已 LFS），摘要留在目录内不要只存在被忽略的临时目录。不把论文中未实现的 I1–I6、G3、阶段 12 三稿签署或联合体全体同意当作已冻结证据。

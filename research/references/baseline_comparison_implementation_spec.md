@@ -3,7 +3,8 @@
 **Experiment id:** `baseline_slice_comparisons_20261125`  
 **PIC runbook:** [`results/experiments/baseline_slice_comparisons_20261125/README.md`](../../results/experiments/baseline_slice_comparisons_20261125/README.md)  
 **Paper prose:** [`research/paper/external_comparison_experiments.md`](../paper/external_comparison_experiments.md)  
-**Paper↔code map:** [`research/references/paper_repo_component_map.md`](paper_repo_component_map.md)
+**Paper↔code map:** [`research/references/paper_repo_component_map.md`](paper_repo_component_map.md)  
+**Swap matrix:** [`research/references/external_baseline_shortlist.md`](external_baseline_shortlist.md)
 
 This note is for implementers. Historical CP07 and micro-org authorization files are not launch credentials. Frozen Experiment 1 responses are not regenerated.
 

@@ -52,4 +52,4 @@
 - [微观采购评分独立扩样与九例汇总](experiments/micro-org-replication-20261119/比较结果.md)
 - [十二例微观采购评分对照](experiments/micro-org-extension12-20261119/十二例评分汇总_核定.md)
 - [352-case DBB 初始输入清单](experiments/full352-dbb-inputs-20261119/manifest.csv)
-- [外部阶段对照（授标 TOPSIS / 联合体 / 厂内沟通 / 标书）](experiments/baseline_slice_comparisons_20261125/README.md)：协议已冻结；与 Experiments 1–3 分数不可合并。PIC 命令、token 估计与 zip/LFS 见该 README。
+- [外部阶段对照（授标 TOPSIS / 联合体 / 厂内沟通 / 标书）](experiments/baseline_slice_comparisons_20261125/README.md)：协议已冻结；与 Experiments 1–3 分数不可合并。PIC 命令、token 估计与 zip/LFS 见该 README。对照表见 [paper_repo_component_map.md](../research/references/paper_repo_component_map.md) 与 [external_baseline_shortlist.md](../research/references/external_baseline_shortlist.md)。

@@ -57,5 +57,5 @@
 
 ### 外部阶段对照（Experiments 4–7，未并入 Experiments 1–3 分数）
 
-在冻结的 Experiment 1 组织臂产物上，每次只替换一个招标环节，与既有方法对照。论文稿 [external_comparison_experiments.md](paper/external_comparison_experiments.md)；实现规格与 PIC 命令、token 估计、大文件 zip/LFS [baseline_comparison_implementation_spec.md](references/baseline_comparison_implementation_spec.md)；PIC 操作说明 [baseline_slice_comparisons_20261125/README.md](../results/experiments/baseline_slice_comparisons_20261125/README.md)。原授权文件不是本对照的启动凭证。授标排序（TOPSIS）可在解开 Experiment 1 档案后零模型调用运行；联合体谈判、厂内沟通结构、标书代写在适配器 `IMPLEMENTED=True` 且 PIC 新授权之前不得付费。
+在冻结的 Experiment 1 组织臂产物上，每次只替换一个招标环节，与既有方法对照。论文稿 [external_comparison_experiments.md](paper/external_comparison_experiments.md)；OrgBid 论文与仓库对照及差异清单 [paper_repo_component_map.md](references/paper_repo_component_map.md)；外部基线短名单与替换矩阵 [external_baseline_shortlist.md](references/external_baseline_shortlist.md)；实现规格与 PIC 命令、token 估计、大文件 zip/LFS [baseline_comparison_implementation_spec.md](references/baseline_comparison_implementation_spec.md)；PIC 操作说明 [baseline_slice_comparisons_20261125/README.md](../results/experiments/baseline_slice_comparisons_20261125/README.md)。原授权文件不是本对照的启动凭证。授标排序（TOPSIS）可在解开 Experiment 1 档案后零模型调用运行；联合体谈判、厂内沟通结构、标书代写在适配器 `IMPLEMENTED=True` 且 PIC 新授权之前不得付费。
 
